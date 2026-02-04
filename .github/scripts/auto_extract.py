@@ -27,17 +27,17 @@ except ImportError:
 def fetch_page_content(url):
     """Fetch and parse webpage content."""
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
     try:
-        response = requests.get(url, headers=headers, timeout=30)
+        response = requests.get(url, headers=headers, timeout=30, allow_redirects=True)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")
 
         # Remove script and style elements
-        for script in soup(["script", "style", "nav", "footer", "header"]):
+        for script in soup(["script", "style", "nav", "footer", "header", "noscript"]):
             script.decompose()
 
         # Get text content
@@ -48,8 +48,8 @@ def fetch_page_content(url):
         text = "\n".join(lines)
 
         # Truncate if too long (for API limits)
-        if len(text) > 15000:
-            text = text[:15000] + "\n...[truncated]"
+        if len(text) > 12000:
+            text = text[:12000] + "\n...[truncated]"
 
         # Also get the title
         title_tag = soup.find("title")
@@ -77,7 +77,7 @@ def extract_with_openai(page_content, additional_notes=""):
 
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        util.fail("OPENAI_API_KEY environment variable not set")
+        util.fail("OPENAI_API_KEY environment variable not set. Add it as a repository secret.")
 
     client = OpenAI(api_key=api_key)
 
@@ -149,10 +149,11 @@ def parse_issue_body(body):
         if line.startswith("### "):
             if current_field and current_value:
                 data[current_field] = "\n".join(current_value).strip()
-            current_field = line[4:].strip().lower().replace(" ", "_")
+            # Convert "Link to Opportunity" -> "link_to_opportunity"
+            current_field = line[4:].strip().lower().replace(" ", "_").replace("?", "").replace("(", "").replace(")", "")
             current_value = []
         elif current_field:
-            if line.strip() != "_No response_":
+            if line.strip() and line.strip() != "_No response_":
                 current_value.append(line)
 
     if current_field and current_value:
@@ -161,11 +162,43 @@ def parse_issue_body(body):
     return data
 
 
+def extract_url_from_body(body):
+    """Try multiple methods to extract URL from issue body."""
+    # Method 1: Parse structured fields
+    data = parse_issue_body(body)
+
+    # Try various field names
+    url_fields = [
+        "link_to_opportunity",
+        "link",
+        "url",
+        "link_to_opportunity_posting",
+        "application_link"
+    ]
+
+    for field in url_fields:
+        if field in data and data[field]:
+            url = data[field].strip()
+            if url.startswith("http"):
+                return url, data
+
+    # Method 2: Find any URL in the body
+    url_pattern = r'https?://[^\s<>"\')\]]+'
+    matches = re.findall(url_pattern, body)
+    if matches:
+        return matches[0], data
+
+    return None, data
+
+
 def main():
     if len(sys.argv) < 2:
         util.fail("Missing event data file path")
 
     event_path = sys.argv[1]
+
+    print(f"Reading event from: {event_path}")
+
     with open(event_path, "r") as f:
         event = json.load(f)
 
@@ -173,16 +206,18 @@ def main():
     body = issue.get("body", "")
     username = issue.get("user", {}).get("login", "unknown")
 
-    # Parse issue body
-    data = parse_issue_body(body)
+    print(f"Issue body:\n{body}\n")
 
-    url = data.get("link_to_opportunity", "") or data.get("link", "")
-    url = util.clean_url(url)
+    # Extract URL from body
+    url, data = extract_url_from_body(body)
 
     if not url:
-        util.fail("No URL found in issue body")
+        util.fail("No URL found in issue body. Please make sure to include a valid URL.")
 
-    notes = data.get("any_additional_context?_(optional)", "") or data.get("notes", "")
+    url = util.clean_url(url)
+    print(f"Extracted URL: {url}")
+
+    notes = data.get("any_additional_context_optional", "") or data.get("notes", "")
 
     print(f"Fetching content from: {url}")
 
@@ -192,6 +227,8 @@ def main():
     if "error" in page_content:
         util.fail(f"Failed to fetch page: {page_content['error']}")
 
+    print(f"Page title: {page_content['title']}")
+    print(f"Content length: {len(page_content['text'])} chars")
     print("Extracting details with AI...")
 
     # Extract with AI
@@ -201,7 +238,7 @@ def main():
 
     # Check if it's actually for underclassmen
     if not extracted.get("is_underclassmen", False):
-        util.set_output("warning", "This opportunity may not be specifically for underclassmen. Please verify before approving.")
+        util.set_output("warning", "This opportunity may not be specifically for underclassmen. Please verify.")
         print("WARNING: This may not be an underclassmen-specific opportunity!")
 
     # Check for duplicates
