@@ -10,7 +10,8 @@ permissions:
 
 jobs:
   extract:
-    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'auto_extract')
+    # Trigger when 'approved' label is added to ANY issue
+    if: github.event.label.name == 'approved'
     runs-on: ubuntu-latest
 
     steps:
@@ -60,7 +61,7 @@ jobs:
 
             const warning = process.env.WARNING_MSG || '';
 
-            let body = `## ✅ Opportunity Added Successfully!\n\n`;
+            let body = `## Opportunity Added Successfully!\n\n`;
             body += `| Field | Value |\n`;
             body += `|-------|-------|\n`;
             body += `| **Company** | ${extractedData.company_name || 'Unknown'} |\n`;
@@ -70,10 +71,10 @@ jobs:
             body += `| **Season** | ${extractedData.season || 'Unknown'} |\n\n`;
 
             if (warning) {
-              body += `> ⚠️ **Note:** ${warning}\n\n`;
+              body += `> Note: ${warning}\n\n`;
             }
 
-            body += `The opportunity has been added to the README. Thank you for contributing! 🎉`;
+            body += `The opportunity has been added to the README. Thank you for contributing!`;
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
@@ -104,7 +105,7 @@ jobs:
           script: |
             const errorMessage = process.env.ERROR_MSG || 'An unknown error occurred during extraction.';
 
-            let body = `## ❌ Extraction Failed\n\n`;
+            let body = `## Extraction Failed\n\n`;
             body += `**Error:** ${errorMessage}\n\n`;
             body += `### What to do:\n`;
             body += `1. Check if the URL is accessible\n`;
