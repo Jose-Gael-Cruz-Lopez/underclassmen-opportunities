@@ -1,0 +1,34 @@
+name: Add Opportunity (Just Paste Link)
+description: Just paste the link - AI will extract all the details automatically!
+title: "Add: "
+labels: ["new_opportunity", "auto_extract"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Just Paste the Link!
+
+        AI will automatically extract:
+        - Company name
+        - Role/Program title
+        - Location
+        - Category (Internship/Program/Research)
+        - And more!
+
+  - type: input
+    id: url
+    attributes:
+      label: Link to Opportunity
+      description: Paste the URL to the job/program posting
+      placeholder: https://careers.google.com/jobs/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Any additional context? (Optional)
+      description: Add any notes if the link might be confusing
+      placeholder: This is specifically for freshmen only...
+    validations:
+      required: false

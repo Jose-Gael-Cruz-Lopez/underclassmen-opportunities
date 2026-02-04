@@ -2,6 +2,35 @@
 
 Thank you for your interest in contributing! This repository aims to help freshmen and sophomores find opportunities specifically designed for them.
 
+## How to Add an Opportunity
+
+### Just Paste the Link! (Recommended)
+
+The easiest way to contribute:
+
+1. Go to **Issues** → **New Issue**
+2. Select **"Add Opportunity (Just Paste Link)"**
+3. Paste the URL to the opportunity
+4. Submit!
+
+**That's it!** AI will automatically extract:
+- Company name
+- Role/Program title
+- Location
+- Category (Internship/Program/Research)
+- Season
+- Sponsorship info
+
+### Alternative Methods
+
+| Template | When to Use |
+|----------|-------------|
+| **Just Paste Link** | Default - paste URL, AI extracts everything |
+| **Quick Add** | If AI extraction fails, manually fill 4 fields |
+| **New Opportunity** | Want full control over all details |
+
+---
+
 ## What Qualifies as an Underclassmen Opportunity?
 
 This repository is **specifically for programs that target first and second-year students**. Examples include:
@@ -11,6 +40,7 @@ This repository is **specifically for programs that target first and second-year
 - **Meta University** - For students early in their college career
 - **Bank of America Freshman Analyst** - Explicitly for first-year students
 - **Fellowships** like Code2040, MLH Fellowship that welcome underclassmen
+- **Research programs** like REU, SURF that accept underclassmen
 
 ### What Does NOT Belong Here
 
@@ -19,62 +49,11 @@ This repository is **specifically for programs that target first and second-year
 - Full-time/new-grad positions
 - Opportunities requiring significant prior experience
 
-## How to Contribute
-
-### Quick Add (Fastest Way)
-
-Use this if you want to quickly add an opportunity with minimal effort:
-
-1. Click on the **Issues** tab
-2. Click **New Issue**
-3. Select **Quick Add**
-4. Fill in only 4 fields:
-   - **Link**: URL to the application
-   - **Company**: Company or organization name
-   - **Role/Program**: Name of the opportunity
-   - **Category**: Internship, Program, or Research
-5. Submit - everything else is auto-filled!
-
-**Auto-filled defaults:**
-- Location: "Multiple Locations"
-- Season: "Summer"
-- Target Year: Freshman & Sophomore
-- Sponsorship: Not Specified
-- Active: Yes
-
-### Full Submission (More Details)
-
-If you want to provide complete information:
-
-1. Click on the **Issues** tab
-2. Click **New Issue**
-3. Select **New Opportunity**
-4. Fill out all fields including location, sponsorship, etc.
-5. Submit the issue
-
-### Closing an Opportunity
-
-If you notice an opportunity is no longer accepting applications:
-
-1. Click on the **Issues** tab
-2. Click **New Issue**
-3. Select the **Close Opportunity** template
-4. Provide the company name, role title, and reason for closing
-5. Submit the issue
-
-### Editing an Opportunity
-
-If information about an opportunity has changed:
-
-1. Click on the **Issues** tab
-2. Click **New Issue**
-3. Select the **Edit Opportunity** template
-4. Provide the URL and describe what needs to be changed
-5. Submit the issue
+---
 
 ## Categories
 
-When submitting, choose the appropriate category:
+Opportunities are organized into three sections:
 
 | Category | Description | Examples |
 |----------|-------------|----------|
@@ -82,42 +61,54 @@ When submitting, choose the appropriate category:
 | **Program** | Fellowships, externships, bootcamps | Code2040, MLH Fellowship, SEO Tech |
 | **Research** | University/lab research programs | REU, SURF, NASA OSSI |
 
+---
+
+## Closing or Editing an Opportunity
+
+### Closing (Application No Longer Open)
+
+1. Go to **Issues** → **New Issue**
+2. Select **Close Opportunity**
+3. Provide company name and role title
+4. Submit
+
+### Editing (Information Changed)
+
+1. Go to **Issues** → **New Issue**
+2. Select **Edit Opportunity**
+3. Provide the URL and describe changes needed
+4. Submit
+
+---
+
+## For Maintainers: Setup
+
+To enable AI auto-extraction, add an OpenAI API key:
+
+1. Go to **Settings** → **Secrets and variables** → **Actions**
+2. Click **New repository secret**
+3. Name: `OPENAI_API_KEY`
+4. Value: Your OpenAI API key
+
+---
+
+## How the Automation Works
+
+1. **User submits** a link via the issue template
+2. **Maintainer reviews** and adds the `approved` label
+3. **AI extracts** company, role, location, category, etc. from the page
+4. **Automation adds** the opportunity to the correct table
+5. **Issue is closed** with a summary of what was added
+
+---
+
 ## Guidelines
 
-### Before Submitting
+- **Search existing issues** before submitting to avoid duplicates
+- **Verify the opportunity** is specifically for underclassmen
+- **Use official links** - no referral links or affiliate URLs
+- Be respectful and help maintain accurate information
 
-- **Search existing issues** to make sure the opportunity hasn't already been submitted
-- **Verify the opportunity** is specifically for underclassmen (not just "open to all years")
-- **Check the application is open** before submitting (or mark as inactive if closed)
-- **Use the official application link** - no referral links or affiliate URLs
-
-### Quality Standards
-
-- **Accurate information**: Double-check all details before submitting
-- **Complete submissions**: Fill out all required fields
-- **Appropriate programs**: Only submit opportunities explicitly for freshmen/sophomores
-
-## Automation
-
-This repository uses GitHub Actions to automatically:
-
-1. Process approved contributions
-2. Update the README with the latest listings
-3. Close issues once contributions are merged
-
-When a maintainer adds the `approved` label to your issue, the automation will:
-- Add your opportunity to the listings
-- Update the README table
-- Close the issue with a confirmation message
-
-## Questions?
-
-If you have questions about whether an opportunity belongs here, feel free to open an issue using the **Other** template.
-
-## Code of Conduct
-
-- Be respectful and constructive
-- Help maintain accurate information
-- Report any issues or inaccuracies you find
+---
 
 Thank you for helping underclassmen find great opportunities!
