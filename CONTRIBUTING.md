@@ -21,23 +21,36 @@ This repository is **specifically for programs that target first and second-year
 
 ## How to Contribute
 
-### Adding a New Opportunity
+### Quick Add (Fastest Way)
+
+Use this if you want to quickly add an opportunity with minimal effort:
 
 1. Click on the **Issues** tab
 2. Click **New Issue**
-3. Select the **New Opportunity** template
-4. Fill out all required fields:
-   - **URL**: Direct link to the application
-   - **Company Name**: The company or organization
-   - **Program Title**: The name of the program/role
-   - **Type**: Internship, Fellowship, Scholarship, etc.
-   - **Target Year**: Freshman, Sophomore, or both
-   - **Location**: Where the opportunity is located
-   - **Season**: Summer, Fall, Winter, Spring, or Year-Round
-   - **Sponsorship**: Whether they sponsor international students
-   - **Active**: Is the application currently open?
+3. Select **Quick Add**
+4. Fill in only 4 fields:
+   - **Link**: URL to the application
+   - **Company**: Company or organization name
+   - **Role/Program**: Name of the opportunity
+   - **Category**: Internship, Program, or Research
+5. Submit - everything else is auto-filled!
+
+**Auto-filled defaults:**
+- Location: "Multiple Locations"
+- Season: "Summer"
+- Target Year: Freshman & Sophomore
+- Sponsorship: Not Specified
+- Active: Yes
+
+### Full Submission (More Details)
+
+If you want to provide complete information:
+
+1. Click on the **Issues** tab
+2. Click **New Issue**
+3. Select **New Opportunity**
+4. Fill out all fields including location, sponsorship, etc.
 5. Submit the issue
-6. Wait for a maintainer to review and approve
 
 ### Closing an Opportunity
 
@@ -58,6 +71,16 @@ If information about an opportunity has changed:
 3. Select the **Edit Opportunity** template
 4. Provide the URL and describe what needs to be changed
 5. Submit the issue
+
+## Categories
+
+When submitting, choose the appropriate category:
+
+| Category | Description | Examples |
+|----------|-------------|----------|
+| **Internship** | Traditional internship programs for underclassmen | STEP, Explore, Meta University |
+| **Program** | Fellowships, externships, bootcamps | Code2040, MLH Fellowship, SEO Tech |
+| **Research** | University/lab research programs | REU, SURF, NASA OSSI |
 
 ## Guidelines
 

@@ -42,12 +42,13 @@ def parse_issue_body(body, labels):
     return data
 
 
-def handle_new_opportunity(data, username):
+def handle_new_opportunity(data, username, is_quick_add=False):
     """Handle adding a new opportunity."""
     listings = util.get_listings_from_json()
 
-    # Clean and validate URL
-    url = util.clean_url(data.get("link_to_opportunity_posting", ""))
+    # Get URL - handle both full and quick templates
+    url = data.get("link_to_opportunity_posting", "") or data.get("link", "")
+    url = util.clean_url(url)
     if not url:
         util.fail("Missing required field: URL")
 
@@ -56,31 +57,83 @@ def handle_new_opportunity(data, username):
         if listing["url"] == url:
             util.fail(f"Duplicate: This opportunity already exists (ID: {listing['id']})")
 
-    # Parse locations
-    locations_str = data.get("location", "")
-    locations = [loc.strip() for loc in locations_str.split("|") if loc.strip()]
+    # Get company name - handle both templates
+    company_name = (data.get("company/organization_name", "") or
+                    data.get("company/organization", "")).strip()
 
-    # Parse target year
+    # Get title - handle both templates
+    title = (data.get("program/role_title", "") or
+             data.get("role/program_name", "")).strip()
+
+    # Parse locations (default to "Multiple Locations" if not provided)
+    locations_str = data.get("location", "") or data.get("location_(optional)", "")
+    if locations_str:
+        locations = [loc.strip() for loc in locations_str.split("|") if loc.strip()]
+    else:
+        locations = ["Multiple Locations"]
+
+    # Get category (for quick add) or infer from opportunity type
+    category = data.get("category", "Internship")
+    # Clean up category if it has the full description
+    if "Internship" in category:
+        category = "Internship"
+    elif "Program" in category:
+        category = "Program"
+    elif "Research" in category:
+        category = "Research"
+
+    # Get opportunity type or use defaults based on category
+    opportunity_type = data.get("type_of_opportunity", "")
+    if not opportunity_type or is_quick_add:
+        if category == "Internship":
+            opportunity_type = "Internship"
+        elif category == "Program":
+            opportunity_type = "Fellowship"
+        elif category == "Research":
+            opportunity_type = "Research"
+
+    # Get field for research programs
+    field = data.get("field/area_(for_research_programs_only)", "") or data.get("research_field_(optional,_for_research_only)", "")
+
+    # Parse target year (default for quick add)
     target_year_str = data.get("target_year", "")
-    target_year = [y.strip() for y in target_year_str.split(",") if y.strip()]
+    if target_year_str:
+        target_year = [y.strip() for y in target_year_str.split(",") if y.strip()]
+    else:
+        target_year = ["Freshman (1st year)", "Sophomore (2nd year)"]
+
+    # Get season (default to Summer)
+    season = data.get("what_season_is_this_opportunity_for?", "Summer")
+
+    # Get sponsorship (default to Not Specified)
+    sponsorship = data.get("sponsorship/citizenship_requirements", "Not Specified")
+
+    # Get active status (default to Yes/True)
+    active_str = data.get("is_this_opportunity_currently_accepting_applications?", "Yes")
+    active = active_str == "Yes" or active_str == ""
 
     # Create new listing
     new_listing = {
         "id": util.generate_uuid(),
-        "company_name": data.get("company/organization_name", "").strip(),
-        "title": data.get("program/role_title", "").strip(),
+        "company_name": company_name,
+        "title": title,
         "url": url,
         "locations": locations,
-        "season": data.get("what_season_is_this_opportunity_for?", "Summer"),
-        "opportunity_type": data.get("type_of_opportunity", "Internship"),
+        "season": season,
+        "category": category,
+        "opportunity_type": opportunity_type,
         "target_year": target_year,
-        "sponsorship": data.get("sponsorship/citizenship_requirements", "Not Specified"),
-        "active": data.get("is_this_opportunity_currently_accepting_applications?", "Yes") == "Yes",
+        "sponsorship": sponsorship,
+        "active": True if is_quick_add else active,
         "is_visible": True,
         "date_posted": util.get_current_timestamp(),
         "date_updated": util.get_current_timestamp(),
         "source": username
     }
+
+    # Add field for research programs
+    if category == "Research" and field:
+        new_listing["field"] = field
 
     # Validate required fields
     if not new_listing["company_name"]:
@@ -92,14 +145,12 @@ def handle_new_opportunity(data, username):
     util.save_listings_to_json(listings)
 
     # Set outputs
-    company = new_listing["company_name"]
-    title = new_listing["title"]
-    util.set_output("commit_message", f"Add {company} - {title}")
+    util.set_output("commit_message", f"Add {company_name} - {title}")
     util.set_output("contributor_name", username)
     email = data.get("email_associated_with_your_github_account_(optional)", "")
     util.set_output("contributor_email", email if email else "actions@github.com")
 
-    print(f"Successfully added: {company} - {title}")
+    print(f"Successfully added: {company_name} - {title}")
 
 
 def handle_edit_opportunity(data, username):
@@ -195,9 +246,12 @@ def main():
     # Parse the issue body
     data = parse_issue_body(body, labels)
 
+    # Check if this is a quick add
+    is_quick_add = "quick_add" in labels
+
     # Handle based on label
     if "new_opportunity" in labels:
-        handle_new_opportunity(data, username)
+        handle_new_opportunity(data, username, is_quick_add=is_quick_add)
     elif "edit_opportunity" in labels:
         handle_edit_opportunity(data, username)
     elif "close_opportunity" in labels:
