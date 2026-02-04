@@ -29,7 +29,7 @@ To contribute:
 <!-- INTERNSHIPS_TABLE_START -->
 | Company | Role | Location | Application | Date Posted |
 | ------- | ---- | -------- | ----------- | ----------- |
-| Chewy Inc | Software Engineer I Intern | Boston, MA | <a href="https://careers.chewy.com/us/en/job/6301166/Software-Engineer-I-Intern"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| Chewy Inc | Software Engineer I Intern | Boston, MA | <a href="https://careers.chewy.com/us/en/job/R28466/Software-Engineer-I-Intern"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 <!-- INTERNSHIPS_TABLE_END -->
 
 ---
