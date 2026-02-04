@@ -1,0 +1,144 @@
+name: New Opportunity
+description: Contribute an underclassmen opportunity to our list
+title: "New Opportunity"
+labels: ["new_opportunity"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## New Underclassmen Opportunity Contribution
+        Thanks for taking the time to contribute!
+        > Make sure you've read `CONTRIBUTING.md` before submitting your opportunity.
+        > This repository is **specifically for programs targeting freshmen/sophomores**.
+
+  - type: input
+    id: url
+    attributes:
+      label: Link to Opportunity Posting
+      placeholder: ex. careers.google.com/students/step
+    validations:
+      required: true
+
+  - type: input
+    id: company_name
+    attributes:
+      label: Company/Organization Name
+      placeholder: ex. Google
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Program/Role Title
+      placeholder: ex. STEP Intern
+    validations:
+      required: true
+
+  - type: dropdown
+    id: opportunity_type
+    attributes:
+      label: Type of Opportunity
+      description: What kind of opportunity is this?
+      multiple: false
+      options:
+        - "Internship"
+        - "Fellowship"
+        - "Scholarship"
+        - "Mentorship Program"
+        - "Research Program"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target_year
+    attributes:
+      label: Target Year
+      description: Which year students is this opportunity designed for?
+      multiple: true
+      options:
+        - "Freshman (1st year)"
+        - "Sophomore (2nd year)"
+        - "Both Freshman & Sophomore"
+        - "Any Underclassmen"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: |
+        Where is the opportunity located?
+        Please separate locations with a pipe "|" if there are multiple options.
+        Include Remote if remote option available.
+      placeholder: San Francisco, CA | Seattle, WA | Remote
+    validations:
+      required: true
+
+  - type: dropdown
+    id: season
+    attributes:
+      label: What season is this opportunity for?
+      description: Select the season during which this opportunity takes place.
+      multiple: false
+      options:
+        - "Summer"
+        - "Fall"
+        - "Winter"
+        - "Spring"
+        - "Year-Round"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sponsorship
+    attributes:
+      label: Sponsorship/Citizenship Requirements
+      description: |
+        What are the citizenship or sponsorship requirements?
+        If the posting does not specify, select "Not Specified"
+      multiple: false
+      options:
+        - Not Specified
+        - Offers Sponsorship
+        - Does Not Offer Sponsorship
+        - U.S. Citizenship Required
+        - U.S. Work Authorization Required
+    validations:
+      required: true
+
+  - type: dropdown
+    id: active
+    attributes:
+      label: Is this opportunity currently accepting applications?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email associated with your GitHub account (Optional)
+      description: |
+        If you would like to be credited as the contributor when the GitHub Action
+        commits your contribution, please provide your email. If left blank, the
+        contribution will be attributed to actions@github.com.
+      placeholder: ex. yourname@email.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes (Optional)
+      description: |
+        Any extra context about the opportunity that might be helpful.
+        This will not be shown on the repo but may help with approval.
+      placeholder: This program is specifically for CS majors with no prior experience...
+    validations:
+      required: false

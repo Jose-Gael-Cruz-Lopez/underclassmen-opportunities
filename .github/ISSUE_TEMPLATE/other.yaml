@@ -1,0 +1,34 @@
+name: Other
+description: General questions, feedback, or other requests
+title: "[Other] "
+labels: ["other"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Other Request
+        Use this form for general questions, feedback, bug reports, or anything else
+        that doesn't fit the other templates.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Request
+      multiple: false
+      options:
+        - Question
+        - Feedback
+        - Bug Report
+        - Feature Request
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe your request in detail
+      placeholder: I noticed that...
+    validations:
+      required: true

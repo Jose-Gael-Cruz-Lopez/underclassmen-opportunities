@@ -1,0 +1,64 @@
+name: Close Opportunity
+description: Request to close/archive an opportunity listing
+title: "Close Opportunity"
+labels: ["close_opportunity"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Close Opportunity Request
+        Use this form to request closing an opportunity listing that is no longer available.
+
+  - type: input
+    id: company_name
+    attributes:
+      label: Company/Organization Name
+      description: Name of the company or organization
+      placeholder: ex. Google
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Program/Role Title
+      description: Title of the opportunity
+      placeholder: ex. STEP Intern
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Job URL (Optional)
+      description: |
+        Link to the opportunity posting (optional, helps identify if there are
+        multiple similar programs)
+      placeholder: ex. https://careers.google.com/students/step
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for closing
+      description: Why should this listing be closed?
+      multiple: false
+      options:
+        - Application deadline passed
+        - Position filled
+        - Posting removed by company
+        - Program cancelled
+        - Duplicate listing
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information (Optional)
+      description: Any additional context about why this listing should be closed
+      placeholder: The application deadline was January 15th...
+    validations:
+      required: false

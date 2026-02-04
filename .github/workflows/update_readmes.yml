@@ -1,0 +1,51 @@
+name: Update READMEs
+
+on:
+  push:
+    paths:
+      - '.github/scripts/listings.json'
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update READMEs
+        id: update
+        run: |
+          python .github/scripts/update_readmes.py
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet README.md; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "${{ steps.update.outputs.commit_message }}"
+          git push origin main
+
+      - name: Report failure
+        if: failure()
+        run: |
+          echo "Error updating README: ${{ steps.update.outputs.error_message }}"
+          exit 1
