@@ -29,12 +29,7 @@ To contribute:
 <!-- INTERNSHIPS_TABLE_START -->
 | Company | Role | Location | Application | Date Posted |
 | ------- | ---- | -------- | ----------- | ----------- |
-| Chewy Inc | Software Engineer I Intern | Boston, MA | <a href="https://careers.chewy.com/us/en/job/R28466/Software-Engineer-I-Intern?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 04 |
-| Amazon | Propel Program | Seattle, WA | <a href="https://amazon.jobs/en/jobs/propel-program?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| Bank of America | Global Technology Freshman Analyst :no_entry_sign: | Multiple Locations | <a href="https://campus.bankofamerica.com/careers/Global-Technology-Summer-Analyst-Program-US.html?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| Google | STEP Intern (First Year) | Multiple Locations | <a href="https://careers.google.com/jobs/results/?q=STEP&utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| Meta | Meta University | Menlo Park, CA | <a href="https://www.metacareers.com/jobs/meta-university?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| Microsoft | Explore Intern | Redmond, WA | <a href="https://careers.microsoft.com/students/us/en/usexploremicrosoftprogram?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
+| Chewy Inc | Software Engineer I Intern | Boston, MA | <a href="https://careers.chewy.com/us/en/job/R28466/Software-Engineer-I-Intern"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 <!-- INTERNSHIPS_TABLE_END -->
 
 ---
@@ -44,11 +39,6 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
-| Code2040 | Fellows Program | Fellowship | San Francisco, CA | <a href="https://www.code2040.org/fellows-program?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| Girls Who Invest | Summer Intensive | Fellowship | Multiple Locations | <a href="https://www.girlswhoinvest.org/?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| Kleiner Perkins | Fellows | Fellowship | San Francisco, CA | <a href="https://fellows.kleinerperkins.com/?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| MLH | MLH Fellowship | Fellowship | Remote | <a href="https://fellowship.mlh.io/?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| SEO | Tech Developer | Externship | New York, NY | <a href="https://www.seo-usa.org/tech/?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
 <!-- PROGRAMS_TABLE_END -->
 
 ---
@@ -58,11 +48,6 @@ To contribute:
 <!-- RESEARCH_TABLE_START -->
 | University/Organization | Program | Field | Location | Application | Date Posted |
 | ----------------------- | ------- | ----- | -------- | ----------- | ----------- |
-| Caltech | SURF | Science & Engineering | Pasadena, CA | <a href="https://sfp.caltech.edu/undergraduate-research/programs/surf?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| MIT | MSRP (MIT Summer Research Program) | STEM | Cambridge, MA | <a href="https://oge.mit.edu/msrp/?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| NASA | OSSI Internships :us: | Aerospace/Engineering | Multiple Locations | <a href="https://intern.nasa.gov/?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| NSF | REU (Research Experience for Undergraduates) | Various STEM | Multiple Locations | <a href="https://www.nsf.gov/crssprgm/reu/?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
-| Stanford | SURF (Summer Undergraduate Research Fellowship) | Various | Stanford, CA | <a href="https://engineering.stanford.edu/students-academics/equity-and-inclusion-initiatives/prospective-graduate-programs/summer?utm_source=underclassmen-opportunities"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a> | Feb 03 |
 <!-- RESEARCH_TABLE_END -->
 
 ---

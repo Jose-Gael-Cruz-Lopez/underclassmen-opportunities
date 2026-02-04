@@ -99,11 +99,10 @@ def get_status_badge(active):
 
 
 def format_link(url):
-    """Format the application link as a button."""
-    # Add UTM parameters for tracking
-    separator = "&" if "?" in url else "?"
-    tracked_url = f"{url}{separator}utm_source=underclassmen-opportunities"
-    return f'<a href="{tracked_url}"><img src="https://i.imgur.com/u1KNU8z.png" width="118" alt="Apply"></a>'
+    """Format the application link as a blue button."""
+    # Blue "Apply" button using shields.io
+    button_url = "https://img.shields.io/badge/Apply-blue?style=for-the-badge"
+    return f'<a href="{url}"><img src="{button_url}" alt="Apply"></a>'
 
 
 def format_date(timestamp):
