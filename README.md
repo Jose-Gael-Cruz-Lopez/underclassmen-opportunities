@@ -39,6 +39,7 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| American Express | Campus Opportunities | Campus Opportunities | Multiple Locations | <a href="https://aexp.eightfold.ai/careers?Role+Type=campus&intlink=us-amex-career-en-us-GlobalStudentsPage-Explore-student-opportunities&hl=en"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 <!-- PROGRAMS_TABLE_END -->
 
 ---

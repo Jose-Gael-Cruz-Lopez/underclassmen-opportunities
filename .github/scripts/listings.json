@@ -4,16 +4,43 @@
     "company_name": "Chewy Inc",
     "title": "Software Engineer I Intern",
     "url": "https://careers.chewy.com/us/en/job/R28466/Software-Engineer-I-Intern",
-    "locations": ["Boston, MA"],
+    "locations": [
+      "Boston, MA"
+    ],
     "season": "Summer",
     "category": "Internship",
     "opportunity_type": "Internship",
-    "target_year": ["Freshman (1st year)", "Sophomore (2nd year)"],
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
     "sponsorship": "Not Specified",
     "active": true,
     "is_visible": true,
     "date_posted": 1738713600,
     "date_updated": 1738713600,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "0dc46dd8-6430-4fbe-9db4-2e9cbce64846",
+    "company_name": "American Express",
+    "title": "Campus Opportunities",
+    "url": "https://aexp.eightfold.ai/careers?Role+Type=campus&intlink=us-amex-career-en-us-GlobalStudentsPage-Explore-student-opportunities&hl=en",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Campus Opportunities",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1770212009,
+    "date_updated": 1770212009,
     "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
