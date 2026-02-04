@@ -19,27 +19,32 @@ def main():
         # Validate schema
         util.check_schema(listings)
 
-        # Separate listings by type
-        summer_listings = []
-        yearround_listings = []
+        # Separate listings by category
+        internship_listings = []
+        program_listings = []
+        research_listings = []
 
         for listing in listings:
             if not listing.get("is_visible", True):
                 continue
-            if listing.get("season") == "Year-Round":
-                yearround_listings.append(listing)
-            else:
-                summer_listings.append(listing)
+
+            category = listing.get("category", "Internship")
+            if category == "Internship":
+                internship_listings.append(listing)
+            elif category == "Program":
+                program_listings.append(listing)
+            elif category == "Research":
+                research_listings.append(listing)
 
         # Sort listings
-        summer_listings = util.sort_listings(summer_listings)
-        yearround_listings = util.sort_listings(yearround_listings)
+        internship_listings = util.sort_listings(internship_listings)
+        program_listings = util.sort_listings(program_listings)
+        research_listings = util.sort_listings(research_listings)
 
         # Generate tables
-        summer_table = util.create_md_table(summer_listings)
-
-        # Year-round table has different columns
-        yearround_table = create_yearround_table(yearround_listings)
+        internships_table = create_internships_table(internship_listings)
+        programs_table = create_programs_table(program_listings)
+        research_table = create_research_table(research_listings)
 
         # Get README path
         readme_path = os.path.join(
@@ -51,16 +56,23 @@ def main():
         # Embed tables in README
         util.embed_table(
             readme_path,
-            summer_table,
-            "<!-- TABLE_START -->",
-            "<!-- TABLE_END -->"
+            internships_table,
+            "<!-- INTERNSHIPS_TABLE_START -->",
+            "<!-- INTERNSHIPS_TABLE_END -->"
         )
 
         util.embed_table(
             readme_path,
-            yearround_table,
-            "<!-- YEARROUND_TABLE_START -->",
-            "<!-- YEARROUND_TABLE_END -->"
+            programs_table,
+            "<!-- PROGRAMS_TABLE_START -->",
+            "<!-- PROGRAMS_TABLE_END -->"
+        )
+
+        util.embed_table(
+            readme_path,
+            research_table,
+            "<!-- RESEARCH_TABLE_START -->",
+            "<!-- RESEARCH_TABLE_END -->"
         )
 
         # Set commit message
@@ -68,17 +80,48 @@ def main():
         timestamp = now.strftime("%Y-%m-%d %H:%M PST")
         util.set_output("commit_message", f"Update README ({timestamp})")
 
-        print(f"Successfully updated README with {len(summer_listings)} summer and {len(yearround_listings)} year-round opportunities")
+        print(f"Successfully updated README:")
+        print(f"  - {len(internship_listings)} internships")
+        print(f"  - {len(program_listings)} programs")
+        print(f"  - {len(research_listings)} research opportunities")
 
     except Exception as e:
         util.fail(str(e))
 
 
-def create_yearround_table(listings):
-    """Create a table specifically for year-round programs."""
+def create_internships_table(listings):
+    """Create a table for internships."""
     rows = []
-    header = "| Company | Program | Type | Application | Notes |"
-    separator = "| ------- | ------- | ---- | ----------- | ----- |"
+    header = "| Company | Role | Location | Application | Date Posted |"
+    separator = "| ------- | ---- | -------- | ----------- | ----------- |"
+    rows.append(header)
+    rows.append(separator)
+
+    current_company = None
+    for listing in listings:
+        company = listing["company_name"]
+        display_company = company if company != current_company else "↳"
+        current_company = company
+
+        title = listing["title"]
+        title += util.get_sponsorship_badge(listing.get("sponsorship", ""))
+        title += util.get_status_badge(listing.get("active", True))
+
+        location = util.format_locations(listing.get("locations", []))
+        link = util.format_link(listing["url"]) if listing.get("active", True) else ":lock:"
+        date = util.format_date(listing["date_posted"])
+
+        row = f"| {display_company} | {title} | {location} | {link} | {date} |"
+        rows.append(row)
+
+    return "\n".join(rows)
+
+
+def create_programs_table(listings):
+    """Create a table for programs (fellowships, externships, etc.)."""
+    rows = []
+    header = "| Company | Program | Type | Location | Application | Date Posted |"
+    separator = "| ------- | ------- | ---- | -------- | ----------- | ----------- |"
     rows.append(header)
     rows.append(separator)
 
@@ -89,10 +132,36 @@ def create_yearround_table(listings):
         title += util.get_status_badge(listing.get("active", True))
 
         opp_type = listing.get("opportunity_type", "")
+        location = util.format_locations(listing.get("locations", []))
         link = util.format_link(listing["url"]) if listing.get("active", True) else ":lock:"
-        notes = listing.get("notes", "")
+        date = util.format_date(listing["date_posted"])
 
-        row = f"| {company} | {title} | {opp_type} | {link} | {notes} |"
+        row = f"| {company} | {title} | {opp_type} | {location} | {link} | {date} |"
+        rows.append(row)
+
+    return "\n".join(rows)
+
+
+def create_research_table(listings):
+    """Create a table for research programs."""
+    rows = []
+    header = "| University/Organization | Program | Field | Location | Application | Date Posted |"
+    separator = "| ----------------------- | ------- | ----- | -------- | ----------- | ----------- |"
+    rows.append(header)
+    rows.append(separator)
+
+    for listing in listings:
+        company = listing["company_name"]
+        title = listing["title"]
+        title += util.get_sponsorship_badge(listing.get("sponsorship", ""))
+        title += util.get_status_badge(listing.get("active", True))
+
+        field = listing.get("field", "")
+        location = util.format_locations(listing.get("locations", []))
+        link = util.format_link(listing["url"]) if listing.get("active", True) else ":lock:"
+        date = util.format_date(listing["date_posted"])
+
+        row = f"| {company} | {title} | {field} | {location} | {link} | {date} |"
         rows.append(row)
 
     return "\n".join(rows)
