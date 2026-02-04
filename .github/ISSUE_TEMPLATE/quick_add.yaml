@@ -1,0 +1,63 @@
+name: Quick Add
+description: Quickly add an opportunity with just a link and basic info
+title: "Quick Add"
+labels: ["new_opportunity", "quick_add"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quick Add Opportunity
+        Submit an opportunity with minimal info - defaults will be auto-filled!
+
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      placeholder: https://careers.google.com/jobs/...
+    validations:
+      required: true
+
+  - type: input
+    id: company_name
+    attributes:
+      label: Company/Organization
+      placeholder: Google
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Role/Program Name
+      placeholder: STEP Intern
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      multiple: false
+      options:
+        - "Internship"
+        - "Program"
+        - "Research"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location (Optional)
+      description: Leave blank for "Multiple Locations"
+      placeholder: San Francisco, CA | Remote
+    validations:
+      required: false
+
+  - type: input
+    id: field
+    attributes:
+      label: Research Field (Optional, for Research only)
+      placeholder: Computer Science
+    validations:
+      required: false
