@@ -64,5 +64,27 @@
     "date_posted": 1770212929,
     "date_updated": 1770212929,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "28b62283-e73d-46c5-b399-be60d120a9a0",
+    "company_name": "Qualtrics",
+    "title": "Qualtrics Experience Management",
+    "url": "https://globaleysurvey.ey.com/jfe/form/SV_3mIO8wUBMPW0234",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Not Specified",
+    "category": "Program",
+    "opportunity_type": "Not Specified",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1770214603,
+    "date_updated": 1770214603,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
