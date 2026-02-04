@@ -36,6 +36,19 @@ body:
       required: true
 
   - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section should this opportunity appear in?
+      multiple: false
+      options:
+        - "Internship - Underclassmen Internships (e.g., STEP, Explore, Meta University)"
+        - "Program - Fellowships, Externships, etc. (e.g., Code2040, MLH Fellowship)"
+        - "Research - Research Programs (e.g., REU, SURF, NASA)"
+    validations:
+      required: true
+
+  - type: dropdown
     id: opportunity_type
     attributes:
       label: Type of Opportunity
@@ -44,12 +57,24 @@ body:
       options:
         - "Internship"
         - "Fellowship"
+        - "Externship"
         - "Scholarship"
         - "Mentorship Program"
-        - "Research Program"
+        - "Research"
         - "Other"
     validations:
       required: true
+
+  - type: input
+    id: field
+    attributes:
+      label: Field/Area (For Research Programs Only)
+      description: |
+        If this is a research program, what field or area is it in?
+        Leave blank for non-research opportunities.
+      placeholder: ex. Computer Science, STEM, Aerospace Engineering
+    validations:
+      required: false
 
   - type: dropdown
     id: target_year
@@ -88,7 +113,7 @@ body:
         - "Fall"
         - "Winter"
         - "Spring"
-        - "Year-Round"
+        - "Multiple (rolling/year-round)"
     validations:
       required: true
 

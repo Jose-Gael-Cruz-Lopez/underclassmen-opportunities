@@ -21,6 +21,7 @@ REQUIRED_FIELDS = [
     "url",
     "locations",
     "season",
+    "category",  # Internship, Program, or Research
     "opportunity_type",
     "target_year",
     "sponsorship",
@@ -30,6 +31,9 @@ REQUIRED_FIELDS = [
     "date_updated",
     "source"
 ]
+
+# Valid categories
+VALID_CATEGORIES = ["Internship", "Program", "Research"]
 
 
 def get_listings_from_json():
