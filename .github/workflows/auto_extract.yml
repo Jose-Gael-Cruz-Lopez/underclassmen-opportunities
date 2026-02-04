@@ -4,9 +4,14 @@ on:
   issues:
     types: [labeled]
 
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   extract:
-    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'auto_extract')
+    # Trigger when 'approved' label is added to ANY issue
+    if: github.event.label.name == 'approved'
     runs-on: ubuntu-latest
 
     steps:
@@ -26,9 +31,8 @@ jobs:
         id: extract
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GITHUB_EVENT_PATH: ${{ github.event_path }}
         run: |
-          python .github/scripts/auto_extract.py "$GITHUB_EVENT_PATH"
+          python .github/scripts/auto_extract.py "${{ github.event_path }}"
 
       - name: Update README
         run: |
@@ -36,28 +40,38 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "${{ steps.extract.outputs.contributor_name }}"
-          git config user.email "${{ steps.extract.outputs.contributor_email }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .github/scripts/listings.json README.md
-          git commit -m "${{ steps.extract.outputs.commit_message }}"
+          git commit -m "${{ steps.extract.outputs.commit_message }}" || echo "No changes to commit"
           git push origin main
 
-      - name: Comment on issue
+      - name: Comment on issue (success)
+        if: success()
         uses: actions/github-script@v7
         with:
           script: |
-            const extractedData = JSON.parse('${{ steps.extract.outputs.extracted_data }}' || '{}');
-            const warning = '${{ steps.extract.outputs.warning }}';
+            let extractedData = {};
+            try {
+              const rawData = process.env.EXTRACTED_DATA || '{}';
+              extractedData = JSON.parse(rawData);
+            } catch (e) {
+              console.log('Could not parse extracted data:', e);
+            }
+
+            const warning = process.env.WARNING_MSG || '';
 
             let body = `## Opportunity Added Successfully!\n\n`;
-            body += `**Company:** ${extractedData.company_name || 'Unknown'}\n`;
-            body += `**Role:** ${extractedData.title || 'Unknown'}\n`;
-            body += `**Category:** ${extractedData.category || 'Unknown'}\n`;
-            body += `**Location:** ${(extractedData.locations || []).join(', ')}\n`;
-            body += `**Season:** ${extractedData.season || 'Unknown'}\n\n`;
+            body += `| Field | Value |\n`;
+            body += `|-------|-------|\n`;
+            body += `| **Company** | ${extractedData.company_name || 'Unknown'} |\n`;
+            body += `| **Role** | ${extractedData.title || 'Unknown'} |\n`;
+            body += `| **Category** | ${extractedData.category || 'Unknown'} |\n`;
+            body += `| **Location** | ${(extractedData.locations || ['Unknown']).join(', ')} |\n`;
+            body += `| **Season** | ${extractedData.season || 'Unknown'} |\n\n`;
 
             if (warning) {
-              body += `> **Note:** ${warning}\n\n`;
+              body += `> Note: ${warning}\n\n`;
             }
 
             body += `The opportunity has been added to the README. Thank you for contributing!`;
@@ -68,8 +82,12 @@ jobs:
               issue_number: context.issue.number,
               body: body
             });
+        env:
+          EXTRACTED_DATA: ${{ steps.extract.outputs.extracted_data }}
+          WARNING_MSG: ${{ steps.extract.outputs.warning }}
 
       - name: Close issue
+        if: success()
         uses: actions/github-script@v7
         with:
           script: |
@@ -80,16 +98,25 @@ jobs:
               state: 'closed'
             });
 
-      - name: Handle failure
+      - name: Comment on issue (failure)
         if: failure()
         uses: actions/github-script@v7
         with:
           script: |
-            const errorMessage = '${{ steps.extract.outputs.error_message }}' || 'An unknown error occurred during extraction.';
+            const errorMessage = process.env.ERROR_MSG || 'An unknown error occurred during extraction.';
+
+            let body = `## Extraction Failed\n\n`;
+            body += `**Error:** ${errorMessage}\n\n`;
+            body += `### What to do:\n`;
+            body += `1. Check if the URL is accessible\n`;
+            body += `2. Try using the **Quick Add** template instead (fill in 4 fields manually)\n`;
+            body += `3. Or use the **New Opportunity** template for full control\n`;
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `## Extraction Failed\n\n${errorMessage}\n\nPlease try using the **Quick Add** or **New Opportunity** template instead.`
+              body: body
             });
+        env:
+          ERROR_MSG: ${{ steps.extract.outputs.error_message }}
