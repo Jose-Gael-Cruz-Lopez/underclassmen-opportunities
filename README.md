@@ -1,5 +1,8 @@
 # Underclassmen Opportunities
 
+<img width="978" height="420" alt="image" src="https://github.com/user-attachments/assets/1e397ba3-7e69-4d88-a6f8-1b50827f8f3d" />
+
+
 A curated list of internships, programs, and opportunities specifically designed for **freshmen and sophomores** (underclassmen) in tech, software engineering, and related fields.
 
 Many companies have programs specifically for first and second-year students that don't require prior experience. This repository tracks those opportunities!
