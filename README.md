@@ -30,7 +30,12 @@ To contribute:
 
 ## Underclassmen Internships
 
-<img width="976" height="368" alt="image" src="https://github.com/user-attachments/assets/0d858c4a-a8ed-4df8-ba5c-a4b2d1e3483e" />
+<img
+  src="https://github.com/user-attachments/assets/0d858c4a-a8ed-4df8-ba5c-a4b2d1e3483e"
+  alt="banner"
+  style="width: 100%; height: auto; max-height: 200px; object-fit: cover;"
+/>
+
 
 
 <!-- INTERNSHIPS_TABLE_START -->
