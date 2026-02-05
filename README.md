@@ -29,7 +29,6 @@ To contribute:
 <!-- INTERNSHIPS_TABLE_START -->
 | Company | Role | Location | Application | Date Posted |
 | ------- | ---- | -------- | ----------- | ----------- |
-| CrowdStrike | Launch Intern - Summer 2026 | Sunnyvale, CA | <a href="https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Sunnyvale-CA/Launch-Intern---Summer-2026_R26658?Job_Family=1408861ee6e2015adbe3e7f6b000de0b&fbclid=PAdGRleAPnt1hleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadGfFMbPk8HSbayDOpHcaLScqAEqeEfCvRP-9mkTZNhDGxzn8XX8h1ok2_uzw_aem_lSkYgfgDWqYCmZ9vexOLQg"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 | Chewy Inc | Software Engineer I Intern | Boston, MA | <a href="https://careers.chewy.com/us/en/job/R28466/Software-Engineer-I-Intern"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 <!-- INTERNSHIPS_TABLE_END -->
 
