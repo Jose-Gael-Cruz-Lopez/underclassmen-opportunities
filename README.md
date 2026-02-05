@@ -76,7 +76,7 @@ To contribute:
 
 ## Resources for Underclassmen
 
-- [How to Get an Internship as a Freshman/Sophomore](https://www.reddit.com/r/cscareerquestions/wiki/index)
+- [Interview-Guidance](https://sophiasun.substack.com/s/interviews)
 - [Building Projects Without Experience](https://github.com/codecrafters-io/build-your-own-x)
 - [LeetCode Beginner Guide](https://leetcode.com/explore/)
 
