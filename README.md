@@ -64,6 +64,9 @@ To contribute:
 
 ## Underclassmen Research Programs
 
+<img width="964" height="368" alt="image" src="https://github.com/user-attachments/assets/afe34ab7-8d8f-401b-bc77-0050dd497aa0" />
+
+
 <!-- RESEARCH_TABLE_START -->
 | University/Organization | Program | Field | Location | Application | Date Posted |
 | ----------------------- | ------- | ----- | -------- | ----------- | ----------- |
