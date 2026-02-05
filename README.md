@@ -44,6 +44,9 @@ To contribute:
 
 ## Underclassmen Programs (Fellowships, Externships, etc.)
 
+<img width="964" height="340" alt="image" src="https://github.com/user-attachments/assets/9cad2b91-8a46-4186-8341-c9537eb4f03a" />
+
+
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
