@@ -56,7 +56,8 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
-| Citadel | Fixed Income and Macro Central Bank Challenge | Competition | New York |  <a href="https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
+| AI4ALL | AI4ALL Ignite | Career Accelerator | Multiple Locations | <a href="https://ai-4-all.org/ai4all-ignite/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
+| Citadel | Fixed Income and Macro Central Bank Challenge | Competition | New York | London | <a href="https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
 | Qualtrics | Qualtrics Experience Management | Not Specified | Multiple Locations | <a href="https://globaleysurvey.ey.com/jfe/form/SV_3mIO8wUBMPW0234"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 | GirlsWhoML | Thinking About Thinking 2026 Ambassador Programme | Ambassador Programme | London, UK | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6jXrV8-2rtNAhmLDG8vnH7X683aVc-hkqHLjrMVfJV7Z0w/viewform"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 | American Express | Campus Opportunities | Campus Opportunities | Multiple Locations | <a href="https://aexp.eightfold.ai/careers?Role+Type=campus&intlink=us-amex-career-en-us-GlobalStudentsPage-Explore-student-opportunities&hl=en"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |

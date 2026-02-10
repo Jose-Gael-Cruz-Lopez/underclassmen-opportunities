@@ -153,5 +153,27 @@
     "date_posted": 1770687093,
     "date_updated": 1770687093,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "ce3a9d48-cd5a-450c-8172-8293868bfff3",
+    "company_name": "AI4ALL",
+    "title": "AI4ALL Ignite",
+    "url": "https://ai-4-all.org/ai4all-ignite/",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Career Accelerator",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1770687334,
+    "date_updated": 1770687334,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
