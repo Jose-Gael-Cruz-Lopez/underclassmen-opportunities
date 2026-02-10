@@ -130,5 +130,28 @@
     "date_posted": 1770270174,
     "date_updated": 1770270174,
     "source": "tomassantos484"
+  },
+  {
+    "id": "e885f1f7-e9d9-4fa9-8cd3-14aa7e4168ac",
+    "company_name": "Citadel",
+    "title": "Fixed Income and Macro Central Bank Challenge",
+    "url": "https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/",
+    "locations": [
+      "New York",
+      "London"
+    ],
+    "season": "Spring",
+    "category": "Program",
+    "opportunity_type": "Competition",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Offers Sponsorship",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1770687093,
+    "date_updated": 1770687093,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
