@@ -68,7 +68,9 @@ def handle_new_opportunity(data, username, is_quick_add=False):
     # Parse locations (default to "Multiple Locations" if not provided)
     locations_str = data.get("location", "") or data.get("location_(optional)", "")
     if locations_str:
-        locations = [loc.strip() for loc in locations_str.split("|") if loc.strip()]
+        # Support semicolon, pipe, or newline as separators
+        import re
+        locations = [loc.strip() for loc in re.split(r'[;|\n]', locations_str) if loc.strip()]
     else:
         locations = ["Multiple Locations"]
 

@@ -74,10 +74,9 @@ Opportunities are organized into three sections:
 
 ### Editing (Information Changed)
 
-1. Go to **Issues** → **New Issue**
-2. Select **Edit Opportunity**
-3. Provide the URL and describe changes needed
-4. Submit
+Editing via issues is not currently supported. To update a listing:
+1. Open a **Close Opportunity** issue to remove the old listing
+2. Open a new **Add Opportunity** issue with the corrected details
 
 ---
 

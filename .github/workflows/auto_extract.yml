@@ -14,8 +14,8 @@ concurrency:
 
 jobs:
   extract:
-    # Trigger when 'approved' label is added to ANY issue
-    if: github.event.label.name == 'approved'
+    # Only run for auto_extract issues (link_only template)
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'auto_extract')
     runs-on: ubuntu-latest
 
     steps:

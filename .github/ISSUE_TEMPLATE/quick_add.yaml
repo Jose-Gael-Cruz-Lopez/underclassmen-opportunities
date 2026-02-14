@@ -50,7 +50,7 @@ body:
     attributes:
       label: Location (Optional)
       description: Leave blank for "Multiple Locations"
-      placeholder: San Francisco, CA | Remote
+      placeholder: San Francisco, CA; Remote
     validations:
       required: false
 
