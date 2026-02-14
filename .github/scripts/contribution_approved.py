@@ -154,38 +154,13 @@ def handle_new_opportunity(data, username, is_quick_add=False):
 
 
 def handle_edit_opportunity(data, username):
-    """Handle editing an existing opportunity."""
-    listings = util.get_listings_from_json()
-
-    url = util.clean_url(data.get("url_of_the_opportunity_to_edit", ""))
-    if not url:
-        util.fail("Missing required field: URL of opportunity to edit")
-
-    # Find the listing
-    found = None
-    for listing in listings:
-        if listing["url"] == url:
-            found = listing
-            break
-
-    if not found:
-        util.fail(f"Could not find opportunity with URL: {url}")
-
-    # Parse changes from the description
-    changes_text = data.get("what_changes_need_to_be_made?", "")
-
-    # Update timestamp
-    found["date_updated"] = util.get_current_timestamp()
-
-    util.save_listings_to_json(listings)
-
-    company = found["company_name"]
-    title = found["title"]
-    util.set_output("commit_message", f"Edit {company} - {title}")
-    util.set_output("contributor_name", username)
-    util.set_output("contributor_email", "actions@github.com")
-
-    print(f"Successfully edited: {company} - {title}")
+    """Editing is not supported via automation. Direct users to close + re-add."""
+    util.fail(
+        "Editing via issues is not currently supported. "
+        "To update a listing, please:\n"
+        "1. Open a 'Close Opportunity' issue to remove the old listing\n"
+        "2. Open a new 'Add Opportunity' issue with the corrected details"
+    )
 
 
 def handle_close_opportunity(data, username):

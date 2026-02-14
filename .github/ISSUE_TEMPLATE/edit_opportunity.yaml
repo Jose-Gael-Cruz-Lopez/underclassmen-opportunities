@@ -1,41 +1,15 @@
-name: Edit Opportunity
-description: Request to edit an existing opportunity listing
+name: Edit Opportunity (Not Supported)
+description: "⚠️ Editing is not supported. To update a listing: close it and re-add with corrected details."
 title: "Edit Opportunity"
 labels: ["edit_opportunity"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Edit Opportunity Request
-        Use this form to request changes to an existing opportunity listing.
+        ## ⚠️ Editing is not currently supported via issues.
 
-  - type: input
-    id: url
-    attributes:
-      label: URL of the Opportunity to Edit
-      description: The application link of the opportunity you want to edit
-      placeholder: ex. https://careers.google.com/students/step
-    validations:
-      required: true
+        To update an existing listing, please:
+        1. Open a **Close Opportunity** issue to remove the old listing
+        2. Open a new **Add Opportunity** issue with the corrected details
 
-  - type: textarea
-    id: changes
-    attributes:
-      label: What changes need to be made?
-      description: |
-        Describe what information needs to be updated.
-        Be specific about the current value and what it should be changed to.
-      placeholder: |
-        - Location should be updated from "Menlo Park, CA" to "Menlo Park, CA | Remote"
-        - The application is now closed
-    validations:
-      required: true
-
-  - type: textarea
-    id: reason
-    attributes:
-      label: Reason for Changes (Optional)
-      description: Why do these changes need to be made?
-      placeholder: The company updated their job posting to include remote options...
-    validations:
-      required: false
+        This ensures data integrity. Thank you for understanding!

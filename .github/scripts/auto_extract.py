@@ -236,26 +236,57 @@ def main():
 
     print(f"Extracted: {json.dumps(extracted, indent=2)}")
 
+    # Validate extracted data
+    company_name = extracted.get("company_name", "").strip()
+    title = extracted.get("title", "").strip()
+    locations = extracted.get("locations", [])
+    category = extracted.get("category", "")
+
+    if not company_name or company_name == "Unknown":
+        util.fail("AI extraction failed: could not determine the company name. Please use the Quick Add template instead.")
+    if not title or title == "Unknown":
+        util.fail("AI extraction failed: could not determine the role/program title. Please use the Quick Add template instead.")
+    if not isinstance(locations, list) or len(locations) == 0:
+        locations = ["Multiple Locations"]
+    if category not in util.VALID_CATEGORIES:
+        util.fail(f"AI extraction returned invalid category '{category}'. Expected one of: {util.VALID_CATEGORIES}. Please use the Quick Add template instead.")
+
+    # Sanitize locations — remove any that look like URLs or HTML
+    clean_locations = []
+    for loc in locations:
+        loc = loc.strip()
+        if loc and not loc.startswith("http") and "<" not in loc:
+            clean_locations.append(loc)
+    if not clean_locations:
+        clean_locations = ["Multiple Locations"]
+    locations = clean_locations
+
     # Check if it's actually for underclassmen
     if not extracted.get("is_underclassmen", False):
-        util.set_output("warning", "This opportunity may not be specifically for underclassmen. Please verify.")
-        print("WARNING: This may not be an underclassmen-specific opportunity!")
+        util.set_output("needs_review", "true")
+        util.set_output("warning", "This opportunity may not be specifically for underclassmen. A maintainer needs to verify before it can be added. Add the 'approved' label again after review.")
+        print("WARNING: Not confirmed as underclassmen-specific. Skipping auto-add.")
+        util.set_output("commit_message", "")
+        sys.exit(0)
 
-    # Check for duplicates
+    # Check for duplicates (by URL or by company+title)
     listings = util.get_listings_from_json()
     for listing in listings:
         if listing["url"] == url:
             util.fail(f"Duplicate: This opportunity already exists (ID: {listing['id']})")
+        if (listing["company_name"].lower() == company_name.lower() and
+                listing["title"].lower() == title.lower()):
+            util.fail(f"Duplicate: {company_name} - {title} already exists (ID: {listing['id']})")
 
     # Create the listing
     new_listing = {
         "id": util.generate_uuid(),
-        "company_name": extracted.get("company_name", "Unknown"),
-        "title": extracted.get("title", "Unknown"),
+        "company_name": company_name,
+        "title": title,
         "url": url,
-        "locations": extracted.get("locations", ["Multiple Locations"]),
+        "locations": locations,
         "season": extracted.get("season", "Summer"),
-        "category": extracted.get("category", "Internship"),
+        "category": category,
         "opportunity_type": extracted.get("opportunity_type", "Internship"),
         "target_year": ["Freshman (1st year)", "Sophomore (2nd year)"],
         "sponsorship": extracted.get("sponsorship", "Not Specified"),
@@ -267,7 +298,7 @@ def main():
     }
 
     # Add field for research
-    if extracted.get("category") == "Research" and extracted.get("field"):
+    if category == "Research" and extracted.get("field"):
         new_listing["field"] = extracted["field"]
 
     # Save

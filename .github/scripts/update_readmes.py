@@ -97,21 +97,29 @@ def create_internships_table(listings):
     rows.append(header)
     rows.append(separator)
 
-    current_company = None
+    prev_company = None
+    prev_title = None
     for listing in listings:
         company = listing["company_name"]
-        display_company = company if company != current_company else "↳"
-        current_company = company
-
         title = listing["title"]
-        title += util.get_sponsorship_badge(listing.get("sponsorship", ""))
-        title += util.get_status_badge(listing.get("active", True))
+
+        # Only use arrow when same company but DIFFERENT role
+        if company == prev_company and title != prev_title:
+            display_company = "↳"
+        else:
+            display_company = company
+        prev_company = company
+        prev_title = title
+
+        display_title = util.sanitize_table_cell(title)
+        display_title += util.get_sponsorship_badge(listing.get("sponsorship", ""))
+        display_title += util.get_status_badge(listing.get("active", True))
 
         location = util.format_locations(listing.get("locations", []))
         link = util.format_link(listing["url"]) if listing.get("active", True) else ":lock:"
         date = util.format_date(listing["date_posted"])
 
-        row = f"| {display_company} | {title} | {location} | {link} | {date} |"
+        row = f"| {util.sanitize_table_cell(display_company)} | {display_title} | {location} | {link} | {date} |"
         rows.append(row)
 
     return "\n".join(rows)
@@ -126,12 +134,12 @@ def create_programs_table(listings):
     rows.append(separator)
 
     for listing in listings:
-        company = listing["company_name"]
-        title = listing["title"]
+        company = util.sanitize_table_cell(listing["company_name"])
+        title = util.sanitize_table_cell(listing["title"])
         title += util.get_sponsorship_badge(listing.get("sponsorship", ""))
         title += util.get_status_badge(listing.get("active", True))
 
-        opp_type = listing.get("opportunity_type", "")
+        opp_type = util.sanitize_table_cell(listing.get("opportunity_type", ""))
         location = util.format_locations(listing.get("locations", []))
         link = util.format_link(listing["url"]) if listing.get("active", True) else ":lock:"
         date = util.format_date(listing["date_posted"])
@@ -151,12 +159,12 @@ def create_research_table(listings):
     rows.append(separator)
 
     for listing in listings:
-        company = listing["company_name"]
-        title = listing["title"]
+        company = util.sanitize_table_cell(listing["company_name"])
+        title = util.sanitize_table_cell(listing["title"])
         title += util.get_sponsorship_badge(listing.get("sponsorship", ""))
         title += util.get_status_badge(listing.get("active", True))
 
-        field = listing.get("field", "")
+        field = util.sanitize_table_cell(listing.get("field", ""))
         location = util.format_locations(listing.get("locations", []))
         link = util.format_link(listing["url"]) if listing.get("active", True) else ":lock:"
         date = util.format_date(listing["date_posted"])

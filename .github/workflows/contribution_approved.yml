@@ -43,7 +43,12 @@ jobs:
         run: |
           git add .github/scripts/listings.json README.md
           git commit -m "${{ steps.process.outputs.commit_message }}"
-          git push origin main
+          # Rebase and retry push up to 3 times
+          for i in 1 2 3; do
+            git fetch origin main && git rebase origin/main && git push origin main && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 2
+          done
 
       - name: Close issue with success message
         if: success()

@@ -8,6 +8,10 @@ permissions:
   contents: write
   issues: write
 
+concurrency:
+  group: add_opportunity
+  cancel-in-progress: false
+
 jobs:
   extract:
     # Trigger when 'approved' label is added to ANY issue
@@ -38,16 +42,40 @@ jobs:
         run: |
           python .github/scripts/update_readmes.py
 
-      - name: Commit changes
+      - name: Commit and push changes
+        if: steps.extract.outputs.needs_review != 'true' && steps.extract.outputs.commit_message != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .github/scripts/listings.json README.md
           git commit -m "${{ steps.extract.outputs.commit_message }}" || echo "No changes to commit"
-          git push origin main
+          # Rebase and retry push up to 3 times
+          for i in 1 2 3; do
+            git fetch origin main && git rebase origin/main && git push origin main && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 2
+          done
+
+      - name: Handle needs-review (not confirmed underclassmen)
+        if: steps.extract.outputs.needs_review == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-review']
+            });
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '⚠️ **This opportunity may not be specifically for underclassmen.**\n\nThe AI extraction did not confirm this is targeted at freshmen/sophomores. A maintainer needs to verify before adding.\n\nIf confirmed, remove the `needs-review` label and add `approved` again.'
+            });
 
       - name: Comment on issue (success)
-        if: success()
+        if: success() && steps.extract.outputs.needs_review != 'true' && steps.extract.outputs.commit_message != ''
         uses: actions/github-script@v7
         with:
           script: |

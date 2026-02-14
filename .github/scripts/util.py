@@ -71,16 +71,26 @@ def sort_listings(listings):
     )
 
 
+def sanitize_table_cell(value):
+    """Escape pipe characters and newlines in a markdown table cell value."""
+    if not isinstance(value, str):
+        value = str(value)
+    value = value.replace("|", "\\|")
+    value = value.replace("\n", " ")
+    return value.strip()
+
+
 def format_locations(locations):
     """Format location list for display."""
     if not locations:
         return "N/A"
     if len(locations) == 1:
-        return locations[0]
+        return sanitize_table_cell(locations[0])
     if len(locations) <= 3:
-        return " | ".join(locations)
+        return ", ".join(sanitize_table_cell(loc) for loc in locations)
     # For many locations, use expandable details
-    return f"<details><summary>{len(locations)} locations</summary>{' | '.join(locations)}</details>"
+    joined = ", ".join(sanitize_table_cell(loc) for loc in locations)
+    return f"<details><summary>{len(locations)} locations</summary>{joined}</details>"
 
 
 def get_sponsorship_badge(sponsorship):
@@ -109,41 +119,6 @@ def format_date(timestamp):
     """Format Unix timestamp as readable date."""
     dt = datetime.fromtimestamp(timestamp, tz=PST)
     return dt.strftime("%b %d")
-
-
-def create_md_table(listings, prev_company=None):
-    """
-    Create a markdown table from listings.
-    Uses arrow symbol for duplicate companies.
-    """
-    rows = []
-    header = "| Company | Role | Location | Application | Date Posted |"
-    separator = "| ------- | ---- | -------- | ----------- | ----------- |"
-    rows.append(header)
-    rows.append(separator)
-
-    current_company = prev_company
-    for listing in listings:
-        if not listing.get("is_visible", True):
-            continue
-
-        company = listing["company_name"]
-        # Use arrow for repeated company names
-        display_company = company if company != current_company else "↳"
-        current_company = company
-
-        title = listing["title"]
-        title += get_sponsorship_badge(listing.get("sponsorship", ""))
-        title += get_status_badge(listing.get("active", True))
-
-        location = format_locations(listing.get("locations", []))
-        link = format_link(listing["url"]) if listing.get("active", True) else ":lock:"
-        date = format_date(listing["date_posted"])
-
-        row = f"| {display_company} | {title} | {location} | {link} | {date} |"
-        rows.append(row)
-
-    return "\n".join(rows)
 
 
 def embed_table(filepath, table, start_marker, end_marker):
