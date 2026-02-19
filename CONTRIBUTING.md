@@ -79,17 +79,6 @@ Editing via issues is not currently supported. To update a listing:
 
 ---
 
-## For Maintainers: Setup
-
-To enable AI auto-extraction, add an OpenAI API key:
-
-1. Go to **Settings** → **Secrets and variables** → **Actions**
-2. Click **New repository secret**
-3. Name: `OPENAI_API_KEY`
-4. Value: Your OpenAI API key
-
----
-
 ## How the Automation Works
 
 1. **User submits** a link via the issue template
