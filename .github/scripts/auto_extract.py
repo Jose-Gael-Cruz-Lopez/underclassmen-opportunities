@@ -273,10 +273,20 @@ def main():
     listings = util.get_listings_from_json()
     for listing in listings:
         if listing["url"] == url:
-            util.fail(f"Duplicate: This opportunity already exists (ID: {listing['id']})")
+            util.set_output("is_duplicate", "true")
+            util.set_output("duplicate_id", listing["id"])
+            util.set_output("duplicate_reason", f"This URL already exists in the repository")
+            util.set_output("commit_message", "")
+            print(f"DUPLICATE DETECTED: URL already exists (ID: {listing['id']})")
+            sys.exit(0)
         if (listing["company_name"].lower() == company_name.lower() and
                 listing["title"].lower() == title.lower()):
-            util.fail(f"Duplicate: {company_name} - {title} already exists (ID: {listing['id']})")
+            util.set_output("is_duplicate", "true")
+            util.set_output("duplicate_id", listing["id"])
+            util.set_output("duplicate_reason", f"'{company_name} - {title}' already exists in the repository")
+            util.set_output("commit_message", "")
+            print(f"DUPLICATE DETECTED: {company_name} - {title} already exists (ID: {listing['id']})")
+            sys.exit(0)
 
     # Create the listing
     new_listing = {
