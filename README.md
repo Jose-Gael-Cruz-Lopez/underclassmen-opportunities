@@ -65,6 +65,8 @@ To contribute:
 ---
 
 ## Scholarships
+<img width="964" height="386" alt="image" src="https://github.com/user-attachments/assets/87e87139-13a3-4232-9587-6276ea76238d" />
+
 
 <!-- SCHOLARSHIPS_TABLE_START -->
 | Organization | Scholarship | Amount | Application | Deadline |
