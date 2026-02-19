@@ -34,18 +34,29 @@ The easiest way to contribute:
 
 ## What Qualifies as an Underclassmen Opportunity?
 
-This repository is **specifically for programs that target first and second-year students**. Examples include:
+This repository is **specifically for programs that target freshmen and sophomores**—students who are typically in their first or second year of college.
 
-- **Microsoft Explore** - Designed for freshmen and sophomores
-- **Fellowships** like Code2040, MLH Fellowship that welcome underclassmen
-- **Research programs** like REU, SURF that accept underclassmen
+### Target Classes
+
+Opportunities submitted here should be designed for:
+- **Class of 2028** (current freshmen)
+- **Class of 2029** (current sophomores)
+
+These are programs explicitly restricted to students early in their college career. If an opportunity is open to juniors, seniors, or anyone regardless of year, it belongs in [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead.
+
+### Examples of What We Include
+
+- **Microsoft Explore** - Designed specifically for freshmen and sophomores
+- **Fellowships** like Code2040, MLH Fellowship that explicitly welcome underclassmen
+- **Research programs** like REU, SURF that accept first and second-year students
+- **Early talent/development programs** that restrict applications to classes 2028 or 2029
 
 ### What Does NOT Belong Here
 
-- General internships open to all years (use [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead)
-- Opportunities requiring junior/senior standing
-- Full-time/new-grad positions
-- Opportunities requiring significant prior experience
+- **General internships open to all years** - Use [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead
+- **Opportunities accepting juniors or seniors** - These belong in the general listings
+- **Full-time/new-grad positions** - For graduating students
+- **Opportunities requiring significant prior experience** - Underclassmen programs should be accessible to early students
 
 ---
 
