@@ -17,7 +17,8 @@ The easiest way to contribute:
 - Company name
 - Role/Program title
 - Location
-- Category (Internship/Program/Research)
+- Category (Internship/Program/Research/Scholarship)
+- Deadline
 - Season
 - Sponsorship info
 
@@ -50,13 +51,14 @@ This repository is **specifically for programs that target first and second-year
 
 ## Categories
 
-Opportunities are organized into three sections:
+Opportunities are organized into four sections:
 
 | Category | Description | Examples |
 |----------|-------------|----------|
 | **Internship** | Traditional internship programs for underclassmen | Early talent programs from smaller companies |
 | **Program** | Fellowships, externships, bootcamps | Code2040, MLH Fellowship, SEO Tech |
 | **Research** | University/lab research programs | REU, SURF, NASA OSSI |
+| **Scholarship** | Financial awards for underclassmen in tech | Company-sponsored scholarships |
 
 ---
 
