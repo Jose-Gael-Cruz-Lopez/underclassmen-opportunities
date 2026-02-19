@@ -35,10 +35,7 @@ The easiest way to contribute:
 
 This repository is **specifically for programs that target first and second-year students**. Examples include:
 
-- **Google STEP** - Student Training in Engineering Program for 1st/2nd year students
 - **Microsoft Explore** - Designed for freshmen and sophomores
-- **Meta University** - For students early in their college career
-- **Bank of America Freshman Analyst** - Explicitly for first-year students
 - **Fellowships** like Code2040, MLH Fellowship that welcome underclassmen
 - **Research programs** like REU, SURF that accept underclassmen
 
@@ -57,7 +54,7 @@ Opportunities are organized into three sections:
 
 | Category | Description | Examples |
 |----------|-------------|----------|
-| **Internship** | Traditional internship programs for underclassmen | STEP, Explore, Meta University |
+| **Internship** | Traditional internship programs for underclassmen | Early talent programs from smaller companies |
 | **Program** | Fellowships, externships, bootcamps | Code2040, MLH Fellowship, SEO Tech |
 | **Research** | University/lab research programs | REU, SURF, NASA OSSI |
 
