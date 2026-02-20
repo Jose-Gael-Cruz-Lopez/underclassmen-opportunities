@@ -1086,5 +1086,27 @@
     "date_posted": 1771556788,
     "date_updated": 1771556788,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "bef29bf0-f99a-44c9-8e43-5141f046c8e8",
+    "company_name": "NASA L'SPACE Academy",
+    "title": "Mission Concept Academy",
+    "url": "https://www.lspace.asu.edu/mission-concept-academy",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "U.S. Citizenship Required",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771561648,
+    "date_updated": 1771561648,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
