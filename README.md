@@ -84,6 +84,24 @@ To contribute:
 <!-- SCHOLARSHIPS_TABLE_START -->
 | Organization | Scholarship | Amount | Application | Deadline |
 | ------------ | ----------- | ------ | ----------- | -------- |
+| Advancing Women in Technology | AWT Scholarship 2026 | Varies | <a href="https://apply.mykaleidoscope.com/program/AWTScholarship2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Chime | Chime Scholars Foundation | Varies | <a href="https://www.chime.com/about-us/chime-scholars-foundation/#interested-in-applying"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| CopperPoint Insurance | CopperPoint Community Scholarship | Varies | <a href="https://scholarshipamerica.org/scholarship/copperpoint/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Feeding Student Success | Feeding Student Success Scholarship 2026-27 | Varies | <a href="https://apply.mykaleidoscope.com/program/FeedingStudentSuccessScholarship2627"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Global Game Jam | GDC Festival of Games 2026 Scholarship | Varies | <a href="https://globalgamejam.org/news/want-attend-gdc-festival-gaming-2026-apply-ggj-scholarship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Guild Giving Foundation | Guild Giving National Scholarship | $1,500 | <a href="https://scholarshipamerica.org/scholarship/guildgiving/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Hispanic Scholarship Fund | HSF Scholar Program 2026 | $500 - $5,000 | <a href="https://www.hsf.net/scholarship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Invictus Capital Partners | Invictus/Verus Scholarship | Varies | <a href="https://scholarshipamerica.org/scholarship/invictuscp-verusmc/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Last Mile Education Fund | Last Mile Fund | Varies | <a href="https://www.lastmile-ed.org/apply"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Rolling |
+| Microsoft | Black at Microsoft Scholarship | Varies | <a href="https://scholarshipamerica.org/scholarship/black-at-microsoft/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| MPOWER Financing | MPOWER Global Citizen Scholarship | Varies | <a href="https://www.mpowerfinancing.com/scholarships"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Obama Foundation | Obama-Chesky Voyager Scholarship | Varies | <a href="https://www.obama.org/programs/voyager-scholarship/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Presidio | Presidio Future Built Scholarship | Varies | <a href="https://scholarshipamerica.org/scholarship/presidio/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Scholarship America | Dream Award | Up to $10,000/yr | <a href="https://scholarshipamerica.org/scholarship/dreamaward/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Silicon Valley Community Foundation | Latinos in Technology Scholarship | Varies | <a href="https://www.svcf.org/scholarships/latinos-in-technology-scholarship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| The Executive Leadership Council | ELC Scholarship Program | Varies | <a href="https://www.elcinfo.com/our-impact/elc-scholarship-program/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| TIAA | TIAA First-Generation Scholarship | Varies | <a href="https://scholarshipamerica.org/scholarship/tiaa/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
+| Western Digital | Western Digital STEM Scholarship | Varies | <a href="https://scholarshipamerica.org/scholarship/westerndigital-stem/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Varies |
 <!-- SCHOLARSHIPS_TABLE_END -->
 
 ---

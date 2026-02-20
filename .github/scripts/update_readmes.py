@@ -23,6 +23,7 @@ def main():
         internship_listings = []
         program_listings = []
         research_listings = []
+        scholarship_listings = []
 
         for listing in listings:
             if not listing.get("is_visible", True):
@@ -35,16 +36,20 @@ def main():
                 program_listings.append(listing)
             elif category == "Research":
                 research_listings.append(listing)
+            elif category == "Scholarship":
+                scholarship_listings.append(listing)
 
         # Sort listings
         internship_listings = util.sort_listings(internship_listings)
         program_listings = util.sort_listings(program_listings)
         research_listings = util.sort_listings(research_listings)
+        scholarship_listings = util.sort_listings(scholarship_listings)
 
         # Generate tables
         internships_table = create_internships_table(internship_listings)
         programs_table = create_programs_table(program_listings)
         research_table = create_research_table(research_listings)
+        scholarships_table = create_scholarships_table(scholarship_listings)
 
         # Get README path
         readme_path = os.path.join(
@@ -75,6 +80,13 @@ def main():
             "<!-- RESEARCH_TABLE_END -->"
         )
 
+        util.embed_table(
+            readme_path,
+            scholarships_table,
+            "<!-- SCHOLARSHIPS_TABLE_START -->",
+            "<!-- SCHOLARSHIPS_TABLE_END -->"
+        )
+
         # Set commit message
         now = datetime.now(util.PST)
         timestamp = now.strftime("%Y-%m-%d %H:%M PST")
@@ -84,6 +96,7 @@ def main():
         print(f"  - {len(internship_listings)} internships")
         print(f"  - {len(program_listings)} programs")
         print(f"  - {len(research_listings)} research opportunities")
+        print(f"  - {len(scholarship_listings)} scholarships")
 
     except Exception as e:
         util.fail(str(e))
@@ -170,6 +183,29 @@ def create_research_table(listings):
         date = util.format_date(listing["date_posted"])
 
         row = f"| {company} | {title} | {field} | {location} | {link} | {date} |"
+        rows.append(row)
+
+    return "\n".join(rows)
+
+
+def create_scholarships_table(listings):
+    """Create a table for scholarships."""
+    rows = []
+    header = "| Organization | Scholarship | Amount | Application | Deadline |"
+    separator = "| ------------ | ----------- | ------ | ----------- | -------- |"
+    rows.append(header)
+    rows.append(separator)
+
+    for listing in listings:
+        company = util.sanitize_table_cell(listing["company_name"])
+        title = util.sanitize_table_cell(listing["title"])
+        title += util.get_status_badge(listing.get("active", True))
+
+        amount = util.sanitize_table_cell(listing.get("scholarship_amount", "Varies"))
+        link = util.format_link(listing["url"]) if listing.get("active", True) else ":lock:"
+        deadline = util.sanitize_table_cell(listing.get("deadline", "Varies"))
+
+        row = f"| {company} | {title} | {amount} | {link} | {deadline} |"
         rows.append(row)
 
     return "\n".join(rows)

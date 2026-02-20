@@ -33,7 +33,7 @@ REQUIRED_FIELDS = [
 ]
 
 # Valid categories
-VALID_CATEGORIES = ["Internship", "Program", "Research"]
+VALID_CATEGORIES = ["Internship", "Program", "Research", "Scholarship"]
 
 
 def get_listings_from_json():
