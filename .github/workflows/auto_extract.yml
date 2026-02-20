@@ -43,7 +43,7 @@ jobs:
           python .github/scripts/update_readmes.py
 
       - name: Commit and push changes
-        if: steps.extract.outputs.needs_review != 'true' && steps.extract.outputs.is_duplicate != 'true' && steps.extract.outputs.commit_message != ''
+        if: steps.extract.outputs.is_duplicate != 'true' && steps.extract.outputs.commit_message != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -78,26 +78,8 @@ jobs:
         env:
           DUPLICATE_REASON: ${{ steps.extract.outputs.duplicate_reason }}
 
-      - name: Handle needs-review (not confirmed underclassmen)
-        if: steps.extract.outputs.needs_review == 'true' && steps.extract.outputs.is_duplicate != 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              labels: ['needs-review']
-            });
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: '⚠️ **This opportunity may not be specifically for underclassmen.**\n\nThe AI extraction did not confirm this is targeted at freshmen/sophomores. A maintainer needs to verify before adding.\n\nIf confirmed, remove the `needs-review` label and add `approved` again.'
-            });
-
       - name: Comment on issue (success)
-        if: success() && steps.extract.outputs.needs_review != 'true' && steps.extract.outputs.is_duplicate != 'true' && steps.extract.outputs.commit_message != ''
+        if: success() && steps.extract.outputs.is_duplicate != 'true' && steps.extract.outputs.commit_message != ''
         uses: actions/github-script@v7
         with:
           script: |
