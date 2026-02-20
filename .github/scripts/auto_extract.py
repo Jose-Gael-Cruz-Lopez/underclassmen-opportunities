@@ -33,7 +33,11 @@ def fetch_page_content(url):
     }
 
     try:
-        response = requests.get(url, headers=headers, timeout=30, allow_redirects=True)
+        try:
+            response = requests.get(url, headers=headers, timeout=30, allow_redirects=True)
+        except requests.exceptions.SSLError:
+            print(f"SSL verification failed for {url}, retrying without verification...")
+            response = requests.get(url, headers=headers, timeout=30, allow_redirects=True, verify=False)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")

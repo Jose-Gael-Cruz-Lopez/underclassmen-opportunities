@@ -49,6 +49,7 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| AQR Capital Management | AQR Discovery - Early Engagement Program | Early Engagement Program | Greenwich, CT | <a href="https://careers.aqr.com/jobs/open-positions/greenwich-ct/aqr-discovery-early-engagement-program/7611807?gh_jid=7611807"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Liberty Mutual | 2026 Unite Summit - Exploratory Program | Discovery Program | Boston, MA | <a href="https://campus-libertymutual.icims.com/jobs/74387/2026-unite-summit---exploratory-program/job"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Salesforce | Futureforce Tech Launchpad 2026 | Pre-Internship | San Francisco, CA | <a href="https://info.codepath.org/futureforce-tech-launchpad"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Millennium | Meet Millennium 2026 Miami | Networking Event | Miami, FL | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964259&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |

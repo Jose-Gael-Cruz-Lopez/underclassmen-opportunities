@@ -1064,5 +1064,27 @@
     "date_updated": 1771556496,
     "source": "Jose-Gael-Cruz-Lopez",
     "field": "Computer Science"
+  },
+  {
+    "id": "72dac9a0-6f5d-443d-8e69-dae32bbf6e3e",
+    "company_name": "AQR Capital Management",
+    "title": "AQR Discovery - Early Engagement Program",
+    "url": "https://careers.aqr.com/jobs/open-positions/greenwich-ct/aqr-discovery-early-engagement-program/7611807?gh_jid=7611807",
+    "locations": [
+      "Greenwich, CT"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Early Engagement Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556788,
+    "date_updated": 1771556788,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
