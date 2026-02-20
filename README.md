@@ -4,7 +4,7 @@
 
 
 
-Hi, I'm Jose. I created this repository as a curated list of internships, programs, and opportunities specifically designed for **freshmen and sophomores** (underclassmen) in tech, software engineering, and related fields.
+Hi, I'm [Jose Cruz](https://github.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities). I created this repository as a curated list of internships, programs, and opportunities specifically designed for **freshmen and sophomores** (underclassmen) in tech, software engineering, and related fields.
 
 I know how overwhelming the internship search can feel when you're just starting out. I don't want any underclassmen to feel left behind in their career journey. Many companies have programs specifically for first and second-year students that don't require prior experience, and I want to make sure everyone has access to these opportunities.
 
