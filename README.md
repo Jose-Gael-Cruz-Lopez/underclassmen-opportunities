@@ -36,6 +36,7 @@ To contribute:
 <!-- INTERNSHIPS_TABLE_START -->
 | Company | Role | Location | Application | Date Posted |
 | ------- | ---- | -------- | ----------- | ----------- |
+| Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship | New York, New York, United States | <a href="https://job-boards.greenhouse.io/schonfeld/jobs/7610709?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnCtEZbo5KOgzp-DBgp1uzccq2z73pkNuongE54pgEPFLAMyfxOmbgSdP9Erw_aem_kVbDe9VdG2Y8z0exAIWAKw"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 20 |
 | Five Rings LLC | Winter Intern 2027 - Quantitative Trader | New York | <a href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5122638008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 20 |
 | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 | Los Angeles, CA, Seattle, WA, Tempe, AZ | <a href="https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Discovery-Intern-Sophomore-Junior-Business-Technology-Profile-Summer-2026/306703"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 <!-- INTERNSHIPS_TABLE_END -->
