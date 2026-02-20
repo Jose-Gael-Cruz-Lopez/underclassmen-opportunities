@@ -14,8 +14,11 @@ concurrency:
 
 jobs:
   extract:
-    # Only run for auto_extract issues (link_only template)
-    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'auto_extract')
+    # Run when either 'approved' or 'auto_extract' is added, as long as both are present
+    if: |
+      (github.event.label.name == 'approved' || github.event.label.name == 'auto_extract')
+      && contains(github.event.issue.labels.*.name, 'approved')
+      && contains(github.event.issue.labels.*.name, 'auto_extract')
     runs-on: ubuntu-latest
 
     steps:

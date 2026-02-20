@@ -11,7 +11,7 @@ concurrency:
 jobs:
   process-contribution:
     # Only run for non-auto_extract issues (manual submissions)
-    if: github.event.label.name == 'approved' && !contains(github.event.issue.labels.*.name, 'auto_extract')
+    if: github.event.label.name == 'approved' && !contains(github.event.issue.labels.*.name, 'auto_extract') && contains(github.event.issue.labels.*.name, 'approved')
     runs-on: ubuntu-latest
 
     steps:
