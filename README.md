@@ -48,6 +48,10 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| Millennium | Meet Millennium 2026 Miami | Networking Event | Miami, FL | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964259&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Millennium | Meet Millennium 2026 London | Networking Event | London, UK | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964269&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Millennium | Meet Millennium 2026 Singapore | Networking Event | Singapore | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964303&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Millennium | Meet Millennium 2026 Bangalore | Networking Event | Bangalore, India | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964353&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Hudson River Trading | Explore HRT - NYC | Program | New York, NY | <a href="https://www.hudsonrivertrading.com/hrt-job/explore-hrt-nyc/?gh_src=1117c3661us%3Futm_medium%3Dsocial"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | AI4ALL | AI4ALL Ignite | Career Accelerator | Multiple Locations | <a href="https://ai-4-all.org/ai4all-ignite/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
 | Citadel | Fixed Income and Macro Central Bank Challenge | Competition | New York, London | <a href="https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |

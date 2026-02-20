@@ -131,5 +131,93 @@
     "date_posted": 1771554675,
     "date_updated": 1771554675,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "126bb08d-4b4b-4a55-a60a-174e3859b7f6",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 Miami",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964259&domain=mlp.com",
+    "locations": [
+      "Miami, FL"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "cd3230f3-61d7-4628-9d01-c6ca533d519a",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 London",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964269&domain=mlp.com",
+    "locations": [
+      "London, UK"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "ff7f75d5-a542-4dbb-9e84-41bb4bb5bc6a",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 Singapore",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964303&domain=mlp.com",
+    "locations": [
+      "Singapore"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "0083557d-c132-45a9-a186-511f64086351",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 Bangalore",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964353&domain=mlp.com",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
