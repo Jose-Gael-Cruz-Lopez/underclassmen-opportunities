@@ -37,7 +37,7 @@ jobs:
       - name: Extract opportunity details
         id: extract
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPEN_AI }}
         run: |
           python .github/scripts/auto_extract.py "${{ github.event_path }}"
 
