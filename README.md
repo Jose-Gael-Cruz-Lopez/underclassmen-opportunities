@@ -34,8 +34,10 @@ To contribute:
 
 
 <!-- INTERNSHIPS_TABLE_START -->
-| Company | Role | Location | Application | Deadline | Date Posted |
-| ------- | ---- | -------- | ----------- | -------- | ----------- |
+| Company | Role | Location | Application | Date Posted |
+| ------- | ---- | -------- | ----------- | ----------- |
+| CrowdStrike | Launch Intern - Summer 2026 | Sunnyvale, CA | <a href="https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Sunnyvale-CA/Launch-Intern---Summer-2026_R26658?Job_Family=1408861ee6e2015adbe3e7f6b000de0b"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| Chewy Inc | Software Engineer I Intern | Boston, MA | <a href="https://careers.chewy.com/us/en/job/R28466/Software-Engineer-I-Intern"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 <!-- INTERNSHIPS_TABLE_END -->
 
 ---
@@ -46,8 +48,14 @@ To contribute:
 
 
 <!-- PROGRAMS_TABLE_START -->
-| Company | Program | Type | Location | Application | Deadline | Date Posted |
-| ------- | ------- | ---- | -------- | ----------- | -------- | ----------- |
+| Company | Program | Type | Location | Application | Date Posted |
+| ------- | ------- | ---- | -------- | ----------- | ----------- |
+| Hudson River Trading | Explore HRT - NYC | Program | New York, NY | <a href="https://www.hudsonrivertrading.com/hrt-job/explore-hrt-nyc/?gh_src=1117c3661us%3Futm_medium%3Dsocial"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| AI4ALL | AI4ALL Ignite | Career Accelerator | Multiple Locations | <a href="https://ai-4-all.org/ai4all-ignite/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
+| Citadel | Fixed Income and Macro Central Bank Challenge | Competition | New York, London | <a href="https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
+| Qualtrics | Qualtrics Experience Management | Not Specified | Multiple Locations | <a href="https://globaleysurvey.ey.com/jfe/form/SV_3mIO8wUBMPW0234"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| GirlsWhoML | Thinking About Thinking 2026 Ambassador Programme | Ambassador Programme | London, UK | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6jXrV8-2rtNAhmLDG8vnH7X683aVc-hkqHLjrMVfJV7Z0w/viewform"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| American Express | Campus Opportunities | Campus Opportunities | Multiple Locations | <a href="https://aexp.eightfold.ai/careers?Role+Type=campus&intlink=us-amex-career-en-us-GlobalStudentsPage-Explore-student-opportunities&hl=en"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
 <!-- PROGRAMS_TABLE_END -->
 
 ---
@@ -58,8 +66,8 @@ To contribute:
 
 
 <!-- RESEARCH_TABLE_START -->
-| University/Organization | Program | Field | Location | Application | Deadline | Date Posted |
-| ----------------------- | ------- | ----- | -------- | ----------- | -------- | ----------- |
+| University/Organization | Program | Field | Location | Application | Date Posted |
+| ----------------------- | ------- | ----- | -------- | ----------- | ----------- |
 <!-- RESEARCH_TABLE_END -->
 
 ---

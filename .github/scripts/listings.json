@@ -153,5 +153,27 @@
     "date_posted": 1770687334,
     "date_updated": 1770687334,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e9d6dbc1-f17d-44de-bdc8-28f47f8a6aa2",
+    "company_name": "Hudson River Trading",
+    "title": "Explore HRT - NYC",
+    "url": "https://www.hudsonrivertrading.com/hrt-job/explore-hrt-nyc/?gh_src=1117c3661us%3Futm_medium%3Dsocial",
+    "locations": [
+      "New York, NY"
+    ],
+    "season": "Spring",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Offers Sponsorship",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771554675,
+    "date_updated": 1771554675,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
