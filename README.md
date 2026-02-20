@@ -36,6 +36,7 @@ To contribute:
 <!-- INTERNSHIPS_TABLE_START -->
 | Company | Role | Location | Application | Date Posted |
 | ------- | ---- | -------- | ----------- | ----------- |
+| Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 | Los Angeles, CA, Seattle, WA, Tempe, AZ | <a href="https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Discovery-Intern-Sophomore-Junior-Business-Technology-Profile-Summer-2026/306703"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 <!-- INTERNSHIPS_TABLE_END -->
 
 ---
@@ -48,6 +49,8 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| Liberty Mutual | 2026 Unite Summit - Exploratory Program | Discovery Program | Boston, MA | <a href="https://campus-libertymutual.icims.com/jobs/74387/2026-unite-summit---exploratory-program/job"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Salesforce | Futureforce Tech Launchpad 2026 | Pre-Internship | San Francisco, CA | <a href="https://info.codepath.org/futureforce-tech-launchpad"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Millennium | Meet Millennium 2026 Miami | Networking Event | Miami, FL | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964259&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Millennium | Meet Millennium 2026 London | Networking Event | London, UK | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964269&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Millennium | Meet Millennium 2026 Singapore | Networking Event | Singapore | <a href="https://campusjobs.mlp.com/careers/job?pid=755953964303&domain=mlp.com"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |

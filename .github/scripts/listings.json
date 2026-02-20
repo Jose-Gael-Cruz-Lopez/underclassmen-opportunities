@@ -219,5 +219,73 @@
     "date_posted": 1771555003,
     "date_updated": 1771555003,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "94ac273b-ee01-4e33-b6fa-297d55cda097",
+    "company_name": "Liberty Mutual",
+    "title": "2026 Unite Summit - Exploratory Program",
+    "url": "https://campus-libertymutual.icims.com/jobs/74387/2026-unite-summit---exploratory-program/job",
+    "locations": [
+      "Boston, MA"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Discovery Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555150,
+    "date_updated": 1771555150,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "004f45ad-6a56-4a5f-b5ef-f2ab7dca02ce",
+    "company_name": "Deloitte",
+    "title": "Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026",
+    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Discovery-Intern-Sophomore-Junior-Business-Technology-Profile-Summer-2026/306703",
+    "locations": [
+      "Los Angeles, CA",
+      "Seattle, WA",
+      "Tempe, AZ"
+    ],
+    "season": "Summer",
+    "category": "Internship",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Sophomore (2nd year)",
+      "Junior (3rd year)"
+    ],
+    "sponsorship": "Offers Sponsorship",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555150,
+    "date_updated": 1771555150,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "b7af1611-f207-4a70-a238-8b25f9a5188a",
+    "company_name": "Salesforce",
+    "title": "Futureforce Tech Launchpad 2026",
+    "url": "https://info.codepath.org/futureforce-tech-launchpad",
+    "locations": [
+      "San Francisco, CA"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Pre-Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555150,
+    "date_updated": 1771555150,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
