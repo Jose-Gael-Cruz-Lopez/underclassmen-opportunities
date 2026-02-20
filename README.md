@@ -73,6 +73,21 @@ To contribute:
 <!-- RESEARCH_TABLE_START -->
 | University/Organization | Program | Field | Location | Application | Date Posted |
 | ----------------------- | ------- | ----- | -------- | ----------- | ----------- |
+| Caltech | SURF - Summer Undergraduate Research Fellowship | Computer Science, Engineering, STEM | Pasadena, CA | <a href="https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Carnegie Mellon University | SURE - Summer Undergraduate Research Experience | Computer Science | Pittsburgh, PA | <a href="https://s3d.cmu.edu/sure/index.html"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Los Alamos National Laboratory | Cyber Fire - Cybersecurity Science Research Program | Cybersecurity, AI/ML | Los Alamos, NM | <a href="https://cyberfire.energy.gov/school/2026/research/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Penn State University | NSF REU - Machine Learning in Cybersecurity | Machine Learning, Cybersecurity | University Park, PA | <a href="https://reu.ist.psu.edu/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Temple University | NSF REU - High Performance Computing Tools | High Performance Computing | Philadelphia, PA | <a href="https://icmshpc.com/nsf/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| UMBC | NSF Big Data REU Site | Big Data, Data Science | Remote | <a href="https://bigdatareu.umbc.edu/2026-program-and-application/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| University of Minnesota | Computer Science REU | Computer Science | Minneapolis, MN | <a href="https://reu.cs.umn.edu/apply"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| USC Viterbi | CURVE - Center for Undergraduate Research in Viterbi Engineering | Computer Science, Engineering | Los Angeles, CA | <a href="https://viterbiundergrad.usc.edu/research/curve/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| Brown University | NSF REU - AI for Computational Creativity :lock: | Artificial Intelligence | Providence, RI | :lock: | Feb 19 |
+| Carnegie Mellon University | REUSE - Research Experiences for Undergraduates in Software Engineering :lock: | Software Engineering, ML, Security | Pittsburgh, PA | :lock: | Feb 19 |
+| Carnegie Mellon University | SPUR - Security and Privacy Undergraduate Research Scholars :lock: | Cybersecurity, Privacy | Pittsburgh, PA | :lock: | Feb 19 |
+| Cornell University | AI-MI Summer Undergraduate Research Program :lock: | AI, Materials Science | Ithaca, NY | :lock: | Feb 19 |
+| CRA-WP | DREU - Distributed Research Experiences for Undergraduates :lock: | Computer Science, Computing | Multiple Locations | :lock: | Feb 19 |
+| LSU | CCT Summer REU - Computational Research :lock: | AI, Quantum Computing, Cybersecurity | Baton Rouge, LA | :lock: | Feb 19 |
+| UChicago | Data Science Institute Summer Lab :lock: | Data Science | Chicago, IL | :lock: | Feb 19 |
 <!-- RESEARCH_TABLE_END -->
 
 ---

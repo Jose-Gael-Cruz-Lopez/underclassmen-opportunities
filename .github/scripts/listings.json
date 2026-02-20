@@ -719,5 +719,350 @@
     "source": "Jose-Gael-Cruz-Lopez",
     "scholarship_amount": "$5,000",
     "deadline": "Apr 1, 2026"
+  },
+  {
+    "id": "7dd973e6-fec2-4e4b-8460-7d147772699f",
+    "company_name": "Carnegie Mellon University",
+    "title": "REUSE - Research Experiences for Undergraduates in Software Engineering",
+    "url": "https://reuse.cs.cmu.edu/",
+    "locations": [
+      "Pittsburgh, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Software Engineering, ML, Security"
+  },
+  {
+    "id": "91081a92-2df5-42f4-801b-2a14aa149916",
+    "company_name": "Carnegie Mellon University",
+    "title": "SPUR - Security and Privacy Undergraduate Research Scholars",
+    "url": "https://www.cmu.edu/scs/s3d/reuse/spur/index.html",
+    "locations": [
+      "Pittsburgh, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Cybersecurity, Privacy"
+  },
+  {
+    "id": "a9fa0bd0-2810-42d9-94a5-a8c28af71b74",
+    "company_name": "UMBC",
+    "title": "NSF Big Data REU Site",
+    "url": "https://bigdatareu.umbc.edu/2026-program-and-application/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Big Data, Data Science"
+  },
+  {
+    "id": "8dc656fd-7d0f-473a-b2e4-42a7d9862ca4",
+    "company_name": "University of Minnesota",
+    "title": "Computer Science REU",
+    "url": "https://reu.cs.umn.edu/apply",
+    "locations": [
+      "Minneapolis, MN"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science"
+  },
+  {
+    "id": "75b94036-882b-4463-903a-d864523eab4f",
+    "company_name": "Brown University",
+    "title": "NSF REU - AI for Computational Creativity",
+    "url": "http://aireu.cs.brown.edu/",
+    "locations": [
+      "Providence, RI"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": "682609bb-8647-408d-a331-453c24540f12",
+    "company_name": "CRA-WP",
+    "title": "DREU - Distributed Research Experiences for Undergraduates",
+    "url": "https://cra.org/cra-wp/dreu/",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science, Computing"
+  },
+  {
+    "id": "93b3f0ec-2731-43d4-8999-df0be22753a8",
+    "company_name": "Caltech",
+    "title": "SURF - Summer Undergraduate Research Fellowship",
+    "url": "https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
+    "locations": [
+      "Pasadena, CA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science, Engineering, STEM"
+  },
+  {
+    "id": "5beaa1cc-8719-4e77-bffa-7d02c0d20380",
+    "company_name": "UChicago",
+    "title": "Data Science Institute Summer Lab",
+    "url": "https://datascience.uchicago.edu/education/summerlab",
+    "locations": [
+      "Chicago, IL"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Data Science"
+  },
+  {
+    "id": "a3899395-d456-4754-bc12-c14bf0f610d3",
+    "company_name": "Los Alamos National Laboratory",
+    "title": "Cyber Fire - Cybersecurity Science Research Program",
+    "url": "https://cyberfire.energy.gov/school/2026/research/",
+    "locations": [
+      "Los Alamos, NM"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Cybersecurity, AI/ML"
+  },
+  {
+    "id": "108fa5f5-c24d-45fb-8b56-d285178d6256",
+    "company_name": "USC Viterbi",
+    "title": "CURVE - Center for Undergraduate Research in Viterbi Engineering",
+    "url": "https://viterbiundergrad.usc.edu/research/curve/",
+    "locations": [
+      "Los Angeles, CA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science, Engineering"
+  },
+  {
+    "id": "760e2ed8-093b-4998-b2cd-18962eee0d6f",
+    "company_name": "LSU",
+    "title": "CCT Summer REU - Computational Research",
+    "url": "https://reu.cct.lsu.edu/",
+    "locations": [
+      "Baton Rouge, LA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "AI, Quantum Computing, Cybersecurity"
+  },
+  {
+    "id": "66aca640-b2af-45f6-95a9-0b2fbd52ec93",
+    "company_name": "Penn State University",
+    "title": "NSF REU - Machine Learning in Cybersecurity",
+    "url": "https://reu.ist.psu.edu/",
+    "locations": [
+      "University Park, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Machine Learning, Cybersecurity"
+  },
+  {
+    "id": "019f9bdc-9c30-4d68-93da-e903d4e8b0f0",
+    "company_name": "Temple University",
+    "title": "NSF REU - High Performance Computing Tools",
+    "url": "https://icmshpc.com/nsf/",
+    "locations": [
+      "Philadelphia, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "High Performance Computing"
+  },
+  {
+    "id": "4b449c3a-ef74-45bf-81ed-8752d47f3650",
+    "company_name": "Cornell University",
+    "title": "AI-MI Summer Undergraduate Research Program",
+    "url": "https://aimi.cornell.edu/surp/",
+    "locations": [
+      "Ithaca, NY"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "AI, Materials Science"
+  },
+  {
+    "id": "d6bd3d85-5124-44d4-80bb-b1d036f1afe3",
+    "company_name": "Carnegie Mellon University",
+    "title": "SURE - Summer Undergraduate Research Experience",
+    "url": "https://s3d.cmu.edu/sure/index.html",
+    "locations": [
+      "Pittsburgh, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science"
   }
 ]
