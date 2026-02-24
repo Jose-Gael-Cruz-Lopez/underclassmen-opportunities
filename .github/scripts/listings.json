@@ -1152,5 +1152,27 @@
     "date_posted": 1771620451,
     "date_updated": 1771620451,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "9c7f4501-38a8-46e0-a937-baade1db9742",
+    "company_name": "GE Aerospace",
+    "title": "L.I.F.T. Summit",
+    "url": "https://careers.geaerospace.com/global/en/lift-summit",
+    "locations": [
+      "Cincinnati, OH"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Recruiting Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "U.S. Citizenship Required",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771896720,
+    "date_updated": 1771896720,
+    "source": "liezeil"
   }
 ]

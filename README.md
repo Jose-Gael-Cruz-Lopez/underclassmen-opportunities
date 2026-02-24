@@ -51,6 +51,7 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| GE Aerospace | L.I.F.T. Summit :us: | Recruiting Event | Cincinnati, OH | <a href="https://careers.geaerospace.com/global/en/lift-summit"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 23 |
 | NASA L'SPACE Academy | Mission Concept Academy :us: | Program | Multiple Locations | <a href="https://www.lspace.asu.edu/mission-concept-academy"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | AQR Capital Management | AQR Discovery - Early Engagement Program | Early Engagement Program | Greenwich, CT | <a href="https://careers.aqr.com/jobs/open-positions/greenwich-ct/aqr-discovery-early-engagement-program/7611807?gh_jid=7611807"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | Liberty Mutual | 2026 Unite Summit - Exploratory Program | Discovery Program | Boston, MA | <a href="https://campus-libertymutual.icims.com/jobs/74387/2026-unite-summit---exploratory-program/job"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
