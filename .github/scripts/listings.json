@@ -1174,5 +1174,27 @@
     "date_posted": 1771896720,
     "date_updated": 1771896720,
     "source": "liezeil"
+  },
+  {
+    "id": "01bcb318-2fb3-4735-a396-df4e5cb06596",
+    "company_name": "Hudson River Trading",
+    "title": "Inside HRT",
+    "url": "https://www.hudsonrivertrading.com/hrt-job/inside-hrt/",
+    "locations": [
+      "New York City, NY"
+    ],
+    "season": "Spring",
+    "category": "Program",
+    "opportunity_type": "Externship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1772685706,
+    "date_updated": 1772685706,
+    "source": "SebaCape"
   }
 ]
