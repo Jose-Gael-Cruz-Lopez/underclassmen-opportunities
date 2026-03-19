@@ -15,7 +15,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1770212009,
     "date_updated": 1770212009,
@@ -59,7 +59,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1770214603,
     "date_updated": 1770214603,
@@ -82,7 +82,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Offers Sponsorship",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1770687093,
     "date_updated": 1770687093,
@@ -148,7 +148,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555003,
     "date_updated": 1771555003,
@@ -170,7 +170,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555003,
     "date_updated": 1771555003,
@@ -192,7 +192,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555003,
     "date_updated": 1771555003,
@@ -214,7 +214,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555003,
     "date_updated": 1771555003,
@@ -282,7 +282,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555150,
     "date_updated": 1771555150,
@@ -496,13 +496,13 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555523,
     "date_updated": 1771555523,
     "source": "Jose-Gael-Cruz-Lopez",
     "scholarship_amount": "$2,500 - $5,000",
-    "deadline": "Mar 16, 2026"
+    "deadline": "Closed (Mar 16)"
   },
   {
     "id": "f7a6cc92-46cb-46a7-8c93-2aa403db45e6",
@@ -520,13 +520,13 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555523,
     "date_updated": 1771555523,
     "source": "Jose-Gael-Cruz-Lopez",
     "scholarship_amount": "Up to $50,000+",
-    "deadline": "Mar 17, 2026"
+    "deadline": "Closed (Mar 17)"
   },
   {
     "id": "52839ec3-7dc6-40c7-80ca-c848269ef3c1",
@@ -616,13 +616,13 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555523,
     "date_updated": 1771555523,
     "source": "Jose-Gael-Cruz-Lopez",
     "scholarship_amount": "$5,000 - $10,000",
-    "deadline": "Feb 26, 2026"
+    "deadline": "Closed (Feb 26)"
   },
   {
     "id": "5c4c5d2c-27c3-4009-b0bf-4be6880f9ef0",
@@ -664,13 +664,13 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771555523,
     "date_updated": 1771555523,
     "source": "Jose-Gael-Cruz-Lopez",
     "scholarship_amount": "$5,000",
-    "deadline": "Mar 12, 2026"
+    "deadline": "Closed (Mar 12)"
   },
   {
     "id": "fbf5cf97-772b-4644-aa5a-cb23c5d144ef",
@@ -782,7 +782,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771556496,
     "date_updated": 1771556496,
@@ -874,7 +874,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771556496,
     "date_updated": 1771556496,
@@ -1081,7 +1081,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771556788,
     "date_updated": 1771556788,
@@ -1217,6 +1217,117 @@
     "is_visible": true,
     "date_posted": 1773959230,
     "date_updated": 1773959230,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "b1e2f3a4-5c6d-7e8f-9a0b-c1d2e3f4a5b6",
+    "company_name": "Global Career Accelerator",
+    "title": "Career Accelerator Program",
+    "url": "https://globalcareeraccelerator.org/app/events/9b62dcae-3ad1-4c5e-a638-ef6c68dcffc7",
+    "locations": [
+      "Virtual"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "c2d3e4f5-6a7b-8c9d-0e1f-a2b3c4d5e6f7",
+    "company_name": "WomenTech Network",
+    "title": "Women in Tech Global Conference 2026",
+    "url": "https://www.womentech.net/women-tech-conference",
+    "locations": [
+      "Virtual + Multiple Cities"
+    ],
+    "season": "Summer 2026",
+    "category": "Program",
+    "opportunity_type": "Conference",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "d3e4f5a6-7b8c-9d0e-1f2a-b3c4d5e6f7a8",
+    "company_name": "Outreachy",
+    "title": "Open Source Internship - May 2026",
+    "url": "https://www.outreachy.org/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer 2026",
+    "category": "Program",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e4f5a6b7-8c9d-0e1f-2a3b-c4d5e6f7a8b9",
+    "company_name": "Rewriting the Code",
+    "title": "RTC Fellowship Program",
+    "url": "https://rewritingthecode.org/fellowship/",
+    "locations": [
+      "United States",
+      "Canada"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Fellowship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "f5a6b7c8-9d0e-1f2a-3b4c-d5e6f7a8b9c0",
+    "company_name": "WomenHack",
+    "title": "Women in Tech Career Fair",
+    "url": "https://womenhack.com/events/",
+    "locations": [
+      "Multiple US Cities"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Career Fair",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
     "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
