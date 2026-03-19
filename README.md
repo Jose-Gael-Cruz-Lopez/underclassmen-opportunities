@@ -36,6 +36,7 @@ To contribute:
 <!-- INTERNSHIPS_TABLE_START -->
 | Company | Role | Location | Application | Date Posted |
 | ------- | ---- | -------- | ----------- | ----------- |
+| Roblox | Software Engineer, Community Apprenticeship - Intern (Summer 2026) | San Mateo, CA | <a href="https://careers.roblox.com/jobs/7654991?gh_jid=7654991"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 19 |
 | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20 |
 | Five Rings LLC | Winter Intern 2027 - Quantitative Trader | New York | <a href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5122638008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 20 |
 | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 :lock: | Los Angeles, CA, Seattle, WA, Tempe, AZ | :lock: | Feb 19 |
@@ -51,6 +52,10 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| JPMorgan Chase | Data for Good Hackathon (Underclassmen) | Hackathon | Virtual | <a href="https://jpmc.recsolu.com/app/collect/event/GaamTSfcuXEJCSA0ltQoiA/registration"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 19 |
+| Microsoft Research | Data Science Summer School (DS3) | Summer Program | New York, NY | <a href="https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 19 |
+| Google | Public Policy Fellowship | Fellowship | United States | <a href="https://www.google.com/policyfellowship/usa/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 19 |
+| Girls Make Games | GMG Fellowship | Fellowship | Multiple Locations | <a href="https://www.girlsmakegames.com/gmg-fellowship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 19 |
 | Hudson River Trading | Inside HRT | Externship | New York City, NY | <a href="https://www.hudsonrivertrading.com/hrt-job/inside-hrt/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 04 |
 | GE Aerospace | L.I.F.T. Summit :us: | Recruiting Event | Cincinnati, OH | <a href="https://careers.geaerospace.com/global/en/lift-summit"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 23 |
 | NASA L'SPACE Academy | Mission Concept Academy :us: | Program | Multiple Locations | <a href="https://www.lspace.asu.edu/mission-concept-academy"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
@@ -116,6 +121,7 @@ To contribute:
 | Silicon Valley Community Foundation | Latinos in Technology Scholarship | Up to $18,000 | <a href="https://www.svcf.org/scholarships/latinos-in-technology-scholarship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Check Portal |
 | The Executive Leadership Council | ELC Scholarship Program :lock: | Varies | :lock: | Closed |
 | TIAA | TIAA First-Generation Scholarship :lock: | $5,000 - $10,000 | :lock: | Closed (Feb 26) |
+| Scholarship America | Next Gen Scholarship | Varies | <a href="https://scholarshipamerica.org/scholarship/next-gen/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 27, 2026 |
 | Western Digital | Western Digital STEM Scholarship | $5,000 | <a href="https://scholarshipamerica.org/scholarship/westerndigital-stem/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 1, 2026 |
 | CopperPoint Insurance | CopperPoint Community Scholarship :lock: | Varies | :lock: | Closed |
 | Feeding Student Success | Feeding Student Success Scholarship 2026-27 :lock: | Varies | :lock: | Closed (Feb 13) |
