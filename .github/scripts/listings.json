@@ -1218,5 +1218,116 @@
     "date_posted": 1773959230,
     "date_updated": 1773959230,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "b1e2f3a4-5c6d-7e8f-9a0b-c1d2e3f4a5b6",
+    "company_name": "Global Career Accelerator",
+    "title": "Career Accelerator Program",
+    "url": "https://globalcareeraccelerator.org/app/events/9b62dcae-3ad1-4c5e-a638-ef6c68dcffc7",
+    "locations": [
+      "Virtual"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "c2d3e4f5-6a7b-8c9d-0e1f-a2b3c4d5e6f7",
+    "company_name": "WomenTech Network",
+    "title": "Women in Tech Global Conference 2026",
+    "url": "https://www.womentech.net/women-tech-conference",
+    "locations": [
+      "Virtual + Multiple Cities"
+    ],
+    "season": "Summer 2026",
+    "category": "Program",
+    "opportunity_type": "Conference",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "d3e4f5a6-7b8c-9d0e-1f2a-b3c4d5e6f7a8",
+    "company_name": "Outreachy",
+    "title": "Open Source Internship - May 2026",
+    "url": "https://www.outreachy.org/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer 2026",
+    "category": "Program",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e4f5a6b7-8c9d-0e1f-2a3b-c4d5e6f7a8b9",
+    "company_name": "Rewriting the Code",
+    "title": "RTC Fellowship Program",
+    "url": "https://rewritingthecode.org/fellowship/",
+    "locations": [
+      "United States",
+      "Canada"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Fellowship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "f5a6b7c8-9d0e-1f2a-3b4c-d5e6f7a8b9c0",
+    "company_name": "WomenHack",
+    "title": "Women in Tech Career Fair",
+    "url": "https://womenhack.com/events/",
+    "locations": [
+      "Multiple US Cities"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Career Fair",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
