@@ -1351,5 +1351,27 @@
     "date_posted": 1773964879,
     "date_updated": 1773964879,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "87e22d69-f5a3-4864-8d1b-0fe2555b794a",
+    "company_name": "jpmc",
+    "title": "Yello",
+    "url": "https://jpmc.recsolu.com/app/collect/event/GaamTSfcuXEJCSA0ltQoiA?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnbtcmyyXdutS2-om-SMwc1gFzSVorVf6ZgPhixGpkdBPscRoVPVmdceBQAuo_aem_X8ENLiu1zLTewmMJvlp8GQ",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1773981080,
+    "date_updated": 1773981080,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
