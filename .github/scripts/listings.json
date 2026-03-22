@@ -1169,7 +1169,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "U.S. Citizenship Required",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1771896720,
     "date_updated": 1771896720,
@@ -1394,6 +1394,27 @@
     "is_visible": true,
     "date_posted": 1774041985,
     "date_updated": 1774041985,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+    "company_name": "Wells Fargo",
+    "title": "CTRL Your Career Tech Summit - Sophomore Edition",
+    "url": "https://talent.wellsfargojobs.com/flows/ctrl-your-career-wells-fargo-tech-summit-sophomore-edition-v_qkasi-v",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Tech Summit",
+    "target_year": [
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774396800,
+    "date_updated": 1774396800,
     "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
