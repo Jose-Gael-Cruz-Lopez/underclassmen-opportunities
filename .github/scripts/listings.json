@@ -1416,5 +1416,71 @@
     "date_posted": 1774396800,
     "date_updated": 1774396800,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "c7d8e9f0-1a2b-3c4d-5e6f-7a8b9c0d1e2f",
+    "company_name": "CrowdStrike",
+    "title": "Next Gen Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/next-gen/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Spring",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "d8e9f0a1-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+    "company_name": "SACNAS",
+    "title": "2026 SACNAS Annual Conference - Research Presentations",
+    "url": "https://www.sacnas.org/conference/research-presentations",
+    "locations": [
+      "Long Beach, CA"
+    ],
+    "season": "Fall",
+    "category": "Research",
+    "opportunity_type": "Conference / Research Presentation",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e9f0a1b2-3c4d-5e6f-7a8b-9c0d1e2f3a4b",
+    "company_name": "Micron",
+    "title": "Intern - Automation",
+    "url": "https://micron.eightfold.ai/careers?pid=40815481",
+    "locations": [
+      "Boise, ID"
+    ],
+    "season": "Summer",
+    "category": "Internship",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]

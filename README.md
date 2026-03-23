@@ -39,6 +39,7 @@ To contribute:
 | Five Rings LLC | Winter Intern 2027 - Quantitative Trader | New York | <a href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5122638008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 20 |
 | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20 |
 | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 :lock: | Los Angeles, CA, Seattle, WA, Tempe, AZ | :lock: | Feb 19 |
+| Micron | Intern - Automation | Boise, ID | <a href="https://micron.eightfold.ai/careers?pid=40815481"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 23 |
 <!-- INTERNSHIPS_TABLE_END -->
 
 ---
@@ -104,6 +105,7 @@ To contribute:
 | UChicago | Data Science Institute Summer Lab :lock: | Data Science | Chicago, IL | :lock: | Feb 19 |
 | UMBC | NSF Big Data REU Site :lock: | Big Data, Data Science | Remote | :lock: | Feb 19 |
 | USC Viterbi | CURVE - Center for Undergraduate Research in Viterbi Engineering :lock: | Computer Science, Engineering | Los Angeles, CA | :lock: | Feb 19 |
+| SACNAS | 2026 SACNAS Annual Conference - Research Presentations | STEM | Long Beach, CA | <a href="https://www.sacnas.org/conference/research-presentations"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 23 |
 <!-- RESEARCH_TABLE_END -->
 
 ---
@@ -115,6 +117,7 @@ To contribute:
 <!-- SCHOLARSHIPS_TABLE_START -->
 | Organization | Scholarship | Amount | Application | Deadline |
 | ------------ | ----------- | ------ | ----------- | -------- |
+| CrowdStrike | Next Gen Scholarship | $2,500 - $10,000 | <a href="https://scholarshipamerica.org/scholarship/next-gen/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 27, 2026 |
 | Advancing Women in Technology | AWT Scholarship 2026 | Varies | <a href="https://apply.mykaleidoscope.com/program/AWTScholarship2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Check Portal |
 | Chime | Chime Scholars Foundation | Up to $20,000 | <a href="https://www.chime.com/about-us/chime-scholars-foundation/#interested-in-applying"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 31, 2026 |
 | Guild Giving Foundation | Guild Giving National Scholarship | $1,500 | <a href="https://scholarshipamerica.org/scholarship/guildgiving/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 10, 2026 |
