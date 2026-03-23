@@ -1482,5 +1482,27 @@
     "date_posted": 1774224000,
     "date_updated": 1774224000,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "f0a1b2c3-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
+    "company_name": "UNCF",
+    "title": "HBCU Future Leaders Institute",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeHWN1F69NwYttH5CGp5ir4bfd_4ZdIMvu86KFyutVLbi59kA/viewform",
+    "locations": [
+      "Atlanta, GA"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Leadership Institute",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
