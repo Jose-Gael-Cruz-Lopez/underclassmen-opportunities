@@ -1,19 +1,1508 @@
 [
   {
-    "id": "chewy-swe-intern-2026",
-    "company_name": "Chewy Inc",
-    "title": "Software Engineer I Intern",
-    "url": "https://careers.chewy.com/us/en/job/R28466/Software-Engineer-I-Intern",
-    "locations": ["Boston, MA"],
-    "season": "Summer",
-    "category": "Internship",
-    "opportunity_type": "Internship",
-    "target_year": ["Freshman (1st year)", "Sophomore (2nd year)"],
+    "id": "0dc46dd8-6430-4fbe-9db4-2e9cbce64846",
+    "company_name": "American Express",
+    "title": "Campus Opportunities",
+    "url": "https://aexp.eightfold.ai/careers?Role+Type=campus&intlink=us-amex-career-en-us-GlobalStudentsPage-Explore-student-opportunities&hl=en",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Campus Opportunities",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1770212009,
+    "date_updated": 1770212009,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "9b856d73-9fd2-40b9-8a5a-b4b4c4dc612f",
+    "company_name": "GirlsWhoML",
+    "title": "Thinking About Thinking 2026 Ambassador Programme",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfh6jXrV8-2rtNAhmLDG8vnH7X683aVc-hkqHLjrMVfJV7Z0w/viewform",
+    "locations": [
+      "London, UK"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Ambassador Programme",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
     "sponsorship": "Not Specified",
     "active": true,
     "is_visible": true,
-    "date_posted": 1738713600,
-    "date_updated": 1738713600,
+    "date_posted": 1770212929,
+    "date_updated": 1770212929,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "28b62283-e73d-46c5-b399-be60d120a9a0",
+    "company_name": "EY",
+    "title": "EY Expedition",
+    "url": "https://globaleysurvey.ey.com/jfe/form/SV_3mIO8wUBMPW0234",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Not Specified",
+    "category": "Program",
+    "opportunity_type": "Not Specified",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1770214603,
+    "date_updated": 1770214603,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e885f1f7-e9d9-4fa9-8cd3-14aa7e4168ac",
+    "company_name": "Citadel",
+    "title": "Fixed Income and Macro Central Bank Challenge",
+    "url": "https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/",
+    "locations": [
+      "New York",
+      "London"
+    ],
+    "season": "Spring",
+    "category": "Program",
+    "opportunity_type": "Competition",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Offers Sponsorship",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1770687093,
+    "date_updated": 1770687093,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "ce3a9d48-cd5a-450c-8172-8293868bfff3",
+    "company_name": "AI4ALL",
+    "title": "AI4ALL Ignite",
+    "url": "https://ai-4-all.org/ai4all-ignite/",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Career Accelerator",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1770687334,
+    "date_updated": 1770687334,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e9d6dbc1-f17d-44de-bdc8-28f47f8a6aa2",
+    "company_name": "Hudson River Trading",
+    "title": "Explore HRT - NYC",
+    "url": "https://www.hudsonrivertrading.com/hrt-job/explore-hrt-nyc/?gh_src=1117c3661us%3Futm_medium%3Dsocial",
+    "locations": [
+      "New York, NY"
+    ],
+    "season": "Spring",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Offers Sponsorship",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771554675,
+    "date_updated": 1771554675,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "126bb08d-4b4b-4a55-a60a-174e3859b7f6",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 Miami",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964259&domain=mlp.com",
+    "locations": [
+      "Miami, FL"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "cd3230f3-61d7-4628-9d01-c6ca533d519a",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 London",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964269&domain=mlp.com",
+    "locations": [
+      "London, UK"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "ff7f75d5-a542-4dbb-9e84-41bb4bb5bc6a",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 Singapore",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964303&domain=mlp.com",
+    "locations": [
+      "Singapore"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "0083557d-c132-45a9-a186-511f64086351",
+    "company_name": "Millennium",
+    "title": "Meet Millennium 2026 Bangalore",
+    "url": "https://campusjobs.mlp.com/careers/job?pid=755953964353&domain=mlp.com",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Networking Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555003,
+    "date_updated": 1771555003,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "94ac273b-ee01-4e33-b6fa-297d55cda097",
+    "company_name": "Liberty Mutual",
+    "title": "2026 Unite Summit - Exploratory Program",
+    "url": "https://campus-libertymutual.icims.com/jobs/74387/2026-unite-summit---exploratory-program/job",
+    "locations": [
+      "Boston, MA"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Discovery Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555150,
+    "date_updated": 1771555150,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "004f45ad-6a56-4a5f-b5ef-f2ab7dca02ce",
+    "company_name": "Deloitte",
+    "title": "Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026",
+    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Discovery-Intern-Sophomore-Junior-Business-Technology-Profile-Summer-2026/306703",
+    "locations": [
+      "Los Angeles, CA",
+      "Seattle, WA",
+      "Tempe, AZ"
+    ],
+    "season": "Summer",
+    "category": "Internship",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Sophomore (2nd year)",
+      "Junior (3rd year)"
+    ],
+    "sponsorship": "Offers Sponsorship",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555150,
+    "date_updated": 1771555150,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "b7af1611-f207-4a70-a238-8b25f9a5188a",
+    "company_name": "Salesforce",
+    "title": "Futureforce Tech Launchpad 2026",
+    "url": "https://info.codepath.org/futureforce-tech-launchpad",
+    "locations": [
+      "San Francisco, CA"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Pre-Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555150,
+    "date_updated": 1771555150,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "227143f9-5c61-497b-aece-f24e15ac04c7",
+    "company_name": "MPOWER Financing",
+    "title": "MPOWER Global Citizen Scholarship",
+    "url": "https://www.mpowerfinancing.com/scholarships",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "$1,000 - $8,000",
+    "deadline": "Aug 31, 2026"
+  },
+  {
+    "id": "a8c3c9e7-21f4-4d22-8b1b-df41329328df",
+    "company_name": "Scholarship America",
+    "title": "Dream Award",
+    "url": "https://scholarshipamerica.org/scholarship/dreamaward/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Up to $10,000/yr",
+    "deadline": "Closed"
+  },
+  {
+    "id": "d5b96ce4-efce-4ce5-975f-a5f75dca698b",
+    "company_name": "Global Game Jam",
+    "title": "GDC Festival of Games 2026 Scholarship",
+    "url": "https://globalgamejam.org/news/want-attend-gdc-festival-gaming-2026-apply-ggj-scholarship",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Varies",
+    "deadline": "Closed"
+  },
+  {
+    "id": "34a7b66a-3532-4e5b-963b-b77149fa30e0",
+    "company_name": "Advancing Women in Technology",
+    "title": "AWT Scholarship 2026",
+    "url": "https://apply.mykaleidoscope.com/program/AWTScholarship2026",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Varies",
+    "deadline": "Check Portal"
+  },
+  {
+    "id": "0624a91f-a402-42ee-b351-394d95183a31",
+    "company_name": "Silicon Valley Community Foundation",
+    "title": "Latinos in Technology Scholarship",
+    "url": "https://www.svcf.org/scholarships/latinos-in-technology-scholarship",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Up to $18,000",
+    "deadline": "Check Portal"
+  },
+  {
+    "id": "56d051b8-1679-4e4e-815b-cab567a8cc68",
+    "company_name": "Hispanic Scholarship Fund",
+    "title": "HSF Scholar Program 2026",
+    "url": "https://www.hsf.net/scholarship",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "$500 - $5,000",
+    "deadline": "Closed (Feb 15)"
+  },
+  {
+    "id": "1d10569d-aa69-4139-900b-21dbcc715075",
+    "company_name": "Chime",
+    "title": "Chime Scholars Foundation",
+    "url": "https://www.chime.com/about-us/chime-scholars-foundation/#interested-in-applying",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Up to $20,000",
+    "deadline": "Mar 31, 2026"
+  },
+  {
+    "id": "0bf844b6-0037-4ce3-88bc-bb28fe9aea15",
+    "company_name": "The Executive Leadership Council",
+    "title": "ELC Scholarship Program",
+    "url": "https://www.elcinfo.com/our-impact/elc-scholarship-program/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Varies",
+    "deadline": "Check Portal"
+  },
+  {
+    "id": "d47e77df-e88a-496c-8fb0-886c38d0032c",
+    "company_name": "Microsoft",
+    "title": "Black at Microsoft Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/black-at-microsoft/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "$2,500 - $5,000",
+    "deadline": "Closed (Mar 16)"
+  },
+  {
+    "id": "f7a6cc92-46cb-46a7-8c93-2aa403db45e6",
+    "company_name": "Obama Foundation",
+    "title": "Obama-Chesky Voyager Scholarship",
+    "url": "https://www.obama.org/programs/voyager-scholarship/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Up to $50,000+",
+    "deadline": "Closed (Mar 17)"
+  },
+  {
+    "id": "52839ec3-7dc6-40c7-80ca-c848269ef3c1",
+    "company_name": "Presidio",
+    "title": "Presidio Future Built Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/presidio/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Varies",
+    "deadline": "Closed"
+  },
+  {
+    "id": "aeba3352-874d-40d2-8d7c-f863d9634afa",
+    "company_name": "Feeding Student Success",
+    "title": "Feeding Student Success Scholarship 2026-27",
+    "url": "https://apply.mykaleidoscope.com/program/FeedingStudentSuccessScholarship2627",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Varies",
+    "deadline": "Closed (Feb 13)"
+  },
+  {
+    "id": "019ee19f-abfb-43fc-9664-a9aab7272fe4",
+    "company_name": "Last Mile Education Fund",
+    "title": "Last Mile Fund",
+    "url": "https://www.lastmile-ed.org/apply",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Up to $10,000",
+    "deadline": "Rolling"
+  },
+  {
+    "id": "e19b3271-2255-4d10-a4ff-9d1d3d44d11e",
+    "company_name": "TIAA",
+    "title": "TIAA First-Generation Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/tiaa/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "$5,000 - $10,000",
+    "deadline": "Closed (Feb 26)"
+  },
+  {
+    "id": "5c4c5d2c-27c3-4009-b0bf-4be6880f9ef0",
+    "company_name": "CopperPoint Insurance",
+    "title": "CopperPoint Community Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/copperpoint/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "Varies",
+    "deadline": "Closed"
+  },
+  {
+    "id": "81b69dc0-9b91-475e-821c-cbe960ff666b",
+    "company_name": "Invictus Capital Partners",
+    "title": "Invictus/Verus Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/invictuscp-verusmc/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "$5,000",
+    "deadline": "Closed (Mar 12)"
+  },
+  {
+    "id": "fbf5cf97-772b-4644-aa5a-cb23c5d144ef",
+    "company_name": "Guild Giving Foundation",
+    "title": "Guild Giving National Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/guildgiving/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "$1,500",
+    "deadline": "Apr 10, 2026"
+  },
+  {
+    "id": "6b14c223-4da1-470b-ab18-9ba53c7de15e",
+    "company_name": "Western Digital",
+    "title": "Western Digital STEM Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/westerndigital-stem/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771555523,
+    "date_updated": 1771555523,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "scholarship_amount": "$5,000",
+    "deadline": "Apr 1, 2026"
+  },
+  {
+    "id": "7dd973e6-fec2-4e4b-8460-7d147772699f",
+    "company_name": "Carnegie Mellon University",
+    "title": "REUSE - Research Experiences for Undergraduates in Software Engineering",
+    "url": "https://reuse.cs.cmu.edu/",
+    "locations": [
+      "Pittsburgh, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Software Engineering, ML, Security"
+  },
+  {
+    "id": "91081a92-2df5-42f4-801b-2a14aa149916",
+    "company_name": "Carnegie Mellon University",
+    "title": "SPUR - Security and Privacy Undergraduate Research Scholars",
+    "url": "https://www.cmu.edu/scs/s3d/reuse/spur/index.html",
+    "locations": [
+      "Pittsburgh, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Cybersecurity, Privacy"
+  },
+  {
+    "id": "a9fa0bd0-2810-42d9-94a5-a8c28af71b74",
+    "company_name": "UMBC",
+    "title": "NSF Big Data REU Site",
+    "url": "https://bigdatareu.umbc.edu/2026-program-and-application/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Big Data, Data Science"
+  },
+  {
+    "id": "8dc656fd-7d0f-473a-b2e4-42a7d9862ca4",
+    "company_name": "University of Minnesota",
+    "title": "Computer Science REU",
+    "url": "https://reu.cs.umn.edu/apply",
+    "locations": [
+      "Minneapolis, MN"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science"
+  },
+  {
+    "id": "75b94036-882b-4463-903a-d864523eab4f",
+    "company_name": "Brown University",
+    "title": "NSF REU - AI for Computational Creativity",
+    "url": "http://aireu.cs.brown.edu/",
+    "locations": [
+      "Providence, RI"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Artificial Intelligence"
+  },
+  {
+    "id": "682609bb-8647-408d-a331-453c24540f12",
+    "company_name": "CRA-WP",
+    "title": "DREU - Distributed Research Experiences for Undergraduates",
+    "url": "https://cra.org/cra-wp/dreu/",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science, Computing"
+  },
+  {
+    "id": "93b3f0ec-2731-43d4-8999-df0be22753a8",
+    "company_name": "Caltech",
+    "title": "SURF - Summer Undergraduate Research Fellowship",
+    "url": "https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information",
+    "locations": [
+      "Pasadena, CA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science, Engineering, STEM"
+  },
+  {
+    "id": "5beaa1cc-8719-4e77-bffa-7d02c0d20380",
+    "company_name": "UChicago",
+    "title": "Data Science Institute Summer Lab",
+    "url": "https://datascience.uchicago.edu/education/summerlab",
+    "locations": [
+      "Chicago, IL"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Data Science"
+  },
+  {
+    "id": "a3899395-d456-4754-bc12-c14bf0f610d3",
+    "company_name": "Los Alamos National Laboratory",
+    "title": "Cyber Fire - Cybersecurity Science Research Program",
+    "url": "https://cyberfire.energy.gov/school/2026/research/",
+    "locations": [
+      "Los Alamos, NM"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Cybersecurity, AI/ML"
+  },
+  {
+    "id": "108fa5f5-c24d-45fb-8b56-d285178d6256",
+    "company_name": "USC Viterbi",
+    "title": "CURVE - Center for Undergraduate Research in Viterbi Engineering",
+    "url": "https://viterbiundergrad.usc.edu/research/curve/",
+    "locations": [
+      "Los Angeles, CA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science, Engineering"
+  },
+  {
+    "id": "760e2ed8-093b-4998-b2cd-18962eee0d6f",
+    "company_name": "LSU",
+    "title": "CCT Summer REU - Computational Research",
+    "url": "https://reu.cct.lsu.edu/",
+    "locations": [
+      "Baton Rouge, LA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "AI, Quantum Computing, Cybersecurity"
+  },
+  {
+    "id": "66aca640-b2af-45f6-95a9-0b2fbd52ec93",
+    "company_name": "Penn State University",
+    "title": "NSF REU - Machine Learning in Cybersecurity",
+    "url": "https://reu.ist.psu.edu/",
+    "locations": [
+      "University Park, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Machine Learning, Cybersecurity"
+  },
+  {
+    "id": "019f9bdc-9c30-4d68-93da-e903d4e8b0f0",
+    "company_name": "Temple University",
+    "title": "NSF REU - High Performance Computing Tools",
+    "url": "https://icmshpc.com/nsf/",
+    "locations": [
+      "Philadelphia, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "High Performance Computing"
+  },
+  {
+    "id": "4b449c3a-ef74-45bf-81ed-8752d47f3650",
+    "company_name": "Cornell University",
+    "title": "AI-MI Summer Undergraduate Research Program",
+    "url": "https://aimi.cornell.edu/surp/",
+    "locations": [
+      "Ithaca, NY"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "AI, Materials Science"
+  },
+  {
+    "id": "d6bd3d85-5124-44d4-80bb-b1d036f1afe3",
+    "company_name": "Carnegie Mellon University",
+    "title": "SURE - Summer Undergraduate Research Experience",
+    "url": "https://s3d.cmu.edu/sure/index.html",
+    "locations": [
+      "Pittsburgh, PA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556496,
+    "date_updated": 1771556496,
+    "source": "Jose-Gael-Cruz-Lopez",
+    "field": "Computer Science"
+  },
+  {
+    "id": "72dac9a0-6f5d-443d-8e69-dae32bbf6e3e",
+    "company_name": "AQR Capital Management",
+    "title": "AQR Discovery - Early Engagement Program",
+    "url": "https://careers.aqr.com/jobs/open-positions/greenwich-ct/aqr-discovery-early-engagement-program/7611807?gh_jid=7611807",
+    "locations": [
+      "Greenwich, CT"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Early Engagement Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771556788,
+    "date_updated": 1771556788,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "bef29bf0-f99a-44c9-8e43-5141f046c8e8",
+    "company_name": "NASA L'SPACE Academy",
+    "title": "Mission Concept Academy",
+    "url": "https://www.lspace.asu.edu/mission-concept-academy",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "U.S. Citizenship Required",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771561648,
+    "date_updated": 1771561648,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "d890f72b-0fbe-4a41-99c8-3851690a0e9e",
+    "company_name": "Five Rings LLC",
+    "title": "Winter Intern 2027 - Quantitative Trader",
+    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5122638008",
+    "locations": [
+      "New York"
+    ],
+    "season": "Winter",
+    "category": "Internship",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1771620245,
+    "date_updated": 1771620245,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "f91ed8be-5dd7-409d-91a2-c0db412a7577",
+    "company_name": "Schonfeld",
+    "title": "2026 Quantitative Developer Execution Services Sophomore Summer Internship",
+    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7610709?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnCtEZbo5KOgzp-DBgp1uzccq2z73pkNuongE54pgEPFLAMyfxOmbgSdP9Erw_aem_kVbDe9VdG2Y8z0exAIWAKw",
+    "locations": [
+      "New York, New York, United States"
+    ],
+    "season": "Summer",
+    "category": "Internship",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771620451,
+    "date_updated": 1771620451,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "9c7f4501-38a8-46e0-a937-baade1db9742",
+    "company_name": "GE Aerospace",
+    "title": "L.I.F.T. Summit",
+    "url": "https://careers.geaerospace.com/global/en/lift-summit",
+    "locations": [
+      "Cincinnati, OH"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Recruiting Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "U.S. Citizenship Required",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1771896720,
+    "date_updated": 1771896720,
+    "source": "liezeil"
+  },
+  {
+    "id": "01bcb318-2fb3-4735-a396-df4e5cb06596",
+    "company_name": "Hudson River Trading",
+    "title": "Inside HRT",
+    "url": "https://www.hudsonrivertrading.com/hrt-job/inside-hrt/",
+    "locations": [
+      "New York City, NY"
+    ],
+    "season": "Spring",
+    "category": "Program",
+    "opportunity_type": "Externship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1772685706,
+    "date_updated": 1772685706,
+    "source": "SebaCape"
+  },
+  {
+    "id": "a5430004-84a5-4b4e-992b-cdee162b3d96",
+    "company_name": "Fidelity Investments",
+    "title": "FidHacks",
+    "url": "https://fmr.co1.qualtrics.com/jfe/form/SV_0w6U13HT35susvQ?gh_src=Handshake&iisn=Handshake&iis=Handshake&src=Handshake&source=Handshake&ref=Handshake&referral=Handshake&__jvst=Handshake&__jvsd=Handshake&sourceDetails=Handshake&trid=Handshake&lever-source%5B%5D=Handshake&Source=Handshake&rb=Handshake&jobBoardSource=Handshake&channel=Handshake&rcid=Handshake",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Hackathon",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1773959230,
+    "date_updated": 1773959230,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "b1e2f3a4-5c6d-7e8f-9a0b-c1d2e3f4a5b6",
+    "company_name": "Global Career Accelerator",
+    "title": "Career Accelerator Program",
+    "url": "https://globalcareeraccelerator.org/app/events/9b62dcae-3ad1-4c5e-a638-ef6c68dcffc7",
+    "locations": [
+      "Virtual"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "c2d3e4f5-6a7b-8c9d-0e1f-a2b3c4d5e6f7",
+    "company_name": "WomenTech Network",
+    "title": "Women in Tech Global Conference 2026",
+    "url": "https://www.womentech.net/women-tech-conference",
+    "locations": [
+      "Virtual + Multiple Cities"
+    ],
+    "season": "Summer 2026",
+    "category": "Program",
+    "opportunity_type": "Conference",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "d3e4f5a6-7b8c-9d0e-1f2a-b3c4d5e6f7a8",
+    "company_name": "Outreachy",
+    "title": "Open Source Internship - May 2026",
+    "url": "https://www.outreachy.org/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer 2026",
+    "category": "Program",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e4f5a6b7-8c9d-0e1f-2a3b-c4d5e6f7a8b9",
+    "company_name": "Rewriting the Code",
+    "title": "RTC Fellowship Program",
+    "url": "https://rewritingthecode.org/fellowship/",
+    "locations": [
+      "United States",
+      "Canada"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Fellowship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "f5a6b7c8-9d0e-1f2a-3b4c-d5e6f7a8b9c0",
+    "company_name": "WomenHack",
+    "title": "Women in Tech Career Fair",
+    "url": "https://womenhack.com/events/",
+    "locations": [
+      "Multiple US Cities"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Career Fair",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774044000,
+    "date_updated": 1774044000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "0c645219-ef5a-4ce2-ab1b-968f9e94630e",
+    "company_name": "Kohl's",
+    "title": "Emerging Talent Summit",
+    "url": "https://careers.kohls.com/internships/emerging-talent-summit",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1773964879,
+    "date_updated": 1773964879,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "87e22d69-f5a3-4864-8d1b-0fe2555b794a",
+    "company_name": "jpmc",
+    "title": "Yello",
+    "url": "https://jpmc.recsolu.com/app/collect/event/GaamTSfcuXEJCSA0ltQoiA?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnbtcmyyXdutS2-om-SMwc1gFzSVorVf6ZgPhixGpkdBPscRoVPVmdceBQAuo_aem_X8ENLiu1zLTewmMJvlp8GQ",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1773981080,
+    "date_updated": 1773981080,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "a7d0d094-13e1-4b66-9c00-16e216b2840b",
+    "company_name": "Nike",
+    "title": "Yello",
+    "url": "https://nike.recsolu.com/app/collect/event/974UJGB_-KHxLIGzGEzQhg?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnEJwpmrGoNKX55J_-FC1qS5CHyplAbjAXNJ7rsF50GNFVzB7SYihMT-LF8nk_aem_f1EPeZPImWuAl49GlXni0g",
+    "locations": [
+      "Multiple Locations"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774041985,
+    "date_updated": 1774041985,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+    "company_name": "Wells Fargo",
+    "title": "CTRL Your Career Tech Summit - Sophomore Edition",
+    "url": "https://talent.wellsfargojobs.com/flows/ctrl-your-career-wells-fargo-tech-summit-sophomore-edition-v_qkasi-v",
+    "locations": [
+      "United States"
+    ],
+    "season": "Multiple",
+    "category": "Program",
+    "opportunity_type": "Tech Summit",
+    "target_year": [
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774396800,
+    "date_updated": 1774396800,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "c7d8e9f0-1a2b-3c4d-5e6f-7a8b9c0d1e2f",
+    "company_name": "CrowdStrike",
+    "title": "Next Gen Scholarship",
+    "url": "https://scholarshipamerica.org/scholarship/next-gen/",
+    "locations": [
+      "United States"
+    ],
+    "season": "Spring",
+    "category": "Scholarship",
+    "opportunity_type": "Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "d8e9f0a1-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+    "company_name": "SACNAS",
+    "title": "2026 SACNAS Annual Conference - Research Presentations",
+    "url": "https://www.sacnas.org/conference/research-presentations",
+    "locations": [
+      "Long Beach, CA"
+    ],
+    "season": "Fall",
+    "category": "Research",
+    "opportunity_type": "Conference / Research Presentation",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e9f0a1b2-3c4d-5e6f-7a8b-9c0d1e2f3a4b",
+    "company_name": "Micron",
+    "title": "Intern - Automation",
+    "url": "https://micron.eightfold.ai/careers?pid=40815481",
+    "locations": [
+      "Boise, ID"
+    ],
+    "season": "Summer",
+    "category": "Internship",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "f0a1b2c3-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
+    "company_name": "UNCF",
+    "title": "HBCU Future Leaders Institute",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeHWN1F69NwYttH5CGp5ir4bfd_4ZdIMvu86KFyutVLbi59kA/viewform",
+    "locations": [
+      "Atlanta, GA"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Leadership Institute",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774224000,
+    "date_updated": 1774224000,
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
@@ -21,11 +1510,18 @@
     "company_name": "Partiful",
     "title": "Campus Growth Manager",
     "url": "https://jobs.ashbyhq.com/partiful/af908f89-626d-4d26-a851-a39ba62737ff",
-    "locations": ["Remote, US"],
+    "locations": [
+      "Remote, US"
+    ],
     "season": "Spring",
     "category": "Internship",
     "opportunity_type": "Internship",
-    "target_year": ["Freshman (1st year)", "Sophomore (2nd year)", "Junior (3rd year)", "Senior (4th year)"],
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
     "sponsorship": "Not Specified",
     "active": true,
     "is_visible": true,
@@ -38,11 +1534,18 @@
     "company_name": "Google",
     "title": "Google Summer of Code 2026",
     "url": "https://summerofcode.withgoogle.com/programs/2026",
-    "locations": ["Remote"],
+    "locations": [
+      "Remote"
+    ],
     "season": "Summer",
     "category": "Program",
     "opportunity_type": "Fellowship",
-    "target_year": ["Freshman (1st year)", "Sophomore (2nd year)", "Junior (3rd year)", "Senior (4th year)"],
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
     "sponsorship": "Not Specified",
     "active": true,
     "is_visible": true,
@@ -55,11 +1558,18 @@
     "company_name": "MLH (Major League Hacking)",
     "title": "MLH Fellowship",
     "url": "https://fellowship.mlh.io/",
-    "locations": ["Remote"],
+    "locations": [
+      "Remote"
+    ],
     "season": "Summer",
     "category": "Program",
     "opportunity_type": "Fellowship",
-    "target_year": ["Freshman (1st year)", "Sophomore (2nd year)", "Junior (3rd year)", "Senior (4th year)"],
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
     "sponsorship": "Not Specified",
     "active": true,
     "is_visible": true,
@@ -72,12 +1582,19 @@
     "company_name": "MIT Libraries",
     "title": "Women@MIT Fellowship",
     "url": "https://libguides.mit.edu/c.php?g=991573&p=10064824",
-    "locations": ["Cambridge, MA"],
+    "locations": [
+      "Cambridge, MA"
+    ],
     "season": "Summer",
     "category": "Research",
     "opportunity_type": "Research Fellowship",
     "field": "Women's History / STEM",
-    "target_year": ["Freshman (1st year)", "Sophomore (2nd year)", "Junior (3rd year)", "Senior (4th year)"],
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
     "sponsorship": "Not Specified",
     "active": true,
     "is_visible": true,
@@ -90,11 +1607,15 @@
     "company_name": "Students Rising Above (SRA)",
     "title": "SOAR First-Year Program",
     "url": "https://sra.tfaforms.net/f/26_FirstYearSOAR",
-    "locations": ["Remote, US"],
+    "locations": [
+      "Remote, US"
+    ],
     "season": "Year-Round",
     "category": "Program",
     "opportunity_type": "Mentorship Program",
-    "target_year": ["Freshman (1st year)"],
+    "target_year": [
+      "Freshman (1st year)"
+    ],
     "sponsorship": "Not Specified",
     "active": true,
     "is_visible": true,

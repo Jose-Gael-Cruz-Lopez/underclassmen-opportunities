@@ -96,9 +96,9 @@ body:
       label: Location
       description: |
         Where is the opportunity located?
-        Please separate locations with a pipe "|" if there are multiple options.
+        Please separate multiple locations with a comma.
         Include Remote if remote option available.
-      placeholder: San Francisco, CA | Seattle, WA | Remote
+      placeholder: San Francisco, CA; Seattle, WA; Remote
     validations:
       required: true
 

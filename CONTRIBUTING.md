@@ -17,7 +17,8 @@ The easiest way to contribute:
 - Company name
 - Role/Program title
 - Location
-- Category (Internship/Program/Research)
+- Category (Internship/Program/Research/Scholarship)
+- Deadline
 - Season
 - Sponsorship info
 
@@ -33,33 +34,42 @@ The easiest way to contribute:
 
 ## What Qualifies as an Underclassmen Opportunity?
 
-This repository is **specifically for programs that target first and second-year students**. Examples include:
+This repository is **specifically for programs that target freshmen and sophomores**—students who are typically in their first or second year of college.
 
-- **Google STEP** - Student Training in Engineering Program for 1st/2nd year students
-- **Microsoft Explore** - Designed for freshmen and sophomores
-- **Meta University** - For students early in their college career
-- **Bank of America Freshman Analyst** - Explicitly for first-year students
-- **Fellowships** like Code2040, MLH Fellowship that welcome underclassmen
-- **Research programs** like REU, SURF that accept underclassmen
+### Target Classes
+
+Opportunities submitted here should be designed for:
+- **Class of 2028** (current freshmen)
+- **Class of 2029** (current sophomores)
+
+These are programs explicitly restricted to students early in their college career. If an opportunity is open to juniors, seniors, or anyone regardless of year, it belongs in [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead.
+
+### Examples of What We Include
+
+- **Microsoft Explore** - Designed specifically for freshmen and sophomores
+- **Fellowships** like Code2040, MLH Fellowship that explicitly welcome underclassmen
+- **Research programs** like REU, SURF that accept first and second-year students
+- **Early talent/development programs** that restrict applications to classes 2028 or 2029
 
 ### What Does NOT Belong Here
 
-- General internships open to all years (use [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead)
-- Opportunities requiring junior/senior standing
-- Full-time/new-grad positions
-- Opportunities requiring significant prior experience
+- **General internships open to all years** - Use [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead
+- **Opportunities accepting juniors or seniors** - These belong in the general listings
+- **Full-time/new-grad positions** - For graduating students
+- **Opportunities requiring significant prior experience** - Underclassmen programs should be accessible to early students
 
 ---
 
 ## Categories
 
-Opportunities are organized into three sections:
+Opportunities are organized into four sections:
 
 | Category | Description | Examples |
 |----------|-------------|----------|
-| **Internship** | Traditional internship programs for underclassmen | STEP, Explore, Meta University |
+| **Internship** | Traditional internship programs for underclassmen | Early talent programs from smaller companies |
 | **Program** | Fellowships, externships, bootcamps | Code2040, MLH Fellowship, SEO Tech |
 | **Research** | University/lab research programs | REU, SURF, NASA OSSI |
+| **Scholarship** | Financial awards for underclassmen in tech | Company-sponsored scholarships |
 
 ---
 
@@ -74,21 +84,9 @@ Opportunities are organized into three sections:
 
 ### Editing (Information Changed)
 
-1. Go to **Issues** → **New Issue**
-2. Select **Edit Opportunity**
-3. Provide the URL and describe changes needed
-4. Submit
-
----
-
-## For Maintainers: Setup
-
-To enable AI auto-extraction, add an OpenAI API key:
-
-1. Go to **Settings** → **Secrets and variables** → **Actions**
-2. Click **New repository secret**
-3. Name: `OPENAI_API_KEY`
-4. Value: Your OpenAI API key
+Editing via issues is not currently supported. To update a listing:
+1. Open a **Close Opportunity** issue to remove the old listing
+2. Open a new **Add Opportunity** issue with the corrected details
 
 ---
 

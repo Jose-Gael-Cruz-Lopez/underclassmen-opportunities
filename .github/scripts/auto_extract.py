@@ -27,33 +27,85 @@ except ImportError:
 def fetch_page_content(url):
     """Fetch and parse webpage content."""
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
     }
 
     try:
-        response = requests.get(url, headers=headers, timeout=30, allow_redirects=True)
+        try:
+            response = requests.get(url, headers=headers, timeout=30, allow_redirects=True)
+        except requests.exceptions.SSLError:
+            print(f"SSL verification failed for {url}, retrying without verification...")
+            response = requests.get(url, headers=headers, timeout=30, allow_redirects=True, verify=False)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")
 
-        # Remove script and style elements
-        for script in soup(["script", "style", "nav", "footer", "header", "noscript"]):
-            script.decompose()
+        # Extract metadata before removing elements
+        meta_description = ""
+        meta_tag = soup.find("meta", attrs={"name": "description"})
+        if meta_tag:
+            meta_description = meta_tag.get("content", "")
+        og_title = ""
+        og_tag = soup.find("meta", attrs={"property": "og:title"})
+        if og_tag:
+            og_title = og_tag.get("content", "")
+        og_desc = ""
+        og_desc_tag = soup.find("meta", attrs={"property": "og:description"})
+        if og_desc_tag:
+            og_desc = og_desc_tag.get("content", "")
 
-        # Get text content
+        # Extract JSON-LD structured data (many job sites embed this)
+        json_ld_text = ""
+        for script_tag in soup.find_all("script", type="application/ld+json"):
+            try:
+                ld_data = json.loads(script_tag.string or "")
+                json_ld_text = json.dumps(ld_data, indent=2)[:4000]
+            except (json.JSONDecodeError, TypeError):
+                pass
+
+        title_tag = soup.find("title")
+        page_title = title_tag.get_text() if title_tag else og_title
+
+        # Remove non-content elements
+        for el in soup(["script", "style", "nav", "footer", "header", "noscript", "iframe"]):
+            el.decompose()
+
         text = soup.get_text(separator="\n", strip=True)
 
-        # Clean up whitespace
         lines = [line.strip() for line in text.splitlines() if line.strip()]
         text = "\n".join(lines)
 
-        # Truncate if too long (for API limits)
+        # Prepend metadata for better AI extraction context
+        metadata_parts = []
+        if meta_description:
+            metadata_parts.append(f"Meta Description: {meta_description}")
+        if og_title and og_title != page_title:
+            metadata_parts.append(f"OG Title: {og_title}")
+        if og_desc and og_desc != meta_description:
+            metadata_parts.append(f"OG Description: {og_desc}")
+        if json_ld_text:
+            metadata_parts.append(f"Structured Data:\n{json_ld_text}")
+
+        if metadata_parts:
+            metadata_block = "\n".join(metadata_parts) + "\n\n---\n\n"
+            text = metadata_block + text
+
         if len(text) > 12000:
             text = text[:12000] + "\n...[truncated]"
 
-        # Also get the title
-        title_tag = soup.find("title")
-        page_title = title_tag.get_text() if title_tag else ""
+        # If very little text was extracted, the page likely requires JS rendering
+        if len(text.strip()) < 200:
+            text = (
+                f"[Page requires JavaScript to render. Limited content available.]\n"
+                f"URL: {url}\n"
+                f"Page Title: {page_title}\n"
+                f"Meta Description: {meta_description}\n"
+                f"OG Title: {og_title}\n"
+                f"OG Description: {og_desc}\n"
+                f"{text}"
+            )
 
         return {
             "text": text,
@@ -94,7 +146,7 @@ Page Content:
 ---
 
 Extract and return a JSON object with these fields:
-- company_name: The company or organization name
+- company_name: The company or organization name (extract from URL domain if not found in content)
 - title: The role/program title (e.g., "STEP Intern", "Explore Program", "REU")
 - locations: Array of locations (e.g., ["San Francisco, CA", "Remote"]). Use ["Multiple Locations"] if many or unspecified.
 - category: One of "Internship", "Program", or "Research"
@@ -105,9 +157,11 @@ Extract and return a JSON object with these fields:
 - field: For research programs, what field (e.g., "Computer Science", "STEM"). Empty string for non-research.
 - season: "Summer", "Fall", "Winter", "Spring", or "Multiple"
 - sponsorship: "Offers Sponsorship", "Does Not Offer Sponsorship", "U.S. Citizenship Required", or "Not Specified"
-- is_underclassmen: true if this is specifically for freshmen/sophomores, false otherwise
+- is_underclassmen: true if this opportunity is open to or targeted at freshmen/sophomores, false only if it explicitly requires juniors/seniors/graduates
 
-IMPORTANT: Only set is_underclassmen to true if the posting EXPLICITLY mentions it's for freshmen, sophomores, first-year, second-year, or underclassmen students.
+For is_underclassmen: set to true if the posting mentions freshmen, sophomores, first-year, second-year, underclassmen, "all class years", or does NOT specify a class year requirement. Only set to false if the posting explicitly requires junior, senior, or graduate standing.
+
+If the page content is limited (JavaScript-rendered page), do your best to extract from the URL, page title, meta descriptions, and any available structured data. Make reasonable inferences for the company name from the URL domain.
 
 Return ONLY valid JSON, no other text."""
 
@@ -236,26 +290,66 @@ def main():
 
     print(f"Extracted: {json.dumps(extracted, indent=2)}")
 
-    # Check if it's actually for underclassmen
-    if not extracted.get("is_underclassmen", False):
-        util.set_output("warning", "This opportunity may not be specifically for underclassmen. Please verify.")
-        print("WARNING: This may not be an underclassmen-specific opportunity!")
+    # Validate extracted data
+    company_name = extracted.get("company_name", "").strip()
+    title = extracted.get("title", "").strip()
+    locations = extracted.get("locations", [])
+    category = extracted.get("category", "")
 
-    # Check for duplicates
+    if not company_name or company_name == "Unknown":
+        util.fail("AI extraction failed: could not determine the company name. Please use the Quick Add template instead.")
+    if not title or title == "Unknown":
+        util.fail("AI extraction failed: could not determine the role/program title. Please use the Quick Add template instead.")
+    if not isinstance(locations, list) or len(locations) == 0:
+        locations = ["Multiple Locations"]
+    if category not in util.VALID_CATEGORIES:
+        util.fail(f"AI extraction returned invalid category '{category}'. Expected one of: {util.VALID_CATEGORIES}. Please use the Quick Add template instead.")
+
+    # Sanitize locations — remove any that look like URLs or HTML
+    clean_locations = []
+    for loc in locations:
+        loc = loc.strip()
+        if loc and not loc.startswith("http") and "<" not in loc:
+            clean_locations.append(loc)
+    if not clean_locations:
+        clean_locations = ["Multiple Locations"]
+    locations = clean_locations
+
+    # Warn if not confirmed as underclassmen-specific, but still proceed
+    # since a maintainer already approved the issue
+    warning_msg = ""
+    if not extracted.get("is_underclassmen", False):
+        warning_msg = "AI did not confirm this is specifically for underclassmen. A maintainer approved it, so it was added anyway. Please verify and remove if incorrect."
+        print(f"WARNING: {warning_msg}")
+
+    # Check for duplicates (by URL or by company+title)
     listings = util.get_listings_from_json()
     for listing in listings:
         if listing["url"] == url:
-            util.fail(f"Duplicate: This opportunity already exists (ID: {listing['id']})")
+            util.set_output("is_duplicate", "true")
+            util.set_output("duplicate_id", listing["id"])
+            util.set_output("duplicate_reason", f"This URL already exists in the repository")
+            util.set_output("commit_message", "")
+            print(f"DUPLICATE DETECTED: URL already exists (ID: {listing['id']})")
+            sys.exit(0)
+        if (listing["company_name"].lower() == company_name.lower() and
+                listing["title"].lower() == title.lower()):
+            util.set_output("is_duplicate", "true")
+            util.set_output("duplicate_id", listing["id"])
+            util.set_output("duplicate_reason", f"'{company_name} - {title}' already exists in the repository")
+            util.set_output("commit_message", "")
+            print(f"DUPLICATE DETECTED: {company_name} - {title} already exists (ID: {listing['id']})")
+            sys.exit(0)
 
     # Create the listing
     new_listing = {
         "id": util.generate_uuid(),
-        "company_name": extracted.get("company_name", "Unknown"),
-        "title": extracted.get("title", "Unknown"),
+        "company_name": company_name,
+        "title": title,
         "url": url,
-        "locations": extracted.get("locations", ["Multiple Locations"]),
+        "locations": locations,
         "season": extracted.get("season", "Summer"),
-        "category": extracted.get("category", "Internship"),
+        "category": category,
         "opportunity_type": extracted.get("opportunity_type", "Internship"),
         "target_year": ["Freshman (1st year)", "Sophomore (2nd year)"],
         "sponsorship": extracted.get("sponsorship", "Not Specified"),
@@ -267,7 +361,7 @@ def main():
     }
 
     # Add field for research
-    if extracted.get("category") == "Research" and extracted.get("field"):
+    if category == "Research" and extracted.get("field"):
         new_listing["field"] = extracted["field"]
 
     # Save
@@ -281,6 +375,8 @@ def main():
     util.set_output("contributor_name", username)
     util.set_output("contributor_email", "actions@github.com")
     util.set_output("extracted_data", json.dumps(extracted))
+    if warning_msg:
+        util.set_output("warning", warning_msg)
 
     print(f"Successfully added: {company} - {title}")
 

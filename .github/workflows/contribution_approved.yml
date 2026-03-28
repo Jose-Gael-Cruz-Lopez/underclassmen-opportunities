@@ -10,7 +10,8 @@ concurrency:
 
 jobs:
   process-contribution:
-    if: github.event.label.name == 'approved'
+    # Only run for non-auto_extract issues (manual submissions)
+    if: github.event.label.name == 'approved' && !contains(github.event.issue.labels.*.name, 'auto_extract') && contains(github.event.issue.labels.*.name, 'approved')
     runs-on: ubuntu-latest
 
     steps:
@@ -43,7 +44,12 @@ jobs:
         run: |
           git add .github/scripts/listings.json README.md
           git commit -m "${{ steps.process.outputs.commit_message }}"
-          git push origin main
+          # Rebase and retry push up to 3 times
+          for i in 1 2 3; do
+            git fetch origin main && git rebase origin/main && git push origin main && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 2
+          done
 
       - name: Close issue with success message
         if: success()

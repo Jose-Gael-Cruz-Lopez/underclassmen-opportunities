@@ -42,7 +42,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "${{ steps.update.outputs.commit_message }}"
-          git push origin main
+          for i in 1 2 3; do
+            git fetch origin main && git rebase origin/main && git push origin main && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 2
+          done
 
       - name: Report failure
         if: failure()
