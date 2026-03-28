@@ -40,6 +40,7 @@ To contribute:
 | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20 |
 | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 :lock: | Los Angeles, CA, Seattle, WA, Tempe, AZ | :lock: | Feb 19 |
 | Micron | Intern - Automation | Boise, ID | <a href="https://micron.eightfold.ai/careers?pid=40815481"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 23 |
+| Partiful | Campus Growth Manager | Remote, US | <a href="https://jobs.ashbyhq.com/partiful/af908f89-626d-4d26-a851-a39ba62737ff"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
 <!-- INTERNSHIPS_TABLE_END -->
 
 ---
@@ -79,6 +80,9 @@ To contribute:
 | Citadel | Fixed Income and Macro Central Bank Challenge :lock: | Competition | New York, London | :lock: | Feb 09 |
 | EY | EY Expedition :lock: | Not Specified | Multiple Locations | :lock: | Feb 04 |
 | American Express | Campus Opportunities :lock: | Campus Opportunities | Multiple Locations | :lock: | Feb 04 |
+| Google | Google Summer of Code 2026 | Fellowship | Remote | <a href="https://summerofcode.withgoogle.com/programs/2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
+| MLH (Major League Hacking) | MLH Fellowship | Fellowship | Remote | <a href="https://fellowship.mlh.io/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
+| Students Rising Above (SRA) | SOAR First-Year Program | Mentorship Program | Remote, US | <a href="https://sra.tfaforms.net/f/26_FirstYearSOAR"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
 <!-- PROGRAMS_TABLE_END -->
 
 ---
@@ -107,6 +111,7 @@ To contribute:
 | UMBC | NSF Big Data REU Site :lock: | Big Data, Data Science | Remote | :lock: | Feb 19 |
 | USC Viterbi | CURVE - Center for Undergraduate Research in Viterbi Engineering :lock: | Computer Science, Engineering | Los Angeles, CA | :lock: | Feb 19 |
 | SACNAS | 2026 SACNAS Annual Conference - Research Presentations | STEM | Long Beach, CA | <a href="https://www.sacnas.org/conference/research-presentations"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 23 |
+| MIT Libraries | Women@MIT Fellowship | Women's History / STEM | Cambridge, MA | <a href="https://libguides.mit.edu/c.php?g=991573&p=10064824"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
 <!-- RESEARCH_TABLE_END -->
 
 ---
