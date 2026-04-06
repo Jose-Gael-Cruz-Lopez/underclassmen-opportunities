@@ -1680,5 +1680,123 @@
     "date_posted": 1775508066,
     "date_updated": 1775508066,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "partiful-campus-growth-manager-spring-2026",
+    "company_name": "Partiful",
+    "title": "Campus Growth Manager",
+    "url": "https://jobs.ashbyhq.com/partiful/af908f89-626d-4d26-a851-a39ba62737ff",
+    "locations": [
+      "Remote, US"
+    ],
+    "season": "Spring",
+    "category": "Internship",
+    "opportunity_type": "Internship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774656000,
+    "date_updated": 1774656000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "google-gsoc-2026",
+    "company_name": "Google",
+    "title": "Google Summer of Code 2026",
+    "url": "https://summerofcode.withgoogle.com/programs/2026",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Fellowship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774656000,
+    "date_updated": 1774656000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "mlh-fellowship-summer-2026",
+    "company_name": "MLH (Major League Hacking)",
+    "title": "MLH Fellowship",
+    "url": "https://fellowship.mlh.io/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Fellowship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774656000,
+    "date_updated": 1774656000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "mit-women-fellowship-2026",
+    "company_name": "MIT Libraries",
+    "title": "Women@MIT Fellowship",
+    "url": "https://libguides.mit.edu/c.php?g=991573&p=10064824",
+    "locations": [
+      "Cambridge, MA"
+    ],
+    "season": "Summer",
+    "category": "Research",
+    "opportunity_type": "Research Fellowship",
+    "field": "Women's History / STEM",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)",
+      "Junior (3rd year)",
+      "Senior (4th year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774656000,
+    "date_updated": 1774656000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "sra-soar-first-year-2026",
+    "company_name": "Students Rising Above (SRA)",
+    "title": "SOAR First-Year Program",
+    "url": "https://sra.tfaforms.net/f/26_FirstYearSOAR",
+    "locations": [
+      "Remote, US"
+    ],
+    "season": "Year-Round",
+    "category": "Program",
+    "opportunity_type": "Mentorship Program",
+    "target_year": [
+      "Freshman (1st year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1774656000,
+    "date_updated": 1774656000,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]

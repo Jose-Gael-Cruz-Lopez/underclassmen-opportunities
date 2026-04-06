@@ -36,6 +36,7 @@ To contribute:
 <!-- INTERNSHIPS_TABLE_START -->
 | Company | Role | Location | Application | Date Posted |
 | ------- | ---- | -------- | ----------- | ----------- |
+| Partiful | Campus Growth Manager | Remote, US | <a href="https://jobs.ashbyhq.com/partiful/af908f89-626d-4d26-a851-a39ba62737ff"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
 | Five Rings LLC | Winter Intern 2027 - Quantitative Trader | New York | <a href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5122638008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 20 |
 | Micron | Intern - Automation | Boise, ID | <a href="https://micron.eightfold.ai/careers?pid=40815481"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 23 |
 | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20 |
@@ -66,6 +67,9 @@ To contribute:
 | Liberty Mutual | 2026 Unite Summit - Exploratory Program | Discovery Program | Boston, MA | <a href="https://campus-libertymutual.icims.com/jobs/74387/2026-unite-summit---exploratory-program/job"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | AI4ALL | AI4ALL Ignite | Career Accelerator | Multiple Locations | <a href="https://ai-4-all.org/ai4all-ignite/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
 | GirlsWhoML | Thinking About Thinking 2026 Ambassador Programme | Ambassador Programme | London, UK | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6jXrV8-2rtNAhmLDG8vnH7X683aVc-hkqHLjrMVfJV7Z0w/viewform"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| Google | Google Summer of Code 2026 | Fellowship | Remote | <a href="https://summerofcode.withgoogle.com/programs/2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
+| MLH (Major League Hacking) | MLH Fellowship | Fellowship | Remote | <a href="https://fellowship.mlh.io/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
+| Students Rising Above (SRA) | SOAR First-Year Program | Mentorship Program | Remote, US | <a href="https://sra.tfaforms.net/f/26_FirstYearSOAR"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
 | UNCF | HBCU Future Leaders Institute :lock: | Leadership Institute | Atlanta, GA | :lock: | Mar 23 |
 | Rewriting the Code | RTC Fellowship Program :lock: | Fellowship | United States, Canada | :lock: | Mar 20 |
 | Nike | Yello :lock: | Program | Multiple Locations | :lock: | Mar 20 |
@@ -98,6 +102,7 @@ To contribute:
 | CRA-WP | DREU-QIS & AI 2026 | Quantum Computing, AI | Multiple Locations | <a href="https://cra.org/cra-wp/dreu/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06 |
 | CBAI | Summer Research Fellowship in AI Safety '26 | AI Safety | Cambridge, MA | <a href="https://cbai.ai/fellowship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06 |
 | University of Minnesota | Computer Science REU | Computer Science | Minneapolis, MN | <a href="https://reu.cs.umn.edu/apply"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
+| MIT Libraries | Women@MIT Fellowship | Women's History / STEM | Cambridge, MA | <a href="https://libguides.mit.edu/c.php?g=991573&p=10064824"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 28 |
 | SACNAS | 2026 SACNAS Annual Conference - Research Presentations :lock: | STEM | Long Beach, CA | :lock: | Mar 23 |
 | Brown University | NSF REU - AI for Computational Creativity :lock: | Artificial Intelligence | Providence, RI | :lock: | Feb 19 |
 | Caltech | SURF - Summer Undergraduate Research Fellowship :lock: | Computer Science, Engineering, STEM | Pasadena, CA | :lock: | Feb 19 |
