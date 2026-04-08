@@ -54,6 +54,9 @@ To contribute:
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
 | Royal Caribbean | Early Career Immersion Program | Immersion Program | Miami, FL | <a href="https://jobs.royalcaribbeangroup.com/job/Miami-Early-Career-Immersion-Program-August-2026-FL-33132/1373237400"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 07 |
+| Y Combinator | Startup School 2026 | Online Course + Event | San Francisco, CA / Remote | <a href="https://events.ycombinator.com/startup-school-2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 08 |
+| Paragon | Paragon Policy Fellowship - Summer 2026 | Fellowship | Remote | <a href="https://www.paragonfellowship.org/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 08 |
+| Global Career Accelerator | Career Accelerator Program (Summer) | Program | Virtual | <a href="https://globalcareeraccelerator.org/app/events/ea388339-3975-431b-85c7-054191a4a18c"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 08 |
 | mcievents.com | 2026 NSN Student Sales & Marketing Conference | Conference | Multiple Locations | <a href="https://plus.mcievents.com/event/82045c6a-f96b-43af-9944-670ab6957417/register?rt=K34qubuTukm3UynsGVmWQQ&environment=P2"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06 |
 | Equitech Futures | Equitech Futures Institute | 8-Week Program | Virtual | <a href="https://www.equitechfutures.com/programs/efi"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06 |
 | AWS | Cloud Club Captain | Leadership Program | Multiple Locations | <a href="https://pulse.aws/application/PXZWJ2DQ/new?p=0"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06 |
@@ -72,6 +75,7 @@ To contribute:
 | Liberty Mutual | 2026 Unite Summit - Exploratory Program | Discovery Program | Boston, MA | <a href="https://campus-libertymutual.icims.com/jobs/74387/2026-unite-summit---exploratory-program/job"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 19 |
 | AI4ALL | AI4ALL Ignite | Career Accelerator | Multiple Locations | <a href="https://ai-4-all.org/ai4all-ignite/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
 | GirlsWhoML | Thinking About Thinking 2026 Ambassador Programme | Ambassador Programme | London, UK | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6jXrV8-2rtNAhmLDG8vnH7X683aVc-hkqHLjrMVfJV7Z0w/viewform"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| SEO | SEO Tech Developer :lock: | Fellowship | New York, NY | :lock: | Apr 08 |
 | UNCF | HBCU Future Leaders Institute :lock: | Leadership Institute | Atlanta, GA | :lock: | Mar 22 |
 | Outreachy | Open Source Internship - May 2026 :lock: | Internship | Remote | :lock: | Mar 20 |
 | Rewriting the Code | RTC Fellowship Program :lock: | Fellowship | United States, Canada | :lock: | Mar 20 |

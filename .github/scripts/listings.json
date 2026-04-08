@@ -1841,5 +1841,94 @@
     "date_posted": 1775530544,
     "date_updated": 1775530544,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "5e0cda62-afbc-474c-b07a-1159653eae86",
+    "company_name": "Y Combinator",
+    "title": "Startup School 2026",
+    "url": "https://events.ycombinator.com/startup-school-2026",
+    "locations": [
+      "San Francisco, CA",
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Online Course + Event",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1775630166,
+    "date_updated": 1775630166,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "c6b230a5-673e-43ad-8231-6895c67b1f26",
+    "company_name": "SEO",
+    "title": "SEO Tech Developer",
+    "url": "https://tech.seo-usa.org/",
+    "locations": [
+      "New York, NY"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Fellowship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": false,
+    "is_visible": true,
+    "date_posted": 1775630166,
+    "date_updated": 1775630166,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "60923fdd-b83b-44f7-b7ed-b5c38985a822",
+    "company_name": "Paragon",
+    "title": "Paragon Policy Fellowship - Summer 2026",
+    "url": "https://www.paragonfellowship.org/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Fellowship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1775630166,
+    "date_updated": 1775630166,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "1c5157c3-3cef-4658-a531-e6f3616a9f93",
+    "company_name": "Global Career Accelerator",
+    "title": "Career Accelerator Program (Summer)",
+    "url": "https://globalcareeraccelerator.org/app/events/ea388339-3975-431b-85c7-054191a4a18c",
+    "locations": [
+      "Virtual"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Program",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1775630166,
+    "date_updated": 1775630166,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
