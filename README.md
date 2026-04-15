@@ -55,7 +55,6 @@ To contribute:
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
 | Bain & Company | First Forward | Sophomore Summit (FGLI / First-Gen) | Boston, MA / NYC / SF / Chicago / Denver / DC | <a href="https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
-| Wayfair | Early Leaders Program | Sophomore Immersion | Boston, MA | <a href="https://www.aboutwayfair.com/careers/early-leaders-program"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Deloitte | Compass Conference (Class of 2029-2030) | Career Conference | Westlake, TX | <a href="https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=328755"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | ServiceNow | Externship Program 2026 | Externship | Multiple Locations | <a href="https://servicenow.swoogo.com/ExternshipProgram2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Anthropic | Anthropic Fellows Program | Research Fellowship | Berkeley, CA / London, UK / Remote | <a href="https://job-boards.greenhouse.io/anthropic/jobs/5023394008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
@@ -71,15 +70,16 @@ To contribute:
 | Handshake | AI Fellowship Program | Fellowship | Remote | <a href="https://joinhandshake.com/ai/referral?referralCode=1F636E&utm_source=referral"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06 |
 | MLH (Major League Hacking) | MLH Fellowship | Fellowship | Remote | <a href="https://fellowship.mlh.io/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 27 |
 | Students Rising Above (SRA) | SOAR First-Year Program | Mentorship Program | Remote, US | <a href="https://sra.tfaforms.net/f/26_FirstYearSOAR"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 27 |
-| Wells Fargo | CTRL Your Career Tech Summit - Sophomore Edition | Tech Summit | United States | <a href="https://talent.wellsfargojobs.com/flows/ctrl-your-career-wells-fargo-tech-summit-sophomore-edition-v_qkasi-v"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 24 |
 | Global Career Accelerator | Career Accelerator Program | Program | Virtual | <a href="https://globalcareeraccelerator.org/app/events/9b62dcae-3ad1-4c5e-a638-ef6c68dcffc7"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 20 |
 | WomenHack | Women in Tech Career Fair | Career Fair | Multiple US Cities | <a href="https://womenhack.com/events/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 20 |
 | WomenTech Network | Women in Tech Global Conference 2026 | Conference | Virtual + Multiple Cities | <a href="https://www.womentech.net/women-tech-conference"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 20 |
 | AI4ALL | AI4ALL Ignite | Career Accelerator | Multiple Locations | <a href="https://ai-4-all.org/ai4all-ignite/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 09 |
 | GirlsWhoML | Thinking About Thinking 2026 Ambassador Programme | Ambassador Programme | London, UK | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6jXrV8-2rtNAhmLDG8vnH7X683aVc-hkqHLjrMVfJV7Z0w/viewform"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| Wayfair | Early Leaders Program :lock: | Sophomore Immersion | Boston, MA | :lock: | Apr 14 |
 | SEO | SEO Tech Developer :lock: | Fellowship | New York, NY | :lock: | Apr 08 |
 | GoDaddy | 2026 Future of Work Summer Camp :lock: | Pre-Internship Program | Kirkland, WA | :lock: | Apr 06 |
 | Google | Google Summer of Code 2026 :lock: | Fellowship | Remote | :lock: | Mar 27 |
+| Wells Fargo | CTRL Your Career Tech Summit - Sophomore Edition :lock: | Tech Summit | United States | :lock: | Mar 24 |
 | UNCF | HBCU Future Leaders Institute :lock: | Leadership Institute | Atlanta, GA | :lock: | Mar 22 |
 | Outreachy | Open Source Internship - May 2026 :lock: | Internship | Remote | :lock: | Mar 20 |
 | Rewriting the Code | RTC Fellowship Program :lock: | Fellowship | United States, Canada | :lock: | Mar 20 |
@@ -113,7 +113,7 @@ To contribute:
 <!-- RESEARCH_TABLE_START -->
 | University/Organization | Program | Field | Location | Application | Date Posted |
 | ----------------------- | ------- | ----- | -------- | ----------- | ----------- |
-| CRA-WP | DREU-QIS & AI 2026 | Quantum Information Science / AI | Multiple Locations | <a href="https://cra.org/cra-wp/dreu/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06 |
+| CRA-WP | DREU-QIS & AI 2026 :lock: | Quantum Information Science / AI | Multiple Locations | :lock: | Apr 06 |
 | CBAI | Summer Research Fellowship in AI Safety '26 :lock: | AI Safety | Cambridge, MA | :lock: | Apr 06 |
 | MIT Libraries | Women@MIT Fellowship :lock: | Women's History / STEM | Cambridge, MA | :lock: | Mar 27 |
 | SACNAS | 2026 SACNAS Annual Conference - Research Presentations :lock: | N/A | Long Beach, CA | :lock: | Mar 22 |
@@ -179,15 +179,15 @@ Opportunities specifically designed for students attending Historically Black Co
 <!-- HBCU_TABLE_START -->
 | Organization | Opportunity | Type | Location | Application | Date Posted |
 | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
-| Harvard Black Advancement | HABA Summer Internship (Paid, $5,000 Stipend) | Paid Internship | Remote / Hybrid | <a href="https://www.harvardblackadvancement.org/internship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Thurgood Marshall College Fund | TMCF Hennessy Fellows Program - Cohort 8 (2026) | Fellowship (Graduating Seniors & MBA) | HBCU-Affiliated | <a href="https://whosnext.tmcf.org/jobs/1622?lang=en-us"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | Thurgood Marshall College Fund | TMCF Leadership Institute 2026 | Conference + Recruitment (All Majors) | Washington, DC | <a href="https://whosnext.tmcf.org/jobs/1612?lang=en-us"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
-| Thurgood Marshall College Fund | TMCF Talent Network (Early Career Pipeline) | Talent Network | Remote | <a href="https://www.tmcf.org/students-alumni/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
-| Goldman Sachs | Market Madness: HBCU Possibilities Program | 4-Month Immersive Program (Finance/Business) | Multiple Locations | <a href="https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
-| UNCF | Target Scholars Program (First-Year HBCU) | Scholarship + Mentorship | Multiple HBCUs | <a href="https://uncf.org/programs/target-scholars"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
-| Accenture | Level Up Co-Op / Elevate to Innovate | Externship / Co-Op (Rising Sophomores+) | Multiple Locations | <a href="https://www.accenture.com/us-en/careers/life-at-accenture/internships-students"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | White House Initiative on HBCUs | White House HBCU Scholars Program (All Majors) | Recognition / Fellowship | Remote | <a href="https://sites.ed.gov/whhbcu/resources/hbcu-all-star-students/hbcu-all-star-program-application-process/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | UNCF | UNCF Scholarships Portal (All Majors — STEM, Business, Arts, Humanities) | Scholarship Hub (Rolling) | Remote | <a href="https://opportunities.uncf.org/s/pre-login-welcome-page"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
+| Harvard Black Advancement | HABA Summer Internship (Paid, $5,000 Stipend) | Paid Internship | Remote / Hybrid | <a href="https://www.harvardblackadvancement.org/internship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
+| Goldman Sachs | Market Madness: HBCU Possibilities Program :lock: | 4-Month Immersive Program (Finance/Business) | Multiple Locations | :lock: | Apr 15 |
+| UNCF | Target Scholars Program (First-Year HBCU) :lock: | Scholarship + Mentorship | Multiple HBCUs | :lock: | Apr 15 |
+| Accenture | Level Up Co-Op / Elevate to Innovate :lock: | Externship / Co-Op (Rising Sophomores+) | Multiple Locations | :lock: | Apr 15 |
+| Thurgood Marshall College Fund | TMCF Talent Network (Early Career Pipeline) :lock: | Talent Network | Remote | :lock: | Apr 14 |
 | UNCF | HBCU Future Leaders Institute :lock: | Leadership Institute | Atlanta, GA | :lock: | Mar 22 |
 | Microsoft | Black at Microsoft Scholarship :lock: | Scholarship ($2,500 - $5,000) | Remote | :lock: | Closed (Mar 16) |
 <!-- HBCU_TABLE_END -->
@@ -208,17 +208,17 @@ Opportunities that are exclusively for (or strongly focused on) women, non-binar
 | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
 | Forté Foundation | Forté Rising Stars (All Majors - Business Career Prep) | Program (Free Membership) | Remote | <a href="https://www.fortefoundation.org/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | Google | Women Techmakers Scholarship 2026 | Scholarship (CS/Gaming) | Remote | <a href="https://buildyourfuture.withgoogle.com/scholarships/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
-| Morgan Stanley | Freshman Enhancement + Sophomore Early Insights (Women's Track) | Program (Finance/Business) | New York, NY / Multiple | <a href="https://www.morganstanley.com/people-opportunities/students-graduates"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
-| JPMorgan Chase | Winning Women (Sophomore/Junior) | Program (Finance, Markets, AM) | New York, NY / Multiple | <a href="https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
-| AnitaB.org | Grace Hopper Celebration / Kamala Scholars | Scholarship + Conference | Anaheim, CA | <a href="https://ghc.anitab.org/awards-programs/scholarships"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | AAUW | AAUW Local Branch Undergraduate Scholarships (All Majors) | Scholarship (Rolling) | Multiple Locations | <a href="https://www.aauw.org/resources/member/leader-resources-tools/students-campus-professionals/local-scholarships/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | GirlScript Foundation | GSSoC 2026 - GirlScript Summer of Code | Open Source Program (Women-Led; Gender-Inclusive) | Remote | <a href="https://gssoc.girlscript.org/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 11 |
 | WomenHack | Women in Tech Career Fair | Career Fair | Multiple US Cities | <a href="https://womenhack.com/events/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 20 |
 | WomenTech Network | Women in Tech Global Conference 2026 | Conference | Virtual + Multiple Cities | <a href="https://www.womentech.net/women-tech-conference"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 20 |
 | GirlsWhoML | Thinking About Thinking 2026 Ambassador Programme | Ambassador Programme | London, UK | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh6jXrV8-2rtNAhmLDG8vnH7X683aVc-hkqHLjrMVfJV7Z0w/viewform"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 04 |
+| Morgan Stanley | Freshman Enhancement + Sophomore Early Insights (Women's Track) :lock: | Program (Finance/Business) | New York, NY / Multiple | :lock: | Apr 15 |
+| JPMorgan Chase | Winning Women (Sophomore/Junior) :lock: | Program (Finance, Markets, AM) | New York, NY / Multiple | :lock: | Apr 15 |
+| AnitaB.org | Grace Hopper Celebration / Kamala Scholars :lock: | Scholarship + Conference | Anaheim, CA | :lock: | Apr 15 |
 | MIT Libraries | Women@MIT Fellowship :lock: | Research Fellowship | Cambridge, MA | :lock: | Mar 27 |
-| Advancing Women in Technology | AWT Scholarship 2026 :lock: | Scholarship | Remote | :lock: | Closed |
 | Rewriting the Code | RTC Fellowship Program :lock: | Fellowship | United States, Canada | :lock: | Mar 20 |
+| Advancing Women in Technology | AWT Scholarship 2026 :lock: | Scholarship | Remote | :lock: | Closed |
 <!-- WOMEN_TABLE_END -->
 
 ---
@@ -235,10 +235,10 @@ Opportunities open to **rising freshmen (Class of 2030)** — high school senior
 <!-- RISING_FRESHMEN_TABLE_START -->
 | Organization | Opportunity | Type | Location | Application | Deadline |
 | ------------ | ----------- | ---- | -------- | ----------- | -------- |
+| Jack Kent Cooke Foundation | Young Artist Award (Pre-Collegiate Musicians, Ages 8-18) | Music Award (up to $10,000) | Remote | <a href="https://fromthetop.org/apply/jack-kent-cooke-young-artist-award/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 22, 2026 (Extended) |
 | Deloitte | Compass Conference (Class of 2029-2030) | Career Conference (Fully Funded - Travel & Lodging Covered) | Westlake, TX | <a href="https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=328755"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | May 26, 2026 |
-| Create Real Impact | Create Real Impact Contest (Ages 14-22) | Creative Contest (up to $1,500) | Remote | <a href="https://www.createrealimpact.com/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15, 2026 (5pm ET) |
-| Lightroom Presets | Pretty Lightroom Presets Photography Scholarship | Photography Scholarship ($500) | US/Canada | <a href="https://www.lightroompresets.com/pages/pretty-lightroom-presets-scholarship-program"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15, 2026 (11:59pm EST) |
-| Jack Kent Cooke Foundation | Young Artist Award (Pre-Collegiate Musicians, Ages 8-18) | Music Award (up to $10,000) | Remote | <a href="https://fromthetop.org/apply/jack-kent-cooke-young-artist-award/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15, 2026 |
+| Create Real Impact | Create Real Impact Contest (Ages 14-22) :lock: | Creative Contest (up to $1,500) | Remote | :lock: | Closed (Apr 15, 2026) |
+| Lightroom Presets | Pretty Lightroom Presets Photography Scholarship :lock: | Photography Scholarship ($500) | US/Canada | :lock: | Closed (Apr 15, 2026) |
 | Gloria Barron Prize | Barron Prize for Young Heroes (Ages 8-18) :lock: | Leadership Award ($10,000) | Remote | :lock: | Closed (pre-app Mar 15, 2026) |
 <!-- RISING_FRESHMEN_TABLE_END -->
 
