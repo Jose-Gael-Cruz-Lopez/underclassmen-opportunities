@@ -2006,7 +2006,7 @@
     "id": "27f6a830-7579-4214-82c6-c909064175d3",
     "company_name": "Deloitte",
     "title": "Compass Conference (Class of 2029-2030)",
-    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Deloitte-Compass-Conference/328755",
+    "url": "https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=328755",
     "locations": [
       "Westlake, TX"
     ],
@@ -2112,6 +2112,73 @@
     "is_visible": true,
     "date_posted": 1776240000,
     "date_updated": 1776240000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "ac47b93d-44f7-43ba-88c5-849a25771231",
+    "company_name": "Create Real Impact",
+    "title": "Create Real Impact Contest (Ages 14-22)",
+    "url": "https://www.createrealimpact.com/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Scholarship",
+    "opportunity_type": "Creative Contest",
+    "target_year": [
+      "High School Senior",
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1776585600,
+    "date_updated": 1776585600,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "ff2e3daa-c88d-4014-b245-eda4b4a330bb",
+    "company_name": "Lightroom Presets",
+    "title": "Pretty Lightroom Presets Photography Scholarship",
+    "url": "https://www.lightroompresets.com/pages/pretty-lightroom-presets-scholarship-program",
+    "locations": [
+      "United States",
+      "Canada"
+    ],
+    "season": "Summer",
+    "category": "Scholarship",
+    "opportunity_type": "Photography Scholarship",
+    "target_year": [
+      "Freshman (1st year)",
+      "Sophomore (2nd year)"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1776585600,
+    "date_updated": 1776585600,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "0319f282-066d-4cb6-85e7-1153ba3e1451",
+    "company_name": "Jack Kent Cooke Foundation",
+    "title": "Young Artist Award (Pre-Collegiate Musicians, Ages 8-18)",
+    "url": "https://fromthetop.org/apply/jack-kent-cooke-young-artist-award/",
+    "locations": [
+      "Remote"
+    ],
+    "season": "Summer",
+    "category": "Scholarship",
+    "opportunity_type": "Music Award",
+    "target_year": [
+      "High School Senior"
+    ],
+    "sponsorship": "Not Specified",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1776585600,
+    "date_updated": 1776585600,
     "source": "Jose-Gael-Cruz-Lopez"
   }
 ]

@@ -4,9 +4,9 @@
 
 
 
-Hi, I'm [Jose Cruz](https://www.linkedin.com/in/josegaelcruz). I created this repository as a curated list of internships, programs, and opportunities specifically designed for **freshmen and sophomores** (underclassmen) in tech, software engineering, and related fields.
+Hi, I'm [Jose Cruz](https://www.linkedin.com/in/josegaelcruz). I created this repository as a curated list of internships, programs, and opportunities specifically designed for **underclassmen** — freshmen and sophomores in tech, software engineering, and related fields — **as well as rising freshmen (Class of 2030)** who are high school seniors preparing to break into tech the moment they step on campus.
 
-I know how overwhelming the internship search can feel when you're just starting out. I don't want any underclassmen to feel left behind in their career journey. Many companies have programs specifically for first and second-year students that don't require prior experience, and I want to make sure everyone has access to these opportunities.
+I know how overwhelming the internship search can feel when you're just starting out — or when you haven't even started college yet. I don't want any underclassmen (Class of 2028, 2029, or 2030) to feel left behind in their career journey. Many companies have programs specifically for first and second-year students (and even incoming freshmen) that don't require prior experience, and I want to make sure everyone has access to these opportunities.
 
 This is a community-driven space. I welcome contributions from anyone who wants to help fellow students succeed. If you find an opportunity, share it. If you learned something, pass it on. Together, we can make the path a little clearer for everyone.
 
@@ -56,7 +56,7 @@ To contribute:
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
 | Bain & Company | First Forward | Sophomore Summit (FGLI / First-Gen) | Boston, MA / NYC / SF / Chicago / Denver / DC | <a href="https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Wayfair | Early Leaders Program | Sophomore Immersion | Boston, MA | <a href="https://www.aboutwayfair.com/careers/early-leaders-program"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
-| Deloitte | Compass Conference (Class of 2029-2030) | Career Conference | Westlake, TX | <a href="https://apply.deloitte.com/en_US/careers/JobDetail/Deloitte-Compass-Conference/328755"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
+| Deloitte | Compass Conference (Class of 2029-2030) | Career Conference | Westlake, TX | <a href="https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=328755"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | ServiceNow | Externship Program 2026 | Externship | Multiple Locations | <a href="https://servicenow.swoogo.com/ExternshipProgram2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Anthropic | Anthropic Fellows Program | Research Fellowship | Berkeley, CA / London, UK / Remote | <a href="https://job-boards.greenhouse.io/anthropic/jobs/5023394008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Constellation | Astra Fellowship (Summer 2026) | AI Safety Fellowship | Berkeley, CA | <a href="https://constellation.org/programs/astra"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
@@ -207,6 +207,28 @@ Opportunities that are exclusively for (or strongly focused on) women, non-binar
 | Advancing Women in Technology | AWT Scholarship 2026 :lock: | Scholarship | Remote | :lock: | Closed |
 | Rewriting the Code | RTC Fellowship Program :lock: | Fellowship | United States, Canada | :lock: | Mar 20 |
 <!-- WOMEN_TABLE_END -->
+
+---
+
+## Rising Freshmen & Class of 2030 Opportunities
+
+<!-- REPLACE THIS PLACEHOLDER WITH RISING FRESHMEN BANNER IMAGE -->
+<img width="964" height="340" alt="Rising Freshmen & Class of 2030 Opportunities banner (replace this placeholder)" src="https://via.placeholder.com/964x340?text=Rising+Freshmen+%26+Class+of+2030+Opportunities+Banner" />
+
+
+Opportunities open to **rising freshmen (Class of 2030)** — high school seniors preparing to start college in Fall 2026 — as well as students admitted for future cycles. If you're breaking into tech before day one on campus, start here.
+
+<!-- RISING_FRESHMEN_TABLE_START -->
+| Organization | Opportunity | Type | Location | Application | Deadline |
+| ------------ | ----------- | ---- | -------- | ----------- | -------- |
+| Deloitte | Compass Conference (Class of 2029-2030) | Career Conference (Fully Funded - Travel & Lodging Covered) | Westlake, TX | <a href="https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=328755"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | May 26, 2026 |
+| Create Real Impact | Create Real Impact Contest (Ages 14-22) | Creative Contest (up to $1,500) | Remote | <a href="https://www.createrealimpact.com/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15, 2026 (5pm ET) |
+| Lightroom Presets | Pretty Lightroom Presets Photography Scholarship | Photography Scholarship ($500) | US/Canada | <a href="https://www.lightroompresets.com/pages/pretty-lightroom-presets-scholarship-program"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15, 2026 (11:59pm EST) |
+| Jack Kent Cooke Foundation | Young Artist Award (Pre-Collegiate Musicians, Ages 8-18) | Music Award (up to $10,000) | Remote | <a href="https://fromthetop.org/apply/jack-kent-cooke-young-artist-award/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15, 2026 |
+| Gloria Barron Prize | Barron Prize for Young Heroes (Ages 8-18) :lock: | Leadership Award ($10,000) | Remote | :lock: | Closed (pre-app Mar 15, 2026) |
+<!-- RISING_FRESHMEN_TABLE_END -->
+
+> :warning: **Note:** If you're a current high school senior (Class of 2030 college graduation), many of these scholarships are time-sensitive — check the deadline before applying. Most "rising freshmen" programs (like Deloitte Compass) require you to be admitted to a college and have an anticipated graduation year matching their target.
 
 ---
 
