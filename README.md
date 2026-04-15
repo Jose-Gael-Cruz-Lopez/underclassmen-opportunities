@@ -191,7 +191,7 @@ Opportunities specifically designed for students attending Historically Black Co
 
 <!-- REPLACE THIS PLACEHOLDER WITH WOMEN IN TECH BANNER IMAGE -->
 <img width="1535" height="570" alt="image" src="https://github.com/user-attachments/assets/a6ff284d-3031-42b7-84e6-1832e5efdac2" />
-"
+
 
 
 Opportunities that are exclusively for (or strongly focused on) women, non-binary, and gender-minority students in tech, engineering, and related fields.
