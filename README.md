@@ -213,7 +213,8 @@ Opportunities that are exclusively for (or strongly focused on) women, non-binar
 ## Rising Freshmen & Class of 2030 Opportunities
 
 <!-- REPLACE THIS PLACEHOLDER WITH RISING FRESHMEN BANNER IMAGE -->
-<img width="964" height="340" alt="Rising Freshmen & Class of 2030 Opportunities banner (replace this placeholder)" src="https://via.placeholder.com/964x340?text=Rising+Freshmen+%26+Class+of+2030+Opportunities+Banner" />
+<img width="1568" height="672" alt="image" src="https://github.com/user-attachments/assets/bc6bf56c-4e40-4969-a514-72f795f8a27c" />
+
 
 
 Opportunities open to **rising freshmen (Class of 2030)** — high school seniors preparing to start college in Fall 2026 — as well as students admitted for future cycles. If you're breaking into tech before day one on campus, start here.
