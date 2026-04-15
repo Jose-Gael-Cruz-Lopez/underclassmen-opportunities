@@ -206,6 +206,7 @@ Opportunities that are exclusively for (or strongly focused on) women, non-binar
 <!-- WOMEN_TABLE_START -->
 | Organization | Opportunity | Type | Location | Application | Date Posted |
 | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
+| Jane Street | Jane Street WISE | Immersion Program | New York | <a href="https://www.janestreet.com/join-jane-street/programs-and-events/wise/" alt="Apply"></a> | April 15 |
 | Forté Foundation | Forté Rising Stars (All Majors - Business Career Prep) | Program (Free Membership) | Remote | <a href="https://www.fortefoundation.org/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | Google | Women Techmakers Scholarship 2026 | Scholarship (CS/Gaming) | Remote | <a href="https://buildyourfuture.withgoogle.com/scholarships/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | AAUW | AAUW Local Branch Undergraduate Scholarships (All Majors) | Scholarship (Rolling) | Multiple Locations | <a href="https://www.aauw.org/resources/member/leader-resources-tools/students-campus-professionals/local-scholarships/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
