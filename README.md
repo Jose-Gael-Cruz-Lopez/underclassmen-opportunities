@@ -38,8 +38,8 @@ To contribute:
 | ------- | ---- | -------- | ----------- | ----------- |
 | Harvard Black Advancement | HABA Summer Internship (Paid, $5,000 Stipend) | Remote / Hybrid | <a href="https://www.harvardblackadvancement.org/internship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Partiful | Campus Growth Manager | Remote, US | <a href="https://jobs.ashbyhq.com/partiful/af908f89-626d-4d26-a851-a39ba62737ff"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 27 |
-| Micron | Intern - Automation | Boise, ID | <a href="https://micron.eightfold.ai/careers?pid=40815481"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 22 |
 | Five Rings LLC | Winter Intern 2027 - Quantitative Trader | New York | <a href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5122638008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 20 |
+| Micron | Intern - Automation :lock: | Boise, ID | :lock: | Mar 22 |
 | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20 |
 | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 :lock: | Los Angeles, CA, Seattle, WA, Tempe, AZ | :lock: | Feb 19 |
 <!-- INTERNSHIPS_TABLE_END -->
@@ -54,6 +54,8 @@ To contribute:
 <!-- PROGRAMS_TABLE_START -->
 | Company | Program | Type | Location | Application | Date Posted |
 | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| IMC Trading | US Chess Academy 2026 | Chess Competition (Freshmen/Sophomores) | Chicago, IL / Virtual Qualifiers | <a href="https://www.imc.com/eu/careers/jobs/4829446101"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 16 |
+| Capital One | Product Summit (Summer 2026) | Virtual Summit (Freshmen/Sophomores) | Virtual | <a href="https://capitalone.eightfold.ai/events/candidate?plannedEventId=rPxvMjM7"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 16 |
 | Bain & Company | First Forward | Sophomore Summit (FGLI / First-Gen) | Boston, MA / NYC / SF / Chicago / Denver / DC | <a href="https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Deloitte | Compass Conference (Class of 2029-2030) | Career Conference | Westlake, TX | <a href="https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=328755"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | ServiceNow | Externship Program 2026 | Externship | Multiple Locations | <a href="https://servicenow.swoogo.com/ExternshipProgram2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
@@ -206,6 +208,7 @@ Opportunities that are exclusively for (or strongly focused on) women, non-binar
 <!-- WOMEN_TABLE_START -->
 | Organization | Opportunity | Type | Location | Application | Date Posted |
 | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
+| Jane Street | WiSE - Women in Science & Engineering | Program (Rising Freshmen Women; Travel + Stipend Covered) | New York, NY | <a href="https://www.janestreet.com/join-jane-street/programs-and-events/wise/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 16 |
 | Forté Foundation | Forté Rising Stars (All Majors - Business Career Prep) | Program (Free Membership) | Remote | <a href="https://www.fortefoundation.org/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | Google | Women Techmakers Scholarship 2026 | Scholarship (CS/Gaming) | Remote | <a href="https://buildyourfuture.withgoogle.com/scholarships/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
 | AAUW | AAUW Local Branch Undergraduate Scholarships (All Majors) | Scholarship (Rolling) | Multiple Locations | <a href="https://www.aauw.org/resources/member/leader-resources-tools/students-campus-professionals/local-scholarships/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15 |
@@ -235,6 +238,7 @@ Opportunities open to **rising freshmen (Class of 2030)** — high school senior
 <!-- RISING_FRESHMEN_TABLE_START -->
 | Organization | Opportunity | Type | Location | Application | Deadline |
 | ------------ | ----------- | ---- | -------- | ----------- | -------- |
+| Jane Street | WiSE - Women in Science & Engineering (Class of 2030) | Program for Incoming Freshmen Women (Travel + Stipend Covered) | New York, NY | <a href="https://www.janestreet.com/join-jane-street/programs-and-events/wise/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Rolling (Sign Up to Be Notified) |
 | Jack Kent Cooke Foundation | Young Artist Award (Pre-Collegiate Musicians, Ages 8-18) | Music Award (up to $10,000) | Remote | <a href="https://fromthetop.org/apply/jack-kent-cooke-young-artist-award/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 22, 2026 (Extended) |
 | Deloitte | Compass Conference (Class of 2029-2030) | Career Conference (Fully Funded - Travel & Lodging Covered) | Westlake, TX | <a href="https://apply.deloitte.com/en_US/careers/InviteToApply?jobId=328755"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | May 26, 2026 |
 | Create Real Impact | Create Real Impact Contest (Ages 14-22) :lock: | Creative Contest (up to $1,500) | Remote | :lock: | Closed (Apr 15, 2026) |
