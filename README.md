@@ -38,8 +38,8 @@ To contribute:
 | ------- | ---- | -------- | ----------- | ----------- |
 | Harvard Black Advancement | HABA Summer Internship (Paid, $5,000 Stipend) | Remote / Hybrid | <a href="https://www.harvardblackadvancement.org/internship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14 |
 | Partiful | Campus Growth Manager | Remote, US | <a href="https://jobs.ashbyhq.com/partiful/af908f89-626d-4d26-a851-a39ba62737ff"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 27 |
-| Micron | Intern - Automation | Boise, ID | <a href="https://micron.eightfold.ai/careers?pid=40815481"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Mar 22 |
 | Five Rings LLC | Winter Intern 2027 - Quantitative Trader | New York | <a href="https://job-boards.greenhouse.io/fiveringsllc/jobs/5122638008"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Feb 20 |
+| Micron | Intern - Automation :lock: | Boise, ID | :lock: | Mar 22 |
 | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20 |
 | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 :lock: | Los Angeles, CA, Seattle, WA, Tempe, AZ | :lock: | Feb 19 |
 <!-- INTERNSHIPS_TABLE_END -->
