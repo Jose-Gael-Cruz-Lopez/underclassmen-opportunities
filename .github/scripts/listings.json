@@ -2478,5 +2478,63 @@
     "date_posted": 1776585600,
     "date_updated": 1776585600,
     "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "359747dd-7201-41d1-bfc1-cb28369bd791",
+    "company_name": "IMC Trading",
+    "title": "US Chess Academy 2026",
+    "url": "https://www.imc.com/eu/careers/jobs/4829446101",
+    "locations": [
+      "Chicago, IL",
+      "Virtual Qualifiers"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Chess Competition",
+    "target_year": "Freshmen/Sophomores",
+    "sponsorship": "N/A",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1776300779,
+    "date_updated": 1776300779,
+    "source": "Slack channel"
+  },
+  {
+    "id": "834c87c7-9008-4dda-8e10-4d084458e245",
+    "company_name": "Capital One",
+    "title": "Product Summit (Summer 2026)",
+    "url": "https://capitalone.eightfold.ai/events/candidate?plannedEventId=rPxvMjM7",
+    "locations": [
+      "Virtual"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Virtual Summit",
+    "target_year": "Freshmen/Sophomores",
+    "sponsorship": "N/A",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1776300779,
+    "date_updated": 1776300779,
+    "source": "Slack channel"
+  },
+  {
+    "id": "d77fdcd0-570d-4ea8-8d2c-7a75d154bd00",
+    "company_name": "Jane Street",
+    "title": "WiSE - Women in Science & Engineering",
+    "url": "https://www.janestreet.com/join-jane-street/programs-and-events/wise/",
+    "locations": [
+      "New York, NY"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Program (Rising Freshmen Women)",
+    "target_year": "Class of 2030 (Rising Freshmen)",
+    "sponsorship": "Travel + Stipend Covered",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1776300779,
+    "date_updated": 1776300779,
+    "source": "Slack channel"
   }
 ]
