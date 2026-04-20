@@ -3,6 +3,8 @@
 <img width="978" height="420" alt="image" src="https://github.com/user-attachments/assets/1e397ba3-7e69-4d88-a6f8-1b50827f8f3d" />
 
 
+[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/9c7372b6-b00d-4295-b86c-3e2a122c66fb.svg)](https://oosmetrics.com/repo/Jose-Gael-Cruz-Lopez/underclassmen-opportunities)
+
 
 Hi, I'm [Jose Cruz](https://www.linkedin.com/in/josegaelcruz). I created this repository as a curated list of internships, programs, and opportunities specifically designed for **underclassmen** — freshmen and sophomores in tech, software engineering, and related fields — **as well as rising freshmen (Class of 2030)** who are high school seniors preparing to break into tech the moment they step on campus.
 
