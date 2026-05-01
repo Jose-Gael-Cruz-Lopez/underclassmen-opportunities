@@ -35,6 +35,7 @@ To contribute:
 - [State-Based Scholarships & Grants](#state-based-scholarships--grants)
 - [Resources for Underclassmen](#resources-for-underclassmen)
 - [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
 ## Underclassmen Internships
 
