@@ -1,0 +1,45 @@
+name: Update Closing Soon Badges
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # Daily at 14:00 UTC (~7am PT)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run closing-soon script
+        id: run
+        run: python .github/scripts/closing_soon.py
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet README.md; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update closing-soon badges (${{ steps.run.outputs.changes }} changes)"
+          for i in 1 2 3; do
+            git fetch origin main && git rebase origin/main && git push origin main && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 2
+          done
