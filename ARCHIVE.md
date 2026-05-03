@@ -159,6 +159,8 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Organization | Opportunity | Type | Location | Application | Deadline |
 | ------ | ------------ | ----------- | ---- | -------- | ----------- | -------- |
+| 🔒 **[CLOSED]** | Gloria Barron Prize | Barron Prize for Young Heroes (Ages 8-18; Service/Environmental Leaders) :lock: | Leadership Award (25 × $10,000) | Remote | :lock: | Closed (April 30, 2026) |
+| 🔒 **[CLOSED]** | Jack Kent Cooke Foundation | Young Artist Award (Pre-Collegiate Musicians, Ages 8-18) :lock: | Music Award (up to $10,000) | Remote | :lock: | Closed (April 22, 2026) |
 | 🔒 **[CLOSED]** | Optimist International | Optimist International Essay Contest (Under 19; 700–800 word essay) — 2025-26 Cycle Closed | Scholarship ($2,500 + local/regional prizes) | Remote (via Local Optimist Club) | :lock: | Closed (April 15, 2026); reopens fall 2026 |
 | 🔒 **[CLOSED]** | Create Real Impact | Create Real Impact Contest (Ages 14-22) :lock: | Creative Contest (up to $1,500) | Remote | :lock: | Closed (April 15, 2026) |
 | 🔒 **[CLOSED]** | Lightroom Presets | Pretty Lightroom Presets Photography Scholarship :lock: | Photography Scholarship ($500) | US/Canada | :lock: | Closed (April 15, 2026) |
