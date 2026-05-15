@@ -2086,10 +2086,10 @@
       "Junior (3rd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1776499200,
-    "date_updated": 1776499200,
+    "date_updated": 1778716800,
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
@@ -2493,10 +2493,10 @@
     "opportunity_type": "Chess Competition",
     "target_year": "Freshmen/Sophomores",
     "sponsorship": "N/A",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1776300779,
-    "date_updated": 1776300779,
+    "date_updated": 1778716800,
     "source": "Slack channel"
   },
   {

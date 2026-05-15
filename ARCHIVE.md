@@ -34,6 +34,9 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Company | Program | Type | Location | Application | Date Posted |
 | ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | Datadog | DataPUPS Early ID Summit :lock: | Early ID Summit (Rising Sophomores; Class of 2029; CS/Technical; June 22–23, 2026) | New York, NY | :lock: | Apr 27, 2026 |
+| 🔒 **[CLOSED]** | IMC Trading | US Chess Academy 2026 :lock: | Chess Competition (Freshmen/Sophomores) | Chicago, IL / Virtual Qualifiers | :lock: | Apr 16, 2026 |
+| 🔒 **[CLOSED]** | Constellation | Astra Fellowship (Summer 2026) :lock: | AI Safety Fellowship | Berkeley, CA | :lock: | Apr 14, 2026 |
 | 🔒 **[CLOSED]** | Bain & Company | First Forward :lock: | Sophomore Summit | Boston, MA / NYC / SF / Chicago / Denver / DC | :lock: | Apr 14, 2026 |
 | 🔒 **[CLOSED]** | Anthropic | Anthropic Fellows Program :lock: | Research Fellowship | Berkeley, CA / London, UK / Remote | :lock: | Apr 14, 2026 |
 | 🔒 **[CLOSED]** | Paragon | Paragon Policy Fellowship - Summer 2026 :lock: | Fellowship | Remote | :lock: | Apr 08, 2026 |
@@ -129,6 +132,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Organization | Opportunity | Type | Location | Application | Date Posted |
 | ------ | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | Arise And Shine Foundation | Arise & Shine HBCU Coding Bootcamp & E.S.T.E.A.M.ED Summit :lock: | Free Coding Bootcamp (Rising Sophomores–Seniors; All Majors; $50K Scholarship Pool; June 7–12, 2026) | Tallahassee, FL (FAMU) | :lock: | Apr 27, 2026 |
 | 🔒 **[CLOSED]** | Thurgood Marshall College Fund | TMCF InsurTech Immersion :lock: | Immersion Program (HBCU Students) | TBD | :lock: | Apr 27, 2026 |
 | 🔒 **[CLOSED]** | Goldman Sachs | Market Madness: HBCU Possibilities Program :lock: | 4-Month Immersive Program (Finance/Business) | Multiple Locations | :lock: | Apr 15, 2026 |
 | 🔒 **[CLOSED]** | UNCF | Target Scholars Program (First-Year HBCU) :lock: | Scholarship + Mentorship | Multiple HBCUs | :lock: | Apr 15, 2026 |
