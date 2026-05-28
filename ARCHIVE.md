@@ -105,6 +105,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Organization | Scholarship | Amount | Application | Deadline |
 | ------ | ------------ | ----------- | ------ | ----------- | -------- |
+| 🔒 **[CLOSED]** | NAACP | Agnes Jones Jackson Scholarship (NAACP Member; Under 25; 2.5+ GPA) :lock: | Varies | :lock: | Closed (May 22, 2026) |
 | 🔒 **[CLOSED]** | CrowdStrike | Next Gen Scholarship :lock: | Varies | :lock: | Closed (April 27, 2026) |
 | 🔒 **[CLOSED]** | Unigo | All About Education Scholarship :lock: | $3,000 | :lock: | Closed (April 30, 2026) |
 | 🔒 **[CLOSED]** | AISES | AISES STEM Scholarships :lock: | Varies (STEM-focused) | :lock: | Closed (April 30, 2026) |
