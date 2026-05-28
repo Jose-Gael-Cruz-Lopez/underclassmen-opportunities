@@ -154,6 +154,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | Status | Organization | Opportunity | Type | Location | Application | Date Posted |
 | ------ | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
 | 🔒 **[CLOSED]** | Google | Women Techmakers Scholarship 2026 — Deadline: Closed (May 22, 2026) :lock: | Scholarship ($10,000; CS/Gaming) | Remote | :lock: | Apr 15, 2026 |
+| 🔒 **[CLOSED]** | Technica | Technica Virtual Fellowship :lock: | 8-Week Fellowship (June 26–Aug 14; Rising College Freshmen; Underrepresented Genders; DC/MD/VA; Free) | Remote (Zoom) | :lock: | Apr 19, 2026 |
 | 🔒 **[CLOSED]** | Forté Foundation | Forté Rising Stars (All Majors - Business Career Prep) :lock: | Program (Free Membership) | Remote | :lock: | Apr 15, 2026 |
 | 🔒 **[CLOSED]** | Morgan Stanley | Freshman Enhancement + Sophomore Early Insights (Women's Track) :lock: | Program (Finance/Business) | New York, NY / Multiple | :lock: | Apr 15, 2026 |
 | 🔒 **[CLOSED]** | JPMorgan Chase | Winning Women (Sophomore/Junior) :lock: | Program (Finance, Markets, AM) | New York, NY / Multiple | :lock: | Apr 15, 2026 |
@@ -171,6 +172,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | Status | Organization | Opportunity | Type | Location | Application | Deadline |
 | ------ | ------------ | ----------- | ---- | -------- | ----------- | -------- |
 | 🔒 **[CLOSED]** | Deloitte | Compass Conference (Class of 2029-2030) :lock: | Career Conference (Fully Funded - Travel & Lodging Covered) | Westlake, TX | :lock: | Closed (May 26, 2026) |
+| 🔒 **[CLOSED]** | Technica | Technica Virtual Fellowship (Rising Freshmen; Class of 2030; Underrepresented Genders; DC/MD/VA) :lock: | 8-Week Fellowship (June 26–Aug 14; Fully Remote; Free) | Remote (Zoom) | :lock: | Check site (link broken) |
 | 🔒 **[CLOSED]** | Gloria Barron Prize | Barron Prize for Young Heroes (Ages 8-18; Service/Environmental Leaders) :lock: | Leadership Award (25 × $10,000) | Remote | :lock: | Closed (April 30, 2026) |
 | 🔒 **[CLOSED]** | Jack Kent Cooke Foundation | Young Artist Award (Pre-Collegiate Musicians, Ages 8-18) :lock: | Music Award (up to $10,000) | Remote | :lock: | Closed (April 22, 2026) |
 | 🔒 **[CLOSED]** | Optimist International | Optimist International Essay Contest (Under 19; 700–800 word essay) — 2025-26 Cycle Closed | Scholarship ($2,500 + local/regional prizes) | Remote (via Local Optimist Club) | :lock: | Closed (April 15, 2026); reopens fall 2026 |
