@@ -2018,7 +2018,7 @@
       "Sophomore (2nd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1776499200,
     "date_updated": 1776499200,
@@ -2220,7 +2220,7 @@
       "Senior (4th year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1776585600,
     "date_updated": 1776585600,
@@ -2379,7 +2379,7 @@
       "Junior (3rd year)"
     ],
     "sponsorship": "Not Specified",
-    "active": true,
+    "active": false,
     "is_visible": true,
     "date_posted": 1776585600,
     "date_updated": 1776585600,
