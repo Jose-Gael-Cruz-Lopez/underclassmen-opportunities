@@ -136,6 +136,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Organization | Opportunity | Type | Location | Application | Date Posted |
 | ------ | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | Thurgood Marshall College Fund / Chevron | TMCF Chevron Energy Summit 2026 :lock: | Energy Summit (Freshmen/Sophomores/Juniors at HBCU or PBI; US Citizens; Event: Aug 10–14, 2026) | Houston, TX | :lock: | Apr 24, 2026 |
 | 🔒 **[CLOSED]** | Thurgood Marshall College Fund | TMCF Leadership Institute 2026 :lock: | Conference + Recruitment (All Majors) | Washington, DC | :lock: | Apr 15, 2026 |
 | 🔒 **[CLOSED]** | Arise And Shine Foundation | Arise & Shine HBCU Coding Bootcamp & E.S.T.E.A.M.ED Summit :lock: | Free Coding Bootcamp (Rising Sophomores–Seniors; All Majors; $50K Scholarship Pool; June 7–12, 2026) | Tallahassee, FL (FAMU) | :lock: | Apr 27, 2026 |
 | 🔒 **[CLOSED]** | Thurgood Marshall College Fund | TMCF InsurTech Immersion :lock: | Immersion Program (HBCU Students) | TBD | :lock: | Apr 27, 2026 |
