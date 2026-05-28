@@ -137,7 +137,6 @@ This is community-driven. If you find something, add it. Together we make the pa
 | ⏳ **[OPENS SOON]** | Point Foundation | Point Flagship Scholarship (LGBTQ+; Full-Time Undergrad/Grad) | ~$10,000/yr (renewable up to 4 yrs) | <a href="https://pointfoundation.org/scholarships/flagship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | November 20, 2026 (Opens September 10, 2026) |
 | ✅ **[OPEN]** | Cruzing Forward | Cruzing Forward Scholarship — Deadline: Check site | Varies | <a href="https://lnkd.in/ef_NgA5B"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Check site |
 | ✅ **[OPEN]** | Unigo | Zombie Apocalypse Scholarship (Age 13+; Survival-Group Essay; 250-Word Plan) | $2,000 | <a href="https://www.unigo.com/scholarships/our-scholarships/zombie-apocalypse-scholarship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | October 31, 2026 |
-| 🔥 **[CLOSING SOON]** | HACU | HACU Partner Scholarships (Hispanic Heritage; HACU-Member Colleges) | Varies; dozens of partner awards | <a href="https://www.hacu.net/hacu/Scholarships.asp"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Rolling (up to May 15, 2026 for most) |
 <!-- SCHOLARSHIPS_TABLE_END -->
 
 ---
