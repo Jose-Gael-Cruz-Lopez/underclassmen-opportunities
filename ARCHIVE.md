@@ -35,6 +35,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Company | Program | Type | Location | Application | Date Posted |
 | ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | WomenTech Network | Women in Tech Global Conference 2026 (Event: May 12–15, 2026) :lock: | Conference | Virtual + Multiple Cities | :lock: | Mar 20, 2026 |
 | 🔒 **[CLOSED]** | AWS (Amazon) | AWS AI & ML Scholars Program :lock: | Free AI/ML Education (18+; No Prior Experience Required) | Remote / Global | :lock: | Apr 19, 2026 |
 | 🔒 **[CLOSED]** | Basta | Code2Career :lock: | Career Mentorship Program (FGLI / First-Gen / Low-Income; Early College Tech Focus) | Remote | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | The Home Depot | Interconnected Agentic Workflow Externship :lock: | Externship via Extern.com (Project-Based; Resume-Building; Open to Undergrads) | Remote | :lock: | May 28, 2026 |
@@ -162,6 +163,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Organization | Opportunity | Type | Location | Application | Date Posted |
 | ------ | ------------ | ----------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | WomenTech Network | Women in Tech Global Conference 2026 (Event: May 12–15, 2026) :lock: | Conference | Virtual + Multiple Cities | :lock: | Mar 20, 2026 |
 | 🔒 **[CLOSED]** | Google | Women Techmakers Scholarship 2026 — Deadline: Closed (May 22, 2026) :lock: | Scholarship ($10,000; CS/Gaming) | Remote | :lock: | Apr 15, 2026 |
 | 🔒 **[CLOSED]** | Technica | Technica Virtual Fellowship :lock: | 8-Week Fellowship (June 26–Aug 14; Rising College Freshmen; Underrepresented Genders; DC/MD/VA; Free) | Remote (Zoom) | :lock: | Apr 19, 2026 |
 | 🔒 **[CLOSED]** | Forté Foundation | Forté Rising Stars (All Majors - Business Career Prep) :lock: | Program (Free Membership) | Remote | :lock: | Apr 15, 2026 |
