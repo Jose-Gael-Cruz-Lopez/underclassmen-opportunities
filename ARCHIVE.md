@@ -35,6 +35,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Company | Program | Type | Location | Application | Date Posted |
 | ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | The Home Depot | Interconnected Agentic Workflow Externship :lock: | Externship via Extern.com (Project-Based; Resume-Building; Open to Undergrads) | Remote | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Google | Google Student Ambassador (California Only) :lock: | Campus Ambassador / Leadership Program (Gemini / Generative AI Advocacy; Mentorship from Googlers) | California (Campus-Based) | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | MLH (Major League Hacking) | MLH Commit Fellowship :lock: | Beginner-Friendly Fellowship (Open to Everyone; v1 2026) | Remote | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Liberty Mutual | 2026 Spark Summit (Event: Aug 6–7, 2026) :lock: | Externship / Virtual Summit (Freshmen/Sophomores; Early Interview Access for TechStart 2027 Internship) | Remote, US | :lock: | Apr 21, 2026 |
