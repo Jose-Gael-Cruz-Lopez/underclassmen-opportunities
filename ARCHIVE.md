@@ -35,6 +35,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Company | Program | Type | Location | Application | Date Posted |
 | ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | Basta | Code2Career :lock: | Career Mentorship Program (FGLI / First-Gen / Low-Income; Early College Tech Focus) | Remote | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | The Home Depot | Interconnected Agentic Workflow Externship :lock: | Externship via Extern.com (Project-Based; Resume-Building; Open to Undergrads) | Remote | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Google | Google Student Ambassador (California Only) :lock: | Campus Ambassador / Leadership Program (Gemini / Generative AI Advocacy; Mentorship from Googlers) | California (Campus-Based) | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | MLH (Major League Hacking) | MLH Commit Fellowship :lock: | Beginner-Friendly Fellowship (Open to Everyone; v1 2026) | Remote | :lock: | May 28, 2026 |
