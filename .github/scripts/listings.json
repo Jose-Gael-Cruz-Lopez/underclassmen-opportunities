@@ -2536,5 +2536,24 @@
     "date_posted": 1776300779,
     "date_updated": 1776300779,
     "source": "Slack channel"
+  },
+  {
+    "id": "6efb4e5c-3634-4e25-a048-c76a983cac11",
+    "company_name": "TMCF / Chevron",
+    "title": "TMCF Chevron Energy Summit 2026",
+    "url": "https://whosnext.tmcf.org/jobs/1627?lang=en-us",
+    "locations": [
+      "Houston, TX"
+    ],
+    "season": "Summer",
+    "category": "Program",
+    "opportunity_type": "Professional Development Summit",
+    "target_year": "Freshmen to Juniors (HBCU)",
+    "sponsorship": "N/A",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1780770149,
+    "date_updated": 1780770149,
+    "source": "GitHub Issue #61"
   }
 ]
