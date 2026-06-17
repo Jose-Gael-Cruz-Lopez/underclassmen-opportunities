@@ -36,6 +36,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Company | Program | Type | Location | Application | Date Posted |
 | ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | Five Rings LLC | LINK 2026 — Software Development Intensive (Event: Aug 10–14, 2026) :lock: | 5-Day Intensive (Current Sophomores Only) | New York, NY | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Neo | Neo Scholars :lock: | CS Undergrad Program (Open to Undergrads Who Excel at CS) | San Francisco, CA / Remote | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Paradigm | Paradigm Fellowship 2026 (Event: Aug 12–15, 2026) :lock: | 4-Day Retreat (Undergrads / Early Career Builders; Technical; Travel + Lodging + Meals Covered) | Northern California | :lock: | May 01, 2026 |
 | 🔒 **[CLOSED]** | Kaggle / Google | Kaggle GenAI Intensive: Vibe Coding (Event: Jun 15–19, 2026) :lock: | Free Online Course (AI Agents; Vibe Coding; Open to All; No Prior Experience Required) | Remote | :lock: | May 01, 2026 |
