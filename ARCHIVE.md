@@ -39,6 +39,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | Five Rings LLC | LINK 2026 — Software Development Intensive (Event: Aug 10–14, 2026) :lock: | 5-Day Intensive (Current Sophomores Only) | New York, NY | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Out in Tech | Out in Tech U Launch Lab :lock: | Free 5-Session Virtual Cohort (LGBTQ+; Ages 18–25; Leadership + Mentorship; No Prior Experience Required) | Virtual | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Capital One | Product Summit (Summer 2026) :lock: | Virtual Summit (Freshmen/Sophomores) | Virtual | :lock: | Apr 16, 2026 |
+| 🔒 **[CLOSED]** | GirlScript Foundation | GSSoC 2026 - GirlScript Summer of Code :lock: | Open Source Program | Remote | :lock: | Apr 11, 2026 |
 | 🔒 **[CLOSED]** | Neo | Neo Scholars :lock: | CS Undergrad Program (Open to Undergrads Who Excel at CS) | San Francisco, CA / Remote | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Paradigm | Paradigm Fellowship 2026 (Event: Aug 12–15, 2026) :lock: | 4-Day Retreat (Undergrads / Early Career Builders; Technical; Travel + Lodging + Meals Covered) | Northern California | :lock: | May 01, 2026 |
 | 🔒 **[CLOSED]** | Kaggle / Google | Kaggle GenAI Intensive: Vibe Coding (Event: Jun 15–19, 2026) :lock: | Free Online Course (AI Agents; Vibe Coding; Open to All; No Prior Experience Required) | Remote | :lock: | May 01, 2026 |
