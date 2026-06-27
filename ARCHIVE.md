@@ -36,6 +36,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | Company | Program | Type | Location | Application | Date Posted |
 | ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | CodeDay | ToorCamp 2026 (Event: Jun 24–28, 2026) :lock: | Hacker Convention / Tech Camp (Free Tickets; Most Applicants Accepted; Travel Support Available Outside Seattle; Meals Covered) | Orcas Island, WA | :lock: | May 01, 2026 |
 | 🔒 **[CLOSED]** | Five Rings LLC | LINK 2026 — Software Development Intensive (Event: Aug 10–14, 2026) :lock: | 5-Day Intensive (Current Sophomores Only) | New York, NY | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Out in Tech | Out in Tech U Launch Lab :lock: | Free 5-Session Virtual Cohort (LGBTQ+; Ages 18–25; Leadership + Mentorship; No Prior Experience Required) | Virtual | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Capital One | Product Summit (Summer 2026) :lock: | Virtual Summit (Freshmen/Sophomores) | Virtual | :lock: | Apr 16, 2026 |
@@ -100,6 +101,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 | Status | University/Organization | Program | Field | Location | Application | Date Posted |
 | ------ | ----------------------- | ------- | ----- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | UMass Amherst | QNumerics 2026: Numerical Methods in Quantum Information Science (Jun 21–27, 2026) :lock: | Quantum Information Science / Computational Skills (Undergrads Admitted Case-by-Case; Free for Undergrads) | Amherst, MA | :lock: | May 01, 2026 |
 | 🔒 **[CLOSED]** | Carnegie Mellon University | CMU Quantum Summer Academy :lock: | Quantum Computing / Research Academy (Undergrads) | Pittsburgh, PA | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | Smith-Kettlewell Eye Research Institute | Fourth Annual Smith-Kettlewell Summer Research Institute :lock: | Undergraduate Vision Science Research (Mentored Research; Summer Institute) | San Francisco, CA | :lock: | May 28, 2026 |
 | 🔒 **[CLOSED]** | CRA-WP | DREU-QIS & AI 2026 :lock: | Quantum Information Science / AI | Multiple Locations | :lock: | Apr 06, 2026 |
