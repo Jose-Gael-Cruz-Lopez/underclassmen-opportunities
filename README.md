@@ -40,6 +40,7 @@ This is community-driven. If you find something, add it. Together we make the pa
 
 - [Underclassmen Internships](#underclassmen-internships)
 - [Underclassmen Programs](#underclassmen-programs-fellowships-externships-etc)
+- [Ambassador Programs](#ambassador-programs)
 - [Underclassmen Research Programs](#underclassmen-research-programs)
 - [Scholarships](#scholarships)
 - [HBCU Opportunities](#hbcu-opportunities)
@@ -101,7 +102,6 @@ This is community-driven. If you find something, add it. Together we make the pa
 | ✅ **[OPEN]** | ElevenLabs | ElevenLabs Ambassador Program — Deadline: Rolling | Ambassador Program (Community Builder / Content Creator; 18+; Platform Credits + Event Funding; Paid Opportunities Unlock Over Time) | Remote / Global | <a href="https://elevenlabs.io/ambassador"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | May 01, 2026 |
 | ✅ **[OPEN]** | Wells Fargo | 2026 ChangeMakers Summit — Deadline: Check site (Event: Sep 22–24, 2026) | Leadership Summit (Class of 2028; Bachelor's Degree; US Work Authorized; No Visa Sponsorship) | Charlotte, NC | <a href="https://talent.wellsfargojobs.com/flows/2026-changemakers-summit-mir8kbo3y"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | May 01, 2026 |
 | ✅ **[OPEN]** | Meta | Meta Career Programs: Virtual Learning Series 2026 — Deadline: Check site | Virtual Learning Series (All Classifications) | Virtual | <a href="https://events.atmeta.com/metacareerprogramsvirtuallearningseries20261"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 21, 2026 |
-| ✅ **[OPEN]** | Microsoft | Microsoft Learn Student Ambassadors — Deadline: Rolling | Ambassador / Leadership Program (Any Major; 16+; All Disciplines) | Global / Campus | <a href="https://mvp.microsoft.com/studentambassadors"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 19, 2026 |
 | ✅ **[OPEN]** | ServiceNow | Externship Program 2026 — Deadline: Check site | Externship | Multiple Locations | <a href="https://servicenow.swoogo.com/ExternshipProgram2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14, 2026 |
 | ✅ **[OPEN]** | Royal Caribbean | Early Career Immersion Program — Deadline: Check site | Immersion Program | Miami, FL | <a href="https://jobs.royalcaribbeangroup.com/job/Miami-Early-Career-Immersion-Program-August-2026-FL-33132/1373237400"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 07, 2026 |
 | ✅ **[OPEN]** | Handshake | AI Fellowship Program — Deadline: Check site | Fellowship | Remote | <a href="https://joinhandshake.com/ai/referral?referralCode=1F636E&utm_source=referral"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 06, 2026 |
@@ -114,6 +114,28 @@ This is community-driven. If you find something, add it. Together we make the pa
 | ✅ **[OPEN]** | ServiceNow | Campus Leaders — Deadline: Rolling | Ambassador Program (Sophomores Ideal; Partner Schools) | Campus-Based (Partner Schools) | <a href="https://servicenow.swoogo.com/campusleaders"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 | ✅ **[OPEN]** | Ramp | Builders Cup 2026 — Deadline: Invite / Approval-Based | Emerging-Talent Hackathon (No Class Gate) | New York, NY | <a href="https://luma.com/nrletiv9"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 <!-- PROGRAMS_TABLE_END -->
+
+---
+
+## Ambassador Programs
+
+<!-- REPLACE THIS PLACEHOLDER WITH AMBASSADOR PROGRAMS BANNER IMAGE -->
+
+Paid and perks-based campus ambassador, brand-representative, and student-marketeer programs. These are low-barrier ways for freshmen and sophomores to build marketing, leadership, and community experience — most are open to all class years and run on rolling cycles.
+
+<!-- AMBASSADORS_TABLE_START -->
+| Status | Company | Program | Type | Location | Application | Date Posted |
+| ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| ✅ **[OPEN]** | Microsoft | Microsoft Learn Student Ambassadors — Deadline: Rolling | Ambassador / Leadership Program (Any Major; 16+; All Disciplines) | Global / Campus | <a href="https://mvp.microsoft.com/studentambassadors"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 19, 2026 |
+| ✅ **[OPEN]** | AWS / NextGen | AWS Global University Program — Deadline: Rolling | University Ambassador Program (Cloud / AWS Community) | Check site | <a href="https://nextgen.team/aws-global-university-program/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | Red Bull | Student Marketeer — Deadline: Rolling | Brand Ambassador (Paid; Campus Marketing) | US Campuses | <a href="https://jobs.redbull.com/us-en/microsite/student-marketeer"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | Princess Polly | College Ambassador — Deadline: Rolling | Brand Ambassador (Fashion; Campus Reps) | US Campuses | <a href="https://us.princesspolly.com/pages/college-ambassador"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | Pearson | Pearson Campus Ambassador — Deadline: Rolling | Campus Ambassador (Paid; EdTech Marketing) | US Campuses | <a href="https://www.pearson.com/en-us/higher-education/students/student-programs/pearson-campus-ambassador.html"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | OLIPOP | College Brand Ambassador (Fall 2026) — Deadline: Check site | Brand Ambassador (Campus Reps) | US Campuses | <a href="https://app.evolvez.co/jobs/80/olipop-college-brand-ambassador-fall-2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | GitHub | Campus Expert — Deadline: Rolling | Student Leadership / Ambassador (Community Building; Training + Resources) | Global / Campus | <a href="https://docs.github.com/en/education/about-github-education/use-github-at-your-educational-institution/applying-to-be-a-github-campus-expert"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | Poppi | Poppi University — Deadline: Check site | Brand Ambassador (Campus Reps) | US Campuses | <a href="https://drinkpoppi.com/pages/poppi-university"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | Monster Energy | College Ambassador Team (CAT) — Deadline: Check site | Brand Ambassador (Campus Reps) | US Campuses | <a href="https://catportal.monsterenergy.com/apply"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+<!-- AMBASSADORS_TABLE_END -->
 
 ---
 
