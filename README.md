@@ -134,6 +134,7 @@ Paid and perks-based campus ambassador, brand-representative, and student-market
 | ✅ **[OPEN]** | OLIPOP | College Brand Ambassador (Fall 2026) — Deadline: Check site | Brand Ambassador (Campus Reps) | US Campuses | <a href="https://app.evolvez.co/jobs/80/olipop-college-brand-ambassador-fall-2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 | ✅ **[OPEN]** | GitHub | Campus Expert — Deadline: Rolling | Student Leadership / Ambassador (Community Building; Training + Resources) | Global / Campus | <a href="https://docs.github.com/en/education/about-github-education/use-github-at-your-educational-institution/applying-to-be-a-github-campus-expert"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 | ✅ **[OPEN]** | Poppi | Poppi University — Deadline: Check site | Brand Ambassador (Campus Reps) | US Campuses | <a href="https://drinkpoppi.com/pages/poppi-university"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | Monster Energy | College Ambassador Team (CAT) — Deadline: Check site | Brand Ambassador (Campus Reps) | US Campuses | <a href="https://catportal.monsterenergy.com/apply"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 <!-- AMBASSADORS_TABLE_END -->
 
 ---
