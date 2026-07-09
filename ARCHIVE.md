@@ -29,6 +29,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | Micron | Intern - Automation :lock: | Boise, ID | :lock: | Mar 22, 2026 |
 | 🔒 **[CLOSED]** | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20, 2026 |
 | 🔒 **[CLOSED]** | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 :lock: | Los Angeles, CA, Seattle, WA, Tempe, AZ | :lock: | Feb 19, 2026 |
+| 🔒 **[CLOSED]** | Dedalus Labs | Systems Engineer Intern, Summer 2027 (No Class-Year Restriction) — Deadline: Rolling — Archived 2026-07-09 — page confirms program closed | Check site | <a href="https://www.dedaluslabs.ai/careers?ashby_jid=f38049e1-5804-4ee2-b13c-9e47921e1a76"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 
 ---
 
@@ -94,6 +95,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | Citadel | Fixed Income and Macro Central Bank Challenge :lock: | Competition | New York, London | :lock: | Feb 09, 2026 |
 | 🔒 **[CLOSED]** | EY | EY Expedition :lock: | N/A | Multiple Locations | :lock: | Feb 04, 2026 |
 | 🔒 **[CLOSED]** | American Express | Campus Opportunities :lock: | Campus Opportunities | Multiple Locations | :lock: | Feb 04, 2026 |
+| 🔒 **[CLOSED]** | America Needs You | ANY Fellows Program — Deadline: Chicago Jul 8, 2026 — Archived 2026-07-09 — deadline passed | 2-Year Career Development Fellowship (First-Gen, Low-Income Freshmen) | New Jersey / Chicago, IL | <a href="https://americaneedsyou.org/fellows-program/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jun 17, 2026 |
 
 ---
 
@@ -156,6 +158,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | Presidio | Presidio Future Built Scholarship :lock: | Varies | :lock: | Closed |
 | 🔒 **[CLOSED]** | Scholarship America | Dream Award :lock: | Up to $10,000/yr | :lock: | Closed |
 | 🔒 **[CLOSED]** | The Executive Leadership Council | ELC Scholarship Program :lock: | Varies | :lock: | Closed |
+| 🔒 **[CLOSED]** | Women & Hi Tech | Leading Light Awards Scholarships (Women in STEM; HS Seniors / Undergrads / Grads; Indiana-based or Attending Indiana School) | $1,000–$5,000 (Multiple Awards; $50K+ Total Pool) | <a href="https://womenandhitech.org/LLA"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | July 5, 2026 — Archived 2026-07-09 — deadline passed |
 
 ---
 
@@ -254,5 +257,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | South Carolina | Palmetto Fellows Scholarship | $6,700 (fr) / $7,500 (upperclass) | SC HS senior; 3.5+ GPA + 1200 SAT/27 ACT + top 6% (or 4.0 + 1400 SAT/32 ACT) | :lock: | Closed (December 15, 2025 early; June 15, 2026 late) |
 | 🔒 **[CLOSED]** | Tennessee | Tennessee Promise | Last-dollar free CC tuition | TN HS senior; attend mandatory meetings + 8 svc hrs/term | :lock: | Closed (November 01, 2026 — next cycle) |
 | 🔒 **[CLOSED]** | West Virginia | WV PROMISE Scholarship | Up to $5,500 | WV resident; 3.0+ GPA + 22 ACT / 1100 SAT; eligible WV institution | :lock: | Closed (March 01, 2026) |
+| 🔒 **[CLOSED]** | Arkansas | Academic Challenge Scholarship | $1,000–$5,000 over 4 yrs | AR resident; 2.5+ HS GPA OR 19+ ACT / 980+ SAT; eligible AR institution | <a href="https://sams.adhe.edu/Scholarship/Details/ACST"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | July 1, 2026 — Archived 2026-07-09 — deadline passed |
+| 🔒 **[CLOSED]** | Iowa | Iowa Tuition Grant | Up to $7,500/yr | IA resident; eligible IA private 4-yr college; financial need (FAFSA) | <a href="https://educate.iowa.gov/higher-ed/financial-aid/scholarships-grants/iowa-tuition-grant"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | July 1, 2026 — Archived 2026-07-09 — deadline passed |
 
 ---
