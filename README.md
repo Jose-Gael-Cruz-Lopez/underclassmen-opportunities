@@ -154,6 +154,7 @@ Paid and perks-based campus ambassador, brand-representative, and student-market
 | ✅ **[OPEN]** | Adobe | Adobe Acrobat Creator Gig — Deadline: Check site | Content Creator (Paid $850/mo; Acrobat / Digital Marketing) | US (Remote) | <a href="https://homefromcollege.com/gigs/adobe-acrobat-creato-52682"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 | ✅ **[OPEN]** | Uber | Uber Teen Ambassador (Seattle) — Deadline: Check site | Brand Ambassador (Paid $600 One-Time; High School Students; 16+) | Seattle, WA | <a href="https://homefromcollege.com/gigs/uber-teen-ambassador-73328"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 | ✅ **[OPEN]** | Uber | Uber Teen Ambassador (Phoenix) — Deadline: Check site | Brand Ambassador (Paid $600 One-Time; High School Students; 16+) | Phoenix, AZ | <a href="https://homefromcollege.com/gigs/uber-teen-ambassador-35702"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
+| ✅ **[OPEN]** | Figma | Figma Campus Leader Program (2026–27) — Deadline: Aug 2, 2026 | Campus Leader / Ambassador Program (Current Students; Full Academic Year) | US / Canada / India Campuses | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfbzjFxHjM6vGVZ5LP3edeXTziUZx0Zi0I3NbzY0zDES7i1xA/viewform"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 <!-- AMBASSADORS_TABLE_END -->
 
 ---
