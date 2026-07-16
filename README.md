@@ -343,6 +343,7 @@ State-specific scholarships, grants, and aid programs for underclassmen and risi
 - [Interview-Guidance](https://sophiasun.substack.com/s/interviews)
 - [Building Projects Without Experience](https://github.com/codecrafters-io/build-your-own-x)
 - [LeetCode Beginner Guide](https://leetcode.com/explore/)
+- [Hanzilla Jobs (Canada)](https://jobs.hanzilla.co/internships/) — daily-updated Canadian student jobs board for internships, co-ops, and entry-level roles
 - [Archived / Closed Opportunities](ARCHIVE.md) — past programs that may reopen next cycle
 
 ---
