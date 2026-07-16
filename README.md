@@ -153,6 +153,7 @@ Paid and perks-based campus ambassador, brand-representative, and student-market
 | ✅ **[OPEN]** | Walmart / Satya Blends | Walmart UGC Creator — Deadline: Check site | UGC Creator (Paid $50 One-Time; In-Store + Recipe Content) | US (Remote + In-Store Filming) | <a href="https://homefromcollege.com/gigs/walmart-ugc-creator-36926"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 | ✅ **[OPEN]** | Adobe | Adobe Acrobat Creator Gig — Deadline: Check site | Content Creator (Paid $850/mo; Acrobat / Digital Marketing) | US (Remote) | <a href="https://homefromcollege.com/gigs/adobe-acrobat-creato-52682"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 | ✅ **[OPEN]** | Uber | Uber Teen Ambassador (Seattle) — Deadline: Check site | Brand Ambassador (Paid $600 One-Time; High School Students; 16+) | Seattle, WA | <a href="https://homefromcollege.com/gigs/uber-teen-ambassador-73328"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
+| ✅ **[OPEN]** | Uber | Uber Teen Ambassador (Phoenix) — Deadline: Check site | Brand Ambassador (Paid $600 One-Time; High School Students; 16+) | Phoenix, AZ | <a href="https://homefromcollege.com/gigs/uber-teen-ambassador-35702"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 <!-- AMBASSADORS_TABLE_END -->
 
 ---
