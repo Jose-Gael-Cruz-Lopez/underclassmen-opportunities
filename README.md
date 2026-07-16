@@ -151,6 +151,7 @@ Paid and perks-based campus ambassador, brand-representative, and student-market
 | ✅ **[OPEN]** | CAVA | University of Notre Dame Campus Brand Ambassador (Fall 2026) — Deadline: Check site | Brand Ambassador (Paid $500/mo; Campus Reps) | University of Notre Dame — Notre Dame, IN | <a href="https://homefromcollege.com/gigs/cava-university-of-n-28390"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 7, 2026 |
 | ✅ **[OPEN]** | CAVA | University of Wisconsin–Madison Campus Brand Ambassador (Fall 2026) — Deadline: Check site | Brand Ambassador (Paid $500/mo; Campus Reps) | University of Wisconsin–Madison — Madison, WI | <a href="https://homefromcollege.com/gigs/cava-university-of-w-5635"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 7, 2026 |
 | ✅ **[OPEN]** | Walmart / Satya Blends | Walmart UGC Creator — Deadline: Check site | UGC Creator (Paid $50 One-Time; In-Store + Recipe Content) | US (Remote + In-Store Filming) | <a href="https://homefromcollege.com/gigs/walmart-ugc-creator-36926"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
+| ✅ **[OPEN]** | Adobe | Adobe Acrobat Creator Gig — Deadline: Check site | Content Creator (Paid $850/mo; Acrobat / Digital Marketing) | US (Remote) | <a href="https://homefromcollege.com/gigs/adobe-acrobat-creato-52682"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 <!-- AMBASSADORS_TABLE_END -->
 
 ---
