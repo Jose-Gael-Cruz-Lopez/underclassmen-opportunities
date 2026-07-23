@@ -10,6 +10,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 
 - [Underclassmen Internships](#underclassmen-internships)
 - [Underclassmen Programs (Fellowships, Externships, etc.)](#underclassmen-programs-fellowships-externships-etc)
+- [Ambassador Programs](#ambassador-programs)
 - [Underclassmen Research Programs](#underclassmen-research-programs)
 - [Scholarships](#scholarships)
 - [HBCU Opportunities](#hbcu-opportunities)
@@ -30,6 +31,8 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | Schonfeld | 2026 Quantitative Developer Execution Services Sophomore Summer Internship :lock: | New York, New York, United States | :lock: | Feb 20, 2026 |
 | 🔒 **[CLOSED]** | Deloitte | Audit & Assurance - Discovery Intern (Sophomore/Junior) - Summer 2026 :lock: | Los Angeles, CA, Seattle, WA, Tempe, AZ | :lock: | Feb 19, 2026 |
 | 🔒 **[CLOSED]** | Dedalus Labs | Systems Engineer Intern, Summer 2027 (No Class-Year Restriction) — Deadline: Rolling — Archived 2026-07-09 — page confirms program closed | Check site | <a href="https://www.dedaluslabs.ai/careers?ashby_jid=f38049e1-5804-4ee2-b13c-9e47921e1a76"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| 🔒 **[CLOSED]** | Blue Origin | Software Developer Internship, Spring 2027 (Undergraduate; Sophomore Standing+) — Deadline: Jul 15, 2026 — Archived 2026-07-23 — deadline passed | Various Locations (US) | <a href="https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Spring-2027--Software-Developer-Internship---Undergraduate_R66216"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jun 17, 2026 |
+| 🔒 **[CLOSED]** | ACLU | Fall 2026 Undergraduate Intern, Tech & Analytics (All Undergrads; Vue/PHP) — Deadline: Check site — Archived 2026-07-23 — application link dead (posting removed; redirects to job board) | New York, NY (Remote / Hybrid) | <a href="https://job-boards.greenhouse.io/acluinternships/jobs/8612266002"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 
 ---
 
@@ -96,6 +99,17 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | EY | EY Expedition :lock: | N/A | Multiple Locations | :lock: | Feb 04, 2026 |
 | 🔒 **[CLOSED]** | American Express | Campus Opportunities :lock: | Campus Opportunities | Multiple Locations | :lock: | Feb 04, 2026 |
 | 🔒 **[CLOSED]** | America Needs You | ANY Fellows Program — Deadline: Chicago Jul 8, 2026 — Archived 2026-07-09 — deadline passed | 2-Year Career Development Fellowship (First-Gen, Low-Income Freshmen) | New Jersey / Chicago, IL | <a href="https://americaneedsyou.org/fellows-program/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jun 17, 2026 |
+| 🔒 **[CLOSED]** | AWS (Amazon Web Services) | AWS All Builders Welcome Grant — re:Invent 2026 — Deadline: Jul 14, 2026 (Event: Dec 2026) — Archived 2026-07-23 — deadline passed | Fully-Funded Conference Grant (Open to Students; Covers Conference Pass + Airfare + Hotel; Must Be 21+) | Las Vegas, NV | <a href="https://pulse.aws/application/D40PCKRR"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jun 27, 2026 |
+| 🔒 **[CLOSED]** | Adobe | Adobe Student Insider Summit 2026 — Deadline: Check site (Event: Jul 21–23, 2026) — Archived 2026-07-23 — page confirms program closed (RSVPs closed; applications closed) | All-Expenses-Paid Summit + $750 Stipend (Open to Students; No Year Limit) | Check site | <a href="https://event.adobe.com/insiders-summit-26"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jun 17, 2026 |
+| 🔒 **[CLOSED]** | The Rithm Project | Rithm Fellow — Deadline: Jul 15, 2026 — Archived 2026-07-23 — deadline passed | Fellowship (Ages 18–22) | Check site | <a href="https://www.therithmproject.org/rithm-fellow"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+
+---
+
+## Ambassador Programs
+
+| Status | Company | Program | Type | Location | Application | Date Posted |
+| ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
+| 🔒 **[CLOSED]** | Adobe | Adobe Acrobat Creator Gig — Deadline: Check site — Archived 2026-07-23 — application link dead (gig removed; redirects to listing) | Content Creator (Paid $850/mo; Acrobat / Digital Marketing) | US (Remote) | <a href="https://homefromcollege.com/gigs/adobe-acrobat-creato-52682"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
 
 ---
 
@@ -179,6 +193,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | Thurgood Marshall College Fund | TMCF Talent Network (Early Career Pipeline) :lock: | Talent Network | Remote | :lock: | Apr 14, 2026 |
 | 🔒 **[CLOSED]** | UNCF | HBCU Future Leaders Institute :lock: | Leadership Institute | Atlanta, GA | :lock: | Mar 22, 2026 |
 | 🔒 **[CLOSED]** | Microsoft | Black at Microsoft Scholarship :lock: | Scholarship ($2,500 - $5,000) | Remote | :lock: | Closed (March 16, 2026) |
+| 🔒 **[CLOSED]** | White House Initiative on HBCUs | White House HBCU Scholars Program (All Majors) — "Application Coming 2026" — Archived 2026-07-23 — application link dead (sites.ed.gov returns 504 Service Unavailable) | Recognition / Fellowship | Remote | <a href="https://sites.ed.gov/whhbcu/whihbcu-competitiveness-scholars/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 15, 2026 |
 
 ---
 
