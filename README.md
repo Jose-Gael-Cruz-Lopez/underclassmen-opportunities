@@ -106,6 +106,7 @@ This is community-driven. If you find something, add it. Together we make the pa
 | ✅ **[OPEN]** | Career Pathways Initiative | Career Pathways Initiative Fellowship — Deadline: Rolling | Fellowship (FGLI Students; All Undergrad Years) | Check site | <a href="https://airtable.com/appvj8qB2H0qZIKjX/pagrbPHEGD31CYPm2/form"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 | ✅ **[OPEN]** | ServiceNow | Campus Leaders — Deadline: Rolling | Ambassador Program (Sophomores Ideal; Partner Schools) | Campus-Based (Partner Schools) | <a href="https://servicenow.swoogo.com/campusleaders"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 | ✅ **[OPEN]** | Ramp | Builders Cup 2026 — Deadline: Invite / Approval-Based | Emerging-Talent Hackathon (No Class Gate) | New York, NY | <a href="https://luma.com/nrletiv9"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| ✅ **[OPEN]** | HeadStart Fellowship | HeadStart Fellowship (Fall 2026) — Deadline: Aug 28, 2026 (11:59 PM ET) | Semester-Long Mentorship Fellowship (First- & Second-Year Undergrads Only; US Colleges; Finance / Consulting / Tech Verticals; 1:1 Mentor; 3–4 hrs/wk; $25 Refundable Deposit) | Virtual | <a href="https://www.headstartfellowship.com/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 31, 2026 |
 <!-- PROGRAMS_TABLE_END -->
 
 ---
