@@ -161,7 +161,7 @@ Paid and perks-based campus ambassador, brand-representative, and student-market
 <!-- SCHOLARSHIPS_TABLE_START -->
 | Status | Organization | Scholarship | Amount | Application | Deadline |
 | ------ | ------------ | ----------- | ------ | ----------- | -------- |
-| ✅ **[OPEN]** | MPOWER Financing | MPOWER Global Citizen Scholarship | $1,000 - $8,000 | <a href="https://www.mpowerfinancing.com/scholarships"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | August 31, 2026 |
+| ✅ **[OPEN]** | MPOWER Financing | MPOWER Global Citizen Scholarship | $1,000 - $8,000 | <a href="https://www.mpowerfinancing.com/scholarships"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | December 31, 2026 |
 | ✅ **[OPEN]** | Last Mile Education Fund x Microsoft | Microsoft Cybersecurity Scholarship | Varies | <a href="https://www.lastmile-ed.org/microsoftcybersecurityscholarship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Rolling |
 | ✅ **[OPEN]** | Last Mile Education Fund | Last Mile Fund | Up to $10,000 | <a href="https://www.lastmile-ed.org/apply"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Rolling |
 | ✅ **[OPEN]** | Unigo | Make Me Laugh Scholarship (Age 14+; 250-word humorous essay) | $1,500 | <a href="https://www.unigo.com/scholarships/our-scholarships/make-me-laugh-scholarship"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | August 31, 2026 |
