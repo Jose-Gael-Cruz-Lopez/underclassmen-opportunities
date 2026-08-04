@@ -114,6 +114,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | Status | Company | Program | Type | Location | Application | Date Posted |
 | ------ | ------- | ------- | ---- | -------- | ----------- | ----------- |
 | 🔒 **[CLOSED]** | Adobe | Adobe Acrobat Creator Gig — Deadline: Check site — Archived 2026-07-23 — application link dead (gig removed; redirects to listing) | Content Creator (Paid $850/mo; Acrobat / Digital Marketing) | US (Remote) | <a href="https://homefromcollege.com/gigs/adobe-acrobat-creato-52682"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 16, 2026 |
+| 🔒 **[CLOSED]** | Poppi | Poppi University — Deadline: Check site — Archived 2026-08-04 — page states Fall 2026 applications are officially closed; reopens Dec 2026 for Spring 2027 | Brand Ambassador (Campus Reps) | US Campuses | <a href="https://drinkpoppi.com/pages/poppi-university"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 
 ---
 
