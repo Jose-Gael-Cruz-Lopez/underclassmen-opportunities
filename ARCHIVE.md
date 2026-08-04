@@ -233,6 +233,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | AWIS (Association for Women in Science) | AWIS First-Gen Scholarship (Female; First-Gen; NSF Science Field) — Deadline: Closed (late February 2026) | Scholarship ($2,000; up to 4 awards) | Remote | :lock: | Feb 2026 |
 | 🔒 **[CLOSED]** | Advancing Women in Technology | AWT Scholarship 2026 :lock: | Scholarship | Remote | :lock: | Closed |
 | 🔒 **[CLOSED]** | Built By Girls | WAVE Mentorship — Deadline: Rolling — Archived 2026-08-04 — application link dead (builtbygirls.com now 301-redirects to yahoo.com) | 1:1 Mentorship (Women & Non-Binary, Ages 15–22; Free) | Remote | <a href="https://wave.builtbygirls.com/wave/signup"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
+| 🔒 **[CLOSED]** | Patsy Takemoto Mink Education Foundation | Education Support Award (2026–27) — Deadline: Check site — Archived 2026-08-04 — page states the 2026-27 cycle closed Aug 1, 2026 | Scholarship (Low-Income Mothers w/ Minor Children; Women 17+; Full-Time Postsecondary; Up to $5,000) | Remote | <a href="https://www.patsyminkfoundation.org/education-support-application"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 6, 2026 |
 
 ---
 
