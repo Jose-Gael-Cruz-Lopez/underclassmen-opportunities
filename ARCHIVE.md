@@ -189,6 +189,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | Scholarship America | Dream Award :lock: | Up to $10,000/yr | :lock: | Closed |
 | 🔒 **[CLOSED]** | The Executive Leadership Council | ELC Scholarship Program :lock: | Varies | :lock: | Closed |
 | 🔒 **[CLOSED]** | Women & Hi Tech | Leading Light Awards Scholarships (Women in STEM; HS Seniors / Undergrads / Grads; Indiana-based or Attending Indiana School) | $1,000–$5,000 (Multiple Awards; $50K+ Total Pool) | <a href="https://womenandhitech.org/LLA"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | July 5, 2026 — Archived 2026-07-09 — deadline passed |
+| 🔒 **[CLOSED]** | Apex Hosting | Minecraft Scholarship (HS/College; 3.0+ GPA; 500-word essay) | $2,000 (annual) | <a href="https://apexminecrafthosting.com/minecraft-scholarship/"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | July 31, 2026 — Archived 2026-08-04 — deadline passed; no new cycle posted |
 
 ---
 
