@@ -104,6 +104,7 @@ This page is a permanent record of every opportunity that has closed. These are 
 | 🔒 **[CLOSED]** | The Rithm Project | Rithm Fellow — Deadline: Jul 15, 2026 — Archived 2026-07-23 — deadline passed | Fellowship (Ages 18–22) | Check site | <a href="https://www.therithmproject.org/rithm-fellow"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 | 🔒 **[CLOSED]** | ServiceNow | Externship Program 2026 — Deadline: Check site — Archived 2026-08-04 — application link returns 404 | Externship | Multiple Locations | <a href="https://servicenow.swoogo.com/ExternshipProgram2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 14, 2026 |
 | 🔒 **[CLOSED]** | Royal Caribbean | Early Career Immersion Program — Deadline: Check site — Archived 2026-08-04 — posting states the position has been filled | Immersion Program | Miami, FL | <a href="https://jobs.royalcaribbeangroup.com/job/Miami-Early-Career-Immersion-Program-August-2026-FL-33132/1373237400"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Apr 07, 2026 |
+| 🔒 **[CLOSED]** | Ramp | Builders Cup 2026 — Deadline: Invite / Approval-Based — Archived 2026-08-04 — event held Jul 18, 2026; page marked Past Event | Emerging-Talent Hackathon (No Class Gate) | New York, NY | <a href="https://luma.com/nrletiv9"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Jul 5, 2026 |
 
 ---
 
