@@ -41,16 +41,18 @@ jobs:
         run: |
           python .github/scripts/auto_extract.py "${{ github.event_path }}"
 
-      - name: Update README
-        run: |
-          python .github/scripts/update_readmes.py
+      # NOTE: README.md is the source of truth and is maintained by hand.
+      # update_readmes.py is NOT run here — it regenerates only 4 of the 9
+      # tables, from a schema with no Status column, and would wipe every
+      # badge. listings.json is kept as a submission intake log; add the
+      # README row manually. See update_readmes.yml for the full rationale.
 
       - name: Commit and push changes
         if: steps.extract.outputs.is_duplicate != 'true' && steps.extract.outputs.commit_message != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .github/scripts/listings.json README.md
+          git add .github/scripts/listings.json
           git commit -m "${{ steps.extract.outputs.commit_message }}" || echo "No changes to commit"
           # Rebase and retry push up to 3 times
           for i in 1 2 3; do

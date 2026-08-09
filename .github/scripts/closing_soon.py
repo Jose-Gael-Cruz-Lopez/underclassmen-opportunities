@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-closing_soon.py — flag opportunities closing within 7 days as 🔥 [CLOSING SOON].
+closing_soon.py — flag opportunities closing within 14 days as 🔥 [CLOSING SOON].
 
 Scans every <!-- *_TABLE_START --> ... <!-- *_TABLE_END --> region in README.md.
 For each row with status ✅ [OPEN] or 🔥 [CLOSING SOON]:
   - Find the earliest upcoming date in the row
-  - If 0–7 days away: flip status to 🔥 [CLOSING SOON]
-  - If >7 days away: flip status back to ✅ [OPEN]
+  - If 0–14 days away: flip status to 🔥 [CLOSING SOON]
+  - If >14 days away: flip status back to ✅ [OPEN]
   - If unparseable / past / Rolling / Check site: leave alone
 
 [OPENS SOON] and [CLOSED] rows are never modified.
@@ -23,6 +23,10 @@ README = os.path.join(os.path.dirname(__file__), "..", "..", "README.md")
 
 OPEN = "✅ **[OPEN]**"
 CLOSING = "🔥 **[CLOSING SOON]**"
+
+# Deadlines this many days out (or fewer) get the 🔥 badge.
+# Keep in sync with the weekly audit runbook, which uses the same window.
+CLOSING_SOON_DAYS = 14
 
 MONTHS = (
     "January|February|March|April|May|June|July|August|September|October|November|December|"
@@ -66,7 +70,7 @@ def update_row(row: str, today: datetime):
     if not deadline:
         return row, False
     days_until = (deadline.date() - today.date()).days
-    target = CLOSING if 0 <= days_until <= 7 else OPEN
+    target = CLOSING if 0 <= days_until <= CLOSING_SOON_DAYS else OPEN
     current = CLOSING if has_closing else OPEN
     if target == current:
         return row, False

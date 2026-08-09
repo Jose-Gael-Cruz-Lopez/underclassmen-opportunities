@@ -26,8 +26,8 @@ This is community-driven. If you find something, add it. Together we make the pa
 
 **To contribute** — it takes 60 seconds:
  1. [Open an issue](https://github.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities/issues/new/choose) and paste the opportunity URL
- 2. A maintainer approves it
- 3. It gets automatically added to the list
+ 2. A maintainer approves it — details are auto-extracted from the page
+ 3. A maintainer adds it to the list
 
 ---
 

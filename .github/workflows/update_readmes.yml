@@ -1,11 +1,20 @@
 name: Update READMEs
 
+# DISARMED 2026-08-08 — manual dispatch only.
+#
+# README.md is the source of truth. update_readmes.py regenerates only the
+# INTERNSHIPS / PROGRAMS / RESEARCH / SCHOLARSHIPS regions, and it emits a
+# schema with no Status column and no Ambassador / HBCU / Women / Rising
+# Freshmen / State tables. listings.json has meanwhile diverged badly: of its
+# 112 visible entries only ~10 still match the README, and 94 are inactive.
+#
+# Running this today would delete every ✅/🔥/⏳ badge in those four tables and
+# replace their rows with stale data. The push trigger is therefore removed so
+# an approved contribution can't fire it. Do NOT re-enable until the generator
+# emits the live 7-column schema for all nine tables AND a dry run produces an
+# empty diff against README.md.
+
 on:
-  push:
-    paths:
-      - '.github/scripts/listings.json'
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:

@@ -95,8 +95,14 @@ Editing via issues is not currently supported. To update a listing:
 1. **User submits** a link via the issue template
 2. **Maintainer reviews** and adds the `approved` label
 3. **AI extracts** company, role, location, category, etc. from the page
-4. **Automation adds** the opportunity to the correct table
-5. **Issue is closed** with a summary of what was added
+4. **Details are recorded** in `.github/scripts/listings.json` as an intake log
+5. **Issue is closed** with a summary of what was extracted
+6. **A maintainer adds the row to `README.md` by hand**
+
+> **Note:** step 6 is manual on purpose. `README.md` is the source of truth — it
+> carries status badges (✅ / 🔥 / ⏳) and nine tables that the extractor doesn't
+> model, so nothing writes to it automatically. Expect a short delay between
+> your issue being approved and the listing appearing on the site.
 
 ---
 

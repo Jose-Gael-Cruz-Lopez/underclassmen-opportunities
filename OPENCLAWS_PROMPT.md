@@ -8,7 +8,7 @@ This is an automated GitHub repository that tracks internships, programs, and re
 
 ```
 underclassmen-opportunities/
-├── README.md                              # Main page with 3 tables
+├── README.md                              # SOURCE OF TRUTH — 9 hand-maintained tables
 ├── CONTRIBUTING.md                        # Contribution guide
 └── .github/
     ├── ISSUE_TEMPLATE/
@@ -21,14 +21,14 @@ underclassmen-opportunities/
     ├── scripts/
     │   ├── auto_extract.py                # Fetches URL + uses OpenAI to extract details
     │   ├── contribution_approved.py       # Processes manual submissions
-    │   ├── update_readmes.py              # Generates README tables from listings.json
+    │   ├── update_readmes.py              # DISARMED — stale generator, do not run (see below)
     │   ├── util.py                        # Shared utilities (formatting, JSON I/O, etc.)
     │   ├── listings.json                  # THE DATA: all opportunities stored here
     │   └── requirements.txt               # Python dependencies
     └── workflows/
         ├── auto_extract.yml               # Triggered when 'approved' label added to issue
         ├── contribution_approved.yml      # Processes non-AI submissions
-        └── update_readmes.yml             # Auto-updates README when listings.json changes
+        └── update_readmes.yml             # DISARMED — manual workflow_dispatch only
 ```
 
 ## HOW THE AUTOMATION WORKS
@@ -39,26 +39,59 @@ underclassmen-opportunities/
    - Fetches the webpage using `requests` + `BeautifulSoup`
    - Sends page content to OpenAI GPT-4o-mini to extract structured data
    - AI returns JSON with: company_name, title, locations, category, opportunity_type, season, sponsorship, field (for research)
-   - Script adds the new listing to `listings.json`
-   - Runs `update_readmes.py` to regenerate all README tables
-   - Commits and pushes to main
+   - Script adds the new listing to `listings.json` (intake log only)
+   - Commits and pushes `listings.json` to main
    - Comments on the issue with extracted details, then closes the issue
+   - A maintainer then adds the row to `README.md` **by hand**
 
-## THE THREE README TABLES
+> **`update_readmes.py` is NOT run by any workflow (disarmed 2026-08-08).**
+> `README.md` is the source of truth. The generator only knows 4 of the 9
+> tables and emits a schema with no `Status` column, and `listings.json` has
+> diverged (only ~10 of its 112 entries still match the README). Running it
+> would delete every status badge and replace live rows with stale data.
+> `update_readmes.yml` is now `workflow_dispatch`-only. Do not re-enable it
+> until the generator emits the live schema for all nine tables **and** a dry
+> run produces an empty diff.
 
-The README has three sections with tables between HTML comment markers:
+## THE NINE README TABLES
 
-1. **Underclassmen Internships** (`<!-- INTERNSHIPS_TABLE_START -->` / `<!-- INTERNSHIPS_TABLE_END -->`)
-   - Columns: Company | Role | Location | Application | Date Posted
-   - For traditional internship programs (STEP, Explore, etc.)
+The README has nine sections with tables between HTML comment markers. Every
+table's first column is `Status`, holding exactly one of
+`✅ **[OPEN]**`, `🔥 **[CLOSING SOON]**`, or `⏳ **[OPENS SOON]**`.
 
-2. **Underclassmen Programs (Fellowships, Externships, etc.)** (`<!-- PROGRAMS_TABLE_START -->` / `<!-- PROGRAMS_TABLE_END -->`)
-   - Columns: Company | Program | Type | Location | Application | Date Posted
-   - For fellowships, externships, bootcamps
+1. **Underclassmen Internships** (`<!-- INTERNSHIPS_TABLE_START/END -->`)
+   - Status | Company | Role | Location | Application | Date Posted
+   - Deadline is embedded in the Role text ("— Deadline: Rolling")
 
-3. **Underclassmen Research Programs** (`<!-- RESEARCH_TABLE_START -->` / `<!-- RESEARCH_TABLE_END -->`)
-   - Columns: University/Organization | Program | Field | Location | Application | Date Posted
-   - For REU, SURF, lab research programs
+2. **Underclassmen Programs (Fellowships, Externships, etc.)** (`<!-- PROGRAMS_TABLE_START/END -->`)
+   - Status | Company | Program | Type | Location | Application | Date Posted
+
+3. **Ambassador Programs** (`<!-- AMBASSADORS_TABLE_START/END -->`)
+   - Status | Company | Program | Type | Location | Application | Date Posted
+
+4. **Underclassmen Research Programs** (`<!-- RESEARCH_TABLE_START/END -->`)
+   - Status | University/Organization | Program | Field | Location | Application | Date Posted
+   - Currently empty; keep the header and empty table in place
+
+5. **Scholarships** (`<!-- SCHOLARSHIPS_TABLE_START/END -->`)
+   - Status | Organization | Scholarship | Amount | Application | Deadline
+
+6. **HBCU Opportunities** (`<!-- HBCU_TABLE_START/END -->`)
+   - Status | Organization | Opportunity | Type | Location | Application | Date Posted
+
+7. **Women in Tech Opportunities** (`<!-- WOMEN_TABLE_START/END -->`)
+   - Status | Organization | Opportunity | Type | Location | Application | Date Posted
+
+8. **Rising Freshmen & Class of 2030** (`<!-- RISING_FRESHMEN_TABLE_START/END -->`)
+   - Status | Organization | Opportunity | Type | Location | Application | Deadline
+
+9. **State-Based Scholarships & Grants** (`<!-- STATE_TABLE_START/END -->`)
+   - Status | State | Program | Award | Eligibility | Application | Deadline
+
+Some programs are listed in two tables on purpose (e.g. WomenHack and
+GirlsWhoML in both Programs and Women in Tech; Jane Street WiSE in both Women
+in Tech and Rising Freshmen). Any edit must be applied to **every** instance so
+the tables never contradict each other.
 
 ## KNOWN BUGS AND ISSUES TO FIX
 
@@ -144,10 +177,13 @@ Make sure this is the ONLY format used everywhere — in util.py's `format_link(
 
 ### 5. TEST THE FULL FLOW
 After making all fixes:
-1. Run `update_readmes.py` locally to verify tables generate correctly
+1. **Do NOT run `update_readmes.py` against the real `README.md`** — it is
+   disarmed and would overwrite live data. Diff its output in a scratch copy only.
 2. Verify the workflow YAML files are syntactically correct
 3. Ensure listings.json passes schema validation
 4. Test edge cases: locations with commas, long titles, special characters
+5. Confirm every README table still has its `Status` column, matching column
+   counts, and no duplicate rows
 
 ## IMPORTANT CONSTRAINTS
 
