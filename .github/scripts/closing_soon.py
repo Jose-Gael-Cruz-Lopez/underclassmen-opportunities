@@ -32,7 +32,13 @@ MONTHS = (
     "January|February|March|April|May|June|July|August|September|October|November|December|"
     "Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec"
 )
-DATE_RE = re.compile(rf"\b({MONTHS})\s+(\d{{1,2}}),?\s+(\d{{4}})\b")
+# Matches "Aug 15, 2026" and also day ranges like "Oct 28–31, 2026", where the
+# range's START day is captured — an event running Oct 28–31 should start
+# flagging on Oct 14, not Oct 17. Cross-month ranges ("Sep 15–Dec 15, 2026")
+# still match only their trailing date, which is the intended end-of-window.
+DATE_RE = re.compile(
+    rf"\b({MONTHS})\.?\s+(\d{{1,2}})(?:\s*[–—-]\s*\d{{1,2}})?,?\s+(\d{{4}})\b"
+)
 
 TABLE_RE = re.compile(r"(<!-- \w+_TABLE_START -->)(.*?)(<!-- \w+_TABLE_END -->)", re.DOTALL)
 
