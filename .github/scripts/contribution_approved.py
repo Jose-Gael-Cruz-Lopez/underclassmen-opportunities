@@ -9,7 +9,6 @@ This script handles three types of contributions:
 """
 
 import json
-import os
 import sys
 import re
 import util

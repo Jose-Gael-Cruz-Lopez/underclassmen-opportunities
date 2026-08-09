@@ -129,7 +129,10 @@ def extract_with_openai(page_content, additional_notes=""):
 
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        util.fail("OPENAI_API_KEY environment variable not set. Add it as a repository secret.")
+        util.fail(
+            "OPENAI_API_KEY environment variable not set. It is populated from "
+            "the repository secret named OPEN_AI (see auto_extract.yml)."
+        )
 
     client = OpenAI(api_key=api_key)
 

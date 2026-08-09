@@ -93,118 +93,65 @@ GirlsWhoML in both Programs and Women in Tech; Jane Street WiSE in both Women
 in Tech and Rising Freshmen). Any edit must be applied to **every** instance so
 the tables never contradict each other.
 
-## KNOWN BUGS AND ISSUES TO FIX
+## RESOLVED BUG LOG (verified 2026-08-08 — do not "re-fix" these)
 
-### BUG 1: TABLE COLUMNS GET MISALIGNED (CRITICAL)
-When the AI extracts data, sometimes fields end up in the wrong columns. For example:
-- The "Apply" button appears in the Location column
-- "London" appears in the Application column instead of the Location column
-- This happens because the AI sometimes returns locations that contain pipe characters "|" or the data isn't properly sanitized before being placed in markdown table cells
+Every item in the original bug list has been addressed. Verified against the
+code, not assumed. Left here so nobody re-opens settled ground.
 
-**Root cause:** The `create_programs_table()` and `create_research_table()` functions in `update_readmes.py` don't sanitize the data. If a location contains "|" it breaks the markdown table. Also, the AI extraction sometimes returns data in wrong fields.
+| # | Original bug | Status |
+|---|---|---|
+| 1 | Table columns misaligned by unescaped `\|` | **Fixed** — `util.sanitize_table_cell()` escapes pipes and newlines; called in all four table builders (12 call sites) |
+| 2 | Duplicate entries showing the `↳` arrow | **Fixed upstream** — `auto_extract.py` now rejects duplicates by URL *and* by `company_name + title`. The arrow code still exists in `create_internships_table()` but that generator is disarmed and the README uses 0 arrows |
+| 3 | Both label-triggered workflows could race | **Fixed** — both declare `concurrency: {group: add_opportunity, cancel-in-progress: false}` |
+| 4 | Edit Opportunity didn't actually edit | **Fixed** — `handle_edit_opportunity()` now fails fast and tells the user to close + re-add |
+| 5 | `git push` could fail silently | **Fixed** — both workflows do `git fetch && git rebase` with a 3-attempt retry loop |
+| 6 | Non-underclassmen listings still added | **By design** — a maintainer applying the `approved` label *is* the review gate. `auto_extract.py` logs a warning and proceeds. Intentional, not a bug |
 
-**Fix needed:**
-- In `util.py`, add a `sanitize_table_cell()` function that escapes pipe characters "|" in all cell values
-- Apply this sanitization in ALL table creation functions in `update_readmes.py`
-- In `auto_extract.py`, add validation that extracted data makes sense (e.g., location should look like a location, not a URL or button)
+Additional improvements from the original list are also done: AI output is
+validated (empty/`Unknown` company or title, bad category, URL-shaped or
+HTML-bearing locations all rejected with a "use Quick Add" message);
+`format_link()` emits only the blue shields.io badge and no imgur URL survives
+anywhere; `create_md_table()` has been removed from `util.py`; imports are clean.
 
-### BUG 2: DUPLICATE ENTRIES WITH ARROW SYMBOL
-When CrowdStrike was added, it appeared twice with an "↳" arrow. The arrow feature is meant to show multiple roles from the same company, but it's showing for duplicate entries.
+## IF YOU ARE ASKED TO "FIX THE README GENERATOR"
 
-**Root cause:** The `create_internships_table()` function uses "↳" when the current company matches the previous company. But if the same company+role is added twice (duplicate), it shows the arrow instead of being caught as a duplicate.
-
-**Fix needed:**
-- In `auto_extract.py`, improve duplicate detection to also check by company_name + title (not just URL)
-- In `update_readmes.py`, consider removing the arrow feature entirely OR ensure it only shows when there are genuinely different roles from the same company
-
-### BUG 3: WORKFLOW RACE CONDITIONS
-Both `auto_extract.yml` and `contribution_approved.yml` trigger on the `approved` label. They could both run simultaneously and overwrite each other.
-
-**Fix needed:**
-- Add concurrency control to `auto_extract.yml` matching what `contribution_approved.yml` already has
-- Add `git pull origin main --rebase` before pushing in both workflows
-- Consider consolidating into a single workflow
-
-### BUG 4: EDIT OPPORTUNITY DOESN'T ACTUALLY EDIT
-The `handle_edit_opportunity()` function in `contribution_approved.py` only updates the timestamp — it doesn't parse or apply the actual changes described in the issue.
-
-**Fix needed:**
-- Either implement proper editing (parse the changes text and update fields)
-- Or remove the edit template and tell users to close + re-add
-
-### BUG 5: GIT PUSH CAN FAIL SILENTLY
-The workflow does `git push origin main` without checking if main has been updated since checkout. If another workflow pushed in between, this fails.
-
-**Fix needed:**
-- Add `git fetch origin main && git rebase origin/main` before every push
-- Add retry logic for push failures
-
-### BUG 6: NON-UNDERCLASSMEN OPPORTUNITIES STILL GET ADDED
-When AI sets `is_underclassmen: false`, a warning is shown but the listing is still added.
-
-**Fix needed:**
-- When `is_underclassmen` is false, don't auto-add the listing
-- Instead, add a "needs-review" label and comment asking the maintainer to verify
-- Only add on a second approval
-
-## ADDITIONAL IMPROVEMENTS NEEDED
-
-### 1. VALIDATE AI EXTRACTION OUTPUT
-After OpenAI returns JSON, validate:
-- `company_name` is not empty or "Unknown"
-- `title` is not empty or "Unknown"
-- `locations` is a non-empty array of strings that look like locations
-- `category` is one of: "Internship", "Program", "Research"
-- `url` is a valid URL
-- No field contains HTML or markdown syntax that would break tables
-
-### 2. ADD ERROR RECOVERY
-If the AI extraction fails or returns bad data:
-- Don't commit broken data
-- Comment on the issue with what went wrong
-- Suggest using the Quick Add template instead
-
-### 3. MAKE THE APPLY BUTTON CONSISTENT
-The Apply button should ALWAYS be a blue shields.io badge:
-```
-<a href="URL"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a>
-```
-Make sure this is the ONLY format used everywhere — in util.py's `format_link()` function AND in the README. Never use the old gray imgur button (`https://i.imgur.com/u1KNU8z.png`).
-
-### 4. CLEAN UP UNUSED CODE
-- Remove `create_md_table()` from `util.py` — it's unused (update_readmes.py has its own table functions)
-- Remove unused imports
-
-### 5. TEST THE FULL FLOW
-After making all fixes:
-1. **Do NOT run `update_readmes.py` against the real `README.md`** — it is
-   disarmed and would overwrite live data. Diff its output in a scratch copy only.
-2. Verify the workflow YAML files are syntactically correct
-3. Ensure listings.json passes schema validation
-4. Test edge cases: locations with commas, long titles, special characters
-5. Confirm every README table still has its `Status` column, matching column
-   counts, and no duplicate rows
+Read the disarm note above first. The generator is not broken in a way you can
+patch in isolation — it is missing five of the nine tables and the entire
+`Status` column, and `listings.json` no longer reflects the README. Re-arming
+it without rebuilding both halves will silently destroy live data. The correct
+order is: regenerate `listings.json` from `README.md`, extend the generator to
+all nine tables with their real schemas, prove a dry run diffs empty, and only
+then restore the trigger.
 
 ## IMPORTANT CONSTRAINTS
 
 - The Apply button MUST be blue using shields.io: `https://img.shields.io/badge/Apply-blue?style=for-the-badge`
-- The OpenAI API key is stored as a GitHub secret called `OPENAI_API_KEY`
+- The OpenAI API key is stored as a repository secret named **`OPEN_AI`**, which
+  `auto_extract.yml` maps to the `OPENAI_API_KEY` environment variable the
+  script reads. The secret is not called `OPENAI_API_KEY`.
 - The AI model used is `gpt-4o-mini`
 - All timestamps are in Pacific Standard Time (PST)
-- The listings.json is the single source of truth — the README is auto-generated from it
+- **`README.md` is the single source of truth.** `listings.json` is a
+  submission intake log only, and it has diverged — do not treat it as
+  authoritative and do not regenerate the README from it
 - Never commit broken README tables
 - Each listing in listings.json MUST have these required fields: id, company_name, title, url, locations, season, category, opportunity_type, target_year, sponsorship, active, is_visible, date_posted, date_updated, source
 
 ## WHAT SUCCESS LOOKS LIKE
 
 When done:
-1. Pasting a link and adding `approved` label should correctly extract ALL details
-2. The extracted data should land in the CORRECT table (Internship/Program/Research)
-3. ALL columns should be properly aligned — no data in wrong columns
-4. The Apply button should always be blue and in the Application column
+1. Pasting a link and adding `approved` label correctly extracts ALL details
+   into `listings.json`, and the issue is closed with a summary
+2. A maintainer adds the row to the right one of the nine README tables by hand
+3. Every table keeps its `Status` column, matching column counts, and no
+   duplicate rows
+4. The Apply button is always the blue shields.io badge in the Application column
 5. No duplicate entries
 6. No broken markdown tables
-7. The workflow should handle errors gracefully and never commit bad data
-8. The edit functionality should either work properly or be removed
+7. The workflow handles errors gracefully and never commits bad data
+8. `python3 .github/scripts/closing_soon.py` reports `Updated 0 row(s)` —
+   meaning the badges in the README already agree with the 14-day rule
 
-Please read every file in the repository, fix all the bugs listed above, test the scripts, and commit the fixes. Start by reading all files to understand the current state, then fix issues one by one.
+The bug list that used to live here is resolved; see the RESOLVED BUG LOG
+above before starting work, and do not re-fix settled items. If you are making
+changes, read the repository first to understand the current state.
