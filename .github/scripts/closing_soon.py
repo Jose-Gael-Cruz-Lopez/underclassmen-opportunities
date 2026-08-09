@@ -66,13 +66,36 @@ def earliest_upcoming(text: str, today: datetime):
     return min(upcoming) if upcoming else None
 
 
-def update_row(row: str, today: datetime):
+def date_posted_index(body: str):
+    """Column index of the 'Date Posted' header in this table, or None.
+
+    That column holds the day a listing was added, which is NOT a deadline.
+    A row added today would otherwise look like it closes in 0 days.
+    """
+    for line in body.split("\n"):
+        if line.startswith("| ") and "Status" in line:
+            cells = [c.strip().lower() for c in line.strip().strip("|").split("|")]
+            return cells.index("date posted") if "date posted" in cells else None
+    return None
+
+
+def strip_column(row: str, index):
+    """Row text with the given cell removed, for date scanning."""
+    if index is None:
+        return row
+    cells = row.strip().strip("|").split("|")
+    if index < len(cells):
+        cells = cells[:index] + cells[index + 1:]
+    return "|".join(cells)
+
+
+def update_row(row: str, today: datetime, skip_index=None):
     """Return (new_row, changed)."""
     has_open = OPEN in row
     has_closing = CLOSING in row
     if not (has_open or has_closing):
         return row, False
-    deadline = earliest_upcoming(row, today)
+    deadline = earliest_upcoming(strip_column(row, skip_index), today)
     if not deadline:
         return row, False
     days_until = (deadline.date() - today.date()).days
@@ -85,13 +108,14 @@ def update_row(row: str, today: datetime):
 
 def process_table_body(body: str, today: datetime):
     lines = body.split("\n")
+    skip = date_posted_index(body)
     changed = 0
     for i, line in enumerate(lines):
         if not line.startswith("| "):
             continue
         if "Status |" in line or re.match(r"\|\s*-+", line):
             continue
-        new_line, did = update_row(line, today)
+        new_line, did = update_row(line, today, skip)
         if did:
             lines[i] = new_line
             changed += 1
