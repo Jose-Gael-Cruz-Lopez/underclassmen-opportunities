@@ -150,8 +150,8 @@ Paid and perks-based campus ambassador, brand-representative, and student-market
 <!-- RESEARCH_TABLE_START -->
 | Status | University/Organization | Program | Field | Location | Application | Date Posted |
 | ------ | ----------------------- | ------- | ----- | -------- | ----------- | ----------- |
-
-| ✅ **[OPEN]** | Google | Student Researcher, BS/MS, Fall 2026 — Deadline: Nov 27, 2026 (Rolling; May Close Earlier) | Computer Science / Research (Currently Enrolled Bachelor's or Master's; Must Be US-Based; Google Research, DeepMind + Cloud Teams) | Seattle, WA / San Francisco, CA / Sunnyvale, CA / Washington, DC | <a href="https://www.google.com/about/careers/applications/jobs/results/132362676918461126-student-researcher-bsms-fall-2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Aug 9, 2026 |<!-- RESEARCH_TABLE_END -->
+| ✅ **[OPEN]** | Google | Student Researcher, BS/MS, Fall 2026 — Deadline: Nov 27, 2026 (Rolling; May Close Earlier) | Computer Science / Research (Currently Enrolled Bachelor's or Master's; Must Be US-Based; Google Research, DeepMind + Cloud Teams) | Seattle, WA / San Francisco, CA / Sunnyvale, CA / Washington, DC | <a href="https://www.google.com/about/careers/applications/jobs/results/132362676918461126-student-researcher-bsms-fall-2026"><img src="https://img.shields.io/badge/Apply-blue?style=for-the-badge" alt="Apply"></a> | Aug 9, 2026 |
+<!-- RESEARCH_TABLE_END -->
 
 ---
 

@@ -1,0 +1,34 @@
+name: Lint Tables
+
+# Guards the opportunity tables against formatting mistakes that silently break
+# GitHub's markdown rendering — most importantly a blank line inside a table
+# region, which ends the table and makes every following row display as raw
+# pipe-delimited text.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+      - 'ARCHIVE.md'
+      - '.github/scripts/lint_tables.py'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'ARCHIVE.md'
+      - '.github/scripts/lint_tables.py'
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Lint opportunity tables
+        run: python .github/scripts/lint_tables.py
