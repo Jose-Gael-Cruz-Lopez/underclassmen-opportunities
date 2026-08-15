@@ -15,6 +15,8 @@ import re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+from closing_soon import CLOSING_SOON_DAYS
+
 PST = ZoneInfo("America/Los_Angeles")
 README = os.path.join(os.path.dirname(__file__), "..", "..", "README.md")
 DIGEST = os.path.join(os.path.dirname(__file__), "..", "..", "digest.md")
@@ -136,7 +138,7 @@ def main():
 
     if closing_rows:
         out.append(f"\n## 🔥 Closing soon ({len(closing_rows)})\n")
-        out.append("Apply now — these deadlines are within 7 days:\n")
+        out.append(f"Apply now — these deadlines are within {CLOSING_SOON_DAYS} days:\n")
         for s, r in closing_rows:
             out.append(build_row_summary(s, r))
 
