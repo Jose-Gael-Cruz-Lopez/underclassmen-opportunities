@@ -26,6 +26,7 @@ CLOSING = "🔥 **[CLOSING SOON]**"
 
 # Deadlines this many days out (or fewer) get the 🔥 badge.
 # Keep in sync with the weekly audit runbook, which uses the same window.
+# weekly_digest.py imports this constant for its "closing soon" copy.
 CLOSING_SOON_DAYS = 14
 
 MONTHS = (
