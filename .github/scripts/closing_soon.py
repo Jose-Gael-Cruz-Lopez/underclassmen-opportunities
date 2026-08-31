@@ -10,6 +10,8 @@ For each row with status ✅ [OPEN] or 🔥 [CLOSING SOON]:
   - If unparseable / past / Rolling / Check site: leave alone
 
 [OPENS SOON] and [CLOSED] rows are never modified.
+After flipping, 🔥 rows are regrouped to the top of their table (keeping their
+relative order) so lint_tables.py's grouping rule keeps passing.
 Idempotent — safe to run daily.
 """
 
@@ -107,6 +109,33 @@ def update_row(row: str, today: datetime, skip_index=None):
     return row.replace(current, target, 1), True
 
 
+def is_closing(row: str) -> bool:
+    """True if the row's Status (first) cell carries the 🔥 badge."""
+    return CLOSING in row.strip().strip("|").split("|", 1)[0]
+
+
+def regroup_closing(lines):
+    """Stable-move 🔥 rows above the other data rows. Returns (lines, moved).
+
+    lint_tables.py fails CI when 🔥 rows are not grouped at the top of their
+    table, and a badge flipped mid-table would otherwise land there. Runs on
+    every pass (not just after a flip) so it also heals tables that are
+    already mis-ordered.
+    """
+    idx = [
+        i for i, line in enumerate(lines)
+        if line.startswith("| ")
+        and "Status |" not in line
+        and not re.match(r"\|\s*-+", line)
+    ]
+    rows = [lines[i] for i in idx]
+    ordered = [r for r in rows if is_closing(r)] + [r for r in rows if not is_closing(r)]
+    moved = ordered != rows
+    for i, row in zip(idx, ordered):
+        lines[i] = row
+    return lines, moved
+
+
 def process_table_body(body: str, today: datetime):
     lines = body.split("\n")
     skip = date_posted_index(body)
@@ -120,29 +149,32 @@ def process_table_body(body: str, today: datetime):
         if did:
             lines[i] = new_line
             changed += 1
-    return "\n".join(lines), changed
+    lines, moved = regroup_closing(lines)
+    return "\n".join(lines), changed, moved
 
 
 def main():
-    with open(README, "r") as f:
+    with open(README, "r", encoding="utf-8") as f:
         content = f.read()
 
     today = datetime.now(tz=PST)
     total = 0
+    regrouped = 0
 
     def replace(m):
-        nonlocal total
-        new_body, n = process_table_body(m.group(2), today)
+        nonlocal total, regrouped
+        new_body, n, moved = process_table_body(m.group(2), today)
         total += n
+        regrouped += moved
         return m.group(1) + new_body + m.group(3)
 
     new_content = TABLE_RE.sub(replace, content)
 
     if new_content != content:
-        with open(README, "w") as f:
+        with open(README, "w", encoding="utf-8") as f:
             f.write(new_content)
 
-    print(f"Updated {total} row(s).")
+    print(f"Updated {total} row(s); regrouped {regrouped} table(s).")
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a") as f:
