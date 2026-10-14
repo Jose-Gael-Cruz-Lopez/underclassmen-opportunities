@@ -1,0 +1,550 @@
+{
+  "checked_on": "2026-10-13",
+  "timezone": "America/New_York",
+  "active_application_count": 38,
+  "application_submission_performed": false,
+  "entries": [
+    {
+      "organization": "Girls Who Invest",
+      "program": "GWI Scholars Program (2027)",
+      "url": "https://apply.girlswhoinvest.org/register/?id=c237d6ee-c63f-42e8-bdc0-96191a986b11",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Current first-year or sophomore as of Fall 2026; graduation Fall 2028–Spring 2030; enrolled in or transferring to an accredited U.S. or U.S.-style four-year institution. Sophomores at two-year U.S. colleges may qualify with the documented Fall 2027 transfer pathway. All gender identities and majors welcome.",
+      "deadline": "October 15, 2026 at 11:59 PM local time",
+      "application_evidence": "Live 2027 Scholars application creation form includes enrollment and expected graduation gate, first-year/sophomore selectors, contact fields and submission instructions; form specifically creates a new 2027 application, not a mailing-list entry.",
+      "evidence_urls": [
+        "https://apply.girlswhoinvest.org/register/?id=c237d6ee-c63f-42e8-bdc0-96191a986b11",
+        "https://www.girlswhoinvest.org/apply-faqs"
+      ]
+    },
+    {
+      "organization": "MLT (Management Leadership for Tomorrow)",
+      "program": "Career Prep (Class of 2029)",
+      "url": "https://mlt.smapply.org/prog/careerprep2029_application/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "College sophomores graduating Fall 2028, Spring 2029 or Summer 2029; four-year bachelor’s program; U.S. citizen/permanent resident including DACA; experienced inequitable career-resource access.",
+      "deadline": "January 15, 2027 at 11:59 PM EST; SWE / Technology & Corporate Management priority November 1, 2026",
+      "application_evidence": "Official current 2029 cohort explicitly says application OPEN, lists June 8, 2026 opening and Jan 15, 2027 final deadline, and provides cohort-specific Apply route /prog/296016/apply/. Account login required to proceed.",
+      "evidence_urls": [
+        "https://mlt.smapply.org/prog/careerprep2029_application/",
+        "https://mlt.smapply.org/prog/296016/apply/?next=/prog/careerprep2029_application/"
+      ]
+    },
+    {
+      "organization": "Jane Street",
+      "program": "Bridge — London (2027)",
+      "url": "https://www.janestreet.com/apply-bridge-ldn/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "First- and second-year university students graduating in 2029; apply to nearest office.",
+      "deadline": "Sunday, January 3rd, 2027 at 11:59pm GMT",
+      "application_evidence": "Current official session bridge-ldn remains in recruiting feed with a future application cutoff. Direct page has cohort-specific application form, personal/contact/education fields and resume upload. Official Greenhouse API returns active job record and 28 application questions for each matching requisition; IDs 8684691002, 8685065002.",
+      "evidence_urls": [
+        "https://www.janestreet.com/apply-bridge-ldn/",
+        "https://www.janestreet.com/jobs/programs-endpoint.json",
+        "https://boards-api.greenhouse.io/v1/boards/jshiddenevents/jobs/8684691002?questions=true",
+        "https://boards-api.greenhouse.io/v1/boards/jshiddenevents/jobs/8685065002?questions=true",
+        "https://www.janestreet.com/join-jane-street/programs-and-events/bridge/"
+      ]
+    },
+    {
+      "organization": "Jane Street",
+      "program": "FTTP — First-Year Trading & Technology — London (2027)",
+      "url": "https://www.janestreet.com/apply-fttp-ldn/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Current first-year undergraduates planning to study a STEM-related major; apply to nearest office.",
+      "deadline": "Sunday, January 3rd, 2027 at 11:59pm GMT",
+      "application_evidence": "Current official session fttp-ldn remains in recruiting feed with a future application cutoff. Direct page has cohort-specific application form, personal/contact/education fields and resume upload. Official Greenhouse API returns active job record and 28 application questions for each matching requisition; IDs 8684310002.",
+      "evidence_urls": [
+        "https://www.janestreet.com/apply-fttp-ldn/",
+        "https://www.janestreet.com/jobs/programs-endpoint.json",
+        "https://boards-api.greenhouse.io/v1/boards/jshiddenevents/jobs/8684310002?questions=true",
+        "https://www.janestreet.com/join-jane-street/programs-and-events/fttp/"
+      ]
+    },
+    {
+      "organization": "Jane Street",
+      "program": "FTTP — First-Year Trading & Technology — New York (2027)",
+      "url": "https://www.janestreet.com/apply-fttp-nyc/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Current first-year undergraduates planning to study a STEM-related major; apply to nearest office.",
+      "deadline": "Sunday, January 31st, 2027 at 11:59pm EST",
+      "application_evidence": "Current official session fttp-nyc remains in recruiting feed with a future application cutoff. Direct page has cohort-specific application form, personal/contact/education fields and resume upload. Official Greenhouse API returns active job record and 28 application questions for each matching requisition; IDs 8683679002.",
+      "evidence_urls": [
+        "https://www.janestreet.com/apply-fttp-nyc/",
+        "https://www.janestreet.com/jobs/programs-endpoint.json",
+        "https://boards-api.greenhouse.io/v1/boards/jshiddenevents/jobs/8683679002?questions=true",
+        "https://www.janestreet.com/join-jane-street/programs-and-events/fttp/"
+      ]
+    },
+    {
+      "organization": "Jane Street",
+      "program": "FOCUS — London (2027)",
+      "url": "https://www.janestreet.com/apply-focus-ldn/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Current first-year university students who experienced barriers to advanced STEM educational opportunities; apply to nearest office.",
+      "deadline": "Sunday, November 8th, 2026 at 11:59pm GMT",
+      "application_evidence": "Current official session focus-ldn remains in recruiting feed with a future application cutoff. Direct page has cohort-specific application form, personal/contact/education fields and resume upload. Official Greenhouse API returns active job record and 28 application questions for each matching requisition; IDs 8684238002.",
+      "evidence_urls": [
+        "https://www.janestreet.com/apply-focus-ldn/",
+        "https://www.janestreet.com/jobs/programs-endpoint.json",
+        "https://boards-api.greenhouse.io/v1/boards/jshiddenevents/jobs/8684238002?questions=true",
+        "https://www.janestreet.com/join-jane-street/programs-and-events/focus/"
+      ]
+    },
+    {
+      "organization": "Jane Street",
+      "program": "FOCUS — New York (2027)",
+      "url": "https://www.janestreet.com/apply-focus-nyc/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Current first-year university students who experienced barriers to advanced STEM educational opportunities; apply to nearest office.",
+      "deadline": "Sunday, November 15th, 2026 at 11:59pm EST",
+      "application_evidence": "Current official session focus-nyc remains in recruiting feed with a future application cutoff. Direct page has cohort-specific application form, personal/contact/education fields and resume upload. Official Greenhouse API returns active job record and 28 application questions for each matching requisition; IDs 8810774002.",
+      "evidence_urls": [
+        "https://www.janestreet.com/apply-focus-nyc/",
+        "https://www.janestreet.com/jobs/programs-endpoint.json",
+        "https://boards-api.greenhouse.io/v1/boards/jshiddenevents/jobs/8810774002?questions=true",
+        "https://www.janestreet.com/join-jane-street/programs-and-events/focus/"
+      ]
+    },
+    {
+      "organization": "Citadel / Citadel Securities",
+      "program": "Discover — U.S. (2027)",
+      "url": "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/apply/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Official main program requires current first- or second-year undergraduate, graduation December 2028–June 2030, age 18+, good standing. University in U.S. states/territories/DC or Canada.",
+      "deadline": " March 5, 2027",
+      "application_evidence": "Live browser Start Application expands a usable application form. Personal information, resume upload, education history, additional questions and Submit Application controls displayed. Official page displays upcoming 2027 regional event and future deadline; no closed notice. Curl challenge 403 was resolved by normal browser access.",
+      "evidence_urls": [
+        "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/apply/",
+        "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/"
+      ]
+    },
+    {
+      "organization": "Citadel / Citadel Securities",
+      "program": "Discover — EMEA (2027)",
+      "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/emea-apply/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Official main program requires current first- or second-year undergraduate, graduation December 2028–June 2030, age 18+, good standing. Residing in Europe.",
+      "deadline": " January 29, 2027",
+      "application_evidence": "Live browser Start Application expands a usable application form. Email/resume upload and Start Application button displayed. Official page displays upcoming 2027 regional event and future deadline; no closed notice. Curl challenge 403 was resolved by normal browser access.",
+      "evidence_urls": [
+        "https://www.citadel.com/careers/programs-and-events/discover-citadel/emea-apply/",
+        "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/"
+      ]
+    },
+    {
+      "organization": "Citadel Securities",
+      "program": "Discover — Hong Kong (2027)",
+      "url": "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/hong-kong/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Official main program requires current first- or second-year undergraduate, graduation December 2028–June 2030, age 18+, good standing. University in Hong Kong or mainland China.",
+      "deadline": " February 14, 2027",
+      "application_evidence": "Live browser Start Application expands a usable application form. Personal information, resume upload, education history, additional questions and Submit Application controls displayed. Official page displays upcoming 2027 regional event and future deadline; no closed notice. Curl challenge 403 was resolved by normal browser access.",
+      "evidence_urls": [
+        "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/hong-kong/",
+        "https://www.citadelsecurities.com/careers/programs-and-events/discover-citadel-securities/"
+      ]
+    },
+    {
+      "organization": "Susquehanna",
+      "program": "Discovery — Trading System Engineer (2027)",
+      "url": "https://careers.sig.com/jobs/11491?lang=en-us",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Graduation winter 2028 or spring 2029; sophomore-equivalent early-year cohort.",
+      "deadline": "November 16, 2026; closing time not published",
+      "application_evidence": "Current official per-job state for requisition 11491 explicitly sets searchable=true and applyable=true with an iCIMS Apply URL. Live Chrome at that URL displays Enter Your Information, Email textbox and Next button inside the Career Portal iframe. No user information entered. Original role description independently contains current graduation cohort.",
+      "evidence_urls": [
+        "https://careers.sig.com/jobs/11491?lang=en-us",
+        "https://careers-sig.icims.com/jobs/11491/login"
+      ]
+    },
+    {
+      "organization": "Susquehanna",
+      "program": "Discovery — Quantitative Trading & Strategy Development (2027)",
+      "url": "https://careers.sig.com/jobs/11148?lang=en-us",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Graduation winter 2028 or spring 2029; sophomore-equivalent early-year cohort.",
+      "deadline": "November 16, 2026; closing time not published",
+      "application_evidence": "Current official per-job state for requisition 11148 explicitly sets searchable=true and applyable=true with an iCIMS Apply URL. Live Chrome at that URL displays Enter Your Information, Email textbox and Next button inside the Career Portal iframe. No user information entered. Original role description independently contains current graduation cohort.",
+      "evidence_urls": [
+        "https://careers.sig.com/jobs/11148?lang=en-us",
+        "https://careers-sig.icims.com/jobs/11148/login"
+      ]
+    },
+    {
+      "organization": "Susquehanna",
+      "program": "Discovery — Equity + Macro Research (2027)",
+      "url": "https://careers.sig.com/jobs/11150?lang=en-us",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Graduation winter 2028 or spring 2029; sophomore-equivalent early-year cohort.",
+      "deadline": "November 16, 2026; closing time not published",
+      "application_evidence": "Current official per-job state for requisition 11150 explicitly sets searchable=true and applyable=true with an iCIMS Apply URL. Live Chrome at that URL displays Enter Your Information, Email textbox and Next button inside the Career Portal iframe. No user information entered. Original role description independently contains current graduation cohort.",
+      "evidence_urls": [
+        "https://careers.sig.com/jobs/11150?lang=en-us",
+        "https://careers-sig.icims.com/jobs/11150/login"
+      ]
+    },
+    {
+      "organization": "Susquehanna",
+      "program": "Discovery — Growth Equity (2027)",
+      "url": "https://careers.sig.com/jobs/11191?lang=en-us",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Graduation winter 2028 or spring 2029; sophomore-equivalent early-year cohort.",
+      "deadline": "Not published; current application form is open",
+      "application_evidence": "Current official per-job state for requisition 11191 explicitly sets searchable=true and applyable=true with an iCIMS Apply URL. Live Chrome at that URL displays Enter Your Information, Email textbox and Next button inside the Career Portal iframe. No user information entered. Original role description independently contains current graduation cohort.",
+      "evidence_urls": [
+        "https://careers.sig.com/jobs/11191?lang=en-us",
+        "https://careers-sig.icims.com/jobs/11191/login"
+      ]
+    },
+    {
+      "organization": "Susquehanna",
+      "program": "Discovery — Operations (2027)",
+      "url": "https://careers.sig.com/jobs/11264?lang=en-us",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Bachelor’s graduation December 2028–May 2029.",
+      "deadline": "Not published; current application form is open",
+      "application_evidence": "Current official per-job state for requisition 11264 explicitly sets searchable=true and applyable=true with an iCIMS Apply URL. Live Chrome at that URL displays Enter Your Information, Email textbox and Next button inside the Career Portal iframe. No user information entered. Original role description independently contains current graduation cohort.",
+      "evidence_urls": [
+        "https://careers.sig.com/jobs/11264?lang=en-us",
+        "https://careers-sig.icims.com/jobs/11264/login"
+      ]
+    },
+    {
+      "organization": "Susquehanna",
+      "program": "Discovery — Capital Markets (2027)",
+      "url": "https://careers.sig.com/jobs/11259?lang=en-us",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Graduation winter 2028 or spring 2029; sophomore-equivalent early-year cohort.",
+      "deadline": "Not published; current application form is open",
+      "application_evidence": "Current official per-job state for requisition 11259 explicitly sets searchable=true and applyable=true with an iCIMS Apply URL. Live Chrome at that URL displays Enter Your Information, Email textbox and Next button inside the Career Portal iframe. No user information entered. Original role description independently contains current graduation cohort.",
+      "evidence_urls": [
+        "https://careers.sig.com/jobs/11259?lang=en-us",
+        "https://careers-sig.icims.com/jobs/11259/login"
+      ]
+    },
+    {
+      "organization": "Optiver",
+      "program": "FutureFocus: Quants (2027)",
+      "url": "https://www.optiver.com/join-us/jobs/trading/amsterdam/futurefocus-quants-2027/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:27:13-04:00",
+      "eligibility": "Students graduating in 2029; university in UK, Ireland or Europe; all degree backgrounds considered; requisite visa/travel authorisation. Early-year programme.",
+      "deadline": "UK/Ireland: December 6, 2026 at 23:59 CET; EU: February 1, 2027 at 23:59 CET",
+      "application_evidence": "Official job 8745619002 is returned by live Greenhouse API with application questions (resume, study region, programme date, graduation frame). Direct embedded application has first/last name, email and CV fields plus Submit application button with aria-disabled=false. Current page says Apply now and publishes distinct UK/Ireland/EU cutoffs.",
+      "evidence_urls": [
+        "https://www.optiver.com/join-us/jobs/trading/amsterdam/futurefocus-quants-2027/",
+        "https://boards-api.greenhouse.io/v1/boards/optiverus/jobs/8745619002?content=true&questions=true",
+        "https://job-boards.greenhouse.io/embed/job_app?for=optiverus&token=8745619002"
+      ]
+    },
+    {
+      "organization": "NVIDIA",
+      "program": "NVIDIA 2027 Ignite Internships: Software Engineering",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:24:24.821276-04:00",
+      "eligibility": "Current first-year (Class of 2030) or second-year (Class of 2029) undergraduate at a four-year U.S. university; CE, CS, EE, Mathematics or related field; software-basics coursework and basic C/C++/Python/Perl/MATLAB knowledge",
+      "deadline": "October 18, 2026 (application window October 5–18; no closing time specified)",
+      "application_evidence": "live official Workday CXS job detail: {\"canApply\": true, \"posted\": true, \"jobReqId\": \"JR2026958\", \"title\": \"NVIDIA 2027 Ignite Internships: Software Engineering\", \"startDate\": \"2026-10-12\", \"endDate\": \"2026-10-18\"}",
+      "evidence_urls": [
+        "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958"
+      ]
+    },
+    {
+      "organization": "NVIDIA",
+      "program": "NVIDIA 2027 Ignite Internships: Hardware Engineering",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:24:24.821276-04:00",
+      "eligibility": "Current first-year (Class of 2030) or second-year (Class of 2029) undergraduate at a four-year U.S. university; EE, CE, CS, Mathematics or related field; hardware-basics coursework and basic C/C++/Python/Perl/MATLAB knowledge",
+      "deadline": "October 18, 2026 (application window October 5–18; no closing time specified)",
+      "application_evidence": "live official Workday CXS job detail: {\"canApply\": true, \"posted\": true, \"jobReqId\": \"JR2027047\", \"title\": \"NVIDIA 2027 Ignite Internships: Hardware Engineering\", \"startDate\": \"2026-10-12\", \"endDate\": null}",
+      "evidence_urls": [
+        "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047"
+      ]
+    },
+    {
+      "organization": "Five Rings",
+      "program": "LINK 2027: Software Development Intensive Program",
+      "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5394515008",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:24:24.821276-04:00",
+      "eligibility": "Current sophomores (students in their second year of university)",
+      "deadline": "No deadline published; application form currently open",
+      "application_evidence": "live official Greenhouse job detail API: {\"id\": 5394515008, \"title\": \"LINK 2027: Software Development Intensive Program\", \"updated_at\": \"2026-09-01T17:18:37-04:00\", \"absolute_url\": \"https://job-boards.greenhouse.io/fiveringsllc/jobs/5394515008\"}",
+      "evidence_urls": [
+        "https://boards-api.greenhouse.io/v1/boards/fiveringsllc/jobs/5394515008?content=true"
+      ]
+    },
+    {
+      "organization": "Hudson River Trading",
+      "program": "Women in Trading and Technology Internship (WiTTI) – Winter 2027",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&token=8188637",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:24:24.821276-04:00",
+      "eligibility": "Official student-opportunities page targets second-year students. Role requires full-time undergraduates graduating fall 2028–summer 2030 in a technical/quantitative discipline, programming experience and no extensive quantitative-trading industry experience. Women+ and nonbinary focus; people of all identities welcome to apply.",
+      "deadline": "October 16, 2026 (no closing time specified)",
+      "application_evidence": "live official Greenhouse job detail API: {\"id\": 8188637, \"title\": \"Women in Trading and Technology Internship (WiTTI) – Winter 2027\", \"updated_at\": \"2026-10-07T13:25:59-04:00\", \"absolute_url\": \"https://www.hudsonrivertrading.com/careers/job/?gh_jid=8188637\"}",
+      "evidence_urls": [
+        "https://boards-api.greenhouse.io/v1/boards/wehrtyou/jobs/8188637?content=true"
+      ]
+    },
+    {
+      "organization": "Barry Goldwater Scholarship & Excellence in Education Foundation",
+      "program": "Goldwater Summer Research Internship (2027)",
+      "url": "https://www.goldwaterinternship.gov/intern-application",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate freshmen or sophomores; U.S. citizen or permanent resident; site-specific project restrictions vary.",
+      "deadline": "2026-11-02",
+      "application_evidence": "Current official application response includes a configured student application with 57 fields, uploads, project choices, reference details and certification; Current academic status is freshman or sophomore as of Fall 2026. No application submitted.",
+      "evidence_urls": [
+        "https://www.goldwaterinternship.gov/intern-application"
+      ]
+    },
+    {
+      "organization": "KeyBanc Capital Markets",
+      "program": "Investment Banking Sophomore Series (2027)",
+      "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=5a2KjEEc3kGOoxie4rSBs4AXk6c5n19OhIGoCOjEsZ9URTI1QUw2SjNZWElBVEhXUDFBSTUxTUJOWiQlQCN0PWcu&route=shorturl",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current college sophomores; bachelor's graduation Winter 2028–Spring 2029; any major; 3.5+ GPA; no future employment visa sponsorship",
+      "deadline": "October 30, 2026",
+      "application_evidence": "Live Chrome form has title 2027 KBCM Investment Banking Sophomore Series Application, page 1 of 5 personal information inputs and enabled Next button; current sophomore qualifications, GPA and no visa sponsorship printed in form. No data entered.",
+      "evidence_urls": [
+        "https://careereducation.rochester.edu/blog/2026/09/30/keybanc-2027-kbcm-investment-banking-sophomore-series/",
+        "https://forms.cloud.microsoft/pages/responsepage.aspx?id=5a2KjEEc3kGOoxie4rSBs4AXk6c5n19OhIGoCOjEsZ9URTI1QUw2SjNZWElBVEhXUDFBSTUxTUJOWiQlQCN0PWcu&route=shorturl"
+      ]
+    },
+    {
+      "organization": "Insight Partners",
+      "program": "Inclusion by Insight Virtual Summit (2027)",
+      "url": "https://jobs.ashbyhq.com/insight-partners/0addd648-adab-4dfd-9d77-152f1cc2b533",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Sophomore cohort; current undergraduates at accredited four-year institutions; graduation December 2028–June 2029; all backgrounds welcome",
+      "deadline": "November 6, 2026 (5:00 PM ET)",
+      "application_evidence": "Live Chrome shows actual current 2027 description and deadline, Application tab exposes name,email,resume/transcript fields and Submit Application button; no form submitted.",
+      "evidence_urls": [
+        "https://jobs.ashbyhq.com/insight-partners/0addd648-adab-4dfd-9d77-152f1cc2b533",
+        "https://info.insightpartners.com/Summer-Analyst-Program.html"
+      ]
+    },
+    {
+      "organization": "Bain Capital",
+      "program": "Investors of Tomorrow — Boston (November 2026)",
+      "url": "https://baincapital.wd1.myworkdayjobs.com/External_Public/job/Boston/Bain-Capital-Investors-of-Tomorrow---November-December-2026_REQ_108406",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate sophomores; Boston program selection requires Workday registration plus Predictive Index behavioral/cognitive assessment",
+      "deadline": "October 25, 2026 (11:59 PM EST, as published)",
+      "application_evidence": "Live official Workday response October 13 lists canApply=true,posted=true, current November/December 2026 requisition REQ_108406; explicit sophomore eligibility and October 25 registration deadline. Boston targeted program only listed; subsequent December2 all-student webinar not separately added.",
+      "evidence_urls": [
+        "https://baincapital.wd1.myworkdayjobs.com/wday/cxs/baincapital/External_Public/job/Boston/Bain-Capital-Investors-of-Tomorrow---November-December-2026_REQ_108406"
+      ]
+    },
+    {
+      "organization": "JPMorganChase",
+      "program": "Investment Banking & Markets Insights Program (December 2026)",
+      "url": "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Sophomore cohort; current undergraduates at U.S. institutions; graduation December 2028–June 2029; available in person; downstream internship roles require 3.6+ GPA and U.S. work authorization",
+      "deadline": "October 15, 2026 (12:00 PM ET)",
+      "application_evidence": "Live Chrome shows dated December 2026 program, current undergraduate graduation gate and October 15 noon ET deadline; Register opens actual information, education, resume and Submit fields. Registration is a current program selection application followed by HireVue, not a general future-notification list. No application submitted.",
+      "evidence_urls": [
+        "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA",
+        "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA/registration"
+      ]
+    },
+    {
+      "organization": "Stifel",
+      "program": "Emerging Leaders Webinar (October 2026)",
+      "url": "https://stifel.zoom.us/webinar/register/WN_oQfCtXbuRFyk6q6OMmBCEQ",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current college freshmen and sophomores; graduation December 2028–June 2030; all majors and backgrounds",
+      "deadline": "October 14, 2026 (11:59 PM EST, as published)",
+      "application_evidence": "Employer-hosted Handshake event names first/second-year eligibility and October 14 registration deadline. Live Stifel Zoom form currently renders matching 2026 Emerging Leaders title, October 16 date, and name/email/school/graduation inputs. Register disabled until required fields filled; no submission made.",
+      "evidence_urls": [
+        "https://app.joinhandshake.com/events/2024397/share_preview",
+        "https://careeredge.bentley.edu/events/2026/10/16/2026-stifel-emerging-leaders-webinar-sophmores/",
+        "https://stifel.zoom.us/webinar/register/WN_oQfCtXbuRFyk6q6OMmBCEQ"
+      ]
+    },
+    {
+      "organization": "Gateway Engineers",
+      "program": "Freshman Internship — Summer 2027",
+      "url": "https://gatewayengineers.clearcompany.com/careers/jobs/ac9638ca-0d43-721a-f46f-3d100b943feb/apply?source=CJB-0",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:26:00-04:00",
+      "eligibility": "College freshmen completing their first year before summer 2027 and returning for sophomore year; self-transportation to Gateway office required",
+      "deadline": "No deadline published (live application)",
+      "application_evidence": "Official 2027 Freshman Program explicitly requires completed freshman year and return for sophomore year. Separate Sophomore/Junior program is excluded. The official Freshman Apply link currently opens a live ClearCompany form titled Freshman Internship - Summer 2027 with personal-information fields and Continue button, verified in Chrome October 13, 2026 at 20:26 ET. LinkedIn used for discovery.",
+      "evidence_urls": [
+        "https://www.gatewayengineers.com/internships/",
+        "https://gatewayengineers.hrmdirect.com/employment/job-openings.php?search=true",
+        "https://gatewayengineers.clearcompany.com/careers/jobs/ac9638ca-0d43-721a-f46f-3d100b943feb/apply?source=CJB-0",
+        "https://www.linkedin.com/jobs/view/freshman-internship-summer-2027-at-gateway-engineers-4422522998"
+      ]
+    },
+    {
+      "organization": "BAE Systems",
+      "program": "Systems Engineering Intern II — Summer 2027 (NH-Onsite)",
+      "url": "https://jobs.baesystems.com/global/en/job/128225BR/Systems-Engineering-Intern-II-Summer-2027-NH-Onsite",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:30:17.451094-04:00",
+      "eligibility": "Current undergraduate sophomores completing second year before Summer 2027 in EE, Electrical and Computer Science, ME, Software Engineering or related field; U.S. citizenship and eligibility for Secret DoD clearance required",
+      "deadline": "No deadline published (open until filled or qualified pool identified)",
+      "application_evidence": "Listed on the current official LEAP internship board and posted October 1, 2026. Description explicitly seeks candidates completing Sophomore undergraduate year and requires completion of sophomore year before Summer 2027. Current job page displays Apply Now. Clicking it in Chrome opens a live BrassRing Sign In application entry point for jobid302215, with no expired/closed notice. No account login or submission performed. Detailed official source data saved /tmp/bae-systems2.html.job.json.",
+      "evidence_urls": [
+        "https://jobs.baesystems.com/global/en/leap",
+        "https://jobs.baesystems.com/global/en/job/128225BR/Systems-Engineering-Intern-II-Summer-2027-NH-Onsite",
+        "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25771&siteid=5403&jobid=302215"
+      ]
+    },
+    {
+      "organization": "Stanford University — Public Humanities",
+      "program": "Humanities Research Intensive (Spring Break 2027)",
+      "url": "https://stanforduniversity.qualtrics.com/jfe/form/SV_8dMX0nvf5yBVy8C",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current Stanford first-years or sophomores; eligible transfers must complete one full-time Stanford quarter by application AND meet either prior-college limit (no more than one full year OR no more than 60 non-AP transfer units). Must be enrolled Winter 2027. All majors welcome.",
+      "deadline": "Nov 2, 2026, 11:59pm",
+      "application_evidence": "Actual Qualtrics application rendered in Chrome and titled Humanities Research Intensive Application, 2026–2027, with enabled applicant fields and Frosh/Sophomore/Eligible Transfer options. No application entered/submitted.",
+      "evidence_urls": [
+        "https://publichumanities.stanford.edu/undergraduates/humanities-research/humanities-research-intensive",
+        "https://stanforduniversity.qualtrics.com/jfe/form/SV_8dMX0nvf5yBVy8C"
+      ]
+    },
+    {
+      "organization": "The Rockefeller University / CUNY Hunter College",
+      "program": "Hunter × RockEDU Scholars (2027)",
+      "url": "https://hunterresearchscholars.rockefeller.edu/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current freshman or sophomore at CUNY Hunter College only; must commit to full Spring and Summer portions; no prior research experience required.",
+      "deadline": "Jan 4, 2027, 5:00pm ET (including recommendation)",
+      "application_evidence": "Fresh Chrome navigation of official program page explicitly shows 2027 applications OPEN, Jan 4 deadline, and direct linked application portal. Portal renders Online Application System for Hunter Research Scholars, registration and login; FAQ instructs prospective students to complete online application. Account needed to access application fields; no account created.",
+      "evidence_urls": [
+        "https://www.rockefeller.edu/outreach/hunter-x-rockedu-scholars/",
+        "https://hunterresearchscholars.rockefeller.edu/"
+      ]
+    },
+    {
+      "organization": "Johns Hopkins University — Life Design Lab",
+      "program": "BioTech Engineering Internship Academy (Spring 2027)",
+      "url": "https://jh.qualtrics.com/jfe/form/SV_ey6RVne03xbh3Zc",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Johns Hopkins first- and second-year students; BioTech Engineering academy built for biomedical-engineering students and biology/healthcare/engineering/technology careers.",
+      "deadline": "Oct 30, 2026",
+      "application_evidence": "Official current 2026–27 academy page says Applications Are Open Now and gives BioTech first/second-year eligibility, Spring 2027 start and Oct 30 deadline. Its linked application routes in Chrome to Johns Hopkins institutional Microsoft login. Form contents cannot be inspected without JHED credentials.",
+      "evidence_urls": [
+        "https://illd.jhu.edu/departments/life-design-lab-ldl/ldl-programming/internship-academies/",
+        "https://jh.qualtrics.com/jfe/form/SV_ey6RVne03xbh3Zc"
+      ]
+    },
+    {
+      "organization": "Baird",
+      "program": "Women in Equity Research Event (2026)",
+      "url": "https://flows.beamery.com/httpwwwrwbairdcom/baird-women-in-equity-research-event-(virtual)",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate freshman or sophomore in a bachelor degree program; related finance/accounting/economics major preferred, not required; all who meet criteria welcome.",
+      "deadline": "Oct 15, 2026",
+      "application_evidence": "Linked official Beamery application rendered in Chrome with Oct 15, 2026 deadline, Nov 20, 2026 event, current freshman/sophomore bachelor enrollment requirement, resume upload and submit button. No fields entered or submission.",
+      "evidence_urls": [
+        "https://www.bairdcareers.com/our-teams/global-equities/equity-research/",
+        "https://flows.beamery.com/httpwwwrwbairdcom/baird-women-in-equity-research-event-(virtual)"
+      ]
+    },
+    {
+      "organization": "Houlihan Lokey",
+      "program": "Investment Banking Insight Day — Corporate Finance (2026)",
+      "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate sophomores, Class of 2029; demonstrated finance interest, leadership and availability for selected event.",
+      "deadline": "Oct 19, 2026",
+      "application_evidence": "Official live Workday detail API returns canApply:true, posted:true, endDate 2026-10-19. Chrome shows current posting and Apply opens Start Your Application with Apply Manually route for exact R3628.",
+      "evidence_urls": [
+        "https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628",
+        "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628"
+      ]
+    },
+    {
+      "organization": "Lincoln International",
+      "program": "Sophomore Job Shadow Program (2026)",
+      "url": "https://www.lincolninternational.com/greenhouse/?gh_jid=8170413",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current college sophomores; undergraduate graduation Winter 2028 or Spring 2029; minimum 3.5 GPA; no current or future employment visa sponsorship; finance/accounting/business preferred.",
+      "deadline": "Oct 30, 2026",
+      "application_evidence": "Official live Greenhouse API lists 2026 Sophomore Job Shadow Program. Chrome employer page renders full embedded Greenhouse application with current graduation/GPA/sponsorship questions, resume upload and Submit application.",
+      "evidence_urls": [
+        "https://boards-api.greenhouse.io/v1/boards/lincolninternational/jobs/8170413",
+        "https://www.lincolninternational.com/greenhouse/?gh_jid=8170413"
+      ]
+    },
+    {
+      "organization": "Lincoln International",
+      "program": "Women in Finance Workshop (2026)",
+      "url": "https://www.lincolninternational.com/greenhouse/?gh_jid=8169633",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate sophomore women; graduation Winter 2028 or Spring 2029; minimum 3.5 GPA; no current/future employment visa sponsorship; finance/accounting/business preferred.",
+      "deadline": "Oct 30, 2026",
+      "application_evidence": "Official current Greenhouse API gives Nov 19, 2026 event, Oct 30 deadline and Current Sophomores. Chrome employer page renders matching live embedded application with graduation/GPA/sponsorship fields and Submit application.",
+      "evidence_urls": [
+        "https://boards-api.greenhouse.io/v1/boards/lincolninternational/jobs/8169633",
+        "https://www.lincolninternational.com/greenhouse/?gh_jid=8169633"
+      ]
+    },
+    {
+      "organization": "Point72",
+      "program": "Academy Spring Insight Programme — UK (2027)",
+      "url": "https://job-boards.greenhouse.io/point72/jobs/8845395002?gh_jid=8845395002",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "First year of a 3-year degree or second year of a 4-year degree at accredited UK/EU university, graduating 2029; all disciplines; age 18+ at program.",
+      "deadline": "Nov 15, 2026, 11:59pm UTC",
+      "application_evidence": "Official Greenhouse API publishes current 2027 job and deadline. Actual Chrome Greenhouse page renders full current application with resume/transcript uploads, essay boxes, graduation question and Submit application.",
+      "evidence_urls": [
+        "https://boards-api.greenhouse.io/v1/boards/point72/jobs/8845395002",
+        "https://job-boards.greenhouse.io/point72/jobs/8845395002?gh_jid=8845395002"
+      ]
+    },
+    {
+      "organization": "Blackstone",
+      "program": "EMEA Future Leaders Spring Insight Programme (2027)",
+      "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Students studying in UK/Europe in first or second university year; anticipated graduation 2028 or 2029; available March–April 2027.",
+      "deadline": "Oct 16, 2026",
+      "application_evidence": "Fresh direct official Workday detail API returns canApply:true and posted:true for 2027 EMEA Future Leaders Spring Insight Programme, first published Sept 17, 2026. Current jobDescription explicitly states Oct 16, 2026 close and first/second-year target.",
+      "evidence_urls": [
+        "https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529",
+        "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529"
+      ]
+    }
+  ]
+}

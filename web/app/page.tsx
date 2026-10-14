@@ -18,8 +18,8 @@ export default function Home() {
             </h1>
             <p className="max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
               Internships, fellowships, research, and scholarships — designed for
-              first and second-year students. No experience required. No
-              junior-year gatekeeping. Updated daily.
+              first and second-year students. Only verified open applications;
+              check each listing for eligibility and experience requirements.
             </p>
             <div className="mt-2 flex flex-wrap gap-3 text-sm">
               <a
