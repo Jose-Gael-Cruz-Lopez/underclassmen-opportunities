@@ -3,6 +3,7 @@ export type Status = "OPEN" | "CLOSING_SOON" | "OPENS_SOON" | "CLOSED";
 export type Section =
   | "INTERNSHIPS"
   | "PROGRAMS"
+  | "AMBASSADORS"
   | "RESEARCH"
   | "SCHOLARSHIPS"
   | "HBCU"
@@ -28,6 +29,7 @@ export type Opportunity = {
 export const SECTION_LABELS: Record<Section, string> = {
   INTERNSHIPS: "Internships",
   PROGRAMS: "Programs & Fellowships",
+  AMBASSADORS: "Ambassadors",
   RESEARCH: "Research",
   SCHOLARSHIPS: "Scholarships",
   HBCU: "HBCU",

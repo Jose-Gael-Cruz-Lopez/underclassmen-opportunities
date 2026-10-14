@@ -40,6 +40,8 @@ This repository is **specifically for programs that target freshmen and sophomor
 
 Programs must explicitly target **current college freshmen or sophomores**, or an equivalent early-year graduation cohort. In the 2026–27 academic year these are typically **Class of 2030 (freshmen)** and **Class of 2029 (sophomores)**. Follow the provider's academic-year and degree-length rules; a graduation year alone is not proof of eligibility.
 
+The **Rising Freshmen** and **State-Based Scholarships & Grants** sections also accept initial awards specifically for incoming college freshmen. Incoming Fall 2027 freshmen typically graduate in 2031. Targeted incoming-freshman awards at HBCUs or in STEM may be placed in the relevant specialist section. School-age contests and generic scholarships open to all class years do not qualify. State award renewals are not separate opportunities.
+
 Before adding a listing:
 
 - Verify the exact current cycle on an official program page and its live application form or official recruiting feed.
@@ -47,7 +49,9 @@ Before adding a listing:
 - Check each regional session separately; archive a closed session even if another location is open.
 - Use “Not published (live application)” when a real application has no stated deadline. Do not invent a rolling deadline.
 - Keep notification signups, expressions of interest, old cycles, and applications without verifiable current eligibility in `ARCHIVE.md` until an open application can be confirmed.
-- Archive generic all-year programs, broad financial aid, professional conferences, and high school opportunities even if freshmen could theoretically qualify.
+- Archive generic all-year programs, broad financial aid, professional conferences, and school-age contests even if freshmen could theoretically qualify.
+- State every provider-defined degree-length, transfer, institutional, or gender exception. A restricted freshman/sophomore scholarship award may use a shared application, but the row must identify that award rather than advertise the provider's broader undergraduate scholarship programme.
+- List each distinct application once, in its most relevant category. Use cross-references when it fits another section; do not multiply rows for awards sharing one application.
 - A 403/429 response or JavaScript requirement is not proof of a dead link. Confirm removal, an expired deadline, a closed form, or an eligibility mismatch before assigning the reason.
 
 ### Examples of What We Include
@@ -67,14 +71,19 @@ Before adding a listing:
 
 ## Categories
 
-Opportunities are organized into four sections:
+Keep all nine sections in README.md, even when a category has no verified open applications. Move outdated table rows into the corresponding ARCHIVE.md section; preserve the main heading, table header, and table markers.
 
 | Category | Description | Examples |
 |----------|-------------|----------|
 | **Internship** | Traditional internship programs for underclassmen | NVIDIA Ignite |
 | **Program** | Fellowships, externships, bootcamps | Jane Street FTTP / FOCUS, MLT Career Prep |
+| **Ambassador** | Freshman/sophomore-focused campus leadership applications | Institution-specific underclassmen ambassador cohorts |
 | **Research** | University/lab research programs | Verified current freshman/sophomore research cohorts |
-| **Scholarship** | Financial awards for underclassmen in tech | Company-sponsored scholarships |
+| **Scholarship** | Financial awards explicitly targeting first-/second-year students | Restricted freshman/sophomore award tracks |
+| **HBCU** | Underclassmen or incoming-freshman opportunities at HBCUs/MSIs | Verified HBCU freshman scholarship cohorts |
+| **Women in Tech** | First-/second-year technology, science, and engineering opportunities with a women/gender-minority focus | HRT WiTTI, targeted STEM scholarships |
+| **Rising Freshmen** | Current first-year or incoming college freshman cohorts | Initial college freshman scholarship applications |
+| **State-Based Scholarships & Grants** | State/regional awards with incoming-freshman or early-college application gates | Initial Tennessee Promise application |
 
 ---
 

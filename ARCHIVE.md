@@ -2,7 +2,9 @@
 
 This page preserves expired, closed, unverified, and out-of-scope opportunities removed from the active list. Some programs may reopen next cycle. General aid, high school awards, and all-year programs remain here as historical records.
 
-The 🔒 **[CLOSED]** badge means the entry is no longer active **in this repository**. It does not imply the provider has stopped accepting applications when the dated reason says “out of scope.” Historical deadlines and links are retained for reference.
+The 🔒 **[CLOSED]** badge records an archived listing's status at its dated review. It does not imply the provider has stopped accepting applications when the reason says “out of scope.” Historical deadlines and links are retained for reference. A later verified cycle or a newly included incoming-college-freshman track may appear separately in README.md.
+
+All nine category sections and their historical table contents remain preserved here. The [October 13 category expansion](audits/2026-10-13-category-expansion.md) restores the matching main-page sections and adds verified current applications; earlier archive decisions are kept as dated records.
 
 Latest full active-list audit: [October 13, 2026](audits/2026-10-13.md).
 
