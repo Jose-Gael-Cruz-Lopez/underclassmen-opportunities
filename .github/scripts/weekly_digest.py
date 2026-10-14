@@ -31,7 +31,7 @@ SECTION_LABELS = {
     "RESEARCH": "Research",
     "SCHOLARSHIPS": "Scholarships",
     "HBCU": "HBCU",
-    "WOMEN": "Women in Tech",
+    "WOMEN": "Women & Gender-Minority",
     "RISING_FRESHMEN": "Rising Freshmen",
     "STATE": "State Grants",
 }

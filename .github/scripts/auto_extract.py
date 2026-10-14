@@ -5,7 +5,7 @@ Auto-extract opportunity details from a URL using AI.
 This script:
 1. Fetches the webpage content
 2. Uses OpenAI API to extract structured data
-3. Adds the opportunity to listings.json
+3. Records an inactive submission in listings.json for maintainer verification
 """
 
 import json
@@ -15,6 +15,12 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import util
+
+ALLOWED_TARGET_YEARS = (
+    "Freshman (1st year)",
+    "Sophomore (2nd year)",
+    "Incoming College Freshman",
+)
 
 # Try to import OpenAI
 try:
@@ -136,8 +142,8 @@ def extract_with_openai(page_content, additional_notes=""):
 
     client = OpenAI(api_key=api_key)
 
-    prompt = f"""Analyze this job/internship posting and extract the following information.
-This is for a repository tracking UNDERCLASSMEN opportunities (freshman/sophomore students).
+    prompt = f"""Analyze this opportunity posting and extract the following information.
+This repository covers ALL MAJORS: business, healthcare, arts, humanities, education, law, agriculture, STEM, and more. It tracks opportunities specifically targeting COLLEGE freshmen/sophomores or clearly identified incoming college freshman awards.
 
 Page Title: {page_content['title']}
 URL: {page_content['url']}
@@ -150,19 +156,21 @@ Page Content:
 
 Extract and return a JSON object with these fields:
 - company_name: The company or organization name (extract from URL domain if not found in content)
-- title: The role/program title (e.g., "STEP Intern", "Explore Program", "REU")
+- title: The role/program title (e.g., "Sophomore Accounting Insight", "First-Year Arts Scholarship", "Humanities Research")
 - locations: Array of locations (e.g., ["San Francisco, CA", "Remote"]). Use ["Multiple Locations"] if many or unspecified.
-- category: One of "Internship", "Program", or "Research"
-  - "Internship" = traditional internship programs (STEP, Explore, etc.)
-  - "Program" = fellowships, externships, bootcamps (Code2040, MLH Fellowship)
-  - "Research" = university/lab research programs (REU, SURF)
-- opportunity_type: More specific type (e.g., "Internship", "Fellowship", "Externship", "Research")
-- field: For research programs, what field (e.g., "Computer Science", "STEM"). Empty string for non-research.
+- category: One of "Internship", "Program", "Research", or "Scholarship"
+  - "Internship" = internships in any field
+  - "Program" = fellowships, externships, career exploration, mentoring, or undergraduate early assurance
+  - "Research" = research and creative inquiry in any academic field
+  - "Scholarship" = named financial awards targeting college first-/second-year or incoming freshman cohorts
+- opportunity_type: More specific type (e.g., "Internship", "Fellowship", "Externship", "Research", "Scholarship", "Early Assurance")
+- field: For research programs, what field (e.g., "Public Health", "History", "Agriculture", "Computer Science"). Empty string for non-research.
 - season: "Summer", "Fall", "Winter", "Spring", or "Multiple"
 - sponsorship: "Offers Sponsorship", "Does Not Offer Sponsorship", "U.S. Citizenship Required", or "Not Specified"
-- is_underclassmen: true if this opportunity is open to or targeted at freshmen/sophomores, false only if it explicitly requires juniors/seniors/graduates
+- is_underclassmen: true only with explicit college freshman/sophomore targeting, an equivalent early-year degree cohort, or a clearly identified incoming college freshman award
+- target_year: Nonempty array using only "Freshman (1st year)", "Sophomore (2nd year)", or "Incoming College Freshman". Include only the cohorts explicitly targeted by the named opportunity. Do not label an incoming-only award as current Freshman/Sophomore. Return an empty array if eligible college years are unclear.
 
-For is_underclassmen: set to true if the posting mentions freshmen, sophomores, first-year, second-year, underclassmen, "all class years", or does NOT specify a class year requirement. Only set to false if the posting explicitly requires junior, senior, or graduate standing.
+For is_underclassmen: first-year and second-year must refer to undergraduate college, not high school, graduate school, or medical school. Set false for generic all-year programs, junior/senior/postgraduate cohorts, notification-only pages, or unclear class-year eligibility. A shared scholarship application qualifies only when the named award explicitly targets the eligible cohort. Do not assume underclassmen eligibility from missing requirements. Publication still requires a maintainer to verify a current open application and exact eligibility.
 
 If the page content is limited (JavaScript-rendered page), do your best to extract from the URL, page title, meta descriptions, and any available structured data. Make reasonable inferences for the company name from the URL domain.
 
@@ -318,12 +326,28 @@ def main():
         clean_locations = ["Multiple Locations"]
     locations = clean_locations
 
-    # Warn if not confirmed as underclassmen-specific, but still proceed
-    # since a maintainer already approved the issue
-    warning_msg = ""
-    if not extracted.get("is_underclassmen", False):
-        warning_msg = "AI did not confirm this is specifically for underclassmen. A maintainer approved it, so it was added anyway. Please verify and remove if incorrect."
-        print(f"WARNING: {warning_msg}")
+    # Approval to extract details does not establish college-year eligibility.
+    if extracted.get("is_underclassmen") is not True:
+        util.fail(
+            "AI extraction did not explicitly confirm college freshman/sophomore "
+            "targeting or an incoming college freshman award. Verify the named "
+            "opportunity's eligibility before recording it."
+        )
+
+    target_year = extracted.get("target_year")
+    if (
+        not isinstance(target_year, list)
+        or not target_year
+        or any(
+            not isinstance(year, str) or year not in ALLOWED_TARGET_YEARS
+            for year in target_year
+        )
+    ):
+        util.fail(
+            "AI extraction returned missing or invalid target_year. Expected a "
+            f"nonempty array containing only: {', '.join(ALLOWED_TARGET_YEARS)}."
+        )
+    target_year = list(dict.fromkeys(target_year))
 
     # Check for duplicates (by URL or by company+title)
     listings = util.get_listings_from_json()
@@ -354,10 +378,10 @@ def main():
         "season": extracted.get("season", "Summer"),
         "category": category,
         "opportunity_type": extracted.get("opportunity_type", "Internship"),
-        "target_year": ["Freshman (1st year)", "Sophomore (2nd year)"],
+        "target_year": target_year,
         "sponsorship": extracted.get("sponsorship", "Not Specified"),
-        "active": True,
-        "is_visible": True,
+        "active": False,
+        "is_visible": False,
         "date_posted": util.get_current_timestamp(),
         "date_updated": util.get_current_timestamp(),
         "source": username
@@ -378,10 +402,13 @@ def main():
     util.set_output("contributor_name", username)
     util.set_output("contributor_email", "actions@github.com")
     util.set_output("extracted_data", json.dumps(extracted))
-    if warning_msg:
-        util.set_output("warning", warning_msg)
+    util.set_output(
+        "warning",
+        "Details were recorded as inactive intake. A maintainer must verify the "
+        "current application and eligibility before publication in README.md."
+    )
 
-    print(f"Successfully added: {company} - {title}")
+    print(f"Recorded pending verification: {company} - {title}")
 
 
 if __name__ == "__main__":

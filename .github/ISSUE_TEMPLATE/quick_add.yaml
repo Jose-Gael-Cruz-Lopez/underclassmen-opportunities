@@ -7,13 +7,13 @@ body:
     attributes:
       value: |
         ## Quick Add Opportunity
-        Submit an opportunity with minimal info - defaults will be auto-filled!
+        Submit a currently open college freshman/sophomore opportunity in any major. A maintainer verifies eligibility before publication.
 
   - type: input
     id: url
     attributes:
       label: Link
-      placeholder: https://careers.google.com/jobs/...
+      placeholder: https://example.edu/programs/sophomore-health
     validations:
       required: true
 
@@ -21,7 +21,7 @@ body:
     id: company_name
     attributes:
       label: Company/Organization
-      placeholder: Google
+      placeholder: University, hospital, nonprofit, or employer
     validations:
       required: true
 
@@ -29,7 +29,7 @@ body:
     id: title
     attributes:
       label: Role/Program Name
-      placeholder: STEP Intern
+      placeholder: First-Year Humanities Research Program
     validations:
       required: true
 
@@ -42,6 +42,7 @@ body:
         - "Internship"
         - "Program"
         - "Research"
+        - "Scholarship"
     validations:
       required: true
 
@@ -58,6 +59,6 @@ body:
     id: field
     attributes:
       label: Research Field (Optional, for Research only)
-      placeholder: Computer Science
+      placeholder: Humanities, Public Health, Agriculture, Computer Science
     validations:
       required: false

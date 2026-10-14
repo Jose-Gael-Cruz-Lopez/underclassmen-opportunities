@@ -9,13 +9,13 @@ body:
         ## New Underclassmen Opportunity Contribution
         Thanks for taking the time to contribute!
         > Make sure you've read `CONTRIBUTING.md` before submitting your opportunity.
-        > This repository is **specifically for programs targeting freshmen/sophomores**.
+        > This repository welcomes **every major**, with programs specifically targeting college freshmen/sophomores or clearly identified incoming college freshmen.
 
   - type: input
     id: url
     attributes:
       label: Link to Opportunity Posting
-      placeholder: ex. careers.google.com/students/step
+      placeholder: https://example.edu/scholarships/first-year-arts
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
     id: company_name
     attributes:
       label: Company/Organization Name
-      placeholder: ex. Google
+      placeholder: ex. University, hospital, nonprofit, or employer
     validations:
       required: true
 
@@ -31,7 +31,7 @@ body:
     id: title
     attributes:
       label: Program/Role Title
-      placeholder: ex. STEP Intern
+      placeholder: ex. Sophomore Accounting Insight Program
     validations:
       required: true
 
@@ -42,9 +42,10 @@ body:
       description: Which section should this opportunity appear in?
       multiple: false
       options:
-        - "Internship - Underclassmen Internships (e.g., STEP, Explore, Meta University)"
-        - "Program - Fellowships, Externships, etc. (e.g., Code2040, MLH Fellowship)"
-        - "Research - Research Programs (e.g., REU, SURF, NASA)"
+        - "Internship - First-/second-year internships in any field"
+        - "Program - Fellowships, externships, career exploration, and early assurance"
+        - "Research - First-/second-year research and creative inquiry"
+        - "Scholarship - Named first-/second-year or incoming college freshman awards"
     validations:
       required: true
 
@@ -72,7 +73,7 @@ body:
       description: |
         If this is a research program, what field or area is it in?
         Leave blank for non-research opportunities.
-      placeholder: ex. Computer Science, STEM, Aerospace Engineering
+      placeholder: ex. Public Health, History, Agriculture, Computer Science
     validations:
       required: false
 
@@ -87,6 +88,7 @@ body:
         - "Sophomore (2nd year)"
         - "Both Freshman & Sophomore"
         - "Any Underclassmen"
+        - "Incoming College Freshman"
     validations:
       required: true
 
@@ -164,6 +166,6 @@ body:
       description: |
         Any extra context about the opportunity that might be helpful.
         This will not be shown on the repo but may help with approval.
-      placeholder: This program is specifically for CS majors with no prior experience...
+      placeholder: Include the official freshman/sophomore eligibility, current application deadline, and any major or institution restrictions.
     validations:
       required: false

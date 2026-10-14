@@ -82,6 +82,8 @@ def handle_new_opportunity(data, username, is_quick_add=False):
         category = "Program"
     elif "Research" in category:
         category = "Research"
+    elif "Scholarship" in category:
+        category = "Scholarship"
 
     # Get opportunity type or use defaults based on category
     opportunity_type = data.get("type_of_opportunity", "")
@@ -92,6 +94,8 @@ def handle_new_opportunity(data, username, is_quick_add=False):
             opportunity_type = "Fellowship"
         elif category == "Research":
             opportunity_type = "Research"
+        elif category == "Scholarship":
+            opportunity_type = "Scholarship"
 
     # Get field for research programs
     field = data.get("field/area_(for_research_programs_only)", "") or data.get("research_field_(optional,_for_research_only)", "")
@@ -109,10 +113,8 @@ def handle_new_opportunity(data, username, is_quick_add=False):
     # Get sponsorship (default to Not Specified)
     sponsorship = data.get("sponsorship/citizenship_requirements", "Not Specified")
 
-    # Get active status (default to Yes/True)
-    active_str = data.get("is_this_opportunity_currently_accepting_applications?", "Yes")
-    active = active_str == "Yes" or active_str == ""
-
+    # Both templates record intake pending manual current-application verification.
+    # A submitter's selected status does not publish the opportunity in README.md.
     # Create new listing
     new_listing = {
         "id": util.generate_uuid(),
@@ -125,8 +127,8 @@ def handle_new_opportunity(data, username, is_quick_add=False):
         "opportunity_type": opportunity_type,
         "target_year": target_year,
         "sponsorship": sponsorship,
-        "active": True if is_quick_add else active,
-        "is_visible": True,
+        "active": False,
+        "is_visible": False,
         "date_posted": util.get_current_timestamp(),
         "date_updated": util.get_current_timestamp(),
         "source": username

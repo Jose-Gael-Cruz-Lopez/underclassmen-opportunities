@@ -21,7 +21,7 @@ REQUIRED_FIELDS = [
     "url",
     "locations",
     "season",
-    "category",  # Internship, Program, or Research
+    "category",  # Internship, Program, Research, or Scholarship
     "opportunity_type",
     "target_year",
     "sponsorship",

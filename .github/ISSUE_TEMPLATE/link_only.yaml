@@ -12,15 +12,17 @@ body:
         - Company name
         - Role/Program title
         - Location
-        - Category (Internship/Program/Research)
+        - Category (Internship/Program/Research/Scholarship)
         - And more!
+
+        All majors are welcome. A maintainer checks current applications and college freshman/sophomore eligibility before publication.
 
   - type: input
     id: url
     attributes:
       label: Link to Opportunity
-      description: Paste the URL to the job/program posting
-      placeholder: https://careers.google.com/jobs/...
+      description: Paste the official URL to the internship, program, research, or scholarship posting
+      placeholder: https://example.edu/scholarships/first-year-arts
     validations:
       required: true
 

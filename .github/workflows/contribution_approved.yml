@@ -61,7 +61,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: '✅ Your contribution has been added to the repository! Thank you for contributing!\n\nYour changes should now be visible in the README.'
+              body: '✅ Your contribution has been recorded in the intake log. Thank you for contributing!\n\nA maintainer will verify current application status and college freshman/sophomore eligibility before publishing new opportunities in the README.'
             });
             await github.rest.issues.update({
               owner: context.repo.owner,
