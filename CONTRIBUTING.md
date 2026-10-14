@@ -1,6 +1,6 @@
 # Contributing to Underclassmen Opportunities
 
-Thank you for your interest in contributing! This repository aims to help freshmen and sophomores find opportunities specifically designed for them.
+Thank you for contributing! This repository helps college freshmen and sophomores across **all majors** find opportunities designed for them. We welcome business, healthcare, arts, humanities, education, law, agriculture, social sciences, engineering, technology, and other fields.
 
 ## How to Add an Opportunity
 
@@ -18,9 +18,13 @@ The easiest way to contribute:
 - Role/Program title
 - Location
 - Category (Internship/Program/Research/Scholarship)
-- Deadline
+- Eligible college years
 - Season
 - Sponsorship info
+
+Extracted submissions are recorded as inactive intake and await a maintainer's
+verification of the current application, eligible college years, and deadline.
+They appear in the README and website only after that manual verification.
 
 ### Alternative Methods
 
@@ -40,7 +44,7 @@ This repository is **specifically for programs that target freshmen and sophomor
 
 Programs must explicitly target **current college freshmen or sophomores**, or an equivalent early-year graduation cohort. In the 2026–27 academic year these are typically **Class of 2030 (freshmen)** and **Class of 2029 (sophomores)**. Follow the provider's academic-year and degree-length rules; a graduation year alone is not proof of eligibility.
 
-The **Rising Freshmen** and **State-Based Scholarships & Grants** sections also accept initial awards specifically for incoming college freshmen. Incoming Fall 2027 freshmen typically graduate in 2031. Targeted incoming-freshman awards at HBCUs or in STEM may be placed in the relevant specialist section. School-age contests and generic scholarships open to all class years do not qualify. State award renewals are not separate opportunities.
+The **Rising Freshmen** and **State-Based Scholarships & Grants** sections also accept initial awards specifically for incoming college freshmen. Incoming Fall 2027 freshmen typically graduate in 2031. Targeted incoming-freshman awards at HBCUs or with a women/gender-minority focus may be placed in the relevant specialist section. School-age contests and generic scholarships open to all class years do not qualify. State award renewals are not separate opportunities. First- and second-year graduate, medical-school, and other postgraduate cohorts do not qualify.
 
 Before adding a listing:
 
@@ -59,6 +63,8 @@ Before adding a listing:
 - **NVIDIA Ignite** — current first- and second-year students, with a verified application window.
 - **Jane Street FTTP / FOCUS** — current first-year students, with separate applications for each open location.
 - **MLT Career Prep** — the current sophomore cohort, with published application deadlines.
+- **Mount Sinai FlexMed** — early medical-school assurance for current college sophomores in any major, with the current intake verified.
+- **Restricted arts, agriculture, journalism, and education awards** — named first-/second-year scholarships with an open application.
 
 ### What Does NOT Belong Here
 
@@ -76,12 +82,12 @@ Keep all nine sections in README.md, even when a category has no verified open a
 | Category | Description | Examples |
 |----------|-------------|----------|
 | **Internship** | Traditional internship programs for underclassmen | NVIDIA Ignite |
-| **Program** | Fellowships, externships, bootcamps | Jane Street FTTP / FOCUS, MLT Career Prep |
+| **Program** | Fellowships, externships, career exploration, mentoring, and early assurance | Accounting/law insight schemes, medical early assurance, MLT Career Prep |
 | **Ambassador** | Freshman/sophomore-focused campus leadership applications | Institution-specific underclassmen ambassador cohorts |
-| **Research** | University/lab research programs | Verified current freshman/sophomore research cohorts |
+| **Research** | Research and creative inquiry in any field | Humanities, social sciences, public health, STEM, and creative arts cohorts |
 | **Scholarship** | Financial awards explicitly targeting first-/second-year students | Restricted freshman/sophomore award tracks |
 | **HBCU** | Underclassmen or incoming-freshman opportunities at HBCUs/MSIs | Verified HBCU freshman scholarship cohorts |
-| **Women in Tech** | First-/second-year technology, science, and engineering opportunities with a women/gender-minority focus | HRT WiTTI, targeted STEM scholarships |
+| **Women & Gender-Minority** | First-/second-year opportunities with a women/gender-minority focus in any field | Women in business, targeted STEM scholarships, HRT WiTTI |
 | **Rising Freshmen** | Current first-year or incoming college freshman cohorts | Initial college freshman scholarship applications |
 | **State-Based Scholarships & Grants** | State/regional awards with incoming-freshman or early-college application gates | Initial Tennessee Promise application |
 
@@ -109,7 +115,7 @@ Editing via issues is not currently supported. To update a listing:
 1. **User submits** a link via the issue template
 2. **Maintainer reviews** and adds the `approved` label
 3. **AI extracts** company, role, location, category, etc. from the page
-4. **Details are recorded** in `.github/scripts/listings.json` as an intake log
+4. **Eligible details are recorded as inactive intake** in `.github/scripts/listings.json`, awaiting current-application verification; unclear or ineligible college-year extraction is rejected
 5. **Issue is closed** with a summary of what was extracted
 6. **A maintainer verifies current application status and underclassmen eligibility, then adds the row to `README.md` by hand**
 

@@ -14,12 +14,13 @@ export default function Home() {
               <span>Underclassmen Opportunities</span>
             </div>
             <h1 className="max-w-3xl text-balance text-3xl font-semibold leading-tight tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-4xl lg:text-5xl">
-              The only opportunity board built for college freshmen and sophomores.
+              Opportunities for college freshmen and sophomores. Every major.
             </h1>
             <p className="max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
               Internships, fellowships, research, and scholarships — designed for
-              first and second-year students. Only verified open applications;
-              check each listing for eligibility and experience requirements.
+              first- and second-year students across business, healthcare, arts,
+              humanities, STEM, and more. Browse verified open applications and
+              check each listing for eligibility requirements.
             </p>
             <div className="mt-2 flex flex-wrap gap-3 text-sm">
               <a

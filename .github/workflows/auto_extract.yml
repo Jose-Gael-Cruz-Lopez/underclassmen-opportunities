@@ -98,7 +98,7 @@ jobs:
 
             const warning = process.env.WARNING_MSG || '';
 
-            let body = `## Opportunity Added Successfully!\n\n`;
+            let body = `## Opportunity Recorded for Verification\n\n`;
             body += `| Field | Value |\n`;
             body += `|-------|-------|\n`;
             body += `| **Company** | ${extractedData.company_name || 'Unknown'} |\n`;
@@ -111,7 +111,7 @@ jobs:
               body += `> Note: ${warning}\n\n`;
             }
 
-            body += `The opportunity has been added to the README. Thank you for contributing!`;
+            body += `The opportunity has been recorded in the intake log. A maintainer will verify current applications and college freshman/sophomore eligibility before publishing it in the README. Thank you for contributing!`;
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,

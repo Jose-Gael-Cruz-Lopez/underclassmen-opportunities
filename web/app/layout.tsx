@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Underclassmen Opportunities — Internships, Programs & Scholarships",
+  title: "Underclassmen Opportunities — Freshmen & Sophomores, Every Major",
   description:
-    "The only opportunity board built exclusively for college freshmen and sophomores. Internships, fellowships, research, and scholarships with no junior-year gatekeeping.",
+    "Open internships, fellowships, research, and scholarships for college freshmen and sophomores across business, healthcare, arts, humanities, STEM, and every major.",
 };
 
 export default function RootLayout({
