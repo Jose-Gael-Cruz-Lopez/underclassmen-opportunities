@@ -36,24 +36,29 @@ The easiest way to contribute:
 
 This repository is **specifically for programs that target freshmen and sophomores**—students who are typically in their first or second year of college.
 
-### Target Classes
+### Eligible Students and Current Applications
 
-Opportunities submitted here should be designed for:
-- **Class of 2028** (current sophomores)
-- **Class of 2029** (current freshmen)
+Programs must explicitly target **current college freshmen or sophomores**, or an equivalent early-year graduation cohort. In the 2026–27 academic year these are typically **Class of 2030 (freshmen)** and **Class of 2029 (sophomores)**. Follow the provider's academic-year and degree-length rules; a graduation year alone is not proof of eligibility.
 
-These are programs explicitly restricted to students early in their college career. If an opportunity is open to juniors, seniors, or anyone regardless of year, it belongs in [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead.
+Before adding a listing:
+
+- Verify the exact current cycle on an official program page and its live application form or official recruiting feed.
+- Record the eligible class years, geographic restrictions, deadline and timezone where published, and the verification date.
+- Check each regional session separately; archive a closed session even if another location is open.
+- Use “Not published (live application)” when a real application has no stated deadline. Do not invent a rolling deadline.
+- Keep notification signups, expressions of interest, old cycles, and applications without verifiable current eligibility in `ARCHIVE.md` until an open application can be confirmed.
+- Archive generic all-year programs, broad financial aid, professional conferences, and high school opportunities even if freshmen could theoretically qualify.
+- A 403/429 response or JavaScript requirement is not proof of a dead link. Confirm removal, an expired deadline, a closed form, or an eligibility mismatch before assigning the reason.
 
 ### Examples of What We Include
 
-- **Microsoft Explore** - Designed specifically for freshmen and sophomores
-- **Fellowships** like Code2040, MLH Fellowship that explicitly welcome underclassmen
-- **Research programs** like REU, SURF that accept first and second-year students
-- **Early talent/development programs** that restrict applications to classes 2028 or 2029
+- **NVIDIA Ignite** — current first- and second-year students, with a verified application window.
+- **Jane Street FTTP / FOCUS** — current first-year students, with separate applications for each open location.
+- **MLT Career Prep** — the current sophomore cohort, with published application deadlines.
 
 ### What Does NOT Belong Here
 
-- **General internships open to all years** - Use [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Internships) instead
+- **General internships open to all years** — use a general internship board instead
 - **Opportunities accepting juniors or seniors** - These belong in the general listings
 - **Full-time/new-grad positions** - For graduating students
 - **Opportunities requiring significant prior experience** - Underclassmen programs should be accessible to early students
@@ -66,9 +71,9 @@ Opportunities are organized into four sections:
 
 | Category | Description | Examples |
 |----------|-------------|----------|
-| **Internship** | Traditional internship programs for underclassmen | Early talent programs from smaller companies |
-| **Program** | Fellowships, externships, bootcamps | Code2040, MLH Fellowship, SEO Tech |
-| **Research** | University/lab research programs | REU, SURF, NASA OSSI |
+| **Internship** | Traditional internship programs for underclassmen | NVIDIA Ignite |
+| **Program** | Fellowships, externships, bootcamps | Jane Street FTTP / FOCUS, MLT Career Prep |
+| **Research** | University/lab research programs | Verified current freshman/sophomore research cohorts |
 | **Scholarship** | Financial awards for underclassmen in tech | Company-sponsored scholarships |
 
 ---
@@ -97,10 +102,10 @@ Editing via issues is not currently supported. To update a listing:
 3. **AI extracts** company, role, location, category, etc. from the page
 4. **Details are recorded** in `.github/scripts/listings.json` as an intake log
 5. **Issue is closed** with a summary of what was extracted
-6. **A maintainer adds the row to `README.md` by hand**
+6. **A maintainer verifies current application status and underclassmen eligibility, then adds the row to `README.md` by hand**
 
 > **Note:** step 6 is manual on purpose. `README.md` is the source of truth — it
-> carries status badges (✅ / 🔥 / ⏳) and nine tables that the extractor doesn't
+> carries status badges (✅ / 🔥 / ⏳) and the category tables that the extractor doesn't
 > model, so nothing writes to it automatically. Expect a short delay between
 > your issue being approved and the listing appearing on the site.
 
