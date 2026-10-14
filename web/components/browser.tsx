@@ -11,10 +11,11 @@ import {
 import { OpportunityCard } from "./opportunity-card";
 
 const SECTIONS: Section[] = [
-  "PROGRAMS",
   "INTERNSHIPS",
-  "SCHOLARSHIPS",
+  "PROGRAMS",
+  "AMBASSADORS",
   "RESEARCH",
+  "SCHOLARSHIPS",
   "HBCU",
   "WOMEN",
   "RISING_FRESHMEN",

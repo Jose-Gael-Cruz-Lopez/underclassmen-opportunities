@@ -1,9 +1,97 @@
 {
   "checked_on": "2026-10-13",
   "timezone": "America/New_York",
-  "active_application_count": 38,
+  "active_application_count": 74,
   "application_submission_performed": false,
   "entries": [
+    {
+      "organization": "NVIDIA",
+      "program": "NVIDIA 2027 Ignite Internships: Software Engineering",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:24:24.821276-04:00",
+      "eligibility": "Current first-year (Class of 2030) or second-year (Class of 2029) undergraduate at a four-year U.S. university; CE, CS, EE, Mathematics or related field; software-basics coursework and basic C/C++/Python/Perl/MATLAB knowledge",
+      "deadline": "October 18, 2026 (application window October 5–18; no closing time specified)",
+      "application_evidence": "live official Workday CXS job detail: {\"canApply\": true, \"posted\": true, \"jobReqId\": \"JR2026958\", \"title\": \"NVIDIA 2027 Ignite Internships: Software Engineering\", \"startDate\": \"2026-10-12\", \"endDate\": \"2026-10-18\"}",
+      "evidence_urls": [
+        "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958"
+      ]
+    },
+    {
+      "organization": "NVIDIA",
+      "program": "NVIDIA 2027 Ignite Internships: Hardware Engineering",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:24:24.821276-04:00",
+      "eligibility": "Current first-year (Class of 2030) or second-year (Class of 2029) undergraduate at a four-year U.S. university; EE, CE, CS, Mathematics or related field; hardware-basics coursework and basic C/C++/Python/Perl/MATLAB knowledge",
+      "deadline": "October 18, 2026 (application window October 5–18; no closing time specified)",
+      "application_evidence": "live official Workday CXS job detail: {\"canApply\": true, \"posted\": true, \"jobReqId\": \"JR2027047\", \"title\": \"NVIDIA 2027 Ignite Internships: Hardware Engineering\", \"startDate\": \"2026-10-12\", \"endDate\": null}",
+      "evidence_urls": [
+        "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047"
+      ]
+    },
+    {
+      "organization": "Gateway Engineers",
+      "program": "Freshman Internship — Summer 2027",
+      "url": "https://gatewayengineers.clearcompany.com/careers/jobs/ac9638ca-0d43-721a-f46f-3d100b943feb/apply?source=CJB-0",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:26:00-04:00",
+      "eligibility": "College freshmen completing their first year before summer 2027 and returning for sophomore year; self-transportation to Gateway office required",
+      "deadline": "No deadline published (live application)",
+      "application_evidence": "Official 2027 Freshman Program explicitly requires completed freshman year and return for sophomore year. Separate Sophomore/Junior program is excluded. The official Freshman Apply link currently opens a live ClearCompany form titled Freshman Internship - Summer 2027 with personal-information fields and Continue button, verified in Chrome October 13, 2026 at 20:26 ET. LinkedIn used for discovery.",
+      "evidence_urls": [
+        "https://www.gatewayengineers.com/internships/",
+        "https://gatewayengineers.hrmdirect.com/employment/job-openings.php?search=true",
+        "https://gatewayengineers.clearcompany.com/careers/jobs/ac9638ca-0d43-721a-f46f-3d100b943feb/apply?source=CJB-0",
+        "https://www.linkedin.com/jobs/view/freshman-internship-summer-2027-at-gateway-engineers-4422522998"
+      ]
+    },
+    {
+      "organization": "BAE Systems",
+      "program": "Systems Engineering Intern II — Summer 2027 (NH-Onsite)",
+      "url": "https://jobs.baesystems.com/global/en/job/128225BR/Systems-Engineering-Intern-II-Summer-2027-NH-Onsite",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:30:17.451094-04:00",
+      "eligibility": "Current undergraduate sophomores completing second year before Summer 2027 in EE, Electrical and Computer Science, ME, Software Engineering or related field; U.S. citizenship and eligibility for Secret DoD clearance required",
+      "deadline": "No deadline published (open until filled or qualified pool identified)",
+      "application_evidence": "Listed on the current official LEAP internship board and posted October 1, 2026. Description explicitly seeks candidates completing Sophomore undergraduate year and requires completion of sophomore year before Summer 2027. Current job page displays Apply Now. Clicking it in Chrome opens a live BrassRing Sign In application entry point for jobid302215, with no expired/closed notice. No account login or submission performed. Detailed official source data saved /tmp/bae-systems2.html.job.json.",
+      "evidence_urls": [
+        "https://jobs.baesystems.com/global/en/leap",
+        "https://jobs.baesystems.com/global/en/job/128225BR/Systems-Engineering-Intern-II-Summer-2027-NH-Onsite",
+        "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25771&siteid=5403&jobid=302215"
+      ]
+    },
+    {
+      "organization": "SAP",
+      "program": "STAR — Technical Focus, Spring/Summer 2027 (Newtown Square)",
+      "url": "https://careers.sap.com/job/Newtown-Square-SAP-Student-Training-and-Rotation-%28STAR%29-Program-Technical-Focus-SpringSummer-2027Newtown-Square-PA-19073/1430469433/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "First-/second-year focus at typical four-year institutions, per official USA FAQ. Current bachelor's enrollment in CS or related at university local to Philadelphia; at least two full school years remaining; hybrid three days/week in Newtown Square; full-time summers/co-op and part-time academic terms; eligible work authorization (OPT/Pre-OPT if applicable).",
+      "deadline": "No deadline published (live job-specific application)",
+      "application_evidence": "Current official SAP board returns req459332, posted September 24, 2026. Chrome Apply now click from role page opens SuccessFactors Career Opportunities: Sign In with career_ns=job_application and career_job_req_id=459332 in the register/recover link parameters. Authentication-gated application; no credentials entered. Direct navigation to talentcommunity/apply without the job-page session misleadingly redirects homepage, so use role URL.",
+      "evidence_urls": [
+        "https://careers.sap.com/job/Newtown-Square-SAP-Student-Training-and-Rotation-%28STAR%29-Program-Technical-Focus-SpringSummer-2027Newtown-Square-PA-19073/1430469433/",
+        "https://jobs.sap.com/en/students-and-graduates/students/star-program/star-usa/",
+        "https://careers.sap.com/search/?createNewAlert=false&q=459332&locationsearch=&optionsFacetsDD_department=&optionsFacetsDD_customfield3=&optionsFacetsDD_country="
+      ],
+      "source_caveats": "Official USA FAQ says at least two years of studies remaining means applying as a freshman or sophomore at a typical four-year institution. Exact job condition is remaining school years, so call this first-/second-year focus, not an unconditional freshmen/sophomores-only hard standing gate. Root approved explicit focus with bachelor's-only role and local attendance restrictions."
+    },
+    {
+      "organization": "SAP",
+      "program": "STAR — Business Focus, Spring/Summer 2027 (Newtown Square)",
+      "url": "https://careers.sap.com/job/Newtown-Square-SAP-Student-Training-and-Rotation-%28STAR%29-Program-Business-Focus-SpringSummer-2027Newtown-Square-PA-19073/1430487633/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "First-/second-year focus at typical four-year institutions, per official USA FAQ. Current bachelor's enrollment in MIS/Business or related at university local to Philadelphia; at least two full school years remaining; hybrid three days/week in Newtown Square; full-time summers/co-op and part-time academic terms; eligible work authorization (OPT/Pre-OPT if applicable).",
+      "deadline": "No deadline published (live job-specific application)",
+      "application_evidence": "Current official role posted September 24, 2026. Chrome Apply now click opens SuccessFactors Career Opportunities: Sign In with career_ns=job_application and career_job_req_id=459361 in the register/recover link parameters. Authentication-gated application; no credentials entered. Use role URL instead of session-dependent talentcommunity/apply route.",
+      "evidence_urls": [
+        "https://careers.sap.com/job/Newtown-Square-SAP-Student-Training-and-Rotation-%28STAR%29-Program-Business-Focus-SpringSummer-2027Newtown-Square-PA-19073/1430487633/",
+        "https://jobs.sap.com/en/students-and-graduates/students/star-program/star-usa/"
+      ],
+      "source_caveats": "Do not list numerical compensation: Business role mistakenly labels $19–$65 as annualized combined compensation, unlike technical role's explicit hourly range. Same first-/second-year focus versus exact remaining-years gate caveat as technical role."
+    },
     {
       "organization": "Girls Who Invest",
       "program": "GWI Scholars Program (2027)",
@@ -16,6 +104,90 @@
       "evidence_urls": [
         "https://apply.girlswhoinvest.org/register/?id=c237d6ee-c63f-42e8-bdc0-96191a986b11",
         "https://www.girlswhoinvest.org/apply-faqs"
+      ]
+    },
+    {
+      "organization": "Bain Capital",
+      "program": "Investors of Tomorrow — Boston (November 2026)",
+      "url": "https://baincapital.wd1.myworkdayjobs.com/External_Public/job/Boston/Bain-Capital-Investors-of-Tomorrow---November-December-2026_REQ_108406",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate sophomores; Boston program selection requires Workday registration plus Predictive Index behavioral/cognitive assessment",
+      "deadline": "October 25, 2026 (11:59 PM EST, as published)",
+      "application_evidence": "Live official Workday response October 13 lists canApply=true,posted=true, current November/December 2026 requisition REQ_108406; explicit sophomore eligibility and October 25 registration deadline. Boston targeted program only listed; subsequent December2 all-student webinar not separately added.",
+      "evidence_urls": [
+        "https://baincapital.wd1.myworkdayjobs.com/wday/cxs/baincapital/External_Public/job/Boston/Bain-Capital-Investors-of-Tomorrow---November-December-2026_REQ_108406"
+      ]
+    },
+    {
+      "organization": "JPMorganChase",
+      "program": "Investment Banking & Markets Insights Program (December 2026)",
+      "url": "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Sophomore cohort; current undergraduates at U.S. institutions; graduation December 2028–June 2029; available in person; downstream internship roles require 3.6+ GPA and U.S. work authorization",
+      "deadline": "October 15, 2026 (12:00 PM ET)",
+      "application_evidence": "Live Chrome shows dated December 2026 program, current undergraduate graduation gate and October 15 noon ET deadline; Register opens actual information, education, resume and Submit fields. Registration is a current program selection application followed by HireVue, not a general future-notification list. No application submitted.",
+      "evidence_urls": [
+        "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA",
+        "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA/registration"
+      ]
+    },
+    {
+      "organization": "Stifel",
+      "program": "Emerging Leaders Webinar (October 2026)",
+      "url": "https://stifel.zoom.us/webinar/register/WN_oQfCtXbuRFyk6q6OMmBCEQ",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current college freshmen and sophomores; graduation December 2028–June 2030; all majors and backgrounds",
+      "deadline": "October 14, 2026 (11:59 PM EST, as published)",
+      "application_evidence": "Employer-hosted Handshake event names first/second-year eligibility and October 14 registration deadline. Live Stifel Zoom form currently renders matching 2026 Emerging Leaders title, October 16 date, and name/email/school/graduation inputs. Register disabled until required fields filled; no submission made.",
+      "evidence_urls": [
+        "https://app.joinhandshake.com/events/2024397/share_preview",
+        "https://careeredge.bentley.edu/events/2026/10/16/2026-stifel-emerging-leaders-webinar-sophmores/",
+        "https://stifel.zoom.us/webinar/register/WN_oQfCtXbuRFyk6q6OMmBCEQ"
+      ]
+    },
+    {
+      "organization": "Baird",
+      "program": "Women in Equity Research Event (2026)",
+      "url": "https://flows.beamery.com/httpwwwrwbairdcom/baird-women-in-equity-research-event-(virtual)",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate freshman or sophomore in a bachelor degree program; related finance/accounting/economics major preferred, not required; all who meet criteria welcome.",
+      "deadline": "Oct 15, 2026",
+      "application_evidence": "Linked official Beamery application rendered in Chrome with Oct 15, 2026 deadline, Nov 20, 2026 event, current freshman/sophomore bachelor enrollment requirement, resume upload and submit button. No fields entered or submission.",
+      "evidence_urls": [
+        "https://www.bairdcareers.com/our-teams/global-equities/equity-research/",
+        "https://flows.beamery.com/httpwwwrwbairdcom/baird-women-in-equity-research-event-(virtual)"
+      ]
+    },
+    {
+      "organization": "Houlihan Lokey",
+      "program": "Investment Banking Insight Day — Corporate Finance (2026)",
+      "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current undergraduate sophomores, Class of 2029; demonstrated finance interest, leadership and availability for selected event.",
+      "deadline": "Oct 19, 2026",
+      "application_evidence": "Official live Workday detail API returns canApply:true, posted:true, endDate 2026-10-19. Chrome shows current posting and Apply opens Start Your Application with Apply Manually route for exact R3628.",
+      "evidence_urls": [
+        "https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628",
+        "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628"
+      ]
+    },
+    {
+      "organization": "Blackstone",
+      "program": "EMEA Future Leaders Spring Insight Programme (2027)",
+      "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Students studying in UK/Europe in first or second university year; anticipated graduation 2028 or 2029; available March–April 2027.",
+      "deadline": "Oct 16, 2026",
+      "application_evidence": "Fresh direct official Workday detail API returns canApply:true and posted:true for 2027 EMEA Future Leaders Spring Insight Programme, first published Sept 17, 2026. Current jobDescription explicitly states Oct 16, 2026 close and first/second-year target.",
+      "evidence_urls": [
+        "https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529",
+        "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529"
       ]
     },
     {
@@ -255,32 +427,6 @@
       ]
     },
     {
-      "organization": "NVIDIA",
-      "program": "NVIDIA 2027 Ignite Internships: Software Engineering",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958",
-      "status": "verified_open",
-      "verified_at": "2026-10-13T20:24:24.821276-04:00",
-      "eligibility": "Current first-year (Class of 2030) or second-year (Class of 2029) undergraduate at a four-year U.S. university; CE, CS, EE, Mathematics or related field; software-basics coursework and basic C/C++/Python/Perl/MATLAB knowledge",
-      "deadline": "October 18, 2026 (application window October 5–18; no closing time specified)",
-      "application_evidence": "live official Workday CXS job detail: {\"canApply\": true, \"posted\": true, \"jobReqId\": \"JR2026958\", \"title\": \"NVIDIA 2027 Ignite Internships: Software Engineering\", \"startDate\": \"2026-10-12\", \"endDate\": \"2026-10-18\"}",
-      "evidence_urls": [
-        "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/NVIDIA-2027-Ignite-Internships--Software-Engineering_JR2026958"
-      ]
-    },
-    {
-      "organization": "NVIDIA",
-      "program": "NVIDIA 2027 Ignite Internships: Hardware Engineering",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047",
-      "status": "verified_open",
-      "verified_at": "2026-10-13T20:24:24.821276-04:00",
-      "eligibility": "Current first-year (Class of 2030) or second-year (Class of 2029) undergraduate at a four-year U.S. university; EE, CE, CS, Mathematics or related field; hardware-basics coursework and basic C/C++/Python/Perl/MATLAB knowledge",
-      "deadline": "October 18, 2026 (application window October 5–18; no closing time specified)",
-      "application_evidence": "live official Workday CXS job detail: {\"canApply\": true, \"posted\": true, \"jobReqId\": \"JR2027047\", \"title\": \"NVIDIA 2027 Ignite Internships: Hardware Engineering\", \"startDate\": \"2026-10-12\", \"endDate\": null}",
-      "evidence_urls": [
-        "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047"
-      ]
-    },
-    {
       "organization": "Five Rings",
       "program": "LINK 2027: Software Development Intensive Program",
       "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5394515008",
@@ -291,32 +437,6 @@
       "application_evidence": "live official Greenhouse job detail API: {\"id\": 5394515008, \"title\": \"LINK 2027: Software Development Intensive Program\", \"updated_at\": \"2026-09-01T17:18:37-04:00\", \"absolute_url\": \"https://job-boards.greenhouse.io/fiveringsllc/jobs/5394515008\"}",
       "evidence_urls": [
         "https://boards-api.greenhouse.io/v1/boards/fiveringsllc/jobs/5394515008?content=true"
-      ]
-    },
-    {
-      "organization": "Hudson River Trading",
-      "program": "Women in Trading and Technology Internship (WiTTI) – Winter 2027",
-      "url": "https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&token=8188637",
-      "status": "verified_open",
-      "verified_at": "2026-10-13T20:24:24.821276-04:00",
-      "eligibility": "Official student-opportunities page targets second-year students. Role requires full-time undergraduates graduating fall 2028–summer 2030 in a technical/quantitative discipline, programming experience and no extensive quantitative-trading industry experience. Women+ and nonbinary focus; people of all identities welcome to apply.",
-      "deadline": "October 16, 2026 (no closing time specified)",
-      "application_evidence": "live official Greenhouse job detail API: {\"id\": 8188637, \"title\": \"Women in Trading and Technology Internship (WiTTI) – Winter 2027\", \"updated_at\": \"2026-10-07T13:25:59-04:00\", \"absolute_url\": \"https://www.hudsonrivertrading.com/careers/job/?gh_jid=8188637\"}",
-      "evidence_urls": [
-        "https://boards-api.greenhouse.io/v1/boards/wehrtyou/jobs/8188637?content=true"
-      ]
-    },
-    {
-      "organization": "Barry Goldwater Scholarship & Excellence in Education Foundation",
-      "program": "Goldwater Summer Research Internship (2027)",
-      "url": "https://www.goldwaterinternship.gov/intern-application",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Current undergraduate freshmen or sophomores; U.S. citizen or permanent resident; site-specific project restrictions vary.",
-      "deadline": "2026-11-02",
-      "application_evidence": "Current official application response includes a configured student application with 57 fields, uploads, project choices, reference details and certification; Current academic status is freshman or sophomore as of Fall 2026. No application submitted.",
-      "evidence_urls": [
-        "https://www.goldwaterinternship.gov/intern-application"
       ]
     },
     {
@@ -348,107 +468,6 @@
       ]
     },
     {
-      "organization": "Bain Capital",
-      "program": "Investors of Tomorrow — Boston (November 2026)",
-      "url": "https://baincapital.wd1.myworkdayjobs.com/External_Public/job/Boston/Bain-Capital-Investors-of-Tomorrow---November-December-2026_REQ_108406",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Current undergraduate sophomores; Boston program selection requires Workday registration plus Predictive Index behavioral/cognitive assessment",
-      "deadline": "October 25, 2026 (11:59 PM EST, as published)",
-      "application_evidence": "Live official Workday response October 13 lists canApply=true,posted=true, current November/December 2026 requisition REQ_108406; explicit sophomore eligibility and October 25 registration deadline. Boston targeted program only listed; subsequent December2 all-student webinar not separately added.",
-      "evidence_urls": [
-        "https://baincapital.wd1.myworkdayjobs.com/wday/cxs/baincapital/External_Public/job/Boston/Bain-Capital-Investors-of-Tomorrow---November-December-2026_REQ_108406"
-      ]
-    },
-    {
-      "organization": "JPMorganChase",
-      "program": "Investment Banking & Markets Insights Program (December 2026)",
-      "url": "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Sophomore cohort; current undergraduates at U.S. institutions; graduation December 2028–June 2029; available in person; downstream internship roles require 3.6+ GPA and U.S. work authorization",
-      "deadline": "October 15, 2026 (12:00 PM ET)",
-      "application_evidence": "Live Chrome shows dated December 2026 program, current undergraduate graduation gate and October 15 noon ET deadline; Register opens actual information, education, resume and Submit fields. Registration is a current program selection application followed by HireVue, not a general future-notification list. No application submitted.",
-      "evidence_urls": [
-        "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA",
-        "https://jpmc.recsolu.com/app/collect/event/PmuqzKf0GsBN1KG_vpKrBA/registration"
-      ]
-    },
-    {
-      "organization": "Stifel",
-      "program": "Emerging Leaders Webinar (October 2026)",
-      "url": "https://stifel.zoom.us/webinar/register/WN_oQfCtXbuRFyk6q6OMmBCEQ",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Current college freshmen and sophomores; graduation December 2028–June 2030; all majors and backgrounds",
-      "deadline": "October 14, 2026 (11:59 PM EST, as published)",
-      "application_evidence": "Employer-hosted Handshake event names first/second-year eligibility and October 14 registration deadline. Live Stifel Zoom form currently renders matching 2026 Emerging Leaders title, October 16 date, and name/email/school/graduation inputs. Register disabled until required fields filled; no submission made.",
-      "evidence_urls": [
-        "https://app.joinhandshake.com/events/2024397/share_preview",
-        "https://careeredge.bentley.edu/events/2026/10/16/2026-stifel-emerging-leaders-webinar-sophmores/",
-        "https://stifel.zoom.us/webinar/register/WN_oQfCtXbuRFyk6q6OMmBCEQ"
-      ]
-    },
-    {
-      "organization": "Gateway Engineers",
-      "program": "Freshman Internship — Summer 2027",
-      "url": "https://gatewayengineers.clearcompany.com/careers/jobs/ac9638ca-0d43-721a-f46f-3d100b943feb/apply?source=CJB-0",
-      "status": "verified_open",
-      "verified_at": "2026-10-13T20:26:00-04:00",
-      "eligibility": "College freshmen completing their first year before summer 2027 and returning for sophomore year; self-transportation to Gateway office required",
-      "deadline": "No deadline published (live application)",
-      "application_evidence": "Official 2027 Freshman Program explicitly requires completed freshman year and return for sophomore year. Separate Sophomore/Junior program is excluded. The official Freshman Apply link currently opens a live ClearCompany form titled Freshman Internship - Summer 2027 with personal-information fields and Continue button, verified in Chrome October 13, 2026 at 20:26 ET. LinkedIn used for discovery.",
-      "evidence_urls": [
-        "https://www.gatewayengineers.com/internships/",
-        "https://gatewayengineers.hrmdirect.com/employment/job-openings.php?search=true",
-        "https://gatewayengineers.clearcompany.com/careers/jobs/ac9638ca-0d43-721a-f46f-3d100b943feb/apply?source=CJB-0",
-        "https://www.linkedin.com/jobs/view/freshman-internship-summer-2027-at-gateway-engineers-4422522998"
-      ]
-    },
-    {
-      "organization": "BAE Systems",
-      "program": "Systems Engineering Intern II — Summer 2027 (NH-Onsite)",
-      "url": "https://jobs.baesystems.com/global/en/job/128225BR/Systems-Engineering-Intern-II-Summer-2027-NH-Onsite",
-      "status": "verified_open",
-      "verified_at": "2026-10-13T20:30:17.451094-04:00",
-      "eligibility": "Current undergraduate sophomores completing second year before Summer 2027 in EE, Electrical and Computer Science, ME, Software Engineering or related field; U.S. citizenship and eligibility for Secret DoD clearance required",
-      "deadline": "No deadline published (open until filled or qualified pool identified)",
-      "application_evidence": "Listed on the current official LEAP internship board and posted October 1, 2026. Description explicitly seeks candidates completing Sophomore undergraduate year and requires completion of sophomore year before Summer 2027. Current job page displays Apply Now. Clicking it in Chrome opens a live BrassRing Sign In application entry point for jobid302215, with no expired/closed notice. No account login or submission performed. Detailed official source data saved /tmp/bae-systems2.html.job.json.",
-      "evidence_urls": [
-        "https://jobs.baesystems.com/global/en/leap",
-        "https://jobs.baesystems.com/global/en/job/128225BR/Systems-Engineering-Intern-II-Summer-2027-NH-Onsite",
-        "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25771&siteid=5403&jobid=302215"
-      ]
-    },
-    {
-      "organization": "Stanford University — Public Humanities",
-      "program": "Humanities Research Intensive (Spring Break 2027)",
-      "url": "https://stanforduniversity.qualtrics.com/jfe/form/SV_8dMX0nvf5yBVy8C",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Current Stanford first-years or sophomores; eligible transfers must complete one full-time Stanford quarter by application AND meet either prior-college limit (no more than one full year OR no more than 60 non-AP transfer units). Must be enrolled Winter 2027. All majors welcome.",
-      "deadline": "Nov 2, 2026, 11:59pm",
-      "application_evidence": "Actual Qualtrics application rendered in Chrome and titled Humanities Research Intensive Application, 2026–2027, with enabled applicant fields and Frosh/Sophomore/Eligible Transfer options. No application entered/submitted.",
-      "evidence_urls": [
-        "https://publichumanities.stanford.edu/undergraduates/humanities-research/humanities-research-intensive",
-        "https://stanforduniversity.qualtrics.com/jfe/form/SV_8dMX0nvf5yBVy8C"
-      ]
-    },
-    {
-      "organization": "The Rockefeller University / CUNY Hunter College",
-      "program": "Hunter × RockEDU Scholars (2027)",
-      "url": "https://hunterresearchscholars.rockefeller.edu/",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Current freshman or sophomore at CUNY Hunter College only; must commit to full Spring and Summer portions; no prior research experience required.",
-      "deadline": "Jan 4, 2027, 5:00pm ET (including recommendation)",
-      "application_evidence": "Fresh Chrome navigation of official program page explicitly shows 2027 applications OPEN, Jan 4 deadline, and direct linked application portal. Portal renders Online Application System for Hunter Research Scholars, registration and login; FAQ instructs prospective students to complete online application. Account needed to access application fields; no account created.",
-      "evidence_urls": [
-        "https://www.rockefeller.edu/outreach/hunter-x-rockedu-scholars/",
-        "https://hunterresearchscholars.rockefeller.edu/"
-      ]
-    },
-    {
       "organization": "Johns Hopkins University — Life Design Lab",
       "program": "BioTech Engineering Internship Academy (Spring 2027)",
       "url": "https://jh.qualtrics.com/jfe/form/SV_ey6RVne03xbh3Zc",
@@ -460,34 +479,6 @@
       "evidence_urls": [
         "https://illd.jhu.edu/departments/life-design-lab-ldl/ldl-programming/internship-academies/",
         "https://jh.qualtrics.com/jfe/form/SV_ey6RVne03xbh3Zc"
-      ]
-    },
-    {
-      "organization": "Baird",
-      "program": "Women in Equity Research Event (2026)",
-      "url": "https://flows.beamery.com/httpwwwrwbairdcom/baird-women-in-equity-research-event-(virtual)",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Current undergraduate freshman or sophomore in a bachelor degree program; related finance/accounting/economics major preferred, not required; all who meet criteria welcome.",
-      "deadline": "Oct 15, 2026",
-      "application_evidence": "Linked official Beamery application rendered in Chrome with Oct 15, 2026 deadline, Nov 20, 2026 event, current freshman/sophomore bachelor enrollment requirement, resume upload and submit button. No fields entered or submission.",
-      "evidence_urls": [
-        "https://www.bairdcareers.com/our-teams/global-equities/equity-research/",
-        "https://flows.beamery.com/httpwwwrwbairdcom/baird-women-in-equity-research-event-(virtual)"
-      ]
-    },
-    {
-      "organization": "Houlihan Lokey",
-      "program": "Investment Banking Insight Day — Corporate Finance (2026)",
-      "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628",
-      "status": "verified_open",
-      "verified_at": "2026-10-13",
-      "eligibility": "Current undergraduate sophomores, Class of 2029; demonstrated finance interest, leadership and availability for selected event.",
-      "deadline": "Oct 19, 2026",
-      "application_evidence": "Official live Workday detail API returns canApply:true, posted:true, endDate 2026-10-19. Chrome shows current posting and Apply opens Start Your Application with Apply Manually route for exact R3628.",
-      "evidence_urls": [
-        "https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628",
-        "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/XMLNAME-2026-Houlihan-Lokey-Investment-Banking-Insight-Day_R3628"
       ]
     },
     {
@@ -533,18 +524,594 @@
       ]
     },
     {
-      "organization": "Blackstone",
-      "program": "EMEA Future Leaders Spring Insight Programme (2027)",
-      "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529",
+      "organization": "Word of Life Bible Institute",
+      "program": "Student Ambassador Scholarship — 2027–2028",
+      "url": "https://wordoflife.formstack.com/forms/student_ambassador_application",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "Word of Life Bible Institute freshmen and sophomores, including national and international students; New York or Florida campus. Student ambassadors serve in campus leadership, preview days, and prospective-student liaison activities.",
+      "deadline": "Not published for this ambassador application (live form)",
+      "application_evidence": "Live official Formstack application inspected in Chrome. Editable student details, campus selection, leadership essays, and Submit Form button are available. School Year of Interest options include 2026–2027 and 2027–2028. No information entered or submitted.",
+      "evidence_urls": [
+        "https://wordoflife.edu/admissions/cost-and-financial-aid/scholarships/",
+        "https://wordoflife.formstack.com/forms/student_ambassador_application"
+      ],
+      "notes": "Institution-specific two-year Bible Institute opportunity. Official scholarship page currently links the 2027–2028 general scholarship application. Use the live ambassador form for 2027–2028; the general scholarship/FAFSA priority date is May 31 before the September academic year, subject to funding. Ambassador-specific close date is not stated."
+    },
+    {
+      "organization": "Dartmouth College / Thayer School of Engineering",
+      "program": "Early Research Access in the Sciences (ERAS) / First Year Research in Engineering Experience (FYREE), Winter–Spring 2027",
+      "url": "https://dartmouth.co1.qualtrics.com/jfe/form/SV_7ady3pMc5zVZk2O",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Current Dartmouth first-year undergraduates only; enrolled and on campus for Winter and Spring terms; eligible to receive U.S. wages and complete I-9. Must submit a student profile, interview with potential faculty mentors and submit preferences through the programme matching process. No other Dartmouth-funded first-year research programme simultaneously; no prior research expected.",
+      "deadline": "Faculty interviews: October 26, 2026; student preference form: October 29, 2026 (times not published)",
+      "application_evidence": "Official current timetable states student profiles opened September 29, 2026, interviews run through October 26, and student preferences close October 29. Thayer explicitly labels the 2026 application cycle open. The exact current Qualtrics student-profile link works and routes to Dartmouth Microsoft SSO. Private form was not inspected without Dartmouth credentials; no application submitted. ERAS and FYREE recorded as one shared application.",
+      "evidence_urls": [
+        "https://students.dartmouth.edu/surfd/undergraduate-research/dartmouth-early-research-access-sciences/how-apply",
+        "https://students.dartmouth.edu/surfd/undergraduate-research/dartmouth-early-research-access-sciences/program-information",
+        "https://engineering.dartmouth.edu/undergraduate/fyree",
+        "https://dartmouth.co1.qualtrics.com/jfe/form/SV_7ady3pMc5zVZk2O"
+      ]
+    },
+    {
+      "organization": "Barry Goldwater Scholarship & Excellence in Education Foundation",
+      "program": "Goldwater Summer Research Internship (2027)",
+      "url": "https://www.goldwaterinternship.gov/intern-application",
       "status": "verified_open",
       "verified_at": "2026-10-13",
-      "eligibility": "Students studying in UK/Europe in first or second university year; anticipated graduation 2028 or 2029; available March–April 2027.",
-      "deadline": "Oct 16, 2026",
-      "application_evidence": "Fresh direct official Workday detail API returns canApply:true and posted:true for 2027 EMEA Future Leaders Spring Insight Programme, first published Sept 17, 2026. Current jobDescription explicitly states Oct 16, 2026 close and first/second-year target.",
+      "eligibility": "Current undergraduate freshmen or sophomores; U.S. citizen or permanent resident; site-specific project restrictions vary.",
+      "deadline": "2026-11-02",
+      "application_evidence": "Current official application response includes a configured student application with 57 fields, uploads, project choices, reference details and certification; Current academic status is freshman or sophomore as of Fall 2026. No application submitted.",
       "evidence_urls": [
-        "https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529",
-        "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-EMEA-Future-Leaders-Spring-Insight-Programme_45529"
+        "https://www.goldwaterinternship.gov/intern-application"
       ]
+    },
+    {
+      "organization": "Stanford University — Public Humanities",
+      "program": "Humanities Research Intensive (Spring Break 2027)",
+      "url": "https://stanforduniversity.qualtrics.com/jfe/form/SV_8dMX0nvf5yBVy8C",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current Stanford first-years or sophomores; eligible transfers must complete one full-time Stanford quarter by application AND meet either prior-college limit (no more than one full year OR no more than 60 non-AP transfer units). Must be enrolled Winter 2027. All majors welcome.",
+      "deadline": "Nov 2, 2026, 11:59pm",
+      "application_evidence": "Actual Qualtrics application rendered in Chrome and titled Humanities Research Intensive Application, 2026–2027, with enabled applicant fields and Frosh/Sophomore/Eligible Transfer options. No application entered/submitted.",
+      "evidence_urls": [
+        "https://publichumanities.stanford.edu/undergraduates/humanities-research/humanities-research-intensive",
+        "https://stanforduniversity.qualtrics.com/jfe/form/SV_8dMX0nvf5yBVy8C"
+      ]
+    },
+    {
+      "organization": "The Rockefeller University / CUNY Hunter College",
+      "program": "Hunter × RockEDU Scholars (2027)",
+      "url": "https://hunterresearchscholars.rockefeller.edu/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13",
+      "eligibility": "Current freshman or sophomore at CUNY Hunter College only; must commit to full Spring and Summer portions; no prior research experience required.",
+      "deadline": "Jan 4, 2027, 5:00pm ET (including recommendation)",
+      "application_evidence": "Fresh Chrome navigation of official program page explicitly shows 2027 applications OPEN, Jan 4 deadline, and direct linked application portal. Portal renders Online Application System for Hunter Research Scholars, registration and login; FAQ instructs prospective students to complete online application. Account needed to access application fields; no account created.",
+      "evidence_urls": [
+        "https://www.rockefeller.edu/outreach/hunter-x-rockedu-scholars/",
+        "https://hunterresearchscholars.rockefeller.edu/"
+      ]
+    },
+    {
+      "organization": "Penn State / NASA Pennsylvania Space Grant Consortium",
+      "program": "Undergraduate Research Internship Program (URIP), 2027",
+      "url": "https://spacegrant.net/apps/pas2",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Current first-year undergraduate at Penn State University Park; U.S. citizen (permanent residents not eligible); intended STEM degree; approximately five research hours weekly in each programme semester; unofficial transcript required.",
+      "deadline": "November 1, 2026 (time zone not published)",
+      "application_evidence": "Live official programme homepage gives 2027 cohort and October 1–November 1, 2026 application timetable. Its prospective-student page links to the exact Space Grant application. Browser verified current URIP login title, Sunday November 1, 2026 due date, new-user registration and sample-application entry. No account created or application submitted. Prospective-page body retains a stale 2026 calendar-year sentence; current 2027 cohort and timeline were used instead.",
+      "evidence_urls": [
+        "https://sites.psu.edu/urip/",
+        "https://sites.psu.edu/urip/prospective-student/",
+        "https://spacegrant.net/apps/pas2"
+      ]
+    },
+    {
+      "organization": "University of North Carolina Wilmington",
+      "program": "First-Year Research Experience (FYRE), Spring 2027",
+      "url": "https://uncw.infoready4.com/#freeformCompetitionDetail/2035438",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Current UNCW first-year students only; all majors, Honors membership not required; commit 3–5 research hours weekly, required Wednesday 2:00–2:50 PM HON 191 class and April 24, 2027 research showcase (or approved alternative).",
+      "deadline": "October 29, 2026 at 5:00 PM (time zone not published)",
+      "application_evidence": "Live official page says Spring 2027 applications are now open. Browser inspected actual InfoReady competition 2035438 titled 2027 FYRE Application: first-year gate, October 29 at 5pm deadline, identifying questions, two short-answer essays, five mentor rankings and enabled Apply button. Apply proceeds to UNCW SSO/account login; no credentials entered or application submitted. An older web cache showed a pending link; direct live page and actual application were used.",
+      "evidence_urls": [
+        "https://www.uncw.edu/myuncw/research/student/undergrad-research/fyre",
+        "https://uncw.infoready4.com/#freeformCompetitionDetail/2035438"
+      ]
+    },
+    {
+      "organization": "Cornell University / Einaudi Center",
+      "program": "Laidlaw Leadership and Research Program, 2027–2029",
+      "url": "https://cornell1.my.site.com/stud/createApp?id=a0VUS00000AY9OO",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Cornell first- and second-year undergraduates, any Cornell college or major; strong academic background and commitment to full two-year programme, six-week faculty research in first summer and six-week international leadership project in second summer. U.S. citizenship not required. Must remain in good standing, with no unresolved disciplinary charges/sanctions, and maintain undergraduate enrollment throughout the programme; detailed requirements specify through April 2029.",
+      "deadline": "January 6, 2027 (time zone not published)",
+      "application_evidence": "Direct live current official page now links a cohort-specific createApp record and gives January 6, 2027 deadline and March 2027–March 2029 programme. Browser verified the linked Salesforce application redirects to functioning Cornell NetID/non-Cornell account login with the exact application record preserved. Private application was not inspected without applicant credentials. Earlier cached page said coming soon; the direct current response was used. No account created or application submitted.",
+      "evidence_urls": [
+        "https://einaudi.cornell.edu/funding/laidlaw",
+        "https://cornell1.my.site.com/stud/createApp?id=a0VUS00000AY9OO",
+        "https://experience.cornell.edu/index.php/opportunities/laidlaw-leadership-and-research-program/requirements"
+      ]
+    },
+    {
+      "organization": "University of Hong Kong",
+      "program": "Laidlaw Undergraduate Research and Leadership Programme, 2026–2027 Intake",
+      "url": "https://hku.au1.qualtrics.com/jfe/form/SV_8llsP6pChCy6XhI",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Full-time HKU first- or second-year undergraduates only; visiting students not eligible; normally cumulative GPA 3.0+. HKU academic supervisor at assistant-professor rank or above and signed support letter required; commit to two summers plus leadership training. Current official eligibility page is authoritative; form has broader year input options, which do not establish eligibility. Expected graduation in or after the 2028–29 academic year.",
+      "deadline": "January 22, 2027 at 23:59 (time zone not stated by provider)",
+      "application_evidence": "Official current page states October 8, 2026–January 22, 2027 window and full-time first/second-year eligibility. Browser inspected live Qualtrics form titled Laidlaw Scholars Programme 2026-27, Jan22 2027 deadline, 2027 research dates, identity/HKU contact/academic/project fields and enabled Next. Both online form and emailed application package are required; no data entered, no email sent and no application submitted.",
+      "evidence_urls": [
+        "https://tl.hku.hk/horizons/laidlaw/",
+        "https://hku.au1.qualtrics.com/jfe/form/SV_8llsP6pChCy6XhI"
+      ]
+    },
+    {
+      "organization": "University of Florida — Center for Undergraduate Research",
+      "program": "Emerging Scholars Program (2027)",
+      "url": "https://forms.gle/uiDgGkbKf6DRD5Hu5",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "University of Florida freshmen or sophomores only; faculty research mentor sponsorship required; entry-level university research/CURE-course restrictions apply. The application requires UF ID and @ufl.edu email and offers only Freshman/Sophomore current-standing options.",
+      "deadline": "November 1, 2026, 11:59pm (timezone not stated)",
+      "application_evidence": "Verified actual Google Form in Chrome on October 13, 2026. Form title ESP 2027 Application, current November 1 11:59pm deadline, UF-ID/@ufl.edu questions, only Freshman/Sophomore choices, research-proposal and mentor-letter upload fields, and Submit control. Official page explicitly opens September 22, 2026 and closes November 1, 2026.",
+      "evidence_urls": [
+        "https://cur.aa.ufl.edu/emerging-scholars-program/",
+        "https://docs.google.com/forms/d/e/1FAIpQLSfvA-BQ5pTrGV17FRe2gIyUlQdp8LwxLQh-YT7lk0i3bx8-uA/viewform?usp=send_form"
+      ],
+      "source_caveats": "Official page/form have impossible June 31 cutoff dates and conflicting 2025/2026 prior-research wording. Do not propagate an impossible cutoff or infer that every amount of past research is categorically barred; direct applicants to official research-experience restrictions. Class-year gate is explicit and unaffected. Google sign-in required to upload and submit; no application submitted."
+    },
+    {
+      "organization": "Dartmouth College — Leslie Center for the Humanities",
+      "program": "Student Research Fellows in Nineteenth-Century Studies (2027–28)",
+      "url": "https://leslie.dartmouth.edu/students/student-research-fellows-nineteenth-century-studies-2027-28",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Current Dartmouth first-year Humanities 1 Fall 2026 and/or Humanities 2 Winter 2027 cohort; fellowship takes place one term of sophomore year in 2027–28. A nineteenth-century studies course in first year or during sophomore fellowship must be vetted by the selection committee.",
+      "deadline": "March 29, 2027 (timezone/time not stated)",
+      "application_evidence": "Current official 2027–28 application section gives email application instructions now, with no future opening gate: send statement of purpose of 500 words or fewer to both program co-directors by March 29, 2027. Interviews April 8–9 or 15–16; notifications mid-May. This is an email application; use official instructions page as application URL.",
+      "evidence_urls": [
+        "https://leslie.dartmouth.edu/students/student-research-fellows-nineteenth-century-studies-2027-28",
+        "https://www.dartmouth.edu/hums1-2/how_to_apply/index.html"
+      ],
+      "source_caveats": "Do not confuse with Dartmouth ERAS/FYREE, which root is separately researching. Eligibility is a specific Dartmouth first-year course cohort, not all Dartmouth first-years and not a nationwide program."
+    },
+    {
+      "organization": "Stanford University",
+      "program": "Chappell Lougee Scholarship, Summer 2027",
+      "url": "https://vpuesubmit.stanford.edu/app/Grants/login.asp",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Stanford sophomores enrolled in their third, fourth or fifth full-time quarter at December 1 application deadline; eligible transfers in first or second Stanford quarter with 45–80 transferred quarter units excluding AP. Faculty-mentored humanities, creative arts or qualitative social-sciences project; 35+ hours/week for ten summer weeks; general Stanford grant policies apply.",
+      "deadline": "December 1, 2026 at 11:59 PM PST; faculty mentor letter December 8, 2026 at 11:59 PM PST",
+      "application_evidence": "Official dedicated current award page publishes October 1, 2026 opening, December 1 deadline, 2027 summer and precise sophomore/transfer gates. Browser inspected linked VPUE grant application entry and confirmed Login routes to Stanford SSO. The award selection behind personal authentication was not inspected; no account or application created.",
+      "evidence_urls": [
+        "https://undergradresearch.stanford.edu/fund-your-project/explore-student-grants/chappell-lougee",
+        "https://undergradresearch.stanford.edu/fund-your-project/explore-student-grants/eligibility-reqs",
+        "https://vpuesubmit.stanford.edu/app/Grants/login.asp"
+      ]
+    },
+    {
+      "organization": "American Institute of Steel Construction (AISC)",
+      "program": "David B. Ratterman Fast Start Scholarships (2027–2028)",
+      "url": "https://app.ui3.smarterselect.com/programs/111888-Aisc?from=v1",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Full-time freshman or sophomore throughout the entire 2027–28 academic year at an accredited U.S. two- or four-year college; child of, or sharing a permanent residence with, an eligible AISC Full Member company employee, or an eligible employee who will themselves be a student. Financial need preferred. This targets incoming freshmen and current first-year students advancing to sophomore year.",
+      "deadline": "December 1, 2026 at 11:59 PM CST (as stated in the application)",
+      "application_evidence": "Browser inspected live SmarterSelect overview titled 2027–2028 David B. Ratterman Fast Start Scholarships, with current deadline, explicit freshman/sophomore restrictions, Preview and Apply buttons; account login is required to begin. Official AISC page says currently accepting 2027–28 applications.",
+      "evidence_urls": [
+        "https://www.aisc.org/university-programs/scholarships-grants/scholarships/fast-start-scholarships/",
+        "https://app.ui3.smarterselect.com/programs/111888-Aisc?from=v1"
+      ]
+    },
+    {
+      "organization": "NRF Foundation",
+      "program": "Rising Retail Stars Scholarship / 2027 NRF NXT",
+      "url": "https://apply.mykaleidoscope.com/program/RisingStars2627",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Current undergraduate freshman or sophomore at an NRF Foundation University Member school; must not have previously attended an NRF Foundation Student Program. One student per university, nominated by an authorized faculty advisor; students cannot self-nominate.",
+      "deadline": "October 30, 2026 (time zone not published on official information page)",
+      "application_evidence": "Live official Kaleidoscope page titled 2026–2027 NRF Foundation Rising Stars Scholarship displays freshman/sophomore gate, January 2027 event, October 30 deadline and Log In to Apply button. Official page states nomination window August 24–October 30, 2026.",
+      "evidence_urls": [
+        "https://research.nrffoundation.com/retail-scholarships/rising-retail-stars",
+        "https://apply.mykaleidoscope.com/program/RisingStars2627"
+      ]
+    },
+    {
+      "organization": "Spencer Educational Foundation",
+      "program": "Freshman/Sophomore Scholarship Awards (2027) — limited $5,000 awards and PLRB named track",
+      "url": "https://aim.applyists.net/spencer",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Distinct awards restricted to highest-ranked freshman/sophomore applicants; PLRB named scholarship explicitly awards three rising freshmen and/or sophomores. Shared application also administers other awards, so list only these first-/second-year tracks. Must seek a risk-management, insurance or actuarial-science career; meet the Foundation’s accredited U.S./Canadian college, physical-study, at-least-one-full-academic-year and 12-credit Fall 2027/Spring 2028 requirements. Applicants must verify when the one-year requirement is measured; no unsupported incoming-freshman eligibility is asserted.",
+      "deadline": "January 15, 2027 (time zone not stated on official page)",
+      "application_evidence": "Official current 2027 timeline says opened October 1, 2026 and closes January 15, 2027. Apply Here routes to functioning ISTS account login with ReturnUrl=/spencer and register option. Account is required; no account created.",
+      "evidence_urls": [
+        "https://www.spencered.org/scholarships",
+        "https://aim.applyists.net/Account/LogOn?ReturnUrl=/spencer"
+      ],
+      "scope_note": "Candidate under parent’s instruction to consider distinct hard-targeted award tracks; avoid generic Spencer undergraduate row and avoid separate duplicate applications for its named scholarships."
+    },
+    {
+      "organization": "Durango Boots / Dude Ranch Foundation",
+      "program": "National Day of the Cowgirl Scholarship (2027–2028)",
+      "url": "https://nationaldayofthecowgirl.com/scholarship-application",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Current first-year college women as of Fall 2026 (freshmen, or first-year students with AP credits giving sophomore standing); female U.S./Canadian citizen; full-time at an accredited four-year institution in U.S./Canada; 3.0 GPA; existing ties and career intent in Western, agriculture, farm/ranch, dude-ranch, equine or Western-sports industries. High-school seniors and students beyond their first college year are excluded.",
+      "deadline": "December 31, 2026 (time zone not published)",
+      "application_evidence": "Live official 2027–28 application inspected in Chrome, with current Fall 2026 class options limited to freshman or first-year AP-credit sophomore, resume/transcript/reference uploads and enabled Submit button. No data entered. Information page gives current December 31, 2026 deadline and August 2027 recipient announcement.",
+      "evidence_urls": [
+        "https://nationaldayofthecowgirl.com/scholarship-application"
+      ]
+    },
+    {
+      "organization": "North Carolina Central University",
+      "program": "Cheatham-White Scholarship (Incoming Fall 2027 Freshmen)",
+      "url": "https://www.nccu.edu/usp/cheatham-white-scholarship-program/apply",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Incoming NCCU fall freshman graduating high school in Spring 2027; U.S. citizen or permanent resident; minimum 4.0 weighted or unweighted cumulative GPA; exceptional leadership, extracurricular involvement and service. SAT 1280/ACT 28 optional for 2027–28. Counselor nomination or self-nomination required before application access; no North Carolina residency requirement.",
+      "deadline": "Nomination: November 1, 2026 at 11:59:59 PM (time zone not stated in nomination portal); full scholarship materials: November 15, 2026",
+      "application_evidence": "Official current 2027–28 information page gives August 15, 2026 open date and November 2026 deadlines. Actual Eagle Promise nomination form is live with student and nominator fields, explicit November 1, 2026 close and Submit Nomination. Self-nomination takes place within an undergraduate admissions application; scholarship form is unlocked after nomination review. No nomination submitted. The linked Eagle Promise nomination form is for high-school administrators. The active listing therefore links the official application instructions, which also directs self-nominating students to the undergraduate admissions portal.",
+      "evidence_urls": [
+        "https://www.nccu.edu/usp/cheatham-white-scholarship-program/apply",
+        "https://eaglepromise.nccu.edu/cheathamwhite/",
+        "https://www.nccu.edu/usp/cheatham-white-scholarship-program"
+      ]
+    },
+    {
+      "organization": "North Carolina A&T State University",
+      "program": "Honors Distinguished Scholars Program (Incoming Fall 2027 Freshmen) — Cheatham-White, Dowdy & February One",
+      "url": "https://apply.ncat.edu/apply/?sr=e21c3635-82c2-4e18-93bd-8ec0515e8473",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Incoming first-year fall freshmen pursuing their first bachelor’s degree at N.C. A&T. Cheatham-White: Spring 2027 high-school graduate, U.S. citizen/permanent resident, 4.0 weighted GPA, SAT1280/ACT28 optional; Dowdy: U.S. citizen/eligible noncitizen, 3.75 weighted GPA, SAT1270/ACT27 optional; February One: Spring 2027 high-school graduate, U.S. citizen/permanent resident, 3.75 GPA, SAT1270/ACT27 optional. Each requires leadership/service and Honors application; school endorsement or self-nomination accepted. February One additionally requires an undergraduate degree through the College of Arts, Humanities and Social Sciences, the College of Education, or the John R. and Kathy R. Hairston College of Health and Human Sciences; not all STEM majors qualify for that award.",
+      "deadline": "November 15, 2026 (scholarship priority deadline; applications afterward considered for Honors College only; time not published)",
+      "application_evidence": "Official dated timeline revised July 6, 2026 states Honors application opened August 1, 2026 and November 15 deadline for the Fall 2027 scholarship cohort (February 26–27, 2027 finalist interviews). Official direct Aggie Admissions application portal is functioning with login/create-account; Honors application is available after submitting university admission application, so private form could not be inspected without applicant credentials.",
+      "evidence_urls": [
+        "https://www.ncat.edu/honors/scholarships.php",
+        "https://www.ncat.edu/honors/cheatham-white-scholars.php",
+        "https://www.ncat.edu/honors/dowdy-scholars-program/index.php",
+        "https://www.ncat.edu/honors/february-one-scholars-program.php",
+        "https://apply.ncat.edu/apply/?sr=e21c3635-82c2-4e18-93bd-8ec0515e8473"
+      ],
+      "scope_note": "One row for consolidated programme and shared application, to avoid inflating three award names into duplicate links."
+    },
+    {
+      "organization": "Hudson River Trading",
+      "program": "Women in Trading and Technology Internship (WiTTI) – Winter 2027",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&token=8188637",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:24:24.821276-04:00",
+      "eligibility": "Official student-opportunities page targets second-year students. Role requires full-time undergraduates graduating fall 2028–summer 2030 in a technical/quantitative discipline, programming experience and no extensive quantitative-trading industry experience. Women+ and nonbinary focus; people of all identities welcome to apply.",
+      "deadline": "October 16, 2026 (no closing time specified)",
+      "application_evidence": "live official Greenhouse job detail API: {\"id\": 8188637, \"title\": \"Women in Trading and Technology Internship (WiTTI) – Winter 2027\", \"updated_at\": \"2026-10-07T13:25:59-04:00\", \"absolute_url\": \"https://www.hudsonrivertrading.com/careers/job/?gh_jid=8188637\"}",
+      "evidence_urls": [
+        "https://boards-api.greenhouse.io/v1/boards/wehrtyou/jobs/8188637?content=true"
+      ]
+    },
+    {
+      "organization": "Citadel Securities",
+      "program": "Ignite Women’s Trading Program (Winter 2027)",
+      "url": "https://www.citadelsecurities.com/careers/programs-and-events/ignite-womens-trading-program/apply-ignite/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Sophomore women pursuing a bachelor’s degree in mathematics, statistics, physics, computer science or another highly quantitative field; graduation Winter 2028 or Spring 2029. Selection is invitation-only after application.",
+      "deadline": "October 16, 2026 (time zone not stated on application page)",
+      "application_evidence": "Live official application page shows current January 2027 event and October 16, 2026 deadline. Clicking Start Application opens an enabled email field, resume upload and Start Application button; no data entered or application submitted.",
+      "evidence_urls": [
+        "https://www.citadelsecurities.com/careers/programs-and-events/ignite-womens-trading-program/",
+        "https://www.citadelsecurities.com/careers/programs-and-events/ignite-womens-trading-program/apply-ignite/",
+        "https://www.citadelsecurities.com/wp-content/uploads/sites/2/2026/06/Ignite-TC.pdf"
+      ]
+    },
+    {
+      "organization": "University of Michigan Women in Science & Engineering (WISE)",
+      "program": "Sophomore Career Prep Bootcamp, January 2027",
+      "url": "https://forms.fillout.com/t/xcmk6hCHttus",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "U-M students entering fourth or fifth semester in Winter 2027, declared/intended STEM major, with membership or past participation in at least one listed eligible U-M community (WISE/WISERP, CEW+, CSP, First Generation, Kessler, M-Engin/M-Sci, MI-LSAMP, Success Connects, UP Scholars or Wolverine Pathways alumni). All genders welcome. Full January 11–12 attendance required; upperclass facilitator application is separate and excluded.",
+      "deadline": "October 30, 2026 (time zone not published; rolling review)",
+      "application_evidence": "Official WISE participant page has current Jan11–12 2027 dates and Oct30 2026 due. Browser inspected live Fillout participant form with current deadline, first/last name and U-M uniqname fields, required January2027 attendance confirmation and Next button. No data entered or submitted. Facilitator form accepts upperclassmen and was not added.",
+      "evidence_urls": [
+        "https://wise.umich.edu/u-m_students/sophomore-bootcamp/",
+        "https://forms.fillout.com/t/xcmk6hCHttus"
+      ]
+    },
+    {
+      "organization": "Swinburne University of Technology",
+      "program": "Claire Sorati & Pridmore Scholarships for First-Year Women in STEM (2027)",
+      "url": "https://www.swinburne.edu.au/form/web-scholarships/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Both distinct named awards: female Australian citizen/permanent resident commencing first year at Swinburne in Semester 1, 2027, full-time on campus. Claire Sorati: Science/Engineering/ICT bachelor’s course, prior government secondary-school attendance and documented educational disadvantage. Pridmore: STEM undergraduate course (list undergraduate track only); personal statement required. Award-specific supporting documents differ.",
+      "deadline": "October 31, 2026 (time zone not published)",
+      "application_evidence": "Both current official named pages inspected in browser: 2027 titles, Applications are open, commencing first year Semester 1, 2027, October 31, 2026 deadline. Actual scholarship application has both named award options; selecting Claire Sorati reveals female eligibility fields. No personal answers or submission. Web open intermittently returns stale 2026 copies, resolved by current browser inspection.",
+      "evidence_urls": [
+        "https://www.swinburne.edu.au/study/options/scholarships/375/claire-sorati-scholarship-for-women/",
+        "https://www.swinburne.edu.au/form/web-scholarships/",
+        "https://www.swinburne.edu.au/study/options/scholarships/489/pridmore-scholarships/"
+      ],
+      "scope_note": "Consolidated to one row for the shared application. These are two distinct awards, not one award or a guarantee of receiving both."
+    },
+    {
+      "organization": "University of Maryland, Baltimore County — Center for Women in Technology",
+      "program": "CWIT and Cyber Scholars — Fall 2027 Incoming Freshmen",
+      "url": "https://umbc.academicworks.com/opportunities/9054",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Fall 2027 incoming UMBC freshmen only. CWIT application fields specify chemical engineering, computer engineering, computer science, information systems or mechanical engineering; Cyber fields specify CE/CS/IS. Women and underrepresented groups focus; all eligible genders welcome. Cyber Scholars requires 3.25+ GPA. Incoming students must apply to UMBC first and use assigned campus ID/myUMBC to access Scholarship Retriever.",
+      "deadline": "January 15, 2027 (time/timezone not stated by current application)",
+      "application_evidence": "Verified current official Scholarship Retriever entry in Chrome October 13, 2026: explicitly Open for Fall 2027 Incoming Freshmen ONLY, deadline 01/15/2027, award range, and current supplemental essay/major questions. Submission requires myUMBC sign-in; sign-in endpoint is live. Do not claim inspection beyond that authentication gate or successful submission.",
+      "evidence_urls": [
+        "https://umbc.academicworks.com/opportunities/9054",
+        "https://umbc.academicworks.com/users/sign_in",
+        "https://cwit.umbc.edu/cwitscholars/",
+        "https://cybersecurity.umbc.edu/cyberscholars/",
+        "https://cwit.umbc.edu/"
+      ],
+      "source_caveats": "General CWIT info still refers to Fall 2025; Cyber overview says Jan 1. The specific current Fall 2027 application states Jan 15, 2027 and controls this listing. Current freshman application excludes broad continuing/transfer Cyber Scholar intake even though the general overview advertises those separately. This is an incoming freshman award, permitted in designated category; do not describe all applicants as currently enrolled college students."
+    },
+    {
+      "organization": "UNCF / Fidelity Investments",
+      "program": "Fidelity Scholars Bachelor’s Degree Program (Incoming 2027–2028 Freshmen)",
+      "url": "https://opportunities.uncf.org/s/program-landing-page?id=a2iiM000000DsyfQAC",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Incoming 2027–28 college freshmen ages 16–24; permanent resident of CO, DC, FL, KY, MA, NH, NJ, NM, NC, OH, RI, TX or UT; U.S. citizen, national or permanent resident; unweighted GPA 2.5–3.59 or GED; Pell eligible and/or financial need; full-time bachelor’s enrollment at an accredited nonprofit four-year institution in the resident state (public-college students must qualify for in-state tuition). DC applicants have a separately documented eligible-institution list and must obtain DCTAG award letter. Current pursuing classification is high-school senior or not enrolled.",
+      "deadline": "January 28, 2027 at 11:59 PM EST",
+      "application_evidence": "Actual live UNCF StudentLX current page inspected in browser: title 2027–2028 Fidelity Scholars Program; Application Open Date 10/1/2026; Deadline 1/28/2027 11:59 PM EST; Application Status Active; enabled Apply Now and public Preview Forms controls. Eligibility shows pursuing classification High School Senior / Not Enrolled; official bachelor’s programme explicitly restricts award to incoming 2027–28 freshmen. No registration or application submitted.",
+      "evidence_urls": [
+        "https://uncf.org/programs/fidelity-scholars-program",
+        "https://uncf.org/programs/fidelity-scholars-program/pages/fidelity-bachelors-degree-program",
+        "https://opportunities.uncf.org/s/program-landing-page?id=a2iiM000000DsyfQAC",
+        "https://uncf.org/pages/fidelity-scholars-program-community-toolkit"
+      ],
+      "scope_note": "Do not duplicate into state/HBCU tables; category may be STATE_SCHOLARSHIPS if parent prefers. Official programme includes a separate community-college initiative; this candidate is only the hard incoming-bachelor’s-freshman track."
+    },
+    {
+      "organization": "American Meteorological Society",
+      "program": "AMS First-Year Undergraduate Scholarship (2027)",
+      "url": "https://apply.ametsoc.org/prog/ams_first-year_undergraduate_scholarship/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:05:40-04:00",
+      "eligibility": "Incoming Fall 2027 full-time college freshmen; U.S. citizen or permanent resident; GPA 3.0/4.0; degree in atmospheric sciences or related oceanic/hydrologic sciences. Marine biology does not qualify.",
+      "deadline": "January 31, 2027 at 11:59 PM EST",
+      "application_evidence": "Actual AMS SurveyMonkey Apply programme page lists Opens September 1, 2026 12:00 AM EDT and Deadline January 31, 2027 11:59 PM EST, with applicant login route. Official eligibility specifically says entering freshman year in Fall 2027.",
+      "evidence_urls": [
+        "https://www.ametsoc.org/ams/information-for/students/ams-scholarships-and-fellowships/ams-first-year-undergraduate-scholarship/",
+        "https://apply.ametsoc.org/prog/ams_first-year_undergraduate_scholarship/"
+      ]
+    },
+    {
+      "organization": "University of North Texas / Terry Foundation",
+      "program": "Terry Freshman Scholarship — Fall 2027",
+      "url": "https://unt.jotformgov.com/262565700036857",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "Texas resident and Texas high school/home-school graduate in Spring 2027 entering UNT as a full-time college freshman in Fall 2027. U.S. citizen or permanent resident; leadership, academic achievement, and financial need. UNT admission required before scholarship application; first year in Terry on-campus living-learning community.",
+      "deadline": "December 31, 2026, 11:59 PM CST (student application/transcripts); January 4, 2027, 11:59 PM CST (recommendation)",
+      "application_evidence": "Current official program page publishes the October 1, 2026 opening, Spring/Fall 2027 cohort and December 31 deadline, with a direct Apply Here link. That exact linked Jotform government application was opened in Chrome and displays the live UNT Microsoft sign-in gate; completion requires admitted-student UNT credentials.",
+      "evidence_urls": [
+        "https://honors.unt.edu/terryscholars/application.html",
+        "https://unt.jotformgov.com/262565700036857"
+      ],
+      "notes": "Provider page has a stale March 2026 FAFSA sentence in its summary; its explicit 2027 eligibility section says March 2027. Avoid copying the stale date. Application content behind personal credentials was not inspected."
+    },
+    {
+      "organization": "Northeastern State University Foundation",
+      "program": "Incoming Freshman Foundation Scholarships — 2027–2028",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdhbN5zIxutp34Urs5s6RvKExH4-uTTlXnHTUSP21p2Zdw_SQ/viewform",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "New incoming NSU freshmen attending college at NSU for the first time in Summer or Fall 2027. In-state and out-of-state students may apply. Foundation awards have varying academic, enrollment, and financial requirements; NSU student ID required on the form.",
+      "deadline": "March 1, 2027 (priority); May 1, 2027 (final)",
+      "application_evidence": "Live official Google Form inspected in Chrome. Title is NSU Incoming Freshman Foundation Scholarship Application 2027-2028 and it expressly repeats first-time Summer/Fall 2027 freshman eligibility and both 2027 deadlines. Editable student/academic fields, Next button, and Page 1 of 4 are visible. No data entered or submitted.",
+      "evidence_urls": [
+        "https://scholarships.nsuok.edu/Freshmen/default.aspx",
+        "https://docs.google.com/forms/d/e/1FAIpQLSdhbN5zIxutp34Urs5s6RvKExH4-uTTlXnHTUSP21p2Zdw_SQ/viewform"
+      ],
+      "notes": "Specific incoming-freshman application, distinct from the university's all-year foundation portal or stale 2026 automatic waiver table."
+    },
+    {
+      "organization": "Jack Kent Cooke Foundation",
+      "program": "College Scholarship Program — Entering Fall 2027",
+      "url": "https://apply.commonapp.org/login",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "Current seniors completing four years of high school in the U.S., U.S. territory or U.S. military base and graduating Spring 2027; enter an accredited four-year college in Fall 2027. Minimum 3.75 unweighted GPA; submit SAT, ACT, AP or IB score (no minimum score); unmet financial need and family income no more than $95,000.",
+      "deadline": "November 11, 2026",
+      "application_evidence": "Current official application page expressly says applications are currently open and close November 11, 2026; the published cycle runs August 19–November 11, 2026. Its Apply Now link reaches the live Common App login. Completion requires a personal Common App account and adding the Cooke College Scholarship.",
+      "evidence_urls": [
+        "https://www.jkcf.org/our-scholarships/college-scholarship-program/how-to-apply/",
+        "https://apply.commonapp.org/login"
+      ],
+      "notes": "Includes two teacher recommendations, counselor recommendation, school report, transcript and scores. The page alternates gross and adjusted gross wording, so list the income limit without resolving that provider inconsistency. Not the Young Scholars middle-school program."
+    },
+    {
+      "organization": "Hagan Scholarship Foundation",
+      "program": "Hagan Scholarship — Incoming College Freshmen, 2027–2028",
+      "url": "https://fs28.formsite.com/DanHagan/zamqld4dle/signup",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "2027 graduating class at a U.S. high school, 3.50 cumulative GPA, parents' 2025 AGI at most $125,000. Must enter an eligible four-year college the first Fall after high school and maintain four-year graduation schedule. All citizenships eligible. 240 hours paid supervised non-family work by September 1, 2027 required for Fall disbursement.",
+      "deadline": "December 1, 2026",
+      "application_evidence": "Official page is explicitly the Fall Application for the 2027–2028 academic year, accepts the 2027 high school graduating class, and gives December 1, 2026. Its linked current Formsite application has live New User email/password/confirmation fields and returning-user login. No account created or data submitted.",
+      "evidence_urls": [
+        "https://haganscholarships.org/application/",
+        "https://fs28.formsite.com/DanHagan/zamqld4dle/signup",
+        "https://haganscholarships.org/wp-content/uploads/2026/08/3-Scholarship_Particulars_83126-su3.pdf"
+      ],
+      "notes": "Initial incoming-college award only; excludes community college, junior college and online institution. Students missing the first-year work requirement may still retain the scholarship but are ineligible for Fall disbursement. This updates the historical archived row for a new verified cycle under the user-approved incoming-freshman scope."
+    },
+    {
+      "organization": "Elks National Foundation",
+      "program": "Most Valuable Student Scholarship — 2027 Incoming College Cohort",
+      "url": "https://elks.applyists.net/ElksMVS",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "Current high school seniors or equivalent only; high-school graduates ineligible. U.S. citizens at submission (permanent residence alone does not qualify). Enroll full-time in a four-year undergraduate degree at an accredited U.S. college. Elks family membership not required; scholarship, leadership and financial need considered.",
+      "deadline": "November 12, 2026, 11:59 PM Pacific Time",
+      "application_evidence": "Official current program page publishes the 2027 application deadline and links to program-specific ISTS ElksMVS application. The exact official application URL resolves to a live login/register portal with ReturnUrl=/ElksMVS; program code ElksMVS. No personal account created or application submitted.",
+      "evidence_urls": [
+        "https://www.elks.org/scholars/scholarships/MVS.cfm",
+        "https://elks.applyists.net/ElksMVS",
+        "https://www.elks.org/scholarWeb/resources/mvsFAQ.cfm"
+      ],
+      "notes": "Award is college tuition support for entering first-year students, not a school-age activity contest. Top 20 must attend Chicago Leadership Weekend April 29–May 2, 2027. Completion behind a personal account was not inspected."
+    },
+    {
+      "organization": "Montana State University Honors College",
+      "program": "Presidential Scholarship — Incoming First-Year Students, Fall 2027",
+      "url": "https://montana.academicworks.com/opportunities/30968",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:00:00-04:00",
+      "eligibility": "Incoming freshman, first-time, first-year student admitted to MSU; normally minimum 3.7 unweighted high school GPA. Montana residents, nonresidents, international and home-school applicants eligible. Scholarship also serves as Honors College application; counselor and two recommender submissions required.",
+      "deadline": "December 1, 2026 (midnight MST, as published; submit before midnight, including recommendations)",
+      "application_evidence": "Current official page explicitly states the 2027 Presidential Scholarship is now open and closes December 1, 2026 at midnight MST. Its direct AcademicWorks application listing has the same December 1, 2026 deadline, incoming-freshman gate and current required application/recommendation questions; active NetID sign-in gateway checked in Chrome for the same portal.",
+      "evidence_urls": [
+        "https://www.montana.edu/honors/scholarships.html",
+        "https://montana.academicworks.com/opportunities/30968",
+        "https://www.montana.edu/honors/scholarships_faq.html"
+      ],
+      "notes": "Program page says midnight MST and deadline is December 1; list 11:59 PM to reflect submit-before-midnight guidance. FAQ contains inconsistent MDT wording for student materials and old 3.5 renewal GPA; current program page requires 3.7 MSU GPA and 32 credits/year for renewal. Authenticated application completion not inspected."
+    },
+    {
+      "organization": "Tennessee Higher Education Commission / TSAC",
+      "program": "Tennessee Promise — Incoming Fall 2027 College Freshmen (HS Class of 2027)",
+      "url": "https://www.tn.gov/thecstudentportal",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "Tennessee residents graduating from eligible high school, home school, or approved equivalency before age 19; current Class of 2027 entering college. U.S. citizen or eligible noncitizen. Eligible community college, TCAT, or approved associate-degree institution; mandatory mentoring meeting, community service, continuous enrollment, and academic-progress requirements.",
+      "deadline": "November 2, 2026 (scholarship application); April 1, 2027 (FAFSA)",
+      "application_evidence": "Current official program page says the Class of 2027 scholarship application is now open and gives November 2, 2026. THEC's August 11, 2026 news release expressly directs students to apply now. The official application link resolves to a live TSAC Student Portal login; account creation is followed by a separate scholarship application.",
+      "evidence_urls": [
+        "https://www.collegefortn.org/tennessee-promise-scholarship/",
+        "https://www.tn.gov/thec/news/2026/8/11/tn-direct-admissions.html",
+        "https://www.collegefortn.org/thecstudentportal/",
+        "https://clipslink.tsac.tn.gov/studentsignon/"
+      ],
+      "notes": "Use the initial Class of 2027 scholarship application, not an all-year aid or renewal entry. The current deadline is November 2, not the historical November 1. Application behind a personal account was not completed."
+    },
+    {
+      "organization": "University of Tennessee System",
+      "program": "UT Promise — High School Senior to Incoming UT Freshman, Fall 2027",
+      "url": "https://applyutpromise.tennessee.edu/apex/f?p=153:40",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "Separate application track restricted to current high school seniors graduating in 2026–2027 and becoming first-time UT freshmen in Fall 2027. Tennessee resident; qualify for TN HOPE; family household AGI and assets each no more than $75,000; full-time UT enrollment. Must also apply for undergraduate admission by December 15 and submit FAFSA by April 1, 2027.",
+      "deadline": "December 15, 2026 (UT Promise and UT undergraduate admission); April 1, 2027 (FAFSA)",
+      "application_evidence": "Live official application is titled UT Promise Application for High School Seniors, explicitly states it is for first-time freshmen, and says it is currently accepting Fall 2027 applications September 1 through December 15, 2026. New Form / review existing form controls and account login are present.",
+      "evidence_urls": [
+        "https://applyutpromise.tennessee.edu/apex/f?p=153:40",
+        "https://tennessee.edu/academics/affordability/ut-promise-scholarship/how-to-apply/",
+        "https://tennessee.edu/academics/affordability/ut-promise-scholarship/what-is-ut-promise/"
+      ],
+      "notes": "Include only this explicit incoming-freshman application track. The different All Other Students application accepts current/transfer/adult students and is outside the underclassmen scope."
+    },
+    {
+      "organization": "Northeastern State University",
+      "program": "Breakthrough Scholars — Incoming Freshmen, 2027–2028",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeSi74iK49hJrekeqcmIlfpm60UgcwF2ITn8N99q3YSDozsHQ/viewform",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T20:52:42-04:00",
+      "eligibility": "Incoming NSU freshman for Summer or Fall 2027; full-time 12+ hours, admission by March 1, 3.0 GPA, completed 2027–2028 FAFSA naming NSU. Graduate of a high school in Cherokee, Muskogee, Tulsa, or Wagoner counties, or Berryhill/Stilwell. Five hours of NSU office work weekly; first-generation/low-income preference.",
+      "deadline": "March 1, 2027",
+      "application_evidence": "Live official Google Form inspected in Chrome. Title is Breakthrough Scholars Scholarship Application 2027-2028; it repeats the March 1, 2027 deadline and incoming Summer/Fall 2027 freshman gate. Editable student fields, Next button, and Page 1 of 2 progress are present. No data entered or submitted.",
+      "evidence_urls": [
+        "https://scholarships.nsuok.edu/Freshmen/default.aspx",
+        "https://docs.google.com/forms/d/e/1FAIpQLSeSi74iK49hJrekeqcmIlfpm60UgcwF2ITn8N99q3YSDozsHQ/viewform"
+      ],
+      "notes": "College-specific regional award, not statewide all-year aid. Some direct-admission students must complete their secondary admissions form by March 1 so NSU can obtain FAFSA data."
+    },
+    {
+      "organization": "Montana State University",
+      "program": "Western Undergraduate Exchange (WUE) — Incoming Freshmen, Fall 2027",
+      "url": "https://montana.academicworks.com/opportunities/30740",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:00:00-04:00",
+      "eligibility": "New first-year students enrolling at MSU in Fall 2027; admitted to MSU, minimum 3.0 high school GPA. Residents of AK, AZ, CA, CO, HI, ID, NV, NM, ND, OR, SD, UT, WA, WY and eligible U.S. Pacific territories/freely associated states. Incoming freshmen only, apply before first semester.",
+      "deadline": "January 7, 2027, 11:59 PM MST",
+      "application_evidence": "Current official Fall 2027 WUE section explicitly says scholarship is now OPEN. Exact linked live AcademicWorks opportunity shows January 7, 2027 deadline, freshman restriction, required supplemental essays and Sign In. Chrome inspected the application listing and active NetID sign-in entry; completion requires an admitted-student account.",
+      "evidence_urls": [
+        "https://www.montana.edu/admissions/scholarships/nonresidents/",
+        "https://montana.academicworks.com/opportunities/30740",
+        "https://montana.academicworks.com/users/sign_in"
+      ],
+      "notes": "List the exact states from the award-specific portal. Tuition rate for 2027 will be set in May; do not present the approximately $21,000 Fall 2026 saving as a confirmed 2027 amount. Generic Cat Scholarships intro says November 1, but the award-specific current page explicitly says WUE Fall 2027 is open; current Presidential application is also explicitly open before November 1."
+    },
+    {
+      "organization": "Florida Department of Education / OSFA",
+      "program": "Bright Futures FAS/FMS — Initial Award for 2027 High School Graduates",
+      "url": "https://www.floridastudentfinancialaidsg.org/SAPHOME/SAPHOME",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:00:00-04:00",
+      "eligibility": "Initial 2027 graduating-high-school cohort entering eligible Florida college, not renewals/reinstatements. Florida resident and U.S. citizen or eligible noncitizen; eligible Florida diploma, home-school or approved equivalency/out-of-state conditions. Required college-prep coursework, weighted GPA, SAT/ACT/CLT and approved service/work hours vary by FAS/FMS; enroll in eligible degree/certificate program for 6+ nonremedial credits.",
+      "deadline": "August 31, 2027 (FFAA for 2027 graduates; earlier school service/transcript and midyear-graduate deadlines may apply)",
+      "application_evidence": "Official updated August 2026 handbook now explicitly says the initial 2027 graduating cohort submits FFAA October 1, 2026 through August 31, 2027. OSFA home provides the current 2027–28 FFAA guide and First-Time Applicant student account/application route. Chrome inspected the live OSFA Student Sign-In gateway. Current guide states the new profile requires current senior-year HS graduation date.",
+      "evidence_urls": [
+        "https://www.floridastudentfinancialaidsg.org/pdf/BFHandbookChapter1.pdf",
+        "https://www.floridastudentfinancialaidsg.org/PDF/FFAA%20Guide.pdf",
+        "https://www.floridastudentfinancialaidsg.org/SAPHOME/SAPHOME",
+        "https://www.floridastudentfinancialaidsg.org/Default/SignIn"
+      ],
+      "notes": "Only initial FAS/FMS 2027 awards in this entry; do not restore broad Florida aid or existing-college reinstatements. Handbook live October 13 now has current Oct 1, 2026–Aug 31, 2027 dates (older cached version previously had prior-cycle dates). Personal authenticated application was not completed."
+    },
+    {
+      "organization": "South Carolina Commission on Higher Education",
+      "program": "Palmetto Fellows — Early Initial Application, Fall 2027 College Cohort",
+      "url": "https://apply.che.sc.gov/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:00:00-04:00",
+      "eligibility": "Class of 2027 high school seniors becoming full-time first-degree students at eligible South Carolina two-/four-year colleges in Fall immediately after graduation (approved gap exception available). SC resident and U.S. citizen/permanent resident at graduation. Early criteria: 1200 SAT or 25 ACT, 3.50 SC UGP GPA, top 6% rank; alternative 1400 SAT or 31 ACT plus 4.00 SC UGP GPA. Counselor academic verification required.",
+      "deadline": "April 30, 2027 (safe submission date under weekend rule); published deadline May 1, 2027, before 11:59 PM",
+      "application_evidence": "Current official Class of 2027 timeline shows Early Application Opens July 15, 2026 and closes May 1, 2027. Official 2027 student invite directs applicants to select Early Application – Fall 2027 Cohort. Live Chrome portal has Start Application, active Early Palmetto Fellows application selection, then a functioning account-creation form. No account created or data submitted.",
+      "evidence_urls": [
+        "https://apply.che.sc.gov/",
+        "https://che.sc.gov/high-school-counselor-resources",
+        "https://che.sc.gov/sites/che/files/Documents/Counselors%20Page/PFS%202026-27_Application_Timeline.pdf",
+        "https://che.sc.gov/sites/che/files/Documents/Counselors%20Page/2027_Early_PFS_Student_Invite_Fillable.pdf",
+        "https://che.sc.gov/sites/che/files/Documents/Counselors%20Page/PFS_Info_Packet_Student_2027.pdf"
+      ],
+      "notes": "Do not include the separate Late application (opens June 1, 2027). Updated timeline says May 1, 2027 while same-cycle student packet applies preceding-Friday rule if deadline is weekend; May 1 is Saturday. Preserve this discrepancy transparently, using April 30 as safe student submission date. Primary timeline image visually inspected to distinguish July 15 opening from September 1 notifications."
+    },
+    {
+      "organization": "University of Nebraska at Omaha",
+      "program": "Goodrich Scholarship — Early College Cohort, 2027–2028",
+      "url": "https://goodrich.smapply.org/",
+      "status": "verified_open",
+      "verified_at": "2026-10-13T21:00:00-04:00",
+      "eligibility": "Nebraska resident, FAFSA eligible (U.S. citizen or eligible noncitizen), no more than 31 UNO-transferable college credits by May 2027, including Spring semester. Attend UNO full-time; merit and financial need considered; UNO admission required before final acceptance.",
+      "deadline": "February 26, 2027, 5:00 PM CST",
+      "application_evidence": "Live official SurveyMonkey Apply portal explicitly publishes Application Open: October 1, 2026–February 26, 2027, 5:00 PM CST and repeats the hard 31-credit eligibility cap. It has current online application/register route and outlines two recommendations, FAFSA, transcripts, followed by timed essay/interview for selected applicants. Official UNO application page independently confirms now open and deadline.",
+      "evidence_urls": [
+        "https://goodrich.smapply.org/",
+        "https://www.unomaha.edu/college-of-public-affairs-and-community-service/goodrich-scholarship-program/apply/index.php",
+        "https://catalog.unomaha.edu/undergraduate/college-public-affairs-community-service/goodrich-scholarship-program/"
+      ],
+      "notes": "Eligibility is enforced by a hard maximum of 31 college credits by May 2027, rather than a named class year. Applicants of any age, including nontraditional students, can qualify within this early-college credit limit. Do not relabel it as sophomore-only. Personal application behind account registration was not inspected."
     }
-  ]
+  ],
+  "category_counts": {
+    "INTERNSHIPS": 6,
+    "PROGRAMS": 30,
+    "AMBASSADORS": 1,
+    "RESEARCH": 10,
+    "SCHOLARSHIPS": 5,
+    "HBCU": 2,
+    "WOMEN": 5,
+    "RISING_FRESHMEN": 8,
+    "STATE": 7
+  }
 }
