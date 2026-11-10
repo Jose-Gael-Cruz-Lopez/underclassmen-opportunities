@@ -313,6 +313,7 @@ These resources support career preparation; they are not application listings. Y
 - [Interview-Guidance](https://sophiasun.substack.com/s/interviews)
 - [Building Projects Without Experience](https://github.com/codecrafters-io/build-your-own-x) — computing projects
 - [LeetCode Beginner Guide](https://leetcode.com/explore/) — programming practice
+- [AI Coding Rounds for Interns and New Grads](https://nyrion.ai/companies/interns-and-new-grads) — which companies allow or require AI in a coding round, with sources
 - [Archived / Closed / Out-of-Scope Opportunities](ARCHIVE.md) — historical entries with dated removal reasons
 
 ---
